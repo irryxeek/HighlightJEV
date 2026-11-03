@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="content">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <g id="title" data-pptx-bounds="56 42 1168 122"><text x="56" y="65" font-size="20" fill="#237F89">03 / 对照设计</text><text x="56" y="127" font-size="42" font-weight="bold" fill="#17324D">价值引导是 Q 与 Q+V 的主要差异</text></g>
+  <g id="q-condition" data-pptx-bounds="56 206 568 196">
+    <line x1="56" y1="208" x2="624" y2="208" stroke="#17324D" stroke-width="4" />
+    <text x="56" y="254" font-size="28" font-weight="bold" fill="#17324D">Q / 通用条件核验</text>
+    <text fill="#243748" x="56" y="305">从 query 拆出人物、物体、动作、关系，</text><text fill="#243748" x="56" y="341">判断每个必要条件是否有证据支持。</text><text x="56" y="389" font-size="20" fill="#637485">检查对象：内容是否符合 query</text>
+  </g>
+  <g id="qv-condition" data-pptx-bounds="656 206 568 196">
+    <line x1="656" y1="208" x2="1224" y2="208" stroke="#237F89" stroke-width="4" />
+    <text x="656" y="254" font-size="28" font-weight="bold" fill="#237F89">Q+V / 加入适用价值指导</text>
+    <text x="656" y="305" fill="#243748">沿用同一套条件，补充五类判断指导。</text>
+    <g font-size="20" fill="#237F89"><text x="656" y="352">结果</text><text x="766" y="352">信息</text><text x="876" y="352">情绪</text><text x="986" y="352">动作</text><text x="1096" y="352">感官</text></g>
+    <text x="656" y="389" font-size="20" fill="#637485">适用性由冻结映射确定，非模型新检出</text>
+  </g>
+  <g id="shared-control" data-pptx-bounds="56 438 1168 112">
+    <rect x="56" y="438" width="1168" height="112" fill="#F2F5F8" />
+    <text x="80" y="477" font-size="28" font-weight="bold" fill="#17324D">共享输入与验收</text>
+    <text x="80" y="522" fill="#243748">候选 · 帧 / PTS · 8B 模型 · query 条件 · schema · 验收规则</text>
+  </g>
+  <g id="design-boundary" data-pptx-bounds="56 576 1168 74">
+    <text x="56" y="604" fill="#17324D"><tspan font-weight="bold">139 × 2 = 278 次调用，零重试。</tspan> 两组均不改写区间。</text>
+    <text x="56" y="642" font-size="20" fill="#637485">条件由助手仅根据 query 构建，尚无独立人工审校；not_applicable 不代表漏检。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="56 672 1168 32" data-pptx-role="footer" font-size="14" fill="#637485"><text x="56" y="693">来源：实验进度与结果报告 §3.1｜Q/Q+V v2.4，固定 QV100</text><text x="1224" y="693" text-anchor="end">04 / 12</text></g>
+</svg>

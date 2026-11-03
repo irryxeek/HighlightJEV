@@ -1,0 +1,274 @@
+{
+  "version": "model_8b_v24_vs_32b_v1_identical_inputs",
+  "status": "complete_fixed_cohort_comparison",
+  "previous_campaign_status": "complete",
+  "current_campaign_status": "complete",
+  "both_campaigns_fully_attempted": true,
+  "fixed_queries": 20,
+  "fixed_candidates_per_arm": 37,
+  "no_base_query_ids": [],
+  "input_difference_allowed": [],
+  "exact_prompt_addition": null,
+  "all_request_fields_identical": true,
+  "input_identity_verified": true,
+  "arms": {
+    "Q": {
+      "previous": {
+        "candidates": 37,
+        "gt_proxy_errors": 25,
+        "structurally_valid": 36,
+        "supported": 23,
+        "insufficient": 11,
+        "flags": 2,
+        "true_positive": 2,
+        "false_positive": 0,
+        "precision": 1.0,
+        "recall": 0.08,
+        "false_alarm_rate": 0.0,
+        "technical_or_unattempted": 1,
+        "missed_error_among_supported": 17,
+        "invalid": 1,
+        "not_attempted": 0,
+        "invalid_rate": 0.02702702702702703,
+        "valid_rate": 0.972972972972973,
+        "insufficient_rate": 0.2972972972972973
+      },
+      "current": {
+        "candidates": 37,
+        "gt_proxy_errors": 25,
+        "structurally_valid": 33,
+        "supported": 0,
+        "insufficient": 32,
+        "flags": 1,
+        "true_positive": 1,
+        "false_positive": 0,
+        "precision": 1.0,
+        "recall": 0.04,
+        "false_alarm_rate": 0.0,
+        "technical_or_unattempted": 4,
+        "missed_error_among_supported": 0,
+        "invalid": 4,
+        "not_attempted": 0,
+        "invalid_rate": 0.10810810810810811,
+        "valid_rate": 0.8918918918918919,
+        "insufficient_rate": 0.8648648648648649
+      },
+      "difference_current_minus_previous": {
+        "candidates": 0,
+        "gt_proxy_errors": 0,
+        "structurally_valid": -3,
+        "supported": -23,
+        "insufficient": 21,
+        "flags": -1,
+        "true_positive": -1,
+        "false_positive": 0,
+        "precision": 0.0,
+        "recall": -0.04,
+        "false_alarm_rate": 0.0,
+        "technical_or_unattempted": 3,
+        "missed_error_among_supported": -17,
+        "invalid": 3,
+        "not_attempted": 0,
+        "invalid_rate": 0.08108108108108109,
+        "valid_rate": -0.08108108108108114,
+        "insufficient_rate": 0.5675675675675675
+      },
+      "full_candidate_denominator": 37,
+      "status_transitions": {
+        "complete": {
+          "complete": 33,
+          "invalid": 3
+        },
+        "invalid": {
+          "invalid": 1
+        }
+      },
+      "verdict_transitions": {
+        "flagged": {
+          "insufficient": 2
+        },
+        "insufficient": {
+          "flagged": 1,
+          "insufficient": 8,
+          "invalid": 2
+        },
+        "invalid": {
+          "invalid": 1
+        },
+        "supported": {
+          "insufficient": 22,
+          "invalid": 1
+        }
+      },
+      "both_valid_denominator": 33,
+      "semantic_transitions_both_valid": {
+        "contradicted": {
+          "unknown": 2
+        },
+        "supported": {
+          "unknown": 22
+        },
+        "unknown": {
+          "contradicted": 1,
+          "unknown": 8
+        }
+      },
+      "recovered_invalid": {
+        "count": 0,
+        "new_verdict_counts": {},
+        "candidate_ids": [],
+        "recovered_legality_is_not_semantic_improvement": true
+      },
+      "added_flags": {
+        "count": 1,
+        "proxy_true_positive": 1,
+        "proxy_false_positive": 0,
+        "from_old_invalid": 0,
+        "from_old_valid": 1,
+        "from_other_old_status": 0
+      },
+      "first_failure_counts": {
+        "previous": {
+          "JSONDecodeError: Expecting ',' delimiter: line 46897 column 1 (char 48705)": 1
+        },
+        "current": {
+          "JSONDecodeError: Expecting ',' delimiter: line 1962 column 1 (char 2259)": 1,
+          "ValueError: logic: non-temporal requirement has temporal anchors": 1,
+          "ValueError: reference: ordered evidence must be cited evidence": 1,
+          "JSONDecodeError: Expecting ',' delimiter: line 645 column 2 (char 4397)": 1
+        }
+      }
+    },
+    "QV": {
+      "previous": {
+        "candidates": 37,
+        "gt_proxy_errors": 25,
+        "structurally_valid": 37,
+        "supported": 17,
+        "insufficient": 16,
+        "flags": 4,
+        "true_positive": 4,
+        "false_positive": 0,
+        "precision": 1.0,
+        "recall": 0.16,
+        "false_alarm_rate": 0.0,
+        "technical_or_unattempted": 0,
+        "missed_error_among_supported": 11,
+        "invalid": 0,
+        "not_attempted": 0,
+        "invalid_rate": 0.0,
+        "valid_rate": 1.0,
+        "insufficient_rate": 0.43243243243243246
+      },
+      "current": {
+        "candidates": 37,
+        "gt_proxy_errors": 25,
+        "structurally_valid": 33,
+        "supported": 0,
+        "insufficient": 33,
+        "flags": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "precision": null,
+        "recall": 0.0,
+        "false_alarm_rate": 0.0,
+        "technical_or_unattempted": 4,
+        "missed_error_among_supported": 0,
+        "invalid": 4,
+        "not_attempted": 0,
+        "invalid_rate": 0.10810810810810811,
+        "valid_rate": 0.8918918918918919,
+        "insufficient_rate": 0.8918918918918919
+      },
+      "difference_current_minus_previous": {
+        "candidates": 0,
+        "gt_proxy_errors": 0,
+        "structurally_valid": -4,
+        "supported": -17,
+        "insufficient": 17,
+        "flags": -4,
+        "true_positive": -4,
+        "false_positive": 0,
+        "precision": null,
+        "recall": -0.16,
+        "false_alarm_rate": 0.0,
+        "technical_or_unattempted": 4,
+        "missed_error_among_supported": -11,
+        "invalid": 4,
+        "not_attempted": 0,
+        "invalid_rate": 0.10810810810810811,
+        "valid_rate": -0.10810810810810811,
+        "insufficient_rate": 0.45945945945945943
+      },
+      "full_candidate_denominator": 37,
+      "status_transitions": {
+        "complete": {
+          "complete": 33,
+          "invalid": 4
+        }
+      },
+      "verdict_transitions": {
+        "flagged": {
+          "insufficient": 4
+        },
+        "insufficient": {
+          "insufficient": 13,
+          "invalid": 3
+        },
+        "supported": {
+          "insufficient": 16,
+          "invalid": 1
+        }
+      },
+      "both_valid_denominator": 33,
+      "semantic_transitions_both_valid": {
+        "contradicted": {
+          "unknown": 4
+        },
+        "supported": {
+          "unknown": 16
+        },
+        "unknown": {
+          "unknown": 13
+        }
+      },
+      "recovered_invalid": {
+        "count": 0,
+        "new_verdict_counts": {},
+        "candidate_ids": [],
+        "recovered_legality_is_not_semantic_improvement": true
+      },
+      "added_flags": {
+        "count": 0,
+        "proxy_true_positive": 0,
+        "proxy_false_positive": 0,
+        "from_old_invalid": 0,
+        "from_old_valid": 0,
+        "from_other_old_status": 0
+      },
+      "first_failure_counts": {
+        "previous": {},
+        "current": {
+          "JSONDecodeError: Expecting ',' delimiter: line 667 column 1 (char 4125)": 1,
+          "ValueError: logic: non-temporal requirement has temporal anchors": 1,
+          "JSONDecodeError: Expecting ',' delimiter: line 1 column 2271 (char 2270)": 1,
+          "JSONDecodeError: Expecting ',' delimiter: line 657 column 1 (char 4913)": 1
+        }
+      }
+    }
+  },
+  "scientific_gain_established": false,
+  "independent_human_semantic_labels": 0,
+  "no_new_gt_read": true,
+  "old_predictions_repaired": false,
+  "acceptance_policy": "stable_frames_evidence_dedup_v1",
+  "previous_acceptance_audit": {
+    "policy": "stable_frames_evidence_dedup_v1",
+    "source": "Filtered previously audited row statuses; unchanged acceptance"
+  },
+  "current_acceptance_audit": {
+    "policy": "stable_frames_evidence_dedup_v1",
+    "source": "Filtered previously audited row statuses; unchanged acceptance"
+  },
+  "limitation": "IoU is an error proxy; recovered validity is not semantic improvement. Both sides use the identical frozen requests and stable reference dedup acceptance. The verifier changes from 8B to 32B, with declared PP/context/prefill/KV settings. This is not an isolated parameter-count causal test. Historical-control comparison does not exclude between-run nondeterminism."
+}

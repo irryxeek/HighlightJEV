@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="content">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <g id="title" data-pptx-bounds="56 42 1168 122"><text x="56" y="65" font-size="20" fill="#237F89">10 / 更强基模对照 · 快照截至 11.02 23:56</text><text x="56" y="127" font-size="42" font-weight="bold" fill="#17324D">32B 首次启动失败，尚无预测结果</text></g>
+  <g id="preparation-and-request-status" data-pptx-bounds="56 194 1168 122">
+    <rect x="56" y="194" width="1168" height="122" fill="#F2F5F8" />
+    <text x="80" y="227" font-size="20" fill="#237F89">Qwen3-VL-32B-Instruct · 准备已完成</text>
+    <text x="80" y="270" font-size="28" font-weight="bold" fill="#17324D">14/14 分片校验 · 145 项 CPU 检查</text>
+    <text x="80" y="303" font-size="20" fill="#637485">278 个请求的候选、像素、提示与 schema 一致性核对</text>
+    <text x="1190" y="268" font-size="64" font-weight="bold" fill="#C96A32" text-anchor="end">0 / 278</text>
+    <text x="1190" y="303" font-size="20" fill="#637485" text-anchor="end">正式请求</text>
+  </g>
+  <g id="ownership-failure" data-pptx-bounds="56 350 552 142">
+    <line x1="56" y1="352" x2="608" y2="352" stroke="#C96A32" stroke-width="4" />
+    <text x="56" y="397" font-size="28" font-weight="bold" fill="#17324D">进程归属检查失败</text>
+    <text fill="#243748" x="56" y="442">检查拒绝清理，调度停止派发。</text><text fill="#243748" x="56" y="478">触发机制尚未定位。</text></g>
+  <g id="memory-admission-failure" data-pptx-bounds="656 350 568 142">
+    <line x1="656" y1="352" x2="1224" y2="352" stroke="#C96A32" stroke-width="4" />
+    <text x="656" y="397" font-size="28" font-weight="bold" fill="#17324D">vLLM 显存准入未通过</text>
+    <text fill="#243748" x="656" y="442">实际 22.31 GiB，低于要求 22.34 GiB。</text><text fill="#243748" x="656" y="478">未满足 0.95 的启动准入条件。</text></g>
+  <g id="runtime-evidence-boundary" data-pptx-bounds="56 530 1168 124">
+    <text x="56" y="559" fill="#17324D">11.02 22:59，GPU 0/2/3 首次启动；1 worker、0 token、未重试。</text>
+    <text x="56" y="601" font-size="20" fill="#637485">4,500 GPU 秒是保守预留，完整生命周期未知；不能当作实测消耗或记为零。</text>
+    <text x="56" y="639" font-size="20" fill="#637485">23:56 未发现已知 PID / 进程组残留；保留历史未确认收据，没有生成 32B 评价。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="56 672 1168 32" data-pptx-role="footer" font-size="14" fill="#637485"><text x="56" y="693">来源：实验进度与结果报告 §5；32B campaign_exit.json 与 worker 日志</text><text x="1224" y="693" text-anchor="end">11 / 12</text></g>
+</svg>

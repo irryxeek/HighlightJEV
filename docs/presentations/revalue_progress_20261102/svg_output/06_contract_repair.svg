@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="content">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="title" data-pptx-bounds="56 42 1168 122"><text x="56" y="65" font-size="20" fill="#237F89">05 / 工程修复</text><text x="56" y="127" font-size="42" font-weight="bold" fill="#17324D">无效输出降至 5 条，去重贡献需单列</text></g>
+  <g id="comparison-label" data-pptx-bounds="56 178 568 42"><text x="56" y="205" fill="#637485">同验收口径比较 · 两轮均为 278 条响应</text></g>
+  <g id="invalid-bars" data-pptx-bounds="56 220 540 360" data-pptx-replace-with="chart" data-pptx-fallback-sha256="23aaac2ea3b8b6a83679a6a6496d1d08c9f3c221ead053ea381e6347d60d3764">
+    <metadata type="application/json">{"name":"invalid-bars","x":82,"y":228,"width":500,"height":350,"type":"column","categories":["旧 v2.2","新 v2.4"],"series":[{"name":"无效输出","values":[23,5],"point_colors":["#17324D","#237F89"]}],"plot_area":{"x":140,"y":230,"width":400,"height":300},"axes":{"category":{"font_size":20,"color":"#637485"},"value":{"minimum":0,"maximum":30,"major_unit":10,"font_size":20,"color":"#637485","major_gridlines":true}},"data_labels":{"show_value":true,"position":"outside_end","font_size":24,"color":"#17324D"},"show_legend":false,"style":{"font_family":"Microsoft YaHei, Arial","axis_font_size":20,"colors":["#17324D"],"text_color":"#637485","axis_color":"#CFD9E2","grid_color":"#E5EBF0","chart_area_fill":"#FFFFFF","plot_area_fill":"#FFFFFF"},"gap_width":100}</metadata>
+    <g id="invalid-bars-chartArea">
+      <g id="invalid-grid" stroke="#E5EBF0" stroke-width="1"><line x1="140" y1="430" x2="540" y2="430"/><line x1="140" y1="330" x2="540" y2="330"/><line x1="140" y1="230" x2="540" y2="230"/></g>
+      <g id="invalid-axis" stroke="#CFD9E2" stroke-width="1"><line x1="140" y1="230" x2="140" y2="530"/><line x1="140" y1="530" x2="540" y2="530"/></g>
+      <!-- chart-plot-area: object=invalid-bars | 140,230,540,530 -->
+      <rect x="190" y="300" width="100" height="230" fill="#17324D"/>
+      <rect x="390" y="480" width="100" height="50" fill="#237F89"/>
+      <g fill="#17324D" text-anchor="middle"><text x="240" y="286">23</text><text x="440" y="466">5</text></g>
+      <g fill="#637485" font-size="20"><text x="120" y="537" text-anchor="end">0</text><text x="120" y="437" text-anchor="end">10</text><text x="120" y="337" text-anchor="end">20</text><text x="120" y="237" text-anchor="end">30</text><text x="240" y="565" text-anchor="middle">旧 v2.2</text><text x="440" y="565" text-anchor="middle">新 v2.4</text></g>
+    </g>
+  </g>
+  <g id="dedup-audit" data-pptx-bounds="656 178 568 400">
+    <text x="656" y="210" font-size="30" fill="#17324D">本轮归一化的贡献</text>
+    <text x="656" y="292" font-size="64" font-weight="bold" fill="#17324D">52 → 5</text>
+    <text x="656" y="339" fill="#243748">原始严格无效 → 去重后仍无效</text>
+    <text x="656" y="397" font-size="28" font-weight="bold" fill="#237F89">普通重复引用去重，恢复 47 条</text>
+    <text x="656" y="448" fill="#243748">仍严格检查未定义引用、重复事实定义<tspan x="656" dy="36">与时间顺序所需的有序证据。</tspan></text>
+    <text x="656" y="542" font-size="20" fill="#637485">绑定、依赖、生成顺序和去重共同变化，非单因素归因。</text>
+  </g>
+  <g id="remaining-failures" data-pptx-bounds="56 600 1168 50"><text x="56" y="632" font-size="28" font-weight="bold" fill="#C96A32">剩余 5 条：2 条 JSON 截断 + 3 条有序事实不足</text></g>
+  <g id="footer" data-pptx-bounds="56 672 1168 32" data-pptx-role="footer" font-size="14" fill="#637485"><text x="56" y="693">来源：实验进度与结果报告 §3.3｜合法性改善不等于语义判断能力提高</text><text x="1224" y="693" text-anchor="end">06 / 12</text></g>
+</svg>

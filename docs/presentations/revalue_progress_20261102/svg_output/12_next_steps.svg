@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="ending">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="title" data-pptx-bounds="56 42 1168 122"><text x="56" y="65" font-size="20" fill="#237F89">11 / 下一步验证</text><text x="56" y="127" font-size="42" font-weight="bold" fill="#17324D">下一步要证明：能发现什么错，怎样补证</text></g>
+  <g id="runtime-prerequisite" data-pptx-bounds="56 194 1168 82">
+    <rect x="56" y="194" width="1168" height="82" fill="#F2F5F8"/>
+    <text x="80" y="228" font-size="28" font-weight="bold" fill="#17324D">运行前置：定位 32B 的两类启动失败</text>
+    <text x="80" y="261" font-size="20" fill="#637485">变更先审查并版本化；保留失败轮次，避免将运行问题解释为模型能力结论。</text>
+  </g>
+  <g id="semantic-validation-task" data-pptx-bounds="56 302 352 244">
+    <text x="56" y="359" font-size="64" font-weight="bold" fill="#237F89">01</text>
+    <text x="56" y="408" font-size="28" font-weight="bold" fill="#17324D">语义与依赖审校</text>
+    <text x="56" y="457" fill="#243748">审校 query 条件与依赖。<tspan x="56" dy="36">独立覆盖报警、支持、</tspan><tspan x="56" dy="36">不足和无效四类输出。</tspan></text>
+  </g>
+  <g id="evidence-validation-task" data-pptx-bounds="464 302 352 244">
+    <text x="464" y="359" font-size="64" font-weight="bold" fill="#237F89">02</text>
+    <text x="464" y="408" font-size="28" font-weight="bold" fill="#17324D">等量补证对照</text>
+    <text x="464" y="457" fill="#243748">旧帧 / 等量均匀新帧 /<tspan x="464" dy="36">等量定向新帧。</tspan><tspan x="464" dy="36">固定模型和核验问题。</tspan></text>
+  </g>
+  <g id="boundary-validation-task" data-pptx-bounds="872 302 352 244">
+    <text x="872" y="359" font-size="64" font-weight="bold" fill="#237F89">03</text>
+    <text x="872" y="408" font-size="28" font-weight="bold" fill="#17324D">时间边界验证</text>
+    <text x="872" y="457" fill="#243748">单独检查时间覆盖。<tspan x="872" dy="36">如改写区间，再报告</tspan><tspan x="872" dy="36">R1 与 MR mAP。</tspan></text>
+  </g>
+  <g id="closing-takeaway" data-pptx-bounds="56 576 1168 84">
+    <line x1="56" y1="578" x2="1224" y2="578" stroke="#CFD9E2" stroke-width="1"/>
+    <text x="56" y="620" font-size="30" fill="#17324D">合法性、语义检错、定位质量，分别验证</text>
+    <text x="56" y="649" font-size="20" fill="#637485">以上为后续建议；新增实验先冻结范围与预算，保留全部旧预测及失败。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="56 672 1168 32" data-pptx-role="footer" font-size="14" fill="#637485"><text x="56" y="693">来源：实验进度与结果报告 §6–7｜当前结果尚未建立价值增益或 grounding 提升</text><text x="1224" y="693" text-anchor="end">12 / 12</text></g>
+</svg>

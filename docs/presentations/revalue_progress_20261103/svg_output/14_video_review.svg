@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="content">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <!-- P14 modules: core, image. Full local screenshot plus editable explanation. -->
+  <g id="title" data-pptx-bounds="56 42 1168 122"><text x="56" y="65" font-size="20" fill="#237F89">13 / 审查工具 · 实际视频与证据</text><text x="56" y="127" font-size="42" font-weight="bold" fill="#17324D">现在可以直接对照 GT 与 Direct 视频</text></g>
+  <g id="viewer-evidence" data-pptx-bounds="56 183 696 479"><image href="../images/video_comparison.png" x="56" y="183" width="696" height="478.5" preserveAspectRatio="xMidYMid meet" /></g>
+  <g id="playback-explanation" data-pptx-bounds="792 190 432 222">
+    <text x="792" y="225" font-size="28" font-weight="bold" fill="#237F89">左：数据集 GT 区间<tspan x="792" dy="45">右：原 Direct 预测</tspan></text>
+    <text x="792" y="324" fill="#243748">逐段播放、切换候选，<tspan x="792" dy="36">对应查看事实、条件与引用。</tspan></text>
+    <text x="792" y="402" font-size="20" fill="#637485">使用已有原视频；未改写预测。</text>
+  </g>
+  <g id="viewer-access" data-pptx-bounds="792 438 432 108"><line x1="792" y1="440" x2="1224" y2="440" stroke="#CFD9E2" stroke-width="1" /><text x="792" y="482" font-weight="bold" fill="#17324D">8B · 100 query：8766<tspan x="792" dy="42">32B · 20 query：8765</tspan></text></g>
+  <g id="viewer-boundary" data-pptx-bounds="792 566 432 94" font-size="20"><text x="792" y="594" fill="#C96A32">两页共用 8B Direct 基线。</text><text x="792" y="626" fill="#637485">GT 为标注参照；目前独立人工<tspan x="792" dy="28">语义标签仍为 0。</tspan></text></g>
+  <g id="footer" data-pptx-bounds="56 672 1168 32" data-pptx-role="footer" font-size="14" fill="#637485"><text x="56" y="693">来源：本地证据查看器实际截图与视频播放说明（2026-11-03）｜本地访问需 SSH 转发</text><text x="1224" y="693" text-anchor="end">14 / 15</text></g>
+</svg>

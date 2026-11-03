@@ -1,0 +1,27 @@
+{
+  "reused_charts": [
+    {
+      "object": "recall-bars",
+      "source": "05_main_results.svg",
+      "current": "06_main_results.svg",
+      "sha256": "2bcb7a7558e3dc2e99fdc1294fde4d0882c0521512c5bb1dedb47a54aab7bcd2",
+      "geometry_and_data_unchanged": true
+    },
+    {
+      "object": "invalid-bars",
+      "source": "06_contract_repair.svg",
+      "current": "07_contract_repair.svg",
+      "sha256": "e25cf0103acb9dffcb40a74f4c26dbff3a0c018b4b8eef0b6b25dffef54659a7",
+      "geometry_and_data_unchanged": true
+    },
+    {
+      "object": "verdict-stacks",
+      "source": "07_verdict_distribution.svg",
+      "current": "08_verdict_distribution.svg",
+      "sha256": "7339507f570b816a91d3ef8f747dd3f19c3e0b492405557ff0720476a51d2877",
+      "geometry_and_data_unchanged": true
+    }
+  ],
+  "matched_table_equals_saved_evaluation": true,
+  "new_model_calls": 0
+}

@@ -1,0 +1,230 @@
+{
+  "schema": "ppt-master.pptx-postflight-report.v1",
+  "status": "passed",
+  "output": {
+    "path": "$MERIT_ROOT/docs/presentations/revalue_progress_20261102/exports/revalue_progress_20261103_002730_native_charts_tables.pptx",
+    "bytes": 88624
+  },
+  "source": {
+    "svg_slide_count": 12,
+    "layout_definition_count": 0,
+    "fingerprint": {
+      "algorithm": "sha256",
+      "digest": "2329a3f7cd65201570fa730fc4120ffe6fbd6f2148dacaddf74482d086ae392e",
+      "file_count": 12,
+      "files": [
+        {
+          "file": "01_cover.svg",
+          "sha256": "ed254070431e85c3343fc8eda09dc58d2ee6d56c7757c1a7f62d03138f365eda"
+        },
+        {
+          "file": "02_pipeline.svg",
+          "sha256": "4e0e06c281801b4bd64d71230c2d944298e9f0fe869ef7eff4b303a4efcf6df5"
+        },
+        {
+          "file": "03_baseline.svg",
+          "sha256": "f34a9abfabfea6d1bc1b9fc7f61ab366800047fe79d79de7999ad149a00be209"
+        },
+        {
+          "file": "04_ablation_design.svg",
+          "sha256": "0e5b3a01501da9bde4d985a23ee5dbf2e54d4f6913de73cfee299664a6f51591"
+        },
+        {
+          "file": "05_main_results.svg",
+          "sha256": "687e0fc6e882b28b75c1f64e096d8dbf33c3cc7ca205031ae389f7eaab95d8b4"
+        },
+        {
+          "file": "06_contract_repair.svg",
+          "sha256": "1b89da3aa96ac243f4a9966b301a1373dfac554bd1d1a98561f57ac20460501a"
+        },
+        {
+          "file": "07_verdict_distribution.svg",
+          "sha256": "330cd9f8fd580c287d9b08c76c81ef046044f33cfd285496e974c7dbe7ac6493"
+        },
+        {
+          "file": "08_semantic_binding_case.svg",
+          "sha256": "cefe0d08ac189c8df10f59618cf30413e2747d0e18edc94b4f1b73c3c7714f5f"
+        },
+        {
+          "file": "09_dependency_case.svg",
+          "sha256": "86de761d4dfb8a2c7e5a9650b2465aafa5fad98b0637e164c705f06188b5a0d5"
+        },
+        {
+          "file": "10_semantics_and_boundaries.svg",
+          "sha256": "a7a5e52a37bb7e2f0e7ca2b476f5854b94612da932f4526afe5b950224793cca"
+        },
+        {
+          "file": "11_32b_runtime.svg",
+          "sha256": "64f5a92d91d29abfa27e55a2a47f76d5f3ec99450b9611154934bf57c854ea31"
+        },
+        {
+          "file": "12_next_steps.svg",
+          "sha256": "5bd9ccceb498b6be26c97fdc4c7a4d3c71f6f25b636abd21a0cd50400120d2fc"
+        }
+      ]
+    },
+    "authoring_roundtrip": null
+  },
+  "package": {
+    "zip_integrity": "passed",
+    "corrupt_member": null,
+    "slides": 12,
+    "notes": 12,
+    "masters": 1,
+    "layouts": 1
+  },
+  "checks": {
+    "zip_integrity": "passed",
+    "slide_count": "passed",
+    "internal_relationships": "enforced-at-build",
+    "structured_package": "not-applicable",
+    "transitions": "enforced-at-build",
+    "animations": "enforced-at-build",
+    "project_svg_contract": "enforced-at-build",
+    "compatibility_normalization": "not-applicable",
+    "authoring_roundtrip": "not-applicable",
+    "quality_gate": "passed",
+    "quality_warnings": "passed",
+    "template_tokens": "passed",
+    "external_images": "passed",
+    "font_portability": "passed"
+  },
+  "quality": {
+    "status": "loaded",
+    "path": "$MERIT_ROOT/docs/presentations/revalue_progress_20261102/validation/svg_quality_report.json",
+    "schema": "ppt-master.svg-quality-report.v1",
+    "stage": "final",
+    "source_match": "passed",
+    "source_fingerprint": {
+      "algorithm": "sha256",
+      "digest": "2329a3f7cd65201570fa730fc4120ffe6fbd6f2148dacaddf74482d086ae392e",
+      "file_count": 12,
+      "files": [
+        {
+          "file": "01_cover.svg",
+          "sha256": "ed254070431e85c3343fc8eda09dc58d2ee6d56c7757c1a7f62d03138f365eda"
+        },
+        {
+          "file": "02_pipeline.svg",
+          "sha256": "4e0e06c281801b4bd64d71230c2d944298e9f0fe869ef7eff4b303a4efcf6df5"
+        },
+        {
+          "file": "03_baseline.svg",
+          "sha256": "f34a9abfabfea6d1bc1b9fc7f61ab366800047fe79d79de7999ad149a00be209"
+        },
+        {
+          "file": "04_ablation_design.svg",
+          "sha256": "0e5b3a01501da9bde4d985a23ee5dbf2e54d4f6913de73cfee299664a6f51591"
+        },
+        {
+          "file": "05_main_results.svg",
+          "sha256": "687e0fc6e882b28b75c1f64e096d8dbf33c3cc7ca205031ae389f7eaab95d8b4"
+        },
+        {
+          "file": "06_contract_repair.svg",
+          "sha256": "1b89da3aa96ac243f4a9966b301a1373dfac554bd1d1a98561f57ac20460501a"
+        },
+        {
+          "file": "07_verdict_distribution.svg",
+          "sha256": "330cd9f8fd580c287d9b08c76c81ef046044f33cfd285496e974c7dbe7ac6493"
+        },
+        {
+          "file": "08_semantic_binding_case.svg",
+          "sha256": "cefe0d08ac189c8df10f59618cf30413e2747d0e18edc94b4f1b73c3c7714f5f"
+        },
+        {
+          "file": "09_dependency_case.svg",
+          "sha256": "86de761d4dfb8a2c7e5a9650b2465aafa5fad98b0637e164c705f06188b5a0d5"
+        },
+        {
+          "file": "10_semantics_and_boundaries.svg",
+          "sha256": "a7a5e52a37bb7e2f0e7ca2b476f5854b94612da932f4526afe5b950224793cca"
+        },
+        {
+          "file": "11_32b_runtime.svg",
+          "sha256": "64f5a92d91d29abfa27e55a2a47f76d5f3ec99450b9611154934bf57c854ea31"
+        },
+        {
+          "file": "12_next_steps.svg",
+          "sha256": "5bd9ccceb498b6be26c97fdc4c7a4d3c71f6f25b636abd21a0cd50400120d2fc"
+        }
+      ]
+    },
+    "summary": {
+      "total": 12,
+      "passed": 12,
+      "warnings": 0,
+      "errors": 0
+    },
+    "categories": {
+      "blocking": {
+        "count": 0,
+        "issues": []
+      },
+      "introduced": {
+        "count": 0,
+        "issues": []
+      },
+      "inherited": {
+        "count": 0,
+        "issues": []
+      },
+      "source-import": {
+        "count": 0,
+        "summary": {
+          "warning_count": 0,
+          "by_code": {}
+        }
+      }
+    }
+  },
+  "resources": {
+    "unresolved_template_tokens": [],
+    "fonts": {
+      "stacks": [
+        "Microsoft YaHei, Arial"
+      ],
+      "generic_only_stacks": [],
+      "unsafe_exported_faces": []
+    },
+    "images": {
+      "data_uri": 0,
+      "local": 0,
+      "external": 0,
+      "external_references": []
+    }
+  },
+  "export_policy": {
+    "project_svg_contract": "strict",
+    "dangerous_normalization_count": 0
+  },
+  "deck_motion": {
+    "transition": {
+      "effect": "fade",
+      "effect_options": {},
+      "duration": 0.4,
+      "auto_advance": null,
+      "sound": null
+    },
+    "animation": {
+      "effect": "none",
+      "effect_request": null,
+      "duration": 0.4,
+      "stagger": 0.5,
+      "trigger": "after-previous"
+    },
+    "cli_overrides": {
+      "transition": false,
+      "transition_duration": false,
+      "auto_advance": false,
+      "transition_sound": false,
+      "animation": false,
+      "animation_duration": false,
+      "animation_stagger": false,
+      "animation_trigger": false
+    },
+    "narration_timings": false
+  },
+  "backup_path": "$MERIT_ROOT/docs/presentations/revalue_progress_20261102/backup/20261103_002730/svg_output",
+  "conversion_trace_path": null
+}

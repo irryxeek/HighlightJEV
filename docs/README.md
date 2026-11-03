@@ -1,6 +1,63 @@
 # 文档索引
 
-## 最新：组会后 Direct 与 Grounding 进展（2026-10-28–30）
+## 最新：Verifier 与 32B 同样本结果（2026-11-03）
+
+- [最新汇报](revalue_progress_and_results_2026-11-03.md) · [15 页可编辑 PPT](presentations/ReVALUE_实验进度与结果_2026-11-03_更新版.pptx) · [PDF 预览](presentations/ReVALUE_实验进度与结果_2026-11-03_更新版.pdf)。
+- [相关工作到价值判断单页](presentations/ReVALUE_相关工作到价值判断设计_2026-11-03.pdf) · [逐页讲稿与源页面](presentations/revalue_progress_20261103/README.md)。
+- [8B 完整 100 条结果](revalue_value_qvqv100_v2_4_results_2026-11-02.md)、[32B 前 20 条与 8B 配对结果](revalue_value_qvqv20_32b_v1_2_results_2026-11-03.md)、[32B 事实生成诊断](revalue_32b_fact_generation_diagnosis_2026-11-03.md)。
+- [相关工作调研](revalue_value_verification_related_work_2026-10-31.md)、[价值判断设计 v2](revalue_value_judgement_design_v2_2026-10-31.md)、[GT / Direct 视频审查](revalue_trace_viewer_video_playback_2026-11-03.md)。
+
+8B Q/Q+V v2.4 完成固定 100 条 query 的 278 次判断，273 条合法；错误召回率为 7.06% / 9.41%。32B 已完成原清单前 20 条（37 候选、74 次），同样本 Q/Q+V 错误召回率为 4% / 0%，65/74 次为证据不足；尚未证明检错或 grounding 提升。新增文献到价值判断的设计来源、32B 事实生成诊断和 GT / Direct 视频审查说明。
+
+本次同时补齐以下详细报告与历史执行快照。原文中的“本轮未推送”描述撰写当时状态；此次发布以用户后续推送指令为准。大视频、模型、输入帧缓存和未选公开的运行记录仍保留本地，本地资料引用已明确标注。
+
+- [后续主线确认：Query 驱动的时序 Grounding](temporal_grounding_mainline_2026-10-29.md)
+- [REZE Direct：固定 QV100 定位对照结果](reze_direct_grounding_qv100_results_2026-10-30.md)
+- [REZE-Direct：固定 QV100 定位协议 v1](reze_direct_grounding_qv100_protocol_v1_2_2026-10-30.md)
+- [REZE-Direct：固定 QV100 定位协议 v1](reze_direct_grounding_qv100_protocol_v1_2026-10-30.md)
+- [REZE-Direct：固定 QV100 定位协议 v1](reze_direct_grounding_qv100_protocol_v1_1_2026-10-30.md)
+- [REZE Direct：固定 QV100 执行记录](reze_direct_grounding_qv100_execution_2026-10-30.md)
+- [ReVALUE Verifier 下一步改进分析与建议方案](revalue_verifier_improvement_plan_2026-10-31.md)
+- [多维价值判断与区间验证：相关工作调研](revalue_value_verification_related_work_2026-10-31.md)
+- [ReVALUE verifier v2.1：状态与未知原因联动修复](revalue_value_state_schema_fix_v2_1_2026-11-01.md)
+- [ReVALUE verifier v2.3：重复引用与未确认依赖修复](revalue_value_reference_dependency_fix_v2_3_2026-11-02.md)
+- [ReVALUE verifier v2.4：引用去重修改与离线重验](revalue_value_reference_dedup_v2_4_2026-11-02.md)
+- [ReVALUE 32B：原清单前20条query的Q/QV结果](revalue_value_qvqv20_32b_v1_2_results_2026-11-03.md)
+- [ReVALUE 32B：前20条query运行范围更新](revalue_value_qvqv20_32b_v1_2_execution_2026-11-03.md)
+- [ReVALUE verifier v2.4：依赖约束与引用去重的固定 QV100 配对实验结果](revalue_value_qvqv100_v2_4_results_2026-11-02.md)
+- [ReVALUE v2.2：事实与证据绑定修复的固定 QV100 对照](revalue_value_qvqv100_v2_2_protocol_2026-11-02.md)
+- [ReVALUE verifier v2.2：事实与证据引用绑定修复的固定 QV100 配对实验结果（多卡续接）](revalue_value_qvqv100_v2_2_parallel_results_2026-11-02.md)
+- [ReVALUE v2.2 Q/Q+V 多卡续接执行记录](revalue_value_qvqv100_v2_2_parallel_execution_2026-11-02.md)
+- [ReVALUE v2.2 Q/Q+V：多卡调度补充协议](revalue_value_qvqv100_v2_2_parallel_amendment_2026-11-02.md)
+- [ReVALUE v2.2 固定100条 Q/Q+V 对照执行记录](revalue_value_qvqv100_v2_2_execution_2026-11-02.md)
+- [ReVALUE verifier v2.1：字段联动修复后的固定 QV100 配对实验结果](revalue_value_qvqv100_v2_1_results_2026-11-01.md)
+- [ReVALUE Q/Q+V v2.1：字段联动修复的固定 QV100 对照](revalue_value_qvqv100_v2_1_protocol_2026-11-01.md)
+- [ReVALUE Q/Q+V v2.1 修复验证执行记录](revalue_value_qvqv100_v2_1_execution_2026-11-01.md)
+- [ReVALUE 价值提示 Q/QV：固定 QV100 配对实验结果](revalue_value_qvqv100_results_2026-10-31.md)
+- [ReVALUE Q vs Q+V：固定 QV100 价值引导对照 v2](revalue_value_qvqv100_protocol_2026-10-31.md)
+- [ReVALUE Q / Q+V 固定 QV100：实现、冻结与排队记录](revalue_value_qvqv100_execution_2026-10-31.md)
+- [ReVALUE 32B 固定100条验证：执行状态](revalue_value_qvqv100_32b_v1_execution_2026-11-02.md)
+- [ReVALUE verifier 32B v1.2：取消资源额度后的固定 QV100 重跑结果](revalue_value_qvqv100_32b_v1_2_results_2026-11-03.md)
+- [ReVALUE 32B Q/QV：取消额度后固定100条重跑记录](revalue_value_qvqv100_32b_v1_2_execution_2026-11-03.md)
+- [ReVALUE verifier 32B v1.1：固定 QV100 的 Q/QV 模型对照结果](revalue_value_qvqv100_32b_v1_1_results_2026-11-03.md)
+- [ReVALUE 32B 固定 QV100：三卡恢复执行记录 v1.1](revalue_value_qvqv100_32b_v1_1_execution_2026-11-03.md)
+- [ReVALUE 价值判断设计 v2：面向 Query 的可核查价值证据](revalue_value_judgement_design_v2_2026-10-31.md)
+- [GT 标注与 Qwen Direct 预测的视频回放](revalue_trace_viewer_video_playback_2026-11-03.md)
+- [前端新增 Direct 与 Verifier 对照](revalue_trace_viewer_direct_comparison_2026-11-03.md)
+- [ReVALUE 推理过程查看页面](revalue_trace_viewer_2026-10-30.md)
+- [ReVALUE 最新实验进度与结果](revalue_progress_and_results_2026-11-03.md)
+- [ReVALUE 当前实验进度与结果](revalue_progress_and_results_2026-11-02.md)
+- [ReVALUE 后续实验的 GPU 调度偏好](revalue_gpu_scheduling_preference_2026-11-02.md)
+- [ReVALUE 区间 Verifier v1.1：固定 QV100 验证结果](revalue_direct_verifier_results_2026-10-30.md)
+- [REZE Direct + ReVALUE Verifier：实现与CPU准备收据](revalue_direct_verifier_preparation_2026-10-30.md)
+- [ReVALUE 区间 Verifier：REZE Direct 固定 QV100 协议 v1](revalue_direct_verifier_plan_v1_2026-10-30.md)
+- [ReVALUE 区间 Verifier：REZE Direct 固定 QV100 协议 v1.1](revalue_direct_verifier_plan_v1_1_2026-10-30.md)
+- [ReVALUE Direct Verifier 离线诊断 v1](revalue_direct_verifier_offline_diagnosis_v1_2026-10-30.md)
+- [ReVALUE 区间 Verifier v1.1 执行记录](revalue_direct_verifier_execution_2026-10-30.md)
+- [32B 与 8B 事实生成差异：离线核查](revalue_32b_fact_generation_diagnosis_2026-11-03.md)
+- [ReVALUE 当前任务交接：REZE Direct + 区间 Verifier](handoff_revalue_verifier_2026-10-30.md)
+
+## 此前：组会后 Direct 与 Grounding 进展（2026-10-28–30）
 
 - [工作总结](progress_after_meeting_2026-10-27_to_2026-10-30.md)、[12 页可编辑 PPT](presentations/ReVALUE_Grounding实验进展_2026-10-28至10-30.pptx)、[PDF 预览](presentations/ReVALUE_Grounding实验进展_2026-10-28至10-30.pdf)、[讲稿与可编辑源页面](presentations/revalue_grounding_progress_20261030/README.md)。
 - [Grounding 反例单页 PPT：qid448](presentations/Grounding反例_qid448_单页介绍_2026-10-30.pptx)、[讲稿与原帧证据](presentations/qv_grounding_counterexample_qid448_20261030/README.md)：标注 92–112 秒为鸡舍，预测 130–145 秒落到道路与花景，IoU=0。属于助手初筛案例；条件核验与重新定位的修正收益尚未验证。

@@ -1,0 +1,13 @@
+{
+  "at": "2026-11-03T08:22:10.657048+00:00",
+  "sha256": {
+    "$MERIT_ROOT/AGENTS.md": "db0f1604cfb81d376d42faaa91693e515ec457563dede66e862d4e5f71e059ee",
+    "$MERIT_ROOT/docs/presentations/revalue_progress_20261102/design_spec.md": "d3e31c3d85d6aecdfe4b39a31f6ab59b9e90506f3cb92e8f488a5202beb4ffdc",
+    "$MERIT_ROOT/docs/presentations/revalue_progress_20261102/spec_lock.md": "f81a11208df73c12c79336ee4408d1f36ea602b3880da3ce0c6775dd57e24999",
+    "$MERIT_ROOT/docs/presentations/ReVALUE_实验进度与结果_2026-11-02.pptx": "ba90bb8c3b077c9e7b3bf111a451308349c19e6efa8968cc7861f08630dc7f50",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_value_qvqv100_v2_4_2026-11-02/ledger.json": "8dc135ff037258e6971bcbb235623cb6ff15ecefec3099a1d45287e49ae9e9c1",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_value_qvqv100_v2_4_2026-11-02/manifest.json": "91fe2346c31df1856746762793e1af9f4a9b3ca567ef4de2ff76ebe98d420f7c",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_value_qvqv100_32b_v1_2_2026-11-03/ledger.json": "37037da1117e9175c7b19d743042c71630069cb8109b0041485b297772e2841d",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_value_qvqv100_32b_v1_2_2026-11-03/manifest.json": "834b15b9a02cc1c14564132cc092b5d317ea0dfc6e65dfb2fc4b4b659e050962"
+  }
+}

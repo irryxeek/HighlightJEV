@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="cover">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <g id="series-label" data-pptx-bounds="56 42 1168 80" fill="#237F89">
+    <text x="56" y="70" font-size="20">ReVALUE / GROUNDING RESEARCH UPDATE</text>
+    <line x1="56" y1="104" x2="1224" y2="104" stroke="#CFD9E2" stroke-width="1" />
+  </g>
+  <g id="cover-thesis" data-pptx-bounds="56 186 724 330" fill="#17324D">
+    <text font-weight="bold" font-size="60" x="56" y="250">输出更可靠了，</text><text font-weight="bold" font-size="60" x="56" y="332">检错仍未解决</text><text x="56" y="421" font-size="30">ReVALUE 实验进度与结果</text>
+    <text x="56" y="478" fill="#637485">阶段：2026.10.30—11.03</text>
+  </g>
+  <g id="validity-focus" data-pptx-bounds="820 186 404 330">
+    <rect x="820" y="186" width="404" height="330" fill="#EAF3F3" />
+    <text x="850" y="248" font-size="20" fill="#237F89">8B：273 / 278 条输出合法</text>
+    <text x="850" y="344" font-size="64" font-weight="bold" fill="#237F89">98.20%</text>
+    <text font-weight="bold" fill="#17324D" font-size="28" x="850" y="414">价值引导收益</text><text font-weight="bold" fill="#17324D" font-size="28" x="850" y="456">尚未确立</text></g>
+  <g id="status-line" data-pptx-bounds="56 558 1168 70">
+    <line x1="56" y1="560" x2="1224" y2="560" stroke="#CFD9E2" stroke-width="1" />
+    <text x="56" y="604" fill="#243748">8B：278/278 次完成</text>
+    <text x="570" y="604" fill="#C96A32">32B：前 20 条完成，74/74 次；未改善</text>
+  </g>
+  <g id="footer" data-pptx-bounds="56 672 1168 32" data-pptx-role="footer" font-size="14" fill="#637485">
+    <text x="56" y="693">来源：最新实验进度报告（2026-11-03）｜主线：grounding｜包含32B配对结果</text>
+    <text x="1224" y="693" text-anchor="end">01 / 15</text>
+  </g>
+</svg>

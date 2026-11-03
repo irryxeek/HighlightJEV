@@ -27,3 +27,9 @@
 ## 当前执行边界
 
 下一步优先准备 Direct 区间定位的最小基线与评价协议，再考虑模块对定位的增益。本文仅确认方向，不启动实验、不追加模型调用、不推送，也不修改已完成实验的结论。单目标40次和时间键20次额度均已耗尽；旧预算不转移，后续推理仍需明确的独立授权。
+
+## 2026-10-30 更新：采用 REZE Direct 为后续 base
+
+用户已明确选择“直接用reze direct方案当做我们的base方法”。后续以[已完成的REZE Direct协议重建](reze_direct_grounding_qv100_results_2026-10-30.md)为base：Qwen3-VL-8B-Instruct、整视频2 FPS、一次生成匹配区间。旧自定义Direct和历史密集REZE保留各自身份与结果。
+
+下一模块为[逐区间verifier](revalue_direct_verifier_plan_v1_1_2026-10-30.md)：按照query相关度、五类目的相关价值及必要边界检查候选，先评价能否筛出反例与避免误报，不通过价值低直接否定grounding。139个区间输入及CPU原型已准备，当前新增模型调用为0，详见[准备收据](revalue_direct_verifier_preparation_2026-10-30.md)。本文上面的“下一步准备最小Direct基线”段落保留为10月29日历史状态。

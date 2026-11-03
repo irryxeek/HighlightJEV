@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="ending">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <!-- P15 modules: core, structure. Ordered suggestions, not completed experiment claims. -->
+  <g id="title" data-pptx-bounds="56 42 1168 122"><text x="56" y="65" font-size="20" fill="#237F89">14 / 下一步 · 建议待讨论</text><text x="56" y="127" font-size="42" font-weight="bold" fill="#17324D">先查事实与证据，再扩展验证闭环</text></g>
+  <g id="review-next" data-pptx-bounds="56 202 1168 86"><text x="56" y="244" font-size="42" fill="#237F89">01</text><text x="154" y="234" font-size="28" font-weight="bold" fill="#17324D">独立审查：哪些是真正的内容错误</text><text x="154" y="274" fill="#637485">固定覆盖支持、报警、不足和无效；区分内容、边界、可见性与标注疑点。</text></g>
+  <g id="mechanism-next" data-pptx-bounds="56 310 1168 86"><text x="56" y="352" font-size="42" fill="#237F89">02</text><text x="154" y="342" font-size="28" font-weight="bold" fill="#17324D">单变量诊断：占位示例与结构约束分别检验</text><text x="154" y="382" fill="#637485">固定旧帧和 query；检查具体事实与正确判断，三卡运行路径另列因素。</text></g>
+  <g id="value-next" data-pptx-bounds="56 418 1168 86"><text x="56" y="460" font-size="42" fill="#237F89">03</text><text x="154" y="450" font-size="28" font-weight="bold" fill="#17324D">事实质量可用后，再判断价值提示的增量</text><text x="154" y="490" fill="#637485">配对核对 Q / Q+V 的改善和退步；不以更多描述、更多非 NA 作为收益。</text></g>
+  <g id="loop-next" data-pptx-bounds="56 526 1168 86"><text x="56" y="568" font-size="42" fill="#237F89">04</text><text x="154" y="558" font-size="28" font-weight="bold" fill="#17324D">有缺证依据后，再做补帧与独立边界验证</text><text x="154" y="598" fill="#637485">等量均匀 / 定向补证；如改写区间，才进一步评价 R1 与 MR mAP。</text></g>
+  <g id="closing-boundary" data-pptx-bounds="56 628 1168 30"><text x="56" y="650" font-size="20" fill="#C96A32">不强迫确定判断。新实验先冻结范围与验收标准；本次仅更新报告和 PPT。</text></g>
+  <g id="footer" data-pptx-bounds="56 672 1168 32" data-pptx-role="footer" font-size="14" fill="#637485"><text x="56" y="693">讨论重点：合法性、语义检错、定位质量分别验证｜既有预测与失败记录保留</text><text x="1224" y="693" text-anchor="end">15 / 15</text></g>
+</svg>

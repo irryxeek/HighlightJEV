@@ -1,0 +1,41 @@
+{
+  "at": "2026-11-03T08:37:16.391749+00:00",
+  "pptx": "$MERIT_ROOT/docs/presentations/ReVALUE_实验进度与结果_2026-11-03_更新版.pptx",
+  "pptx_sha256": "4f79ec821409c45e05e03a9e15e74543a442cf9f82d47e69b6c0b08a45fc99b5",
+  "report": "$MERIT_ROOT/docs/revalue_progress_and_results_2026-11-03.md",
+  "slides": 15,
+  "notes": 15,
+  "native_charts": 3,
+  "native_tables": 3,
+  "postflight": "passed",
+  "warnings": 0,
+  "literature_slide": 4,
+  "old_files_and_ledgers_unchanged": true,
+  "source_hashes": {
+    "$MERIT_ROOT/AGENTS.md": "db0f1604cfb81d376d42faaa91693e515ec457563dede66e862d4e5f71e059ee",
+    "$MERIT_ROOT/docs/presentations/revalue_progress_20261102/design_spec.md": "d3e31c3d85d6aecdfe4b39a31f6ab59b9e90506f3cb92e8f488a5202beb4ffdc",
+    "$MERIT_ROOT/docs/presentations/revalue_progress_20261102/spec_lock.md": "f81a11208df73c12c79336ee4408d1f36ea602b3880da3ce0c6775dd57e24999",
+    "$MERIT_ROOT/docs/presentations/ReVALUE_实验进度与结果_2026-11-02.pptx": "ba90bb8c3b077c9e7b3bf111a451308349c19e6efa8968cc7861f08630dc7f50",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_value_qvqv100_v2_4_2026-11-02/ledger.json": "8dc135ff037258e6971bcbb235623cb6ff15ecefec3099a1d45287e49ae9e9c1",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_value_qvqv100_v2_4_2026-11-02/manifest.json": "91fe2346c31df1856746762793e1af9f4a9b3ca567ef4de2ff76ebe98d420f7c",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_value_qvqv100_32b_v1_2_2026-11-03/ledger.json": "37037da1117e9175c7b19d743042c71630069cb8109b0041485b297772e2841d",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_value_qvqv100_32b_v1_2_2026-11-03/manifest.json": "834b15b9a02cc1c14564132cc092b5d317ea0dfc6e65dfb2fc4b4b659e050962"
+  },
+  "new_experiment_calls": 0,
+  "new_experiment_workers": 0,
+  "new_gpu_allocations": 0,
+  "pushed": false,
+  "progress_state_updated": false,
+  "preview_url": "http://127.0.0.1:6060",
+  "standalone_literature_page_pdf": "$MERIT_ROOT/docs/presentations/ReVALUE_相关工作到价值判断设计_2026-11-03.pdf",
+  "standalone_literature_page_pdf_sha256": "5d5a8348589e7aa8a4eaa20744777b992d45c95892e373774cbfd8893f9fff23",
+  "rendered_preview_spot_check": {
+    "pages": [
+      4,
+      9
+    ],
+    "source": "LibreOffice rendered final PPTX",
+    "result": "passed",
+    "full_page_visual_review": false
+  }
+}

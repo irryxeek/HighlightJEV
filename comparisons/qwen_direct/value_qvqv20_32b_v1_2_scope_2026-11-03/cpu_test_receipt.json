@@ -1,0 +1,14 @@
+{
+  "at": "2026-11-03T05:10:15.071739+00:00",
+  "status": "passed",
+  "tests": 9,
+  "source_sha256": {
+    "scope20.py": "dab36f432ce886f559a0ddc51ee83f22bf263f443ffae4ba2ae6a73fe22f7c90",
+    "protocol.md": "c0786f6cdb317ce401d626e99154d496d95d4fbb2fd2be9a051edff772d28f98",
+    "test_scope20.py": "1e0f2efa6aa67b1a4fb011cabb3b0412d9dfa13ea64c9a72d3a00b4484c4b554"
+  },
+  "observed_test_summary": "Ran 9 tests in 0.340s; OK",
+  "command": "CUDA_VISIBLE_DEVICES='' HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 PYTHONDONTWRITEBYTECODE=1 $LONGVT_ARTIFACT_ROOT/env/inference/bin/python -m unittest discover -s experiments/revalue_value_ablation_32b_scope20_v1 -p 'test_*.py' -v",
+  "new_model_calls": 0,
+  "new_gpu_allocations": 0
+}

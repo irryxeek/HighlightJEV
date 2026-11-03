@@ -1,0 +1,852 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "$MERIT_ROOT/docs/presentations/revalue_progress_20261102",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "2329a3f7cd65201570fa730fc4120ffe6fbd6f2148dacaddf74482d086ae392e",
+    "file_count": 12,
+    "files": [
+      {
+        "file": "01_cover.svg",
+        "sha256": "ed254070431e85c3343fc8eda09dc58d2ee6d56c7757c1a7f62d03138f365eda"
+      },
+      {
+        "file": "02_pipeline.svg",
+        "sha256": "4e0e06c281801b4bd64d71230c2d944298e9f0fe869ef7eff4b303a4efcf6df5"
+      },
+      {
+        "file": "03_baseline.svg",
+        "sha256": "f34a9abfabfea6d1bc1b9fc7f61ab366800047fe79d79de7999ad149a00be209"
+      },
+      {
+        "file": "04_ablation_design.svg",
+        "sha256": "0e5b3a01501da9bde4d985a23ee5dbf2e54d4f6913de73cfee299664a6f51591"
+      },
+      {
+        "file": "05_main_results.svg",
+        "sha256": "687e0fc6e882b28b75c1f64e096d8dbf33c3cc7ca205031ae389f7eaab95d8b4"
+      },
+      {
+        "file": "06_contract_repair.svg",
+        "sha256": "1b89da3aa96ac243f4a9966b301a1373dfac554bd1d1a98561f57ac20460501a"
+      },
+      {
+        "file": "07_verdict_distribution.svg",
+        "sha256": "330cd9f8fd580c287d9b08c76c81ef046044f33cfd285496e974c7dbe7ac6493"
+      },
+      {
+        "file": "08_semantic_binding_case.svg",
+        "sha256": "cefe0d08ac189c8df10f59618cf30413e2747d0e18edc94b4f1b73c3c7714f5f"
+      },
+      {
+        "file": "09_dependency_case.svg",
+        "sha256": "86de761d4dfb8a2c7e5a9650b2465aafa5fad98b0637e164c705f06188b5a0d5"
+      },
+      {
+        "file": "10_semantics_and_boundaries.svg",
+        "sha256": "a7a5e52a37bb7e2f0e7ca2b476f5854b94612da932f4526afe5b950224793cca"
+      },
+      {
+        "file": "11_32b_runtime.svg",
+        "sha256": "64f5a92d91d29abfa27e55a2a47f76d5f3ec99450b9611154934bf57c854ea31"
+      },
+      {
+        "file": "12_next_steps.svg",
+        "sha256": "5bd9ccceb498b6be26c97fdc4c7a4d3c71f6f25b636abd21a0cd50400120d2fc"
+      }
+    ]
+  },
+  "summary": {
+    "total": 12,
+    "passed": 12,
+    "warnings": 0,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 0,
+      "issues": []
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {},
+    "fonts": {},
+    "sizes": {}
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 12,
+    "totals": {
+      "text_elements": 216,
+      "image_placements": 0,
+      "icons": 0,
+      "svg_geometry_elements": 84,
+      "preset_shapes": 2,
+      "page_frame_elements": 12,
+      "marker_uses": 6,
+      "inline_emphasis_runs": 2,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "pages_with": {
+      "images": 0,
+      "icons": 0,
+      "presets": 1,
+      "charts": 3,
+      "tables": 2,
+      "formulas": 0,
+      "inline_emphasis_runs": 2,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "relationship_pages": 0,
+    "geometry_elements": {
+      "circle": 0,
+      "ellipse": 0,
+      "line": 38,
+      "path": 0,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 46
+    },
+    "preset_names": {
+      "flowChartDocument": 1,
+      "flowChartInputOutput": 1
+    },
+    "native_objects": {
+      "chart": 3,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 2
+    },
+    "image_page_max_frame_share_range": []
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_cover.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_progress_20261102/svg_output/01_cover.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 11,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial"
+        ],
+        "text_elements": 11,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "ed254070431e85c3343fc8eda09dc58d2ee6d56c7757c1a7f62d03138f365eda"
+    },
+    {
+      "file": "02_pipeline.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_progress_20261102/svg_output/02_pipeline.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 17,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 5,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 2,
+            "preset_names": {
+              "flowChartDocument": 1,
+              "flowChartInputOutput": 1
+            },
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 4
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "4e0e06c281801b4bd64d71230c2d944298e9f0fe869ef7eff4b303a4efcf6df5"
+    },
+    {
+      "file": "03_baseline.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_progress_20261102/svg_output/03_baseline.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 19,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "f34a9abfabfea6d1bc1b9fc7f61ab366800047fe79d79de7999ad149a00be209"
+    },
+    {
+      "file": "04_ablation_design.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_progress_20261102/svg_output/04_ablation_design.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 19,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "0e5b3a01501da9bde4d985a23ee5dbf2e54d4f6913de73cfee299664a6f51591"
+    },
+    {
+      "file": "05_main_results.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_progress_20261102/svg_output/05_main_results.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 19,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 6,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 1,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "687e0fc6e882b28b75c1f64e096d8dbf33c3cc7ca205031ae389f7eaab95d8b4"
+    },
+    {
+      "file": "06_contract_repair.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_progress_20261102/svg_output/06_contract_repair.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 20,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 5,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 1,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial"
+        ],
+        "text_elements": 20,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "1b89da3aa96ac243f4a9966b301a1373dfac554bd1d1a98561f57ac20460501a"
+    },
+    {
+      "file": "07_verdict_distribution.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_progress_20261102/svg_output/07_verdict_distribution.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 26,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 13,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 5,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 1,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial"
+        ],
+        "text_elements": 26,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "330cd9f8fd580c287d9b08c76c81ef046044f33cfd285496e974c7dbe7ac6493"
+    },
+    {
+      "file": "08_semantic_binding_case.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_progress_20261102/svg_output/08_semantic_binding_case.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 1
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "cefe0d08ac189c8df10f59618cf30413e2747d0e18edc94b4f1b73c3c7714f5f"
+    },
+    {
+      "file": "09_dependency_case.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_progress_20261102/svg_output/09_dependency_case.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 13,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 1
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial"
+        ],
+        "text_elements": 13,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "86de761d4dfb8a2c7e5a9650b2465aafa5fad98b0637e164c705f06188b5a0d5"
+    },
+    {
+      "file": "10_semantics_and_boundaries.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_progress_20261102/svg_output/10_semantics_and_boundaries.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 25,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial"
+        ],
+        "text_elements": 25,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "a7a5e52a37bb7e2f0e7ca2b476f5854b94612da932f4526afe5b950224793cca"
+    },
+    {
+      "file": "11_32b_runtime.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_progress_20261102/svg_output/11_32b_runtime.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "64f5a92d91d29abfa27e55a2a47f76d5f3ec99450b9611154934bf57c854ea31"
+    },
+    {
+      "file": "12_next_steps.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_progress_20261102/svg_output/12_next_steps.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 17,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "5bd9ccceb498b6be26c97fdc4c7a4d3c71f6f25b636abd21a0cd50400120d2fc"
+    }
+  ]
+}

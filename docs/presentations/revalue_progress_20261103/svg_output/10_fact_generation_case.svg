@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="content">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <!-- P10 modules: core, structure. Matched responses above a mechanism and uncertainty explanation. -->
+  <g id="title" data-pptx-bounds="56 42 1168 122"><text x="56" y="65" font-size="20" fill="#237F89">09 / 新诊断 · 事实生成</text><text x="56" y="127" font-size="42" font-weight="bold" fill="#17324D">32B 的空泛事实会传到后续判断</text></g>
+  <g id="case-context" data-pptx-bounds="56 176 1168 72"><text x="56" y="203" fill="#17324D">QID 2781 · Q 组 · 候选 [37,41) 秒 · 同一批 16 帧</text><text x="56" y="237" font-size="20" fill="#637485">Query: Guys throw boomerangs at targets inside a gymnasium.</text></g>
+  <g id="response-32b" data-pptx-bounds="56 274 568 178">
+    <line x1="56" y1="276" x2="624" y2="276" stroke="#C96A32" stroke-width="4"/>
+    <text x="56" y="314" font-size="28" font-weight="bold" fill="#C96A32">32B / 保存的原始事实</text>
+    <text x="56" y="360" fill="#243748">The required evidence is not available.</text>
+    <text x="56" y="402" font-size="20" fill="#637485">引用片后 f0089（44.745s）；三个条件 unknown。</text>
+    <text x="56" y="436" font-size="20" fill="#637485">正常 stop，378 token；不是截断或前端丢字。</text>
+  </g>
+  <g id="response-8b" data-pptx-bounds="656 274 568 178">
+    <line x1="656" y1="276" x2="1224" y2="276" stroke="#17324D" stroke-width="4"/>
+    <text x="656" y="314" font-size="28" font-weight="bold" fill="#17324D">8B / 两条具体描述</text>
+    <text x="656" y="360" fill="#243748">人物投掷；目标处出现黄色烟雾。</text>
+    <text x="656" y="402" font-size="20" fill="#637485">引用片内 37.237s / 39.740s；模型判为支持。</text>
+    <text x="656" y="436" font-size="20" fill="#C96A32">描述仍待语义核验；该候选 IoU = 0。</text>
+  </g>
+  <g id="pattern-and-mechanism" data-pptx-bounds="56 478 1168 102">
+    <rect x="56" y="478" width="1168" height="102" fill="#F2F5F8"/>
+    <text x="80" y="515" font-size="28" font-weight="bold" fill="#17324D">32B 有 25/74 条非空 facts 仅含固定套话；8B 为 0</text>
+    <text x="80" y="557" fill="#243748">CPU 复现：无片内事实 → schema 只允许 unknown；最初为何这样生成仍未知。</text>
+  </g>
+  <g id="causal-boundary" data-pptx-bounds="56 600 1168 60" fill="#637485"><text x="56" y="626" font-size="20">提示示例、结构约束或运行配置的影响仍是待检验假设。</text><text x="56" y="652" font-size="14">套话按三种字符串精确匹配，含 invalid 中可解析字段；不代表事实准确率。原始响应与 CPU 探针均保留。</text></g>
+  <g id="footer" data-pptx-bounds="56 672 1168 32" data-pptx-role="footer" font-size="14" fill="#637485"><text x="56" y="693">来源：32B 事实生成离线诊断（2026-11-03）｜零新增实验模型调用</text><text x="1224" y="693" text-anchor="end">10 / 15</text></g>
+</svg>

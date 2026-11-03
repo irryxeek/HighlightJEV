@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="content">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <!-- P04 modules: core, structure. Geometry: four explicit source-to-implementation links, then a shared process. -->
+  <g id="title" data-pptx-bounds="56 42 1168 122"><text x="56" y="65" font-size="20" fill="#237F89">03 / 设计来源 · 文献思路到当前实现</text><text x="56" y="127" font-size="42" font-weight="bold" fill="#17324D">从相关工作到“可核查的价值证据”</text></g>
+  <g id="framing" data-pptx-bounds="56 176 1168 38"><text x="56" y="201" font-size="20" fill="#637485">五类视角沿用 ReVALUE；借鉴论文的方法，将抽象字段转为具体检查项。</text></g>
+  <g id="visionreward-link" data-pptx-bounds="56 228 1168 76">
+    <text x="56" y="253" font-size="28" font-weight="bold" fill="#17324D">VisionReward</text>
+    <text x="56" y="288" font-size="20" fill="#637485">多维偏好拆成判断题</text>
+    <line x1="342" y1="259" x2="402" y2="259" stroke="#237F89" stroke-width="2" /><circle cx="402" cy="259" r="4" fill="#237F89" />
+    <text x="434" y="253" font-weight="bold" fill="#237F89">为每一视角给出可观察的判据</text>
+    <text x="434" y="288" font-size="20" fill="#243748">支持 / 反证 / 缺证 / 禁止推断；未接入奖励权重。</text>
+  </g>
+  <g id="flex-link" data-pptx-bounds="56 316 1168 76">
+    <text x="56" y="341" font-weight="bold" fill="#17324D">UnifiedReward-Flex</text>
+    <text x="56" y="376" font-size="20" fill="#637485">根据输入细化评价标准</text>
+    <line x1="342" y1="347" x2="402" y2="347" stroke="#237F89" stroke-width="2" /><circle cx="402" cy="347" r="4" fill="#237F89" />
+    <text x="434" y="341" font-weight="bold" fill="#237F89">只启用 query 相关的价值视角</text>
+    <text x="434" y="376" font-size="20" fill="#243748">候选核查前冻结条件，不额外要求“精彩”或“成功”。</text>
+  </g>
+  <g id="dsg-link" data-pptx-bounds="56 404 1168 76">
+    <text x="56" y="429" font-size="28" font-weight="bold" fill="#17324D">DSG</text>
+    <text x="56" y="464" font-size="20" fill="#637485">原子问题与依赖图</text>
+    <line x1="342" y1="435" x2="402" y2="435" stroke="#237F89" stroke-width="2" /><circle cx="402" cy="435" r="4" fill="#237F89" />
+    <text x="434" y="429" font-weight="bold" fill="#237F89">检查对象、属性、动作是否正确绑定</text>
+    <text x="434" y="464" font-size="20" fill="#243748">保留条件依赖；增加 unknown、帧引用与时间作用域。</text>
+  </g>
+  <g id="vtune-link" data-pptx-bounds="56 492 1168 76">
+    <text x="56" y="517" font-size="28" font-weight="bold" fill="#17324D">VTune</text>
+    <text x="56" y="552" font-size="20" fill="#637485">定位后验证事件与组成条件</text>
+    <line x1="342" y1="523" x2="402" y2="523" stroke="#237F89" stroke-width="2" /><circle cx="402" cy="523" r="4" fill="#237F89" />
+    <text x="434" y="517" font-weight="bold" fill="#237F89">在 Direct 候选后加入逐条件 verifier</text>
+    <text x="434" y="552" font-size="20" fill="#243748">单独评估验证可靠性；当前没有执行论文中的训练。</text>
+  </g>
+  <g id="derived-flow" data-pptx-bounds="56 584 1168 72">
+    <rect x="56" y="584" width="1168" height="72" fill="#EAF3F3" />
+    <text x="80" y="614" font-weight="bold" fill="#17324D">Query 条件 → 适用题库 → 事实 + 帧引用 → 支持 / 反证 / 未知</text>
+    <text x="80" y="644" font-size="20" fill="#637485">Q / Q+V 检验价值提示的额外贡献；当前收益尚未确立。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="56 672 1168 32" data-pptx-role="footer" font-size="14" fill="#637485"><text x="56" y="693">论文：arXiv 2412.21059、2602.02380、2411.12951；DSG：google.github.io/dsg/｜链接见讲稿</text><text x="1224" y="693" text-anchor="end">04 / 15</text></g>
+</svg>

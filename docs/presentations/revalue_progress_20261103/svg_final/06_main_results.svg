@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="content">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <g id="title" data-pptx-bounds="56 42 1168 122"><text x="56" y="65" font-size="20" fill="#237F89">05 / 对照结果</text><text x="56" y="127" font-size="42" font-weight="bold" fill="#17324D">Q+V 多检出 2 个，同时净增 1 个误报</text></g>
+  <g id="recall-definition" data-pptx-bounds="56 178 1168 45"><text x="56" y="207" fill="#637485">错误召回率 · 每组 139 候选：85 个低 IoU 代理错误，54 个代理正确</text></g>
+  <g id="recall-bars" data-pptx-bounds="56 238 748 300" data-pptx-replace-with="chart" data-pptx-fallback-sha256="2c1b9278d24599d889e57b13598f29944face6ba5e46461c04ef45246722b611">
+    <metadata type="application/json">{"name":"recall-bars","x":90,"y":246,"width":682,"height":272,"type":"bar","categories":["Q","Q+V"],"series":[{"name":"错误召回率","values":[7.06,9.41],"point_colors":["#17324D","#237F89"]}],"plot_area":{"x":180,"y":260,"width":560,"height":200},"axes":{"category":{"reverse":true,"font_size":24,"color":"#17324D"},"value":{"minimum":0,"maximum":40,"major_unit":10,"number_format":"0\"%\"","font_size":20,"color":"#637485","major_gridlines":true}},"data_labels":{"show_value":true,"position":"outside_end","number_format":"0.00\"%\"","font_size":24,"color":"#17324D"},"show_legend":false,"style":{"font_family":"Microsoft YaHei, Arial","axis_font_size":20,"colors":["#17324D"],"text_color":"#637485","axis_color":"#CFD9E2","grid_color":"#E5EBF0","chart_area_fill":"#FFFFFF","plot_area_fill":"#FFFFFF"},"gap_width":108.3333333333}</metadata>
+    <g id="recall-bars-chartArea">
+      <g id="recall-grid" stroke="#E5EBF0" stroke-width="1"><line x1="320" y1="260" x2="320" y2="460" /><line x1="460" y1="260" x2="460" y2="460" /><line x1="600" y1="260" x2="600" y2="460" /><line x1="740" y1="260" x2="740" y2="460" /></g>
+      <g id="recall-axis" stroke="#CFD9E2" stroke-width="1"><line x1="180" y1="260" x2="180" y2="460" /><line x1="180" y1="460" x2="740" y2="460" /></g>
+
+      <rect x="180" y="286" width="98.84" height="48" fill="#17324D" />
+      <rect x="180" y="386" width="131.74" height="48" fill="#237F89" />
+      <g fill="#17324D"><text x="156" y="318" text-anchor="end">Q</text><text x="156" y="418" text-anchor="end">Q+V</text><text x="294" y="318">7.06%</text><text x="327" y="418">9.41%</text></g>
+      <g font-size="20" text-anchor="middle" fill="#637485"><text x="180" y="496">0%</text><text x="320" y="496">10%</text><text x="460" y="496">20%</text><text x="600" y="496">30%</text><text x="740" y="496">40%</text></g>
+    </g>
+  </g>
+  <g id="alarm-counts" data-pptx-bounds="848 248 376 280">
+    <text x="848" y="286" font-size="28" font-weight="bold" fill="#17324D">报警数量仍少</text>
+    <text fill="#17324D" x="848" y="344">Q：检出 6 / 误报 1</text><text fill="#17324D" x="848" y="380">精确率 85.71%</text><text fill="#237F89" x="848" y="440">Q+V：检出 8 / 误报 2</text><text fill="#237F89" x="848" y="476">精确率 80.00%</text></g>
+  <g id="scientific-limit" data-pptx-bounds="56 566 1168 86">
+    <text x="56" y="597" font-size="28" font-weight="bold" fill="#C96A32">价值收益尚未确立；两组均未通过原探索性门槛</text>
+    <text x="56" y="638" fill="#637485">低 IoU 不必然是内容错误，尚无独立人工语义标签。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="56 672 1168 32" data-pptx-role="footer" font-size="14" fill="#637485"><text x="56" y="693">来源：实验进度与结果报告 §3.2｜代理错误定义：与任一 GT 的最大 IoU &lt; 0.5</text><text x="1224" y="693" text-anchor="end">06 / 15</text></g>
+</svg>

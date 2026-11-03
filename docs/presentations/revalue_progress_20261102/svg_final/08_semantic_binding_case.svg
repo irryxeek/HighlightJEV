@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="content">
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><polygon points="0,0 10,5 0,10" fill="#C96A32" /></marker></defs>
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+  <g id="title" data-pptx-bounds="56 42 1168 122"><text x="56" y="65" font-size="20" fill="#237F89">07 / 案例：qid 9572 · 候选 28–37 秒</text><text x="56" y="127" font-size="42" font-weight="bold" fill="#17324D">引用合法，仍可能跨越语义证据</text></g>
+  <g id="query-requirement" data-pptx-bounds="56 194 1168 72">
+    <text x="56" y="238" font-size="30" fill="#17324D">Query 要求：男子横持手机，阅读<tspan font-weight="bold" fill="#237F89">文章</tspan></text>
+  </g>
+  <g id="semantic-evidence-chain" data-pptx-bounds="56 308 1168 192">
+    <rect x="56" y="308" width="440" height="192" fill="#F2F5F8" />
+    <text x="80" y="350" font-size="20" fill="#637485">模型描述（未人工核验）</text>
+    <text font-size="28" font-weight="bold" fill="#17324D" x="80" y="400">可读文字</text><text font-size="28" font-weight="bold" fill="#17324D" x="80" y="444">带字幕的视频</text><line x1="514" y1="403" x2="882" y2="403" stroke="#C96A32" stroke-width="2" marker-end="url(#arrow)" />
+    <text x="696" y="369" font-size="28" font-weight="bold" text-anchor="middle" fill="#C96A32">足以支持“文章”？</text>
+    <text x="696" y="455" font-size="20" text-anchor="middle" fill="#637485">支持关系存疑</text>
+    <rect x="908" y="308" width="316" height="192" fill="#EAF3F3" />
+    <text x="936" y="350" font-size="20" fill="#637485">模型结论</text>
+    <text x="936" y="410" font-size="30" fill="#237F89">supported</text>
+    <text x="936" y="455" font-size="20" fill="#243748">“文章”条件得到支持</text>
+  </g>
+  <g id="case-evidence-limit" data-pptx-bounds="56 552 1168 100">
+    <text x="56" y="584" font-size="28" font-weight="bold" fill="#17324D">需要核验事实能否支持结论，而不只是引用是否存在</text>
+    <text x="56" y="626" fill="#637485">文章也可能包含视频；仅凭这段响应，不能确认真实定位错误。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="56 672 1168 32" data-pptx-role="footer" font-size="14" fill="#637485"><text x="56" y="693">来源：实验进度与结果报告 §4｜助手对既有响应的审查，不是独立人工语义核验</text><text x="1224" y="693" text-anchor="end">08 / 12</text></g>
+</svg>

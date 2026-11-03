@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="content">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="title" data-pptx-bounds="56 42 1168 122"><text x="56" y="65" font-size="20" fill="#237F89">07 / 证据缺口</text><text x="56" y="127" font-size="42" font-weight="bold" fill="#17324D">超过四成候选仍停留在证据不足</text></g>
+  <g id="verdict-legend" data-pptx-bounds="56 184 1168 40" font-size="20" fill="#243748">
+    <rect x="56" y="190" width="18" height="18" fill="#17324D"/><text x="86" y="207">支持</text>
+    <rect x="236" y="190" width="18" height="18" fill="#C96A32"/><text x="266" y="207">证据不足</text>
+    <rect x="466" y="190" width="18" height="18" fill="#237F89"/><text x="496" y="207">报警</text>
+    <rect x="646" y="190" width="18" height="18" fill="#B44747"/><text x="676" y="207">无效</text>
+    <text x="1224" y="207" text-anchor="end" fill="#637485">每组完整分母：139 候选</text>
+  </g>
+  <g id="verdict-stacks" data-pptx-bounds="56 242 1168 308" data-pptx-replace-with="chart" data-pptx-fallback-sha256="1a7bc9a4078834982ba6db028eb0d0f0528b90a820092cbc35405b7888e9752c">
+    <metadata type="application/json">{"name":"verdict-stacks","x":94,"y":246,"width":1130,"height":300,"type":"bar","grouping":"stacked","categories":["Q","Q+V"],"series":[{"name":"支持","values":[70,63],"data_labels":{"show_value":true,"position":"center","font_size":20,"color":"#FFFFFF"}},{"name":"证据不足","values":[59,64],"data_labels":{"show_value":true,"position":"center","font_size":20,"color":"#FFFFFF"}},{"name":"报警","values":[7,10],"data_labels":{"show_value":true,"position":"center","font_size":20,"color":"#FFFFFF"}},{"name":"无效","values":[3,2],"data_labels":{"show_value":false}}],"plot_area":{"x":150,"y":250,"width":973,"height":240},"axes":{"category":{"reverse":true,"font_size":24,"color":"#17324D"},"value":{"minimum":0,"maximum":139,"major_unit":40,"font_size":20,"color":"#637485","major_gridlines":true}},"notes":[{"text":"无效 3","font_size":20,"color":"#B44747","width":90},{"text":"无效 2","font_size":20,"color":"#B44747","width":90},{"text":"139","font_size":20,"color":"#637485","width":48}],"show_legend":false,"style":{"font_family":"Microsoft YaHei, Arial","axis_font_size":20,"colors":["#17324D","#C96A32","#237F89","#B44747"],"text_color":"#FFFFFF","axis_color":"#CFD9E2","grid_color":"#E5EBF0","chart_area_fill":"#FFFFFF","plot_area_fill":"#FFFFFF"},"gap_width":87.5}</metadata>
+    <g id="verdict-stacks-chartArea">
+      <g id="verdict-grid" stroke="#E5EBF0" stroke-width="1"><line x1="430" y1="250" x2="430" y2="490"/><line x1="710" y1="250" x2="710" y2="490"/><line x1="990" y1="250" x2="990" y2="490"/></g>
+      <g id="verdict-axis" stroke="#CFD9E2" stroke-width="1"><line x1="150" y1="250" x2="150" y2="490"/><line x1="150" y1="490" x2="1123" y2="490"/></g>
+      <!-- chart-plot-area: object=verdict-stacks | 150,250,1123,490 -->
+      <rect x="150" y="278" width="490" height="64" fill="#17324D"/><rect x="640" y="278" width="413" height="64" fill="#C96A32"/><rect x="1053" y="278" width="49" height="64" fill="#237F89"/><rect x="1102" y="278" width="21" height="64" fill="#B44747"/>
+      <rect x="150" y="398" width="441" height="64" fill="#17324D"/><rect x="591" y="398" width="448" height="64" fill="#C96A32"/><rect x="1039" y="398" width="70" height="64" fill="#237F89"/><rect x="1109" y="398" width="14" height="64" fill="#B44747"/>
+      <g fill="#FFFFFF" font-size="20" text-anchor="middle"><text x="395" y="317">70</text><text x="846.5" y="317">59</text><text x="1077.5" y="317">7</text><text x="370.5" y="437">63</text><text x="815" y="437">64</text><text x="1074" y="437">10</text></g>
+      <g fill="#17324D" text-anchor="end"><text x="126" y="318">Q</text><text x="126" y="438">Q+V</text></g>
+      <g fill="#B44747" font-size="20"><text x="1144" y="317">无效 3</text><text x="1144" y="437">无效 2</text></g>
+      <g fill="#637485" font-size="20" text-anchor="middle"><text x="150" y="528">0</text><text x="430" y="528">40</text><text x="710" y="528">80</text><text x="990" y="528">120</text><text x="1123" y="528">139</text></g>
+    </g>
+  </g>
+  <g id="insufficiency-interpretation" data-pptx-bounds="56 570 1168 80">
+    <text x="56" y="600" font-size="28" font-weight="bold" fill="#C96A32">不足比例：Q 42.45% / Q+V 46.04%；尚无补证闭环</text>
+    <text x="56" y="640" fill="#637485">supported 中低 IoU：41/70、32/63。不能全部认定语义漏检，仍需审查边界与标注。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="56 672 1168 32" data-pptx-role="footer" font-size="14" fill="#637485"><text x="56" y="693">来源：实验进度与结果报告 §3–4｜unknown 不能直接转为错误</text><text x="1224" y="693" text-anchor="end">08 / 15</text></g>
+</svg>

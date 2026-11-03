@@ -6,7 +6,9 @@
 
 **资源约定：[后续新运行可使用任意空闲 GPU](docs/gpu_resource_policy_2026-10-25.md)。** 可独立拆分的任务优先多卡并行，已有冻结运行保留原配置。
 
-**最新组会后汇报（2026-10-28–30）：[工作总结](docs/progress_after_meeting_2026-10-27_to_2026-10-30.md) · [12 页可编辑 PPT](docs/presentations/ReVALUE_Grounding实验进展_2026-10-28至10-30.pptx) · [PDF 预览](docs/presentations/ReVALUE_Grounding实验进展_2026-10-28至10-30.pdf) · [讲稿与源页面](docs/presentations/revalue_grounding_progress_20261030/README.md)。** 主线已转向 query 驱动的时间 grounding：完成 Direct 输出机制诊断、QV20 定位和新增 100 条固定清单的部分执行，并审核扩样中的 52 条反例。新增 100 条尝试 96、合法 94，完整分母 R1@0.5 / R1@0.7 为 42% / 28%；助手初筛 22 条较明确定位错误，尚无独立人工复核或 Agent 修复收益。详细结果及冻结协议见[文档索引](docs/README.md)。
+**最新汇报（2026-11-03）：[工作总结](docs/revalue_progress_and_results_2026-11-03.md) · [15 页可编辑 PPT](docs/presentations/ReVALUE_实验进度与结果_2026-11-03_更新版.pptx) · [PDF 预览](docs/presentations/ReVALUE_实验进度与结果_2026-11-03_更新版.pdf) · [文献到价值判断单页](docs/presentations/ReVALUE_相关工作到价值判断设计_2026-11-03.pdf) · [讲稿与源页面](docs/presentations/revalue_progress_20261103/README.md)。** 8B Q/Q+V v2.4 完成固定 100 条 query 的 278 次判断，273 条合法；错误召回率为 7.06% / 9.41%。32B 已完成原清单前 20 条（37 候选、74 次），同样本 Q/Q+V 错误召回率为 4% / 0%，65/74 次为证据不足；尚未证明检错或 grounding 提升。新增文献到价值判断的设计来源、32B 事实生成诊断和 GT / Direct 视频审查说明。
+
+**此前组会后汇报（2026-10-28–30）：[工作总结](docs/progress_after_meeting_2026-10-27_to_2026-10-30.md) · [12 页可编辑 PPT](docs/presentations/ReVALUE_Grounding实验进展_2026-10-28至10-30.pptx) · [PDF 预览](docs/presentations/ReVALUE_Grounding实验进展_2026-10-28至10-30.pdf) · [讲稿与源页面](docs/presentations/revalue_grounding_progress_20261030/README.md)。** 主线已转向 query 驱动的时间 grounding：完成 Direct 输出机制诊断、QV20 定位和新增 100 条固定清单的部分执行，并审核扩样中的 52 条反例。新增 100 条尝试 96、合法 94，完整分母 R1@0.5 / R1@0.7 为 42% / 28%；助手初筛 22 条较明确定位错误，尚无独立人工复核或 Agent 修复收益。详细结果及冻结协议见[文档索引](docs/README.md)。
 
 **Grounding 反例单页（2026-10-30）：[qid448 可编辑 PPT](docs/presentations/Grounding反例_qid448_单页介绍_2026-10-30.pptx) · [讲稿、原帧证据与源页面](docs/presentations/qv_grounding_counterexample_qid448_20261030/README.md)。** 展示“鸡在鸡舍里”的标注 92–112 秒与预测 130–145 秒错位，IoU=0；事件条件核验仍为待验证思路，未新增实验。
 

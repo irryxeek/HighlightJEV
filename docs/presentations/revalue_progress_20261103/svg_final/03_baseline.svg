@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="content">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="title" data-pptx-bounds="56 42 1168 122"><text x="56" y="65" font-size="20" fill="#237F89">02 / grounding 基线</text><text x="56" y="127" font-size="42" font-weight="bold" fill="#17324D">REZE Direct 已固定，指标尚无一致优势</text></g>
+  <g id="population" data-pptx-bounds="56 174 1168 38"><text x="56" y="201" fill="#637485">QVHighlights train · 固定 100 条开发样本 · 指标单位 %</text></g>
+  <g id="baseline-table" data-pptx-bounds="56 230 1168 280" data-pptx-replace-with="table" data-pptx-fallback-sha256="e2362e7aa0d591f6007264f89a2424708aa16d68455b001b1f20ed9b41abe98d">
+    <metadata type="application/json">{"schema":"ppt-master.semantic-table.v2","name":"baseline-table","x":56,"y":230,"width":1168,"height":280,"columns":[{"text":"指标","align":"l","bold":true},{"text":"自定义 Direct","align":"r","bold":true},{"text":"REZE Direct","align":"r","bold":true}],"rows":[[{"text":"R1@0.5","bold":true},{"text":"42.00","align":"r"},{"text":"39.00","align":"r","color":"#237F89","bold":true}],[{"text":"R1@0.7","bold":true,"fill":"#F2F5F8"},{"text":"28.00","align":"r","fill":"#F2F5F8"},{"text":"30.00","align":"r","fill":"#F2F5F8","color":"#237F89","bold":true}],[{"text":"MR mAP（0.5:0.05:0.95）","bold":true},{"text":"24.72","align":"r"},{"text":"26.48","align":"r","color":"#237F89","bold":true}]],"column_widths":[520,320,328],"row_heights":[64,72,72,72],"defaults":{"cell":{"valign":"middle","padding":24,"borders":{"left":{"style":"none"},"right":{"style":"none"},"top":{"style":"none"},"bottom":{"style":"solid","color":"#CFD9E2","width":1}}}},"style":{"font_family":"Microsoft YaHei, Arial","font_size":24,"header_font_size":24,"header_fill":"#17324D","header_text":"#FFFFFF","body_fill":"#FFFFFF","body_text":"#243748","band_row":false}}</metadata>
+    <rect x="56" y="230" width="1168" height="64" fill="#17324D"/>
+    <rect x="56" y="366" width="1168" height="72" fill="#F2F5F8"/>
+    <g stroke="#CFD9E2" stroke-width="1"><line x1="56" y1="294" x2="1224" y2="294"/><line x1="56" y1="366" x2="1224" y2="366"/><line x1="56" y1="438" x2="1224" y2="438"/><line x1="56" y1="510" x2="1224" y2="510"/></g>
+    <g fill="#FFFFFF" font-weight="bold"><text x="80" y="270">指标</text><text x="872" y="270" text-anchor="end">自定义 Direct</text><text x="1200" y="270" text-anchor="end">REZE Direct</text></g>
+    <g fill="#243748"><text x="80" y="338" font-weight="bold">R1@0.5</text><text x="872" y="338" text-anchor="end">42.00</text><text x="80" y="410" font-weight="bold">R1@0.7</text><text x="872" y="410" text-anchor="end">28.00</text><text x="80" y="482" font-weight="bold">MR mAP（0.5:0.05:0.95）</text><text x="872" y="482" text-anchor="end">24.72</text></g>
+    <g fill="#237F89" font-weight="bold" text-anchor="end"><text x="1200" y="338">39.00</text><text x="1200" y="410">30.00</text><text x="1200" y="482">26.48</text></g>
+  </g>
+  <g id="interpretation" data-pptx-bounds="56 548 1168 100">
+    <text x="56" y="580" font-size="28" font-weight="bold" fill="#17324D">冻结 REZE Direct，作为后续验证参照</text>
+    <text x="56" y="625" fill="#637485">帧数、提示和输出形式同时变化；这不是单变量比较，也不是独立测试集。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="56 672 1168 32" data-pptx-role="footer" font-size="14" fill="#637485"><text x="56" y="693">来源：实验进度与结果报告 §2；REZE Direct QV100 结果报告（2026-10-30）</text><text x="1224" y="693" text-anchor="end">03 / 15</text></g>
+</svg>

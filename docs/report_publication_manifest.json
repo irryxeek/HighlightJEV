@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T15:53:02+08:00",
+  "updated_at": "2026-11-03T16:58:36+08:00",
   "scope": "All active MERIT docs/*.md except the curated index, plus related QVHighlights-ZeroShot docs/*.md. Historical frozen plan publications retained. Raw experiment artifacts are not implicitly published.",
   "standing_user_instruction": "Whenever pushing project updates, include newly created or updated reports, analyses, research plans, and document indexes.",
   "path_aliases": {
@@ -1393,10 +1393,10 @@
     {
       "source": "MERIT:docs/temporal_grounding_mainline_2026-10-29.md",
       "destination": "docs/temporal_grounding_mainline_2026-10-29.md",
-      "source_sha256": "9dc9e79017bbdcab777ec39227ea761e85259467e1cfcef3d3f4bbe784f3c2d8",
-      "publication_sha256": "476d75e0184d2a2f388681fba77d19be20f19a1463c097f91e1e6a177f2f32a6",
-      "basis": "report",
-      "publication_changes": "Publication notice and path/link aliases only; scientific content unchanged.",
+      "source_sha256": "4f1d91cf162e304f5fee27c2fd01c5e81da28c3f375142a8fd55010436de7e2c",
+      "publication_sha256": "4e40f947b1dc2a6b87c95069f521c3b597361f89e55028fbe0e829d38f8eaf3c",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Retain the existing publication notice; synchronize the new dated research section and normalize path/link aliases only.",
       "local_only_references": []
     },
     {
@@ -1785,21 +1785,1815 @@
       "basis": "qid448_single_slide_presentation_and_supporting_material",
       "publication_changes": "Identical publication copy.",
       "local_only_references": []
+    },
+    {
+      "source": "MERIT:comparisons/qwen_direct/value_qvqv20_32b_v1_2_scope_2026-11-03/candidate_audit20.csv",
+      "destination": "comparisons/qwen_direct/value_qvqv20_32b_v1_2_scope_2026-11-03/candidate_audit20.csv",
+      "source_sha256": "2616c65a102caca4b0cac7ffa559b5a4163f2782cdae9d86ea9213468d763c9f",
+      "publication_sha256": "769a844b43cb2fa24e49b5f9f63073b993859d09ebd143fffe5c4cafed917dd3",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:comparisons/qwen_direct/value_qvqv20_32b_v1_2_scope_2026-11-03/complete.json",
+      "destination": "comparisons/qwen_direct/value_qvqv20_32b_v1_2_scope_2026-11-03/complete.json",
+      "source_sha256": "a8c8fe13f080f7defc38b6bf227f57d6069e126f539e526949e9ae0b7ef9b159",
+      "publication_sha256": "ca52ba8cd972a7fbfe570b3419c58baa10542602552bcf530f777ad3cd73c347",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:comparisons/qwen_direct/value_qvqv20_32b_v1_2_scope_2026-11-03/cpu_test_receipt.json",
+      "destination": "comparisons/qwen_direct/value_qvqv20_32b_v1_2_scope_2026-11-03/cpu_test_receipt.json",
+      "source_sha256": "9a8e6e32252bafe93f303ab6194a61293cfcf23afdb99ac09141cf7330ddabbc",
+      "publication_sha256": "bd10fd8151f46737b948f6fcc48cce426baaea67c63be9fa4fea078724395a42",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:comparisons/qwen_direct/value_qvqv20_32b_v1_2_scope_2026-11-03/evaluation20.json",
+      "destination": "comparisons/qwen_direct/value_qvqv20_32b_v1_2_scope_2026-11-03/evaluation20.json",
+      "source_sha256": "f14dad9a682ea6693273869cba91d5e0facb462545e0132be1858c4b73830ce4",
+      "publication_sha256": "003f335f1b1992477087dd296978c94097a602ca5c125cd6f48bf20b13a41881",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:comparisons/qwen_direct/value_qvqv20_32b_v1_2_scope_2026-11-03/evaluation8b20.json",
+      "destination": "comparisons/qwen_direct/value_qvqv20_32b_v1_2_scope_2026-11-03/evaluation8b20.json",
+      "source_sha256": "442c69001c55ad5741c942917f38372c73cb1b0c222e5e03d15b5209ab0d1a97",
+      "publication_sha256": "1b3ef5d17d701e556cf8d7172f344439c97cfcbe1655786416969881f81de9a7",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:comparisons/qwen_direct/value_qvqv20_32b_v1_2_scope_2026-11-03/model_comparison20.json",
+      "destination": "comparisons/qwen_direct/value_qvqv20_32b_v1_2_scope_2026-11-03/model_comparison20.json",
+      "source_sha256": "998a66343b2e13add1a82301ca87160fc12ce994f498e232d20b69308aa4e097",
+      "publication_sha256": "998a66343b2e13add1a82301ca87160fc12ce994f498e232d20b69308aa4e097",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:comparisons/qwen_direct/value_qvqv20_32b_v1_2_scope_2026-11-03/scope_manifest.json",
+      "destination": "comparisons/qwen_direct/value_qvqv20_32b_v1_2_scope_2026-11-03/scope_manifest.json",
+      "source_sha256": "bb82b555afe2a30243cbd25546ff2e16863ac4aa6607a399895468e372fdd0b7",
+      "publication_sha256": "74acc0f8759131e0a39bd45361122a2811dced7a7a820c99cfb80e1e9c482a24",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/handoff_revalue_verifier_2026-10-30.md",
+      "destination": "docs/handoff_revalue_verifier_2026-10-30.md",
+      "source_sha256": "b18cc08d787c4bbd6f100f60d59c3561c53704b1dd73c413a8374b347a7eaf2e",
+      "publication_sha256": "88bdb77d0d62c35c5f48af90ea2fa8ca72aaa564a67a8d564aaae342d384b7fd",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$MERIT_ROOT/comparisons/qwen_direct/revalue_verifier_handoff_2026-10-30/ledger_snapshot.json",
+        "$MERIT_ROOT/comparisons/qwen_direct/revalue_verifier_handoff_2026-10-30/owned_process_snapshot.txt",
+        "$MERIT_ROOT/comparisons/qwen_direct/revalue_verifier_handoff_2026-10-30/snapshot.json"
+      ]
+    },
+    {
+      "source": "MERIT:docs/presentations/ReVALUE_实验进度与结果_2026-11-02.pptx",
+      "destination": "docs/presentations/ReVALUE_实验进度与结果_2026-11-02.pptx",
+      "source_sha256": "ba90bb8c3b077c9e7b3bf111a451308349c19e6efa8968cc7861f08630dc7f50",
+      "publication_sha256": "ba90bb8c3b077c9e7b3bf111a451308349c19e6efa8968cc7861f08630dc7f50",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/validation/ReVALUE_实验进度与结果_2026-11-03_更新版.pdf",
+      "destination": "docs/presentations/ReVALUE_实验进度与结果_2026-11-03_更新版.pdf",
+      "source_sha256": "f7522c387d8674cadff49096cc578ce61bdd6b49f4707c41a2918a6059d26247",
+      "publication_sha256": "f7522c387d8674cadff49096cc578ce61bdd6b49f4707c41a2918a6059d26247",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/ReVALUE_实验进度与结果_2026-11-03_更新版.pptx",
+      "destination": "docs/presentations/ReVALUE_实验进度与结果_2026-11-03_更新版.pptx",
+      "source_sha256": "4f79ec821409c45e05e03a9e15e74543a442cf9f82d47e69b6c0b08a45fc99b5",
+      "publication_sha256": "4f79ec821409c45e05e03a9e15e74543a442cf9f82d47e69b6c0b08a45fc99b5",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/ReVALUE_相关工作到价值判断设计_2026-11-03.pdf",
+      "destination": "docs/presentations/ReVALUE_相关工作到价值判断设计_2026-11-03.pdf",
+      "source_sha256": "5d5a8348589e7aa8a4eaa20744777b992d45c95892e373774cbfd8893f9fff23",
+      "publication_sha256": "5d5a8348589e7aa8a4eaa20744777b992d45c95892e373774cbfd8893f9fff23",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/README.md",
+      "destination": "docs/presentations/revalue_progress_20261102/README.md",
+      "source_sha256": "872141899ace40c44a65c56935e66232169272481431f64868f3b80385e64e94",
+      "publication_sha256": "872141899ace40c44a65c56935e66232169272481431f64868f3b80385e64e94",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/design_spec.md",
+      "destination": "docs/presentations/revalue_progress_20261102/design_spec.md",
+      "source_sha256": "d3e31c3d85d6aecdfe4b39a31f6ab59b9e90506f3cb92e8f488a5202beb4ffdc",
+      "publication_sha256": "d3e31c3d85d6aecdfe4b39a31f6ab59b9e90506f3cb92e8f488a5202beb4ffdc",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/exports/revalue_progress_20261103_002730_native_charts_tables.pptx",
+      "destination": "docs/presentations/revalue_progress_20261102/exports/revalue_progress_20261103_002730_native_charts_tables.pptx",
+      "source_sha256": "ba90bb8c3b077c9e7b3bf111a451308349c19e6efa8968cc7861f08630dc7f50",
+      "publication_sha256": "ba90bb8c3b077c9e7b3bf111a451308349c19e6efa8968cc7861f08630dc7f50",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/notes/01_cover.md",
+      "destination": "docs/presentations/revalue_progress_20261102/notes/01_cover.md",
+      "source_sha256": "3f49bf62ab114b60d2eb76dc9f5d2f771439ddf97a42bb8ef07ba0adf3c720dc",
+      "publication_sha256": "3a584028ec2d80e2bb0a6232ee9c3061ce3c11d8f7d688fbd42faadbb0fcbeb5",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/notes/02_pipeline.md",
+      "destination": "docs/presentations/revalue_progress_20261102/notes/02_pipeline.md",
+      "source_sha256": "9d4dc7915f530adfc4cd2ad84b4221ba0d1ba9fed3cc5db313da0257459f873e",
+      "publication_sha256": "c2bf910e107d732d492acf69b285ec7802635672ef8413ef1c8bedf08bbd4bde",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/notes/03_baseline.md",
+      "destination": "docs/presentations/revalue_progress_20261102/notes/03_baseline.md",
+      "source_sha256": "a7e3b461ead0db325ccc4ba6d81fd85ee3eef767bf5b8a23ca3c862837a370bc",
+      "publication_sha256": "3464e053fbfce4288c81bfc4a050857ab1a7c060202f13f572cdb6550781d8ad",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/notes/04_ablation_design.md",
+      "destination": "docs/presentations/revalue_progress_20261102/notes/04_ablation_design.md",
+      "source_sha256": "8ca3adf64699c422706baeee0a8730b12e60e6129eef55c84f2049cea944bc4a",
+      "publication_sha256": "0a7ba3e251ebf8d6dbbd41d4b22214dd76c60a73d5f100275f406ce69fd24e52",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/notes/05_main_results.md",
+      "destination": "docs/presentations/revalue_progress_20261102/notes/05_main_results.md",
+      "source_sha256": "33c5fb6f41cd769c3f8befea266010b2e8af0fd201a03784794a785ba80b4193",
+      "publication_sha256": "055963ffc53588522badcc4318b9fe2f43240bd13811098a34d93705496cf17b",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/notes/06_contract_repair.md",
+      "destination": "docs/presentations/revalue_progress_20261102/notes/06_contract_repair.md",
+      "source_sha256": "a72bfb49e039650556a2da675106c94d32f620cedb7e95dc623fc441de576db2",
+      "publication_sha256": "015e1a1b269eb4cdcfb111775113fd2df195f63640f795bd8c8930f04e561c4d",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/notes/07_verdict_distribution.md",
+      "destination": "docs/presentations/revalue_progress_20261102/notes/07_verdict_distribution.md",
+      "source_sha256": "47c14196eba43cc7d9f59102702eda2a582ce880623af834f58a01556c911a2a",
+      "publication_sha256": "482b9d34ecfdc4db2d15f18c47d396a8bb478752febf12aa0fcc472d4ab421f6",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/notes/08_semantic_binding_case.md",
+      "destination": "docs/presentations/revalue_progress_20261102/notes/08_semantic_binding_case.md",
+      "source_sha256": "c1a63066d99481b651e32f4523a3890006b6f33544673ec0cae8eb33aace707e",
+      "publication_sha256": "4aebfa7d67a3e89049f8b0e2cf00a69c7f3bea70dcdb86fbb36c255397c65a24",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/notes/09_dependency_case.md",
+      "destination": "docs/presentations/revalue_progress_20261102/notes/09_dependency_case.md",
+      "source_sha256": "ee1289e342ec7d08b58e357b38d3f3c0ea0a5e3996fe56b8500fae5569416b17",
+      "publication_sha256": "d5e95c82a03bfe59a9dabd9dceda31b4632ea23e457135416c3962843668f914",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/notes/10_semantics_and_boundaries.md",
+      "destination": "docs/presentations/revalue_progress_20261102/notes/10_semantics_and_boundaries.md",
+      "source_sha256": "a9feb0008e6d9e702af670d13a3dfd1b4b66b2bc35c1d96181c77460497b0e22",
+      "publication_sha256": "0e14f5b0355f9ad68a838b33d1c54e2ff576cbf8bd7334be8850c8f47ad2fcc9",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/notes/11_32b_runtime.md",
+      "destination": "docs/presentations/revalue_progress_20261102/notes/11_32b_runtime.md",
+      "source_sha256": "1b899effaec721024b29b493463984109475b2b186d9a3d23cdee58e5662dadc",
+      "publication_sha256": "d767497eca609a9692646e47cf62d9e0c27c5a363bb4bd07305337dc26b641bb",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/notes/12_next_steps.md",
+      "destination": "docs/presentations/revalue_progress_20261102/notes/12_next_steps.md",
+      "source_sha256": "3fbabab9a424919b7958882bc08b4b66f27c8ce357f240c675202688302195ec",
+      "publication_sha256": "e98e83377049ee694c867a22b1eeb7d79d87b421f9b0b716b509bc26ef2fe11e",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/notes/total.md",
+      "destination": "docs/presentations/revalue_progress_20261102/notes/total.md",
+      "source_sha256": "bf536e04303d321a8108559d86a2e50d84399d816b060f7ce8a64ac39a104154",
+      "publication_sha256": "bf536e04303d321a8108559d86a2e50d84399d816b060f7ce8a64ac39a104154",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/sources/revalue_progress_and_results_2026-11-02.md",
+      "destination": "docs/presentations/revalue_progress_20261102/sources/revalue_progress_and_results_2026-11-02.md",
+      "source_sha256": "28f9c8ee184a8111f15e05a28f75952c697fcb38502a176c8bd131a8a4ecdccf",
+      "publication_sha256": "5daeafa2c7f34534001348fd23a4f1c416b0665d78d728fdd2da13726ae55ae6",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$ZEROSHOT_ARTIFACT_ROOT/revalue_value_qvqv100_32b_v1_2026-11-02/campaign_exit.json",
+        "$ZEROSHOT_ARTIFACT_ROOT/revalue_value_qvqv100_32b_v1_2026-11-02/cpu_finalizer.log",
+        "$ZEROSHOT_ARTIFACT_ROOT/revalue_value_qvqv100_32b_v1_2026-11-02/worker_0/worker.log"
+      ]
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/spec_lock.md",
+      "destination": "docs/presentations/revalue_progress_20261102/spec_lock.md",
+      "source_sha256": "f81a11208df73c12c79336ee4408d1f36ea602b3880da3ce0c6775dd57e24999",
+      "publication_sha256": "f81a11208df73c12c79336ee4408d1f36ea602b3880da3ce0c6775dd57e24999",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/svg_final/01_cover.svg",
+      "destination": "docs/presentations/revalue_progress_20261102/svg_final/01_cover.svg",
+      "source_sha256": "a245b413ee3ad9385235c81f9c09334274829cc1489a7007d88413093fc5e5d4",
+      "publication_sha256": "8a928fa62750749d1ed1834b574037b6c3c23051c7e0894796901cfc199cbafc",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/svg_final/02_pipeline.svg",
+      "destination": "docs/presentations/revalue_progress_20261102/svg_final/02_pipeline.svg",
+      "source_sha256": "6d69eecb1436ccf527aba835474f36df1dfb54d576edb908e41916e80a065ba3",
+      "publication_sha256": "7df9bbb326ebd74b395695f16d42136c6719ff3c847f4094c9ba13e9530dc515",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/svg_final/03_baseline.svg",
+      "destination": "docs/presentations/revalue_progress_20261102/svg_final/03_baseline.svg",
+      "source_sha256": "f34a9abfabfea6d1bc1b9fc7f61ab366800047fe79d79de7999ad149a00be209",
+      "publication_sha256": "f34a9abfabfea6d1bc1b9fc7f61ab366800047fe79d79de7999ad149a00be209",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/svg_final/04_ablation_design.svg",
+      "destination": "docs/presentations/revalue_progress_20261102/svg_final/04_ablation_design.svg",
+      "source_sha256": "072c9a53c0d8f922d6b47e89cd5b9110297353d34e2289f9b42770088e2b166a",
+      "publication_sha256": "2b6648be3e14f17f99817ff8637d3f05f6c6112332c6de828dc2b11823cc4511",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/svg_final/05_main_results.svg",
+      "destination": "docs/presentations/revalue_progress_20261102/svg_final/05_main_results.svg",
+      "source_sha256": "c81a6f0db66a384e54e6946d5ea3d88b5c41a129ea2ff305933f227cd1c10024",
+      "publication_sha256": "7549c300a314a21f550595bb4cfc7ba2ef540a1edb9235871d1dd9081376521d",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/svg_final/06_contract_repair.svg",
+      "destination": "docs/presentations/revalue_progress_20261102/svg_final/06_contract_repair.svg",
+      "source_sha256": "a2d766366a69791005ec2739eeae0134dcf7e91e3f6f067982f325ac606b40fa",
+      "publication_sha256": "03182e0c1fbe4b51051c51b20a7e2ef862417816c9a2e63d3d9521bd320c72f6",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/svg_final/07_verdict_distribution.svg",
+      "destination": "docs/presentations/revalue_progress_20261102/svg_final/07_verdict_distribution.svg",
+      "source_sha256": "330cd9f8fd580c287d9b08c76c81ef046044f33cfd285496e974c7dbe7ac6493",
+      "publication_sha256": "330cd9f8fd580c287d9b08c76c81ef046044f33cfd285496e974c7dbe7ac6493",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/svg_final/08_semantic_binding_case.svg",
+      "destination": "docs/presentations/revalue_progress_20261102/svg_final/08_semantic_binding_case.svg",
+      "source_sha256": "3c259c704d8978c5022fb950368f8234872c889c6723ae4e74ef78bb2b96110f",
+      "publication_sha256": "b5a321f5c0a70743400809855a81ab49dcce1d4021b90fe0fa1f9f387f50600a",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/svg_final/09_dependency_case.svg",
+      "destination": "docs/presentations/revalue_progress_20261102/svg_final/09_dependency_case.svg",
+      "source_sha256": "a78e26015ffe2b11b05f0ea9b8fd36524e765756324bc49bed6a688c6ba56ad3",
+      "publication_sha256": "37633206a1b9b82fd77d6433344eabb7cf1f6eb48c92a8e071a7014aa718f03b",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/svg_final/10_semantics_and_boundaries.svg",
+      "destination": "docs/presentations/revalue_progress_20261102/svg_final/10_semantics_and_boundaries.svg",
+      "source_sha256": "a7a5e52a37bb7e2f0e7ca2b476f5854b94612da932f4526afe5b950224793cca",
+      "publication_sha256": "a7a5e52a37bb7e2f0e7ca2b476f5854b94612da932f4526afe5b950224793cca",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/svg_final/11_32b_runtime.svg",
+      "destination": "docs/presentations/revalue_progress_20261102/svg_final/11_32b_runtime.svg",
+      "source_sha256": "6d2ae1317e3d399879de616cc49d4582d49b8df2e69dd0eeae2a8197f116d32f",
+      "publication_sha256": "99b2cc82582c3fa764cdc14e4ec0fc97f4cfee2e04c5ce93bd65f77c8e532d4e",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/svg_final/12_next_steps.svg",
+      "destination": "docs/presentations/revalue_progress_20261102/svg_final/12_next_steps.svg",
+      "source_sha256": "36a3b1ff51a8325bbe6f5d1585a1f4553029794e2efa7059f07f0aa90b350c5a",
+      "publication_sha256": "a912bfa67614d1bb6689b8b54198bed1cafdda841c4e6eda9b6c1097b1b5f558",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/svg_output/01_cover.svg",
+      "destination": "docs/presentations/revalue_progress_20261102/svg_output/01_cover.svg",
+      "source_sha256": "ed254070431e85c3343fc8eda09dc58d2ee6d56c7757c1a7f62d03138f365eda",
+      "publication_sha256": "ed254070431e85c3343fc8eda09dc58d2ee6d56c7757c1a7f62d03138f365eda",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/svg_output/02_pipeline.svg",
+      "destination": "docs/presentations/revalue_progress_20261102/svg_output/02_pipeline.svg",
+      "source_sha256": "4e0e06c281801b4bd64d71230c2d944298e9f0fe869ef7eff4b303a4efcf6df5",
+      "publication_sha256": "4e0e06c281801b4bd64d71230c2d944298e9f0fe869ef7eff4b303a4efcf6df5",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/svg_output/03_baseline.svg",
+      "destination": "docs/presentations/revalue_progress_20261102/svg_output/03_baseline.svg",
+      "source_sha256": "f34a9abfabfea6d1bc1b9fc7f61ab366800047fe79d79de7999ad149a00be209",
+      "publication_sha256": "f34a9abfabfea6d1bc1b9fc7f61ab366800047fe79d79de7999ad149a00be209",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/svg_output/04_ablation_design.svg",
+      "destination": "docs/presentations/revalue_progress_20261102/svg_output/04_ablation_design.svg",
+      "source_sha256": "0e5b3a01501da9bde4d985a23ee5dbf2e54d4f6913de73cfee299664a6f51591",
+      "publication_sha256": "0e5b3a01501da9bde4d985a23ee5dbf2e54d4f6913de73cfee299664a6f51591",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/svg_output/05_main_results.svg",
+      "destination": "docs/presentations/revalue_progress_20261102/svg_output/05_main_results.svg",
+      "source_sha256": "687e0fc6e882b28b75c1f64e096d8dbf33c3cc7ca205031ae389f7eaab95d8b4",
+      "publication_sha256": "687e0fc6e882b28b75c1f64e096d8dbf33c3cc7ca205031ae389f7eaab95d8b4",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/svg_output/06_contract_repair.svg",
+      "destination": "docs/presentations/revalue_progress_20261102/svg_output/06_contract_repair.svg",
+      "source_sha256": "1b89da3aa96ac243f4a9966b301a1373dfac554bd1d1a98561f57ac20460501a",
+      "publication_sha256": "1b89da3aa96ac243f4a9966b301a1373dfac554bd1d1a98561f57ac20460501a",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/svg_output/07_verdict_distribution.svg",
+      "destination": "docs/presentations/revalue_progress_20261102/svg_output/07_verdict_distribution.svg",
+      "source_sha256": "330cd9f8fd580c287d9b08c76c81ef046044f33cfd285496e974c7dbe7ac6493",
+      "publication_sha256": "330cd9f8fd580c287d9b08c76c81ef046044f33cfd285496e974c7dbe7ac6493",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/svg_output/08_semantic_binding_case.svg",
+      "destination": "docs/presentations/revalue_progress_20261102/svg_output/08_semantic_binding_case.svg",
+      "source_sha256": "cefe0d08ac189c8df10f59618cf30413e2747d0e18edc94b4f1b73c3c7714f5f",
+      "publication_sha256": "cefe0d08ac189c8df10f59618cf30413e2747d0e18edc94b4f1b73c3c7714f5f",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/svg_output/09_dependency_case.svg",
+      "destination": "docs/presentations/revalue_progress_20261102/svg_output/09_dependency_case.svg",
+      "source_sha256": "86de761d4dfb8a2c7e5a9650b2465aafa5fad98b0637e164c705f06188b5a0d5",
+      "publication_sha256": "86de761d4dfb8a2c7e5a9650b2465aafa5fad98b0637e164c705f06188b5a0d5",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/svg_output/10_semantics_and_boundaries.svg",
+      "destination": "docs/presentations/revalue_progress_20261102/svg_output/10_semantics_and_boundaries.svg",
+      "source_sha256": "a7a5e52a37bb7e2f0e7ca2b476f5854b94612da932f4526afe5b950224793cca",
+      "publication_sha256": "a7a5e52a37bb7e2f0e7ca2b476f5854b94612da932f4526afe5b950224793cca",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/svg_output/11_32b_runtime.svg",
+      "destination": "docs/presentations/revalue_progress_20261102/svg_output/11_32b_runtime.svg",
+      "source_sha256": "64f5a92d91d29abfa27e55a2a47f76d5f3ec99450b9611154934bf57c854ea31",
+      "publication_sha256": "64f5a92d91d29abfa27e55a2a47f76d5f3ec99450b9611154934bf57c854ea31",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/svg_output/12_next_steps.svg",
+      "destination": "docs/presentations/revalue_progress_20261102/svg_output/12_next_steps.svg",
+      "source_sha256": "5bd9ccceb498b6be26c97fdc4c7a4d3c71f6f25b636abd21a0cd50400120d2fc",
+      "publication_sha256": "5bd9ccceb498b6be26c97fdc4c7a4d3c71f6f25b636abd21a0cd50400120d2fc",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/validation/chart_verification.md",
+      "destination": "docs/presentations/revalue_progress_20261102/validation/chart_verification.md",
+      "source_sha256": "a94bc6aa899ce49bf1e2b08eed08629473321fa5e39ca285de544f1ff4eab38b",
+      "publication_sha256": "03e4ac038675f752d531e59f5b980f333f0e5de21d1583b65f46eef4d5dd48b2",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/validation/delivery_receipt.json",
+      "destination": "docs/presentations/revalue_progress_20261102/validation/delivery_receipt.json",
+      "source_sha256": "a0e3b06d0de30b1b11e5932cca2f95464cbc24bdf1e0ab7933c86e72514340dd",
+      "publication_sha256": "f458617736014936f96c3c78f8ad574caeddee71f3e391c9d3cfb8461d307cfd",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/validation/revalue_progress_20261103_002730_native_charts_tables.report.json",
+      "destination": "docs/presentations/revalue_progress_20261102/validation/revalue_progress_20261103_002730_native_charts_tables.report.json",
+      "source_sha256": "21fb844810fd21f4babfbf2554f639c05995cc524d63a45bf29c64bb4e72718e",
+      "publication_sha256": "246f3266fabadfc6e0d8c237b0ab9c5518fc8145ca538e8771e6e4233db3f500",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/validation/svg_quality_early_report.json",
+      "destination": "docs/presentations/revalue_progress_20261102/validation/svg_quality_early_report.json",
+      "source_sha256": "a2b8ad865630c788e232e55a8891227bb19f7d13283ee6a1e0e5759d17cca272",
+      "publication_sha256": "863d6c3bace25942c4220b911ba74224d277fe52815a529de43283694daae5a4",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/validation/svg_quality_report.json",
+      "destination": "docs/presentations/revalue_progress_20261102/validation/svg_quality_report.json",
+      "source_sha256": "41aa68322ab0dc48cd408c8fb45f9233d8f9d41bf7a4f8bfd533b34f4fcd13d5",
+      "publication_sha256": "5123b6d2d9d7d02a1e55b9f6ba8332872021d5d49452c75dadb9745dcee5a293",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261102/validation/text_calibration.json",
+      "destination": "docs/presentations/revalue_progress_20261102/validation/text_calibration.json",
+      "source_sha256": "00322d9cb7caab29008185d5dfcd7ab80fccd5fb10f2d7483dbeb710841617cf",
+      "publication_sha256": "00322d9cb7caab29008185d5dfcd7ab80fccd5fb10f2d7483dbeb710841617cf",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/README.md",
+      "destination": "docs/presentations/revalue_progress_20261103/README.md",
+      "source_sha256": "4998e6f103d946b95556c74324613a06296c87951fd3b34be4a6c193873fc084",
+      "publication_sha256": "2df74b1d0e35b4679df6e594717517fb03937c3da432d66ba1634df0b7c09427",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Curated public delivery entry and relative links; original source retained.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/analysis/image_analysis.csv",
+      "destination": "docs/presentations/revalue_progress_20261103/analysis/image_analysis.csv",
+      "source_sha256": "fa92bc885e9e099b16f8cff2bedf63046f5c54b51e55806b54d835b0bf45b5a4",
+      "publication_sha256": "fa92bc885e9e099b16f8cff2bedf63046f5c54b51e55806b54d835b0bf45b5a4",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/design_spec.md",
+      "destination": "docs/presentations/revalue_progress_20261103/design_spec.md",
+      "source_sha256": "4815c47a4bb48625290130154481394a58fea750355826aef8720dbc1d77f761",
+      "publication_sha256": "4815c47a4bb48625290130154481394a58fea750355826aef8720dbc1d77f761",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/exports/revalue_progress_20261103_163626_native_charts_tables.pptx",
+      "destination": "docs/presentations/revalue_progress_20261103/exports/revalue_progress_20261103_163626_native_charts_tables.pptx",
+      "source_sha256": "4f79ec821409c45e05e03a9e15e74543a442cf9f82d47e69b6c0b08a45fc99b5",
+      "publication_sha256": "4f79ec821409c45e05e03a9e15e74543a442cf9f82d47e69b6c0b08a45fc99b5",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/exports/相关工作到价值判断设计_2026-11-03_4.pdf",
+      "destination": "docs/presentations/revalue_progress_20261103/exports/相关工作到价值判断设计_2026-11-03_4.pdf",
+      "source_sha256": "5d5a8348589e7aa8a4eaa20744777b992d45c95892e373774cbfd8893f9fff23",
+      "publication_sha256": "5d5a8348589e7aa8a4eaa20744777b992d45c95892e373774cbfd8893f9fff23",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/images/video_comparison.png",
+      "destination": "docs/presentations/revalue_progress_20261103/images/video_comparison.png",
+      "source_sha256": "67d234c40b4f187d579bab03487e386848ee4e67911fccf255189ca739e418ca",
+      "publication_sha256": "67d234c40b4f187d579bab03487e386848ee4e67911fccf255189ca739e418ca",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/notes/01_cover.md",
+      "destination": "docs/presentations/revalue_progress_20261103/notes/01_cover.md",
+      "source_sha256": "62c0d00a538ccb0495ba069c77708f2183591654bf1b016a6f7088b027c09ed6",
+      "publication_sha256": "31e2e9e25ee55a2a20299bb961735244dec020d56951e516159a1dd7c7e97bac",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/notes/02_pipeline.md",
+      "destination": "docs/presentations/revalue_progress_20261103/notes/02_pipeline.md",
+      "source_sha256": "fa36e3e90a05bc811c58c8db17e4979bbf1e88ae938536532968d8fc5f09d1ad",
+      "publication_sha256": "4d63692753ae7478a9c9f60ddafa0b629642d574ab8c21260f7b1594de4ed177",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/notes/03_baseline.md",
+      "destination": "docs/presentations/revalue_progress_20261103/notes/03_baseline.md",
+      "source_sha256": "f2ac42e4c2a531620493a78650dd5c8f339f3256d3a1b39fd1e07e75088892df",
+      "publication_sha256": "fad76b592b51c87686c1e3bab0914de6cfb790c5dac5998ce77a56c9751a309f",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/notes/04_literature_to_design.md",
+      "destination": "docs/presentations/revalue_progress_20261103/notes/04_literature_to_design.md",
+      "source_sha256": "7370b7601d8c489adad6289b37e4727346a1478cc30d9df96c44b1e925810c03",
+      "publication_sha256": "4ee5fc5f24d0d3f4cfdd5eae1776623feae58e9ce13d9925e78e650fbd5a6db3",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/notes/05_ablation_design.md",
+      "destination": "docs/presentations/revalue_progress_20261103/notes/05_ablation_design.md",
+      "source_sha256": "9d3597eb2c4bd26d158666327866c67398e6d6a15253636c9c3bc47846405bf9",
+      "publication_sha256": "96ba519c73ab2450c96792563af02565c480ff3fbafa5bfdf9e45219f03c2d36",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/notes/06_main_results.md",
+      "destination": "docs/presentations/revalue_progress_20261103/notes/06_main_results.md",
+      "source_sha256": "571717aea2c4c043b9522e6f5f69ce50d0100e1a5066413ce3e9f43c21fd7d13",
+      "publication_sha256": "1d623e658bc33ff442048e9f4aaffb16a0f5bc1b0cd29b905b5d876bddcaf4dc",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/notes/07_contract_repair.md",
+      "destination": "docs/presentations/revalue_progress_20261103/notes/07_contract_repair.md",
+      "source_sha256": "8bc02e81db9036db299ac47a2b49e338b369207684193cca7e6799133f052d9a",
+      "publication_sha256": "cc892b5a687feec9c42bdad9baf03d8aedf650ae07c6c0b13d8dd7f58df564f2",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/notes/08_verdict_distribution.md",
+      "destination": "docs/presentations/revalue_progress_20261103/notes/08_verdict_distribution.md",
+      "source_sha256": "8181091ae080e1e963dd5e8742bc441c0745086761c60ec51cc12c037de985d8",
+      "publication_sha256": "f979a1268401f9c7b5707bef355386f7307821a6c762b24309e217e585b10eb2",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/notes/09_matched_32b_results.md",
+      "destination": "docs/presentations/revalue_progress_20261103/notes/09_matched_32b_results.md",
+      "source_sha256": "856c11deafdb186dccdf7ad48f48e79063abb43e561dc9269902eee64d1603a3",
+      "publication_sha256": "46cc1c67163eb83b087fafc2f4804b0201d91686605ec607f80bf890592aff18",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/notes/10_fact_generation_case.md",
+      "destination": "docs/presentations/revalue_progress_20261103/notes/10_fact_generation_case.md",
+      "source_sha256": "2e9cfb3c9c92aa31b64a67af35cdfc5c79133fa00ed10421a53d04ab9fc1beda",
+      "publication_sha256": "180048f57957c2053fd15d5f731981efe2aa7da4cfcb98477bdc67e38da513f6",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/notes/11_semantic_binding_case.md",
+      "destination": "docs/presentations/revalue_progress_20261103/notes/11_semantic_binding_case.md",
+      "source_sha256": "2a3b3756a0845acf48531f5a319e2daffda15185e648b37eb84936273677b00b",
+      "publication_sha256": "ddea3fedf67b320b271f51cea0b2a6d48217ea212dc9ea5ad28dc10ad700c73a",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/notes/12_dependency_case.md",
+      "destination": "docs/presentations/revalue_progress_20261103/notes/12_dependency_case.md",
+      "source_sha256": "dea481420e81abb0560049674146c0130cb7da0d9633ff2c566a614c3ca0ee25",
+      "publication_sha256": "c42fadf4c6dc35e8f08f37d86cb8d0d696fd4c499634a8484d222832abba5697",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/notes/13_semantics_and_boundaries.md",
+      "destination": "docs/presentations/revalue_progress_20261103/notes/13_semantics_and_boundaries.md",
+      "source_sha256": "b2f2ddec50de63bd8fdf28c7dd4beb20574fc1097e3c966e888725414627f36d",
+      "publication_sha256": "3ac300f022779960d98dcd64a4025d3cac4703a2fe13b3c757b92b99f3007e96",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/notes/14_video_review.md",
+      "destination": "docs/presentations/revalue_progress_20261103/notes/14_video_review.md",
+      "source_sha256": "b2279991a17c0341775e4dca051e14bf0050f459377dd305ba0ce9e7899a2def",
+      "publication_sha256": "8c5c585767941720417a83f5d379eb40ab5c463b7ee0b193fe45cf6663634e48",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/notes/15_next_steps.md",
+      "destination": "docs/presentations/revalue_progress_20261103/notes/15_next_steps.md",
+      "source_sha256": "5868b4dc817a62e7a104cb4567b4ec78c4fa38a3a30d71fbb91efa422dbd9029",
+      "publication_sha256": "a9b36bb5929da421eea20aeb0124b11085439efa38c578b1f823f516772e2318",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/notes/total.md",
+      "destination": "docs/presentations/revalue_progress_20261103/notes/total.md",
+      "source_sha256": "9ab54692b24bfc16b381bf3f20b338fa06d7973140d8bf18cf1f7d609414b06d",
+      "publication_sha256": "9ab54692b24bfc16b381bf3f20b338fa06d7973140d8bf18cf1f7d609414b06d",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/sources/previous_01_cover_notes.md",
+      "destination": "docs/presentations/revalue_progress_20261103/sources/previous_01_cover_notes.md",
+      "source_sha256": "3f49bf62ab114b60d2eb76dc9f5d2f771439ddf97a42bb8ef07ba0adf3c720dc",
+      "publication_sha256": "3a584028ec2d80e2bb0a6232ee9c3061ce3c11d8f7d688fbd42faadbb0fcbeb5",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/sources/previous_02_pipeline_notes.md",
+      "destination": "docs/presentations/revalue_progress_20261103/sources/previous_02_pipeline_notes.md",
+      "source_sha256": "9d4dc7915f530adfc4cd2ad84b4221ba0d1ba9fed3cc5db313da0257459f873e",
+      "publication_sha256": "c2bf910e107d732d492acf69b285ec7802635672ef8413ef1c8bedf08bbd4bde",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/sources/previous_03_baseline_notes.md",
+      "destination": "docs/presentations/revalue_progress_20261103/sources/previous_03_baseline_notes.md",
+      "source_sha256": "a7e3b461ead0db325ccc4ba6d81fd85ee3eef767bf5b8a23ca3c862837a370bc",
+      "publication_sha256": "3464e053fbfce4288c81bfc4a050857ab1a7c060202f13f572cdb6550781d8ad",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/sources/previous_05_ablation_design_notes.md",
+      "destination": "docs/presentations/revalue_progress_20261103/sources/previous_05_ablation_design_notes.md",
+      "source_sha256": "8ca3adf64699c422706baeee0a8730b12e60e6129eef55c84f2049cea944bc4a",
+      "publication_sha256": "0a7ba3e251ebf8d6dbbd41d4b22214dd76c60a73d5f100275f406ce69fd24e52",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/sources/previous_06_main_results_notes.md",
+      "destination": "docs/presentations/revalue_progress_20261103/sources/previous_06_main_results_notes.md",
+      "source_sha256": "33c5fb6f41cd769c3f8befea266010b2e8af0fd201a03784794a785ba80b4193",
+      "publication_sha256": "055963ffc53588522badcc4318b9fe2f43240bd13811098a34d93705496cf17b",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/sources/previous_07_contract_repair_notes.md",
+      "destination": "docs/presentations/revalue_progress_20261103/sources/previous_07_contract_repair_notes.md",
+      "source_sha256": "a72bfb49e039650556a2da675106c94d32f620cedb7e95dc623fc441de576db2",
+      "publication_sha256": "015e1a1b269eb4cdcfb111775113fd2df195f63640f795bd8c8930f04e561c4d",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/sources/previous_08_verdict_distribution_notes.md",
+      "destination": "docs/presentations/revalue_progress_20261103/sources/previous_08_verdict_distribution_notes.md",
+      "source_sha256": "47c14196eba43cc7d9f59102702eda2a582ce880623af834f58a01556c911a2a",
+      "publication_sha256": "482b9d34ecfdc4db2d15f18c47d396a8bb478752febf12aa0fcc472d4ab421f6",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/sources/previous_11_semantic_binding_case_notes.md",
+      "destination": "docs/presentations/revalue_progress_20261103/sources/previous_11_semantic_binding_case_notes.md",
+      "source_sha256": "c1a63066d99481b651e32f4523a3890006b6f33544673ec0cae8eb33aace707e",
+      "publication_sha256": "4aebfa7d67a3e89049f8b0e2cf00a69c7f3bea70dcdb86fbb36c255397c65a24",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/sources/previous_12_dependency_case_notes.md",
+      "destination": "docs/presentations/revalue_progress_20261103/sources/previous_12_dependency_case_notes.md",
+      "source_sha256": "ee1289e342ec7d08b58e357b38d3f3c0ea0a5e3996fe56b8500fae5569416b17",
+      "publication_sha256": "d5e95c82a03bfe59a9dabd9dceda31b4632ea23e457135416c3962843668f914",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/sources/previous_13_semantics_and_boundaries_notes.md",
+      "destination": "docs/presentations/revalue_progress_20261103/sources/previous_13_semantics_and_boundaries_notes.md",
+      "source_sha256": "a9feb0008e6d9e702af670d13a3dfd1b4b66b2bc35c1d96181c77460497b0e22",
+      "publication_sha256": "0e14f5b0355f9ad68a838b33d1c54e2ff576cbf8bd7334be8850c8f47ad2fcc9",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/sources/previous_15_next_steps_notes.md",
+      "destination": "docs/presentations/revalue_progress_20261103/sources/previous_15_next_steps_notes.md",
+      "source_sha256": "3fbabab9a424919b7958882bc08b4b66f27c8ce357f240c675202688302195ec",
+      "publication_sha256": "e98e83377049ee694c867a22b1eeb7d79d87b421f9b0b716b509bc26ef2fe11e",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/sources/revalue_32b_fact_generation_diagnosis_2026-11-03.md",
+      "destination": "docs/presentations/revalue_progress_20261103/sources/revalue_32b_fact_generation_diagnosis_2026-11-03.md",
+      "source_sha256": "d6d79a628c5754513cc7075e63c4d61c41c7ebf3c43b45c70d015e8c8bdcb17c",
+      "publication_sha256": "2dca41d50d1b2f21632234acdfb978107ae2c42152714fa589172082db2427f6",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$ZEROSHOT_ARTIFACT_ROOT/revalue_value_qvqv100_32b_v1_2_2026-11-03/records/qv_2781_w02__Q.json",
+        "$ZEROSHOT_ARTIFACT_ROOT/revalue_value_qvqv100_32b_v1_2_2026-11-03/source_snapshot/contract.py",
+        "$ZEROSHOT_ARTIFACT_ROOT/revalue_value_qvqv100_v2_4_2026-11-02/records/qv_2781_w02__Q.json"
+      ]
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/sources/revalue_progress_and_results_2026-11-03.md",
+      "destination": "docs/presentations/revalue_progress_20261103/sources/revalue_progress_and_results_2026-11-03.md",
+      "source_sha256": "b323b9b0fb4ed799641be6d4adfa588bbf5a691d3450a044ab33bda6386f1147",
+      "publication_sha256": "032102d21b4e1b6e27519bebea8656932f95ad6843f4beece044f9cfb79ba29a",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/sources/revalue_value_judgement_design_v2_2026-10-31.md",
+      "destination": "docs/presentations/revalue_progress_20261103/sources/revalue_value_judgement_design_v2_2026-10-31.md",
+      "source_sha256": "d4bb426a12c2be0bddc79e763b139c94eee442e7aeee5bc3f9b3ec6d561b0e99",
+      "publication_sha256": "6b8b088a5f9c64431b59b66f9f07e49dc9fbd6a2c95910fcaa1e487c8f2dadec",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$MERIT_ROOT/comparisons/qwen_direct/revalue_verifier_offline_v1_2026-10-30/case_review.md:84",
+        "$MERIT_ROOT/comparisons/qwen_direct/value_judgement_design_v2_2026-10-31",
+        "$MERIT_ROOT/comparisons/qwen_direct/value_judgement_design_v2_2026-10-31/prompt_design_v2.md",
+        "$MERIT_ROOT/comparisons/qwen_direct/value_judgement_design_v2_2026-10-31/rubric_v2.json",
+        "$MERIT_ROOT/comparisons/qwen_direct/value_judgement_design_v2_2026-10-31/synthetic_example.json"
+      ]
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/sources/revalue_value_qvqv20_32b_v1_2_results_2026-11-03.md",
+      "destination": "docs/presentations/revalue_progress_20261103/sources/revalue_value_qvqv20_32b_v1_2_results_2026-11-03.md",
+      "source_sha256": "7ba857a6f216449545b8098c1a02b2c081198258c32d8880dd6640c3288c2c7d",
+      "publication_sha256": "7f77d464d15c501cad82ce1deeb306503dc788111eee2f38f896adb993f97931",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/sources/revalue_value_verification_related_work_2026-10-31.md",
+      "destination": "docs/presentations/revalue_progress_20261103/sources/revalue_value_verification_related_work_2026-10-31.md",
+      "source_sha256": "008f73626d99204f7d78a64bf3742ef44c7af5f70000bed1e0035490141d0b55",
+      "publication_sha256": "008f73626d99204f7d78a64bf3742ef44c7af5f70000bed1e0035490141d0b55",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/spec_lock.md",
+      "destination": "docs/presentations/revalue_progress_20261103/spec_lock.md",
+      "source_sha256": "ce11fd2b409685c6458cb544332b80492d83b1f3a2112ea5a71da67583cfaaa4",
+      "publication_sha256": "ce11fd2b409685c6458cb544332b80492d83b1f3a2112ea5a71da67583cfaaa4",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_final/01_cover.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_final/01_cover.svg",
+      "source_sha256": "df2b0fa92cb5df7f093bf80df19c5575ffad11f5849041ae4031411d5f0ae92e",
+      "publication_sha256": "7f99d4a1d9d94fead62b2ae3645ec0b0f9fa7fa2411f9d608857c6a51bfba70a",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_final/02_pipeline.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_final/02_pipeline.svg",
+      "source_sha256": "f8f72b736109b0d88813f19d6ade06bab3b56ecf5e18d7ba39162a9c9cdc74d8",
+      "publication_sha256": "ad3953d805057ac7ab49c65acb9d7a229ba62563732a1a58f1d1879daf8f88ca",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_final/03_baseline.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_final/03_baseline.svg",
+      "source_sha256": "6b10ef1c225f425282a8a8d0c5dbf826598897d7b598fbd531cb0adaed409947",
+      "publication_sha256": "6b10ef1c225f425282a8a8d0c5dbf826598897d7b598fbd531cb0adaed409947",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_final/04_literature_to_design.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_final/04_literature_to_design.svg",
+      "source_sha256": "0b19b1531bfc1f43888c07c7853b3c96ebd27e0282034615f140a8bc24eff5c2",
+      "publication_sha256": "0b19b1531bfc1f43888c07c7853b3c96ebd27e0282034615f140a8bc24eff5c2",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_final/05_ablation_design.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_final/05_ablation_design.svg",
+      "source_sha256": "f76a7ea8f5dd1525646fb143074d6e06a4cdd41e97df133437cb5a59f9dbf121",
+      "publication_sha256": "3042a77d14ed1d1d6512c16bcde5b08112c80c69e8f5efa04c3647bd5c2e6c23",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_final/06_main_results.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_final/06_main_results.svg",
+      "source_sha256": "03951888cd7e50bc5a75123d2712f03b3a87d2a1892f1b0d754b40bc26c79998",
+      "publication_sha256": "d4b4edc2825694cc299e6e8964d929bb382a24f6326d5eae8f0490caec213823",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_final/07_contract_repair.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_final/07_contract_repair.svg",
+      "source_sha256": "91495e2632d9db2950fbc03f454da386fd7dfc440f0f626988fea86693a0eb73",
+      "publication_sha256": "671be26c5ff881290f192637acb631c4fc267cb13a0ea94475ab0c8a3361eeea",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_final/08_verdict_distribution.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_final/08_verdict_distribution.svg",
+      "source_sha256": "b2fe89e71b0611f71097e03e49838a13d86853ed7f420a78ed630975db4d503d",
+      "publication_sha256": "b2fe89e71b0611f71097e03e49838a13d86853ed7f420a78ed630975db4d503d",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_final/09_matched_32b_results.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_final/09_matched_32b_results.svg",
+      "source_sha256": "e4bc2635a30ead3308457a4c7cc1b873b808af56ade3ec550db254b2696e46d4",
+      "publication_sha256": "e4bc2635a30ead3308457a4c7cc1b873b808af56ade3ec550db254b2696e46d4",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_final/10_fact_generation_case.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_final/10_fact_generation_case.svg",
+      "source_sha256": "08fd25ba2a9f2d2a8d416b3e97d3b8c3685d6945e2656bc4e993f6baa1fd9ee8",
+      "publication_sha256": "08fd25ba2a9f2d2a8d416b3e97d3b8c3685d6945e2656bc4e993f6baa1fd9ee8",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_final/11_semantic_binding_case.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_final/11_semantic_binding_case.svg",
+      "source_sha256": "fbf904b34e5d6a724747210c80e66c73d064e0135449487d13cf12625e3e0772",
+      "publication_sha256": "9ad09f76f1a9d4de8c1f0cae517729f4f9dbab16ca97a23ce71a23995d4b7d0a",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_final/12_dependency_case.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_final/12_dependency_case.svg",
+      "source_sha256": "c81e59ea2c0ea134fe42b44e047a3243844736df7118a6848da1560765a88509",
+      "publication_sha256": "44a96784f7845421ce271c66f0fa7134b12c1285b6c1ab525454ad78996e43be",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_final/13_semantics_and_boundaries.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_final/13_semantics_and_boundaries.svg",
+      "source_sha256": "52ee33f436de6e947835b17b0d1eeafcb70d5cd5afcafc2849cd576a39a3809f",
+      "publication_sha256": "52ee33f436de6e947835b17b0d1eeafcb70d5cd5afcafc2849cd576a39a3809f",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_final/14_video_review.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_final/14_video_review.svg",
+      "source_sha256": "28beaf0689e73a520c57c1c2676f5e2112fd17213f21931768eb40706eeaa235",
+      "publication_sha256": "46dc8fc896549cab66c50220c1df756f176544628bb932b241da6b6a253519e1",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_final/15_next_steps.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_final/15_next_steps.svg",
+      "source_sha256": "6c10d4d8f3336d32eb79c3237e87e9b4d200b6d4bdc56c8371e1368b9fac9606",
+      "publication_sha256": "6c10d4d8f3336d32eb79c3237e87e9b4d200b6d4bdc56c8371e1368b9fac9606",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_output/01_cover.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_output/01_cover.svg",
+      "source_sha256": "651db9985d7134ee0baecf1471db144212a803164a07c6aa573020e2c301b832",
+      "publication_sha256": "651db9985d7134ee0baecf1471db144212a803164a07c6aa573020e2c301b832",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_output/02_pipeline.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_output/02_pipeline.svg",
+      "source_sha256": "a6c75aa43065abd1cf0aef0aade8e59326573a704b325b8917d5279fc5960ebd",
+      "publication_sha256": "a6c75aa43065abd1cf0aef0aade8e59326573a704b325b8917d5279fc5960ebd",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_output/03_baseline.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_output/03_baseline.svg",
+      "source_sha256": "6b10ef1c225f425282a8a8d0c5dbf826598897d7b598fbd531cb0adaed409947",
+      "publication_sha256": "6b10ef1c225f425282a8a8d0c5dbf826598897d7b598fbd531cb0adaed409947",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_output/04_literature_to_design.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_output/04_literature_to_design.svg",
+      "source_sha256": "0b19b1531bfc1f43888c07c7853b3c96ebd27e0282034615f140a8bc24eff5c2",
+      "publication_sha256": "0b19b1531bfc1f43888c07c7853b3c96ebd27e0282034615f140a8bc24eff5c2",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_output/05_ablation_design.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_output/05_ablation_design.svg",
+      "source_sha256": "b42641134db05bfdb30d11c5eb8d30d30c04fde92f2f2ff5112ba1e0015e0050",
+      "publication_sha256": "b42641134db05bfdb30d11c5eb8d30d30c04fde92f2f2ff5112ba1e0015e0050",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_output/06_main_results.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_output/06_main_results.svg",
+      "source_sha256": "854fd44d29636e77a8cf0f2cc986ac66b8832b024e0b3d03f71aeba5bd5826d0",
+      "publication_sha256": "854fd44d29636e77a8cf0f2cc986ac66b8832b024e0b3d03f71aeba5bd5826d0",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_output/07_contract_repair.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_output/07_contract_repair.svg",
+      "source_sha256": "510f97348978eaea7460ffb56a50eb35bf4624ab839434c239db6a2b03bb3d30",
+      "publication_sha256": "510f97348978eaea7460ffb56a50eb35bf4624ab839434c239db6a2b03bb3d30",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_output/08_verdict_distribution.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_output/08_verdict_distribution.svg",
+      "source_sha256": "b2fe89e71b0611f71097e03e49838a13d86853ed7f420a78ed630975db4d503d",
+      "publication_sha256": "b2fe89e71b0611f71097e03e49838a13d86853ed7f420a78ed630975db4d503d",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_output/09_matched_32b_results.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_output/09_matched_32b_results.svg",
+      "source_sha256": "e4bc2635a30ead3308457a4c7cc1b873b808af56ade3ec550db254b2696e46d4",
+      "publication_sha256": "e4bc2635a30ead3308457a4c7cc1b873b808af56ade3ec550db254b2696e46d4",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_output/10_fact_generation_case.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_output/10_fact_generation_case.svg",
+      "source_sha256": "08fd25ba2a9f2d2a8d416b3e97d3b8c3685d6945e2656bc4e993f6baa1fd9ee8",
+      "publication_sha256": "08fd25ba2a9f2d2a8d416b3e97d3b8c3685d6945e2656bc4e993f6baa1fd9ee8",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_output/11_semantic_binding_case.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_output/11_semantic_binding_case.svg",
+      "source_sha256": "b4edf693c85c6e7e001d96f0c4ad35fde70f9a7723e5f94afe0eff75b51ad6cb",
+      "publication_sha256": "b4edf693c85c6e7e001d96f0c4ad35fde70f9a7723e5f94afe0eff75b51ad6cb",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_output/12_dependency_case.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_output/12_dependency_case.svg",
+      "source_sha256": "f85f2028d864d2c9099e39958091a612f0bb1d32322df9e3a9c05bccf767e34e",
+      "publication_sha256": "f85f2028d864d2c9099e39958091a612f0bb1d32322df9e3a9c05bccf767e34e",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_output/13_semantics_and_boundaries.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_output/13_semantics_and_boundaries.svg",
+      "source_sha256": "52ee33f436de6e947835b17b0d1eeafcb70d5cd5afcafc2849cd576a39a3809f",
+      "publication_sha256": "52ee33f436de6e947835b17b0d1eeafcb70d5cd5afcafc2849cd576a39a3809f",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_output/14_video_review.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_output/14_video_review.svg",
+      "source_sha256": "37f690f9d3067a5f32e961cac184cc005a18ccc692b16859e106c8d1b3b5bd14",
+      "publication_sha256": "37f690f9d3067a5f32e961cac184cc005a18ccc692b16859e106c8d1b3b5bd14",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/svg_output/15_next_steps.svg",
+      "destination": "docs/presentations/revalue_progress_20261103/svg_output/15_next_steps.svg",
+      "source_sha256": "6c10d4d8f3336d32eb79c3237e87e9b4d200b6d4bdc56c8371e1368b9fac9606",
+      "publication_sha256": "6c10d4d8f3336d32eb79c3237e87e9b4d200b6d4bdc56c8371e1368b9fac9606",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/validation/04_相关工作到价值判断设计.png",
+      "destination": "docs/presentations/revalue_progress_20261103/validation/04_相关工作到价值判断设计.png",
+      "source_sha256": "69bb95d133d9a6b4f5139ef48e22d87614ef4905bf625d7fbd1f258a392b2e33",
+      "publication_sha256": "69bb95d133d9a6b4f5139ef48e22d87614ef4905bf625d7fbd1f258a392b2e33",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/validation/09_32B同样本结果.png",
+      "destination": "docs/presentations/revalue_progress_20261103/validation/09_32B同样本结果.png",
+      "source_sha256": "06ad1dd953273d8b10c67760b88d4ae2095e2fd2eeeb27a9df2750b4de97a757",
+      "publication_sha256": "06ad1dd953273d8b10c67760b88d4ae2095e2fd2eeeb27a9df2750b4de97a757",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/validation/ReVALUE_实验进度与结果_2026-11-03_更新版.pdf",
+      "destination": "docs/presentations/revalue_progress_20261103/validation/ReVALUE_实验进度与结果_2026-11-03_更新版.pdf",
+      "source_sha256": "f7522c387d8674cadff49096cc578ce61bdd6b49f4707c41a2918a6059d26247",
+      "publication_sha256": "f7522c387d8674cadff49096cc578ce61bdd6b49f4707c41a2918a6059d26247",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/validation/chart_verification.md",
+      "destination": "docs/presentations/revalue_progress_20261103/validation/chart_verification.md",
+      "source_sha256": "9c765b77ad4754500f22017647bd52d9e5c164cda7685f3ef470375b9c394551",
+      "publication_sha256": "9c765b77ad4754500f22017647bd52d9e5c164cda7685f3ef470375b9c394551",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/validation/data_checks.json",
+      "destination": "docs/presentations/revalue_progress_20261103/validation/data_checks.json",
+      "source_sha256": "99479744920e9b4cdfcb091d36617b8173091c60db907a6215b0c104a26b267c",
+      "publication_sha256": "99479744920e9b4cdfcb091d36617b8173091c60db907a6215b0c104a26b267c",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/validation/delivery_receipt.json",
+      "destination": "docs/presentations/revalue_progress_20261103/validation/delivery_receipt.json",
+      "source_sha256": "b0ef5409d825dfe373dded59961a3623fa4422df171bf5f7147d1f6025bc7747",
+      "publication_sha256": "77e879b4ca923825603c39ebbf4cd2fbcf8f30c861a22218b960015490b3c855",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/validation/revalue_progress_20261103_163626_native_charts_tables.report.json",
+      "destination": "docs/presentations/revalue_progress_20261103/validation/revalue_progress_20261103_163626_native_charts_tables.report.json",
+      "source_sha256": "3c54401da9aeb4ed28d7d8529a382a6e30030d7534f3a0fbbc77a7b45af25525",
+      "publication_sha256": "a4173cf2e08af5543cc79af54f1fd0a402af1e031f0412c82f006e749dcfe48c",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/validation/source_hashes_before.json",
+      "destination": "docs/presentations/revalue_progress_20261103/validation/source_hashes_before.json",
+      "source_sha256": "0ade718b1c53892f5acdcabecfb8f5ce96f540d60bd01622e408fa68292b8c0c",
+      "publication_sha256": "871a224d0007e56082a4cb8941f44773de5c50bb3484750d33cf8fe0cb60b64d",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/validation/svg_quality_early_report.json",
+      "destination": "docs/presentations/revalue_progress_20261103/validation/svg_quality_early_report.json",
+      "source_sha256": "f6c70a50c2ff1193f41c75437cb88fb3946f24dee3372f88dca5d3baa69b4d88",
+      "publication_sha256": "3e539703c6700ad5a2e4ec8dfbad064021bc456b9b15aa4db1cafa64e5210f52",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/validation/svg_quality_report.json",
+      "destination": "docs/presentations/revalue_progress_20261103/validation/svg_quality_report.json",
+      "source_sha256": "37db4f3c91d9a1a0633f40f01cfcfab9791334b5c318365c8a93869e4e8aef1e",
+      "publication_sha256": "7ca0ea076fa5c934c785cc165bacceb8510004adec9435a425bbb65d1cc348f9",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_progress_20261103/validation/text_calibration.json",
+      "destination": "docs/presentations/revalue_progress_20261103/validation/text_calibration.json",
+      "source_sha256": "dd57e1f0a71d56ccc00271ac38002167bea8081e3b3db83794bfb8c90e470a7e",
+      "publication_sha256": "dd57e1f0a71d56ccc00271ac38002167bea8081e3b3db83794bfb8c90e470a7e",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_32b_fact_generation_diagnosis_2026-11-03.md",
+      "destination": "docs/revalue_32b_fact_generation_diagnosis_2026-11-03.md",
+      "source_sha256": "d6d79a628c5754513cc7075e63c4d61c41c7ebf3c43b45c70d015e8c8bdcb17c",
+      "publication_sha256": "ae86fe7495938b28beb873e21451b252318bd3e0c3d1483d59ba5fd6758f22c6",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$ZEROSHOT_ARTIFACT_ROOT/revalue_value_qvqv100_32b_v1_2_2026-11-03/records/qv_2781_w02__Q.json",
+        "$ZEROSHOT_ARTIFACT_ROOT/revalue_value_qvqv100_32b_v1_2_2026-11-03/source_snapshot/contract.py",
+        "$ZEROSHOT_ARTIFACT_ROOT/revalue_value_qvqv100_v2_4_2026-11-02/records/qv_2781_w02__Q.json"
+      ]
+    },
+    {
+      "source": "MERIT:docs/revalue_direct_verifier_execution_2026-10-30.md",
+      "destination": "docs/revalue_direct_verifier_execution_2026-10-30.md",
+      "source_sha256": "0eefad749c93a7e9b781a52e08212481b3bc69633c2a2b798e62ff34d125e915",
+      "publication_sha256": "b2f7baad2c02804e3e4229e9d4c6ee8d892dfbb98bfaeca113dff9c549ec2fb3",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$MERIT_ROOT/comparisons/qwen_direct/revalue_verifier_v1_1_2026-10-30/README.md"
+      ]
+    },
+    {
+      "source": "MERIT:docs/revalue_direct_verifier_offline_diagnosis_v1_2026-10-30.md",
+      "destination": "docs/revalue_direct_verifier_offline_diagnosis_v1_2026-10-30.md",
+      "source_sha256": "593c3571b7eeac8c6478c7ad52db1bc9f61e2b03291585f17701c40a70004a88",
+      "publication_sha256": "8d51ba3a9c3499fa453f853e11ba53d9345ef1af171a8ee459d9b55db2baf11a",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$MERIT_ROOT/comparisons/qwen_direct/revalue_verifier_offline_v1_2026-10-30/README.md",
+        "$MERIT_ROOT/comparisons/qwen_direct/revalue_verifier_offline_v1_2026-10-30/case_review.md",
+        "$MERIT_ROOT/comparisons/qwen_direct/revalue_verifier_offline_v1_2026-10-30/completion_receipt.json",
+        "$MERIT_ROOT/comparisons/qwen_direct/revalue_verifier_offline_v1_2026-10-30/preflight.json",
+        "$MERIT_ROOT/comparisons/qwen_direct/revalue_verifier_offline_v1_2026-10-30/protocol.json",
+        "$MERIT_ROOT/comparisons/qwen_direct/revalue_verifier_offline_v1_2026-10-30/review_image_manifest.json",
+        "$MERIT_ROOT/comparisons/qwen_direct/revalue_verifier_offline_v1_2026-10-30/review_selection.json",
+        "$ZEROSHOT_ARTIFACT_ROOT/revalue_direct_verifier_v1_1_2026-10-30/source_snapshot/contract.py:68"
+      ]
+    },
+    {
+      "source": "MERIT:docs/revalue_direct_verifier_plan_v1_1_2026-10-30.md",
+      "destination": "docs/revalue_direct_verifier_plan_v1_1_2026-10-30.md",
+      "source_sha256": "8d9a55fdc09e7a954941eaf6e56873b1866a5a017cdcbe2c527092e06b6e9726",
+      "publication_sha256": "7378823392e3d8cb4d0b9ccadf4769a223f07477239676849c633a9dea3fb19b",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_direct_verifier_plan_v1_2026-10-30.md",
+      "destination": "docs/revalue_direct_verifier_plan_v1_2026-10-30.md",
+      "source_sha256": "a57a9d1789420bc0d2ea75fb532f4498ea9449be1ff54a66e9eb1f19526a2059",
+      "publication_sha256": "7e1f30a6a39bde2433264070269488bca994182e5d902e9e6a064b29b26f380f",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_direct_verifier_preparation_2026-10-30.md",
+      "destination": "docs/revalue_direct_verifier_preparation_2026-10-30.md",
+      "source_sha256": "eeff64500afcfd43d63cdc837ce8edd47d24b7c8f93172f3826f3d3c0c3d786b",
+      "publication_sha256": "79622982f4aa6bb5386cb05ddd9b43e403589c811e3395ce560dabdcd32693e4",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$MERIT_ROOT/comparisons/qwen_direct/revalue_verifier_preparation_2026-10-30/README.md",
+        "$MERIT_ROOT/experiments/revalue_verifier/README.md",
+        "$WORKSPACE_PARENT/.codex/skills/academic-research-suite/SKILL.md",
+        "$WORKSPACE_PARENT/.codex/skills/academic-research-suite/ars/experiment-agent/agents/code_runner_agent.md"
+      ]
+    },
+    {
+      "source": "MERIT:docs/revalue_direct_verifier_results_2026-10-30.md",
+      "destination": "docs/revalue_direct_verifier_results_2026-10-30.md",
+      "source_sha256": "c8cf8d2ec4a69cd7d181224d8073b2303ba067a97f83103cd99caf0dece2b97e",
+      "publication_sha256": "279939a865a376ca4c37e4fe64aab0d87dd0f33bced97bc90f11514a8610e254",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$MERIT_ROOT/comparisons/qwen_direct/revalue_verifier_v1_1_2026-10-30/README.md"
+      ]
+    },
+    {
+      "source": "MERIT:docs/revalue_gpu_scheduling_preference_2026-11-02.md",
+      "destination": "docs/revalue_gpu_scheduling_preference_2026-11-02.md",
+      "source_sha256": "f5bdbb808ccabd47e83908cf8c03607023feaeb3512fa8f4179d445a59327895",
+      "publication_sha256": "f5bdbb808ccabd47e83908cf8c03607023feaeb3512fa8f4179d445a59327895",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_progress_and_results_2026-11-02.md",
+      "destination": "docs/revalue_progress_and_results_2026-11-02.md",
+      "source_sha256": "28f9c8ee184a8111f15e05a28f75952c697fcb38502a176c8bd131a8a4ecdccf",
+      "publication_sha256": "3e776db64adfe227146f0c5bd99028543aa2711c3fd221e923aa46b4db8b033c",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$ZEROSHOT_ARTIFACT_ROOT/revalue_value_qvqv100_32b_v1_2026-11-02/campaign_exit.json",
+        "$ZEROSHOT_ARTIFACT_ROOT/revalue_value_qvqv100_32b_v1_2026-11-02/cpu_finalizer.log",
+        "$ZEROSHOT_ARTIFACT_ROOT/revalue_value_qvqv100_32b_v1_2026-11-02/worker_0/worker.log"
+      ]
+    },
+    {
+      "source": "MERIT:docs/revalue_progress_and_results_2026-11-03.md",
+      "destination": "docs/revalue_progress_and_results_2026-11-03.md",
+      "source_sha256": "b323b9b0fb4ed799641be6d4adfa588bbf5a691d3450a044ab33bda6386f1147",
+      "publication_sha256": "83ac4b31671395fae929538e6f9011df921946386494d2153eef88466716098b",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_trace_viewer_2026-10-30.md",
+      "destination": "docs/revalue_trace_viewer_2026-10-30.md",
+      "source_sha256": "24a8f7a857b962cb22e928baba3205ec93e8a8c0e97b41d77543013ea0cbb19f",
+      "publication_sha256": "4ae5115521e0d34389e1041b171d765e3212b442c8cedfe33eae38699cab8ac1",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$MERIT_ROOT/projects/revalue_trace_viewer/README.md",
+        "$MERIT_ROOT/projects/revalue_trace_viewer/validation/browser_qa.json",
+        "$MERIT_ROOT/projects/revalue_trace_viewer/validation/data_checks.json",
+        "$MERIT_ROOT/projects/revalue_trace_viewer/validation/preview-desktop.png"
+      ]
+    },
+    {
+      "source": "MERIT:docs/revalue_trace_viewer_direct_comparison_2026-11-03.md",
+      "destination": "docs/revalue_trace_viewer_direct_comparison_2026-11-03.md",
+      "source_sha256": "c7a2a376905765e8051c9a55cad0f406feb70e8fd1d2ec6988cd9ab64777ab08",
+      "publication_sha256": "6ca8394b2ab63b799fd26550267757c6577326fda55f8914125697da3013bcc3",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$MERIT_ROOT/projects/revalue_trace_viewer/README.md",
+        "$MERIT_ROOT/projects/revalue_trace_viewer/validation/comparison_2026-11-03/browser_qa.json"
+      ]
+    },
+    {
+      "source": "MERIT:docs/revalue_trace_viewer_video_playback_2026-11-03.md",
+      "destination": "docs/revalue_trace_viewer_video_playback_2026-11-03.md",
+      "source_sha256": "a0501a114e8ecd2e71411a49aebed6f3cd20361fcd6284ee365ebea3e2a6ec46",
+      "publication_sha256": "61795c105c1f97c0dd267b635b8e1f1ee5f88b22c51d3cf4146b36127f38a29c",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$MERIT_ROOT/projects/revalue_trace_viewer/README.md",
+        "$MERIT_ROOT/projects/revalue_trace_viewer/validation/video_2026-11-03/browser_qa.json"
+      ]
+    },
+    {
+      "source": "MERIT:docs/revalue_value_judgement_design_v2_2026-10-31.md",
+      "destination": "docs/revalue_value_judgement_design_v2_2026-10-31.md",
+      "source_sha256": "d4bb426a12c2be0bddc79e763b139c94eee442e7aeee5bc3f9b3ec6d561b0e99",
+      "publication_sha256": "7dd5b1c6e9fcd2c3ce6a04351dce7c22d1bc640699761c3d70315446acc94576",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$MERIT_ROOT/comparisons/qwen_direct/revalue_verifier_offline_v1_2026-10-30/case_review.md:84",
+        "$MERIT_ROOT/comparisons/qwen_direct/value_judgement_design_v2_2026-10-31",
+        "$MERIT_ROOT/comparisons/qwen_direct/value_judgement_design_v2_2026-10-31/prompt_design_v2.md",
+        "$MERIT_ROOT/comparisons/qwen_direct/value_judgement_design_v2_2026-10-31/rubric_v2.json",
+        "$MERIT_ROOT/comparisons/qwen_direct/value_judgement_design_v2_2026-10-31/synthetic_example.json"
+      ]
+    },
+    {
+      "source": "MERIT:docs/revalue_value_qvqv100_32b_v1_1_execution_2026-11-03.md",
+      "destination": "docs/revalue_value_qvqv100_32b_v1_1_execution_2026-11-03.md",
+      "source_sha256": "b9ffec1a81abc7fb59f5e4c311ee6ff0a9b19193b88f2d319d6b572e154cde2d",
+      "publication_sha256": "148b07e9fdfc1242393e36c31041f91d5a023dd075b5d96aa8a54f75cb2dccbe",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$MERIT_ROOT/comparisons/qwen_direct/value_qvqv100_32b_v1_1_preparation_2026-11-03/cpu_test_final_receipt.json",
+        "$MERIT_ROOT/comparisons/qwen_direct/value_qvqv100_32b_v1_1_preparation_2026-11-03/inference_started_receipt.json",
+        "$MERIT_ROOT/comparisons/qwen_direct/value_qvqv100_32b_v1_1_preparation_2026-11-03/runtime_source_review.md",
+        "$MERIT_ROOT/comparisons/qwen_direct/value_qvqv100_32b_v1_1_preparation_2026-11-03/setproctitle_cpu_reproduction.json",
+        "$MERIT_ROOT/experiments/revalue_value_ablation_32b_v1_1/protocol.md"
+      ]
+    },
+    {
+      "source": "MERIT:docs/revalue_value_qvqv100_32b_v1_1_results_2026-11-03.md",
+      "destination": "docs/revalue_value_qvqv100_32b_v1_1_results_2026-11-03.md",
+      "source_sha256": "ed892a88b82cabbc12c7c054acf35a14947b2964ddfb455cad808d9ff89e2fdc",
+      "publication_sha256": "acaf72c8173d2de408e2f54dc1b988f9ebadf5d72d30767da7988e4f098cb358",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$MERIT_ROOT/comparisons/qwen_direct/value_qvqv100_32b_v1_1_2026-11-03/README.md"
+      ]
+    },
+    {
+      "source": "MERIT:docs/revalue_value_qvqv100_32b_v1_2_execution_2026-11-03.md",
+      "destination": "docs/revalue_value_qvqv100_32b_v1_2_execution_2026-11-03.md",
+      "source_sha256": "82c7c44ecfe3c4fa3fd4c82430d11354f09aad2b9b09a8d538703714094f9825",
+      "publication_sha256": "0b1e5e1d9ed9e6dd0917c5f327c9756cab2b873453649a8618416c618c4aac20",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$MERIT_ROOT/comparisons/qwen_direct/value_qvqv100_32b_v1_2_preparation_2026-11-03/cpu_test_receipt.json",
+        "$MERIT_ROOT/comparisons/qwen_direct/value_qvqv100_32b_v1_2_preparation_2026-11-03/first_generation_receipt.json",
+        "$MERIT_ROOT/comparisons/qwen_direct/value_qvqv100_32b_v1_2_preparation_2026-11-03/runner_review.md",
+        "$MERIT_ROOT/experiments/revalue_value_ablation_32b_v1_2/protocol.md"
+      ]
+    },
+    {
+      "source": "MERIT:docs/revalue_value_qvqv100_32b_v1_2_results_2026-11-03.md",
+      "destination": "docs/revalue_value_qvqv100_32b_v1_2_results_2026-11-03.md",
+      "source_sha256": "ec1ca54494650232333c988fe623401e78061f9a93d98ba229e29e38fa34c837",
+      "publication_sha256": "0747d4df1fc0e0ca14a0e44f285e60d47bf33f4e8af20da89e7a52b838e3b2b3",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$MERIT_ROOT/comparisons/qwen_direct/value_qvqv100_32b_v1_2_2026-11-03/README.md"
+      ]
+    },
+    {
+      "source": "MERIT:docs/revalue_value_qvqv100_32b_v1_execution_2026-11-02.md",
+      "destination": "docs/revalue_value_qvqv100_32b_v1_execution_2026-11-02.md",
+      "source_sha256": "b6c68f5c059aa08f50495c83ce4871c1cf5601236ae281a5169b0be137503438",
+      "publication_sha256": "770d4ed605fd9fa274f59896960c085c59a29e139323c9ef7a92115f3be2b45e",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$MERIT_ROOT/comparisons/qwen_direct/value_qvqv100_32b_v1_preparation_2026-11-02/cpu_input_freeze_receipt.json",
+        "$MERIT_ROOT/comparisons/qwen_direct/value_qvqv100_32b_v1_preparation_2026-11-02/queue_admission_receipt.json",
+        "$MERIT_ROOT/comparisons/qwen_direct/value_qvqv100_32b_v1_preparation_2026-11-02/runtime_source_review.md",
+        "$MERIT_ROOT/experiments/revalue_value_ablation_32b_v1/protocol.md"
+      ]
+    },
+    {
+      "source": "MERIT:docs/revalue_value_qvqv100_execution_2026-10-31.md",
+      "destination": "docs/revalue_value_qvqv100_execution_2026-10-31.md",
+      "source_sha256": "70473beab4ba4365d5be04e3e312140821ce2b69776cce99955ba06bd89c5392",
+      "publication_sha256": "409068e49a617280d1b56896e068ee248932155a76eea3e4b83ec0d46e540659",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$MERIT_ROOT/comparisons/qwen_direct/value_qvqv100_preparation_2026-10-31/cpu_freeze_receipt.json",
+        "$MERIT_ROOT/comparisons/qwen_direct/value_qvqv100_preparation_2026-10-31/query_contract_authoring_review.md",
+        "$MERIT_ROOT/comparisons/qwen_direct/value_qvqv100_preparation_2026-10-31/review_addendum.json",
+        "$MERIT_ROOT/comparisons/qwen_direct/value_qvqv100_preparation_2026-10-31/runtime_independent_review.json",
+        "$MERIT_ROOT/experiments/revalue_value_ablation",
+        "$ZEROSHOT_ARTIFACT_ROOT/revalue_value_qvqv100_v2_2026-10-31"
+      ]
+    },
+    {
+      "source": "MERIT:docs/revalue_value_qvqv100_protocol_2026-10-31.md",
+      "destination": "docs/revalue_value_qvqv100_protocol_2026-10-31.md",
+      "source_sha256": "d0bcf20e896326ea1773bb50b1b9e37835aa127366c653f49644eba8d8b1f739",
+      "publication_sha256": "0ba60d3fa88c99952c404a2b01582b060a03fb626f8f52a70a5bdf8985eae69f",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_value_qvqv100_results_2026-10-31.md",
+      "destination": "docs/revalue_value_qvqv100_results_2026-10-31.md",
+      "source_sha256": "20af774f4a55ffe33d3db9fcf432a85cfd33841124cd039584ef6beb08b2932a",
+      "publication_sha256": "6681945b63ebf0ffb8cac43a2a3743140c7193e2157e2ebe393aa86efdbb5677",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$MERIT_ROOT/comparisons/qwen_direct/value_qvqv100_v2_2026-10-31/README.md"
+      ]
+    },
+    {
+      "source": "MERIT:docs/revalue_value_qvqv100_v2_1_execution_2026-11-01.md",
+      "destination": "docs/revalue_value_qvqv100_v2_1_execution_2026-11-01.md",
+      "source_sha256": "8ebf47d482bc73f77db6b631ffa70c001f45c508f79c27b9dceae0a4f9134b98",
+      "publication_sha256": "5b205b71b89c4358daa89c70e557931846e8aeb8eda83f78e4dd1a9236412963",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$MERIT_ROOT/comparisons/qwen_direct/value_qvqv100_v2_1_preparation_2026-11-01"
+      ]
+    },
+    {
+      "source": "MERIT:docs/revalue_value_qvqv100_v2_1_protocol_2026-11-01.md",
+      "destination": "docs/revalue_value_qvqv100_v2_1_protocol_2026-11-01.md",
+      "source_sha256": "97955925b614ce8cbc326874a53be407ac0daaeda6c6eb57d232e7d395fe1030",
+      "publication_sha256": "5392308beeb3c574bb225794dce5518c2b0d260733a5845e881c23ec377de8c8",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_value_qvqv100_v2_1_results_2026-11-01.md",
+      "destination": "docs/revalue_value_qvqv100_v2_1_results_2026-11-01.md",
+      "source_sha256": "ea218ea6085378f8b6449ba5f1bc166ef771e7682cd7f8ce5276f02e80f71415",
+      "publication_sha256": "76a43f7b4d48012a34bfe185e676be797f5d110f5c134f077490260c42495c49",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$MERIT_ROOT/comparisons/qwen_direct/value_qvqv100_v2_1_2026-11-01/README.md"
+      ]
+    },
+    {
+      "source": "MERIT:docs/revalue_value_qvqv100_v2_2_execution_2026-11-02.md",
+      "destination": "docs/revalue_value_qvqv100_v2_2_execution_2026-11-02.md",
+      "source_sha256": "4f841dad63165f014814c27ae4859119968cb9d83843bd8224e144a05b3f2b09",
+      "publication_sha256": "b9de0f42f4bd688c46cba8762f09cfba9bd3389589a76043ff1e5834f7afa2b2",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_value_qvqv100_v2_2_parallel_amendment_2026-11-02.md",
+      "destination": "docs/revalue_value_qvqv100_v2_2_parallel_amendment_2026-11-02.md",
+      "source_sha256": "481c50940502dc0aba07454ca3d2ba2de54cbf80d7dc0cdd5be2009343437ed2",
+      "publication_sha256": "ab0475984b732a9b98baba3a3518977a3bf52336d856646f1527aac791de1ceb",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_value_qvqv100_v2_2_parallel_execution_2026-11-02.md",
+      "destination": "docs/revalue_value_qvqv100_v2_2_parallel_execution_2026-11-02.md",
+      "source_sha256": "70ae99a45c2393d6c40f7d9a73b16a196f9df222b2cf3ef388f1feb5bd6e815f",
+      "publication_sha256": "329a6fd13c708fb96947bd95c26ea4d1e1c8548d283dc5592d97b970b4648ae4",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_value_qvqv100_v2_2_parallel_results_2026-11-02.md",
+      "destination": "docs/revalue_value_qvqv100_v2_2_parallel_results_2026-11-02.md",
+      "source_sha256": "2a4c08733b358df9cd9783809b33defeba8f3a83defcef2bc21a8f696562fc84",
+      "publication_sha256": "a5b17a3dc14fc84ca6d551746370cc6e4d64360b75d18e20d87fb77a82badc97",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$MERIT_ROOT/comparisons/qwen_direct/value_qvqv100_v2_2_parallel_2026-11-02/README.md"
+      ]
+    },
+    {
+      "source": "MERIT:docs/revalue_value_qvqv100_v2_2_protocol_2026-11-02.md",
+      "destination": "docs/revalue_value_qvqv100_v2_2_protocol_2026-11-02.md",
+      "source_sha256": "d9cff94012f61d0f6ac4b421bff20c8ab110da40e9b2eef4a0769ade61f53a36",
+      "publication_sha256": "1877b17c54f8209d4641c0fba223c5a16ba847f04bc27943f7606ce2205b3ce1",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_value_qvqv100_v2_4_results_2026-11-02.md",
+      "destination": "docs/revalue_value_qvqv100_v2_4_results_2026-11-02.md",
+      "source_sha256": "74e8aea09b9c6bd69eb44fa60d93e4cd5659418b42ee19c514d5349309018ced",
+      "publication_sha256": "1fba63bc314e334f3765006b5eae42b43195dbddfbb738bad83a6e5c32bad01c",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$MERIT_ROOT/comparisons/qwen_direct/value_qvqv100_v2_4_2026-11-02/README.md"
+      ]
+    },
+    {
+      "source": "MERIT:docs/revalue_value_qvqv20_32b_v1_2_execution_2026-11-03.md",
+      "destination": "docs/revalue_value_qvqv20_32b_v1_2_execution_2026-11-03.md",
+      "source_sha256": "20e35c21731705cc3e8efb0cc07f95c9cdb06b11bd2ee31551f7a5db0fa88fd8",
+      "publication_sha256": "20e35c21731705cc3e8efb0cc07f95c9cdb06b11bd2ee31551f7a5db0fa88fd8",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_value_qvqv20_32b_v1_2_results_2026-11-03.md",
+      "destination": "docs/revalue_value_qvqv20_32b_v1_2_results_2026-11-03.md",
+      "source_sha256": "7ba857a6f216449545b8098c1a02b2c081198258c32d8880dd6640c3288c2c7d",
+      "publication_sha256": "7f77d464d15c501cad82ce1deeb306503dc788111eee2f38f896adb993f97931",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_value_reference_dedup_v2_4_2026-11-02.md",
+      "destination": "docs/revalue_value_reference_dedup_v2_4_2026-11-02.md",
+      "source_sha256": "8530ee445ed2156992ff303380f671854ceeed765c9c2151951d8ec92b409bac",
+      "publication_sha256": "a28f17260fa3bc338fb9efa4da32204adce82292235e1ccaa2be8153bbefb76c",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_value_reference_dependency_fix_v2_3_2026-11-02.md",
+      "destination": "docs/revalue_value_reference_dependency_fix_v2_3_2026-11-02.md",
+      "source_sha256": "80696f38e5a057a0f361ef75b16323c430fb36097199ffa5b559404651d15aab",
+      "publication_sha256": "f0548a926395dd13a7f3a61a3a50c7e5a9dcdb70304c0861bd4d2b2f0f1514a7",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_value_state_schema_fix_v2_1_2026-11-01.md",
+      "destination": "docs/revalue_value_state_schema_fix_v2_1_2026-11-01.md",
+      "source_sha256": "88b6eec29ec2e972c296d74c8b8b4a72d62b923ba2199973676a5c481d3649a5",
+      "publication_sha256": "91c1285ee457643545b9dd67bb31a20376957a32e83df678588aa677e05df81a",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$MERIT_ROOT/comparisons/qwen_direct/value_state_schema_fix_v2_1_2026-11-01",
+        "$MERIT_ROOT/comparisons/qwen_direct/value_state_schema_fix_v2_1_2026-11-01/cpu_contract_receipt.json",
+        "$MERIT_ROOT/experiments/revalue_value_ablation/contract.py",
+        "$MERIT_ROOT/experiments/revalue_value_ablation/test_contract.py"
+      ]
+    },
+    {
+      "source": "MERIT:docs/revalue_value_verification_related_work_2026-10-31.md",
+      "destination": "docs/revalue_value_verification_related_work_2026-10-31.md",
+      "source_sha256": "008f73626d99204f7d78a64bf3742ef44c7af5f70000bed1e0035490141d0b55",
+      "publication_sha256": "008f73626d99204f7d78a64bf3742ef44c7af5f70000bed1e0035490141d0b55",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_verifier_improvement_plan_2026-10-31.md",
+      "destination": "docs/revalue_verifier_improvement_plan_2026-10-31.md",
+      "source_sha256": "3bedcb48c4c154be35c94bcfa90aeb28cb2bf4d89dad7b3f470fb7bb657a41b0",
+      "publication_sha256": "2f6cd9c64995e8a8d50cf3963decdc60dbe2b376258003c4cb6f9f6755e423db",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$MERIT_ROOT/comparisons/qwen_direct/revalue_verifier_offline_v1_2026-10-30/case_review.md",
+        "$ZEROSHOT_ARTIFACT_ROOT/revalue_direct_verifier_v1_1_2026-10-30/source_snapshot/contract.py"
+      ]
+    },
+    {
+      "source": "MERIT:docs/reze_direct_grounding_qv100_execution_2026-10-30.md",
+      "destination": "docs/reze_direct_grounding_qv100_execution_2026-10-30.md",
+      "source_sha256": "f55a9b3802080dde09f3ca5fa0f2cc9981b001dc06715a12edddc251f7a3135d",
+      "publication_sha256": "0db58e9e5d4fb1c95d1438f8e0e692749683fa583731b972d1f1e7d388471daf",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/reze_direct_grounding_qv100_protocol_v1_1_2026-10-30.md",
+      "destination": "docs/reze_direct_grounding_qv100_protocol_v1_1_2026-10-30.md",
+      "source_sha256": "88f74976d0b0cae65f44cd28fa13b10a7ebe09b305aaee73fcf5233793adcfe4",
+      "publication_sha256": "7ca28f77c7ae29dc569da35f0b5d7a9683d2b954a95fef0c1df6a22556f87870",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/reze_direct_grounding_qv100_protocol_v1_2026-10-30.md",
+      "destination": "docs/reze_direct_grounding_qv100_protocol_v1_2026-10-30.md",
+      "source_sha256": "f5e7d24c8e953b26f678f17a43ee94d23af58806e8dec7f49ac0d07d6a76a6ce",
+      "publication_sha256": "c34131adc274dfa215e2ecfdfb8321afff19a036d934cfc08dda9571159ac3f9",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/reze_direct_grounding_qv100_protocol_v1_2_2026-10-30.md",
+      "destination": "docs/reze_direct_grounding_qv100_protocol_v1_2_2026-10-30.md",
+      "source_sha256": "9f2269a4aba98f608b3b6358a6c4510176aedc1ac51e53c41f7bd933415aba7d",
+      "publication_sha256": "21d20b9108a2da6858422fdffd9e237043bd2a13cdb31575ad0d9bf0f4624bf6",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/reze_direct_grounding_qv100_results_2026-10-30.md",
+      "destination": "docs/reze_direct_grounding_qv100_results_2026-10-30.md",
+      "source_sha256": "4cff0bd33f614495e6022b4ee38d959f4c86bdf77aa642815924d4edacf10be0",
+      "publication_sha256": "6dcf0ba01176f102ef7a1afc8e5bdcc6d2c45c8b2f56c58b2e35143a410cbe8b",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Machine path aliases, local-link publication mapping and trailing whitespace only; scientific content unchanged.",
+      "local_only_references": [
+        "$MERIT_ROOT/comparisons/qwen_direct/reze_direct_grounding_qv100_2026-10-30/README.md",
+        "$MERIT_ROOT/comparisons/qwen_direct/reze_direct_grounding_qv100_2026-10-30/comparison.json",
+        "$MERIT_ROOT/comparisons/qwen_direct/reze_direct_grounding_qv100_2026-10-30/paired_per_query.csv",
+        "$MERIT_ROOT/experiments/reze_direct_grounding/README.md"
+      ]
+    },
+    {
+      "source": "MERIT:projects/revalue_trace_viewer/validation/fact_audit_2026-11-03/audit.json",
+      "destination": "projects/revalue_trace_viewer/validation/fact_audit_2026-11-03/audit.json",
+      "source_sha256": "f0b39331d83b93214b72a40fdc7028773db2ae92d4ef78e946c8bc3dc6b1d367",
+      "publication_sha256": "f0b39331d83b93214b72a40fdc7028773db2ae92d4ef78e946c8bc3dc6b1d367",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:projects/revalue_trace_viewer/validation/fact_audit_2026-11-03/f0074.png",
+      "destination": "projects/revalue_trace_viewer/validation/fact_audit_2026-11-03/f0074.png",
+      "source_sha256": "fdf71c948086b83ac1cad15f590cea9d167fc6f0199ce6be71a2cdb12d4a291b",
+      "publication_sha256": "fdf71c948086b83ac1cad15f590cea9d167fc6f0199ce6be71a2cdb12d4a291b",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:projects/revalue_trace_viewer/validation/fact_audit_2026-11-03/f0079.png",
+      "destination": "projects/revalue_trace_viewer/validation/fact_audit_2026-11-03/f0079.png",
+      "source_sha256": "257cf9ff41919f62665dbbf020c50fb2e50ad86ff61aadf530a6317e69c07348",
+      "publication_sha256": "257cf9ff41919f62665dbbf020c50fb2e50ad86ff61aadf530a6317e69c07348",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:projects/revalue_trace_viewer/validation/fact_audit_2026-11-03/f0089.png",
+      "destination": "projects/revalue_trace_viewer/validation/fact_audit_2026-11-03/f0089.png",
+      "source_sha256": "7690bef0a5d39e931d1c5e4928fdbb0d811057e549de69a35a47d0a86b0b0d1e",
+      "publication_sha256": "7690bef0a5d39e931d1c5e4928fdbb0d811057e549de69a35a47d0a86b0b0d1e",
+      "basis": "progress_report_presentation_and_selected_existing_evidence",
+      "publication_changes": "Identical publication copy.",
+      "local_only_references": []
     }
   ],
   "indexes": [
     {
       "source": "MERIT:README.md",
       "destination": "README.md",
-      "source_sha256": "0dea149cceb481ad70ed8874ea804489e116844562d7d8c20710f67abfa32af2",
-      "publication_sha256": "1377bfb98220c11ee52befd1e711ab62ff3e2d5cf84aa4fe5954139fe950b8d9",
+      "source_sha256": "022c73470495dec3d225298a7af142c234baaa55c9c91b2e6ff9b2ede2d96daa",
+      "publication_sha256": "5d20ef153993fa2e5513f67782ad26559602697fe5cd5720ff0514c31e660131",
       "basis": "curated_publication_index_with_all_report_links_and_standing_user_instruction"
     },
     {
       "source": "MERIT:docs/README.md",
       "destination": "docs/README.md",
-      "source_sha256": "43504dddbaadd1e8591053a2a639eee16aac9cf32066740d1bd0d30f7bec35bb",
-      "publication_sha256": "eacd1911690211283a9d2487baf56e5b0e1a722f34bd002d4b74b3634c913db8",
+      "source_sha256": "c40157d88e54ce11d688330d4f61c5523eee6b30184512548636cef9fa8eda54",
+      "publication_sha256": "bf49ef8303e3eaf93afae18d7d85b7b0909661438cced4c9bdb4f750794d1eef",
       "basis": "curated_publication_index_with_all_report_links_and_standing_user_instruction"
     }
   ],
@@ -2528,5 +4322,270 @@
       "evidence_image_bytes_unchanged": true
     },
     "publication_normalization": "Removed one whitespace-only SVG preview line after the Git whitespace check; the delivered PPT and editable svg_output are byte-identical to the research copies."
+  },
+  "progress_results_publication_2026_11_03": {
+    "at": "2026-11-03T16:58:36+08:00",
+    "scope": "Requested November 3 report/PPT publication, previous November 2 deck, all new/changed reports, selected matched-result/diagnostic evidence and document indexes.",
+    "publication_authorization": "User explicitly requested 推送到远程 after the latest report and PPT delivery.",
+    "new_or_updated_reports": 45,
+    "selected_artifact_paths": [
+      "comparisons/qwen_direct/value_qvqv20_32b_v1_2_scope_2026-11-03/candidate_audit20.csv",
+      "comparisons/qwen_direct/value_qvqv20_32b_v1_2_scope_2026-11-03/complete.json",
+      "comparisons/qwen_direct/value_qvqv20_32b_v1_2_scope_2026-11-03/cpu_test_receipt.json",
+      "comparisons/qwen_direct/value_qvqv20_32b_v1_2_scope_2026-11-03/evaluation20.json",
+      "comparisons/qwen_direct/value_qvqv20_32b_v1_2_scope_2026-11-03/evaluation8b20.json",
+      "comparisons/qwen_direct/value_qvqv20_32b_v1_2_scope_2026-11-03/model_comparison20.json",
+      "comparisons/qwen_direct/value_qvqv20_32b_v1_2_scope_2026-11-03/scope_manifest.json",
+      "docs/handoff_revalue_verifier_2026-10-30.md",
+      "docs/presentations/ReVALUE_实验进度与结果_2026-11-02.pptx",
+      "docs/presentations/ReVALUE_实验进度与结果_2026-11-03_更新版.pdf",
+      "docs/presentations/ReVALUE_实验进度与结果_2026-11-03_更新版.pptx",
+      "docs/presentations/ReVALUE_相关工作到价值判断设计_2026-11-03.pdf",
+      "docs/presentations/revalue_progress_20261102/README.md",
+      "docs/presentations/revalue_progress_20261102/design_spec.md",
+      "docs/presentations/revalue_progress_20261102/exports/revalue_progress_20261103_002730_native_charts_tables.pptx",
+      "docs/presentations/revalue_progress_20261102/notes/01_cover.md",
+      "docs/presentations/revalue_progress_20261102/notes/02_pipeline.md",
+      "docs/presentations/revalue_progress_20261102/notes/03_baseline.md",
+      "docs/presentations/revalue_progress_20261102/notes/04_ablation_design.md",
+      "docs/presentations/revalue_progress_20261102/notes/05_main_results.md",
+      "docs/presentations/revalue_progress_20261102/notes/06_contract_repair.md",
+      "docs/presentations/revalue_progress_20261102/notes/07_verdict_distribution.md",
+      "docs/presentations/revalue_progress_20261102/notes/08_semantic_binding_case.md",
+      "docs/presentations/revalue_progress_20261102/notes/09_dependency_case.md",
+      "docs/presentations/revalue_progress_20261102/notes/10_semantics_and_boundaries.md",
+      "docs/presentations/revalue_progress_20261102/notes/11_32b_runtime.md",
+      "docs/presentations/revalue_progress_20261102/notes/12_next_steps.md",
+      "docs/presentations/revalue_progress_20261102/notes/total.md",
+      "docs/presentations/revalue_progress_20261102/sources/revalue_progress_and_results_2026-11-02.md",
+      "docs/presentations/revalue_progress_20261102/spec_lock.md",
+      "docs/presentations/revalue_progress_20261102/svg_final/01_cover.svg",
+      "docs/presentations/revalue_progress_20261102/svg_final/02_pipeline.svg",
+      "docs/presentations/revalue_progress_20261102/svg_final/03_baseline.svg",
+      "docs/presentations/revalue_progress_20261102/svg_final/04_ablation_design.svg",
+      "docs/presentations/revalue_progress_20261102/svg_final/05_main_results.svg",
+      "docs/presentations/revalue_progress_20261102/svg_final/06_contract_repair.svg",
+      "docs/presentations/revalue_progress_20261102/svg_final/07_verdict_distribution.svg",
+      "docs/presentations/revalue_progress_20261102/svg_final/08_semantic_binding_case.svg",
+      "docs/presentations/revalue_progress_20261102/svg_final/09_dependency_case.svg",
+      "docs/presentations/revalue_progress_20261102/svg_final/10_semantics_and_boundaries.svg",
+      "docs/presentations/revalue_progress_20261102/svg_final/11_32b_runtime.svg",
+      "docs/presentations/revalue_progress_20261102/svg_final/12_next_steps.svg",
+      "docs/presentations/revalue_progress_20261102/svg_output/01_cover.svg",
+      "docs/presentations/revalue_progress_20261102/svg_output/02_pipeline.svg",
+      "docs/presentations/revalue_progress_20261102/svg_output/03_baseline.svg",
+      "docs/presentations/revalue_progress_20261102/svg_output/04_ablation_design.svg",
+      "docs/presentations/revalue_progress_20261102/svg_output/05_main_results.svg",
+      "docs/presentations/revalue_progress_20261102/svg_output/06_contract_repair.svg",
+      "docs/presentations/revalue_progress_20261102/svg_output/07_verdict_distribution.svg",
+      "docs/presentations/revalue_progress_20261102/svg_output/08_semantic_binding_case.svg",
+      "docs/presentations/revalue_progress_20261102/svg_output/09_dependency_case.svg",
+      "docs/presentations/revalue_progress_20261102/svg_output/10_semantics_and_boundaries.svg",
+      "docs/presentations/revalue_progress_20261102/svg_output/11_32b_runtime.svg",
+      "docs/presentations/revalue_progress_20261102/svg_output/12_next_steps.svg",
+      "docs/presentations/revalue_progress_20261102/validation/chart_verification.md",
+      "docs/presentations/revalue_progress_20261102/validation/delivery_receipt.json",
+      "docs/presentations/revalue_progress_20261102/validation/revalue_progress_20261103_002730_native_charts_tables.report.json",
+      "docs/presentations/revalue_progress_20261102/validation/svg_quality_early_report.json",
+      "docs/presentations/revalue_progress_20261102/validation/svg_quality_report.json",
+      "docs/presentations/revalue_progress_20261102/validation/text_calibration.json",
+      "docs/presentations/revalue_progress_20261103/README.md",
+      "docs/presentations/revalue_progress_20261103/analysis/image_analysis.csv",
+      "docs/presentations/revalue_progress_20261103/design_spec.md",
+      "docs/presentations/revalue_progress_20261103/exports/revalue_progress_20261103_163626_native_charts_tables.pptx",
+      "docs/presentations/revalue_progress_20261103/exports/相关工作到价值判断设计_2026-11-03_4.pdf",
+      "docs/presentations/revalue_progress_20261103/images/video_comparison.png",
+      "docs/presentations/revalue_progress_20261103/notes/01_cover.md",
+      "docs/presentations/revalue_progress_20261103/notes/02_pipeline.md",
+      "docs/presentations/revalue_progress_20261103/notes/03_baseline.md",
+      "docs/presentations/revalue_progress_20261103/notes/04_literature_to_design.md",
+      "docs/presentations/revalue_progress_20261103/notes/05_ablation_design.md",
+      "docs/presentations/revalue_progress_20261103/notes/06_main_results.md",
+      "docs/presentations/revalue_progress_20261103/notes/07_contract_repair.md",
+      "docs/presentations/revalue_progress_20261103/notes/08_verdict_distribution.md",
+      "docs/presentations/revalue_progress_20261103/notes/09_matched_32b_results.md",
+      "docs/presentations/revalue_progress_20261103/notes/10_fact_generation_case.md",
+      "docs/presentations/revalue_progress_20261103/notes/11_semantic_binding_case.md",
+      "docs/presentations/revalue_progress_20261103/notes/12_dependency_case.md",
+      "docs/presentations/revalue_progress_20261103/notes/13_semantics_and_boundaries.md",
+      "docs/presentations/revalue_progress_20261103/notes/14_video_review.md",
+      "docs/presentations/revalue_progress_20261103/notes/15_next_steps.md",
+      "docs/presentations/revalue_progress_20261103/notes/total.md",
+      "docs/presentations/revalue_progress_20261103/sources/previous_01_cover_notes.md",
+      "docs/presentations/revalue_progress_20261103/sources/previous_02_pipeline_notes.md",
+      "docs/presentations/revalue_progress_20261103/sources/previous_03_baseline_notes.md",
+      "docs/presentations/revalue_progress_20261103/sources/previous_05_ablation_design_notes.md",
+      "docs/presentations/revalue_progress_20261103/sources/previous_06_main_results_notes.md",
+      "docs/presentations/revalue_progress_20261103/sources/previous_07_contract_repair_notes.md",
+      "docs/presentations/revalue_progress_20261103/sources/previous_08_verdict_distribution_notes.md",
+      "docs/presentations/revalue_progress_20261103/sources/previous_11_semantic_binding_case_notes.md",
+      "docs/presentations/revalue_progress_20261103/sources/previous_12_dependency_case_notes.md",
+      "docs/presentations/revalue_progress_20261103/sources/previous_13_semantics_and_boundaries_notes.md",
+      "docs/presentations/revalue_progress_20261103/sources/previous_15_next_steps_notes.md",
+      "docs/presentations/revalue_progress_20261103/sources/revalue_32b_fact_generation_diagnosis_2026-11-03.md",
+      "docs/presentations/revalue_progress_20261103/sources/revalue_progress_and_results_2026-11-03.md",
+      "docs/presentations/revalue_progress_20261103/sources/revalue_value_judgement_design_v2_2026-10-31.md",
+      "docs/presentations/revalue_progress_20261103/sources/revalue_value_qvqv20_32b_v1_2_results_2026-11-03.md",
+      "docs/presentations/revalue_progress_20261103/sources/revalue_value_verification_related_work_2026-10-31.md",
+      "docs/presentations/revalue_progress_20261103/spec_lock.md",
+      "docs/presentations/revalue_progress_20261103/svg_final/01_cover.svg",
+      "docs/presentations/revalue_progress_20261103/svg_final/02_pipeline.svg",
+      "docs/presentations/revalue_progress_20261103/svg_final/03_baseline.svg",
+      "docs/presentations/revalue_progress_20261103/svg_final/04_literature_to_design.svg",
+      "docs/presentations/revalue_progress_20261103/svg_final/05_ablation_design.svg",
+      "docs/presentations/revalue_progress_20261103/svg_final/06_main_results.svg",
+      "docs/presentations/revalue_progress_20261103/svg_final/07_contract_repair.svg",
+      "docs/presentations/revalue_progress_20261103/svg_final/08_verdict_distribution.svg",
+      "docs/presentations/revalue_progress_20261103/svg_final/09_matched_32b_results.svg",
+      "docs/presentations/revalue_progress_20261103/svg_final/10_fact_generation_case.svg",
+      "docs/presentations/revalue_progress_20261103/svg_final/11_semantic_binding_case.svg",
+      "docs/presentations/revalue_progress_20261103/svg_final/12_dependency_case.svg",
+      "docs/presentations/revalue_progress_20261103/svg_final/13_semantics_and_boundaries.svg",
+      "docs/presentations/revalue_progress_20261103/svg_final/14_video_review.svg",
+      "docs/presentations/revalue_progress_20261103/svg_final/15_next_steps.svg",
+      "docs/presentations/revalue_progress_20261103/svg_output/01_cover.svg",
+      "docs/presentations/revalue_progress_20261103/svg_output/02_pipeline.svg",
+      "docs/presentations/revalue_progress_20261103/svg_output/03_baseline.svg",
+      "docs/presentations/revalue_progress_20261103/svg_output/04_literature_to_design.svg",
+      "docs/presentations/revalue_progress_20261103/svg_output/05_ablation_design.svg",
+      "docs/presentations/revalue_progress_20261103/svg_output/06_main_results.svg",
+      "docs/presentations/revalue_progress_20261103/svg_output/07_contract_repair.svg",
+      "docs/presentations/revalue_progress_20261103/svg_output/08_verdict_distribution.svg",
+      "docs/presentations/revalue_progress_20261103/svg_output/09_matched_32b_results.svg",
+      "docs/presentations/revalue_progress_20261103/svg_output/10_fact_generation_case.svg",
+      "docs/presentations/revalue_progress_20261103/svg_output/11_semantic_binding_case.svg",
+      "docs/presentations/revalue_progress_20261103/svg_output/12_dependency_case.svg",
+      "docs/presentations/revalue_progress_20261103/svg_output/13_semantics_and_boundaries.svg",
+      "docs/presentations/revalue_progress_20261103/svg_output/14_video_review.svg",
+      "docs/presentations/revalue_progress_20261103/svg_output/15_next_steps.svg",
+      "docs/presentations/revalue_progress_20261103/validation/04_相关工作到价值判断设计.png",
+      "docs/presentations/revalue_progress_20261103/validation/09_32B同样本结果.png",
+      "docs/presentations/revalue_progress_20261103/validation/ReVALUE_实验进度与结果_2026-11-03_更新版.pdf",
+      "docs/presentations/revalue_progress_20261103/validation/chart_verification.md",
+      "docs/presentations/revalue_progress_20261103/validation/data_checks.json",
+      "docs/presentations/revalue_progress_20261103/validation/delivery_receipt.json",
+      "docs/presentations/revalue_progress_20261103/validation/revalue_progress_20261103_163626_native_charts_tables.report.json",
+      "docs/presentations/revalue_progress_20261103/validation/source_hashes_before.json",
+      "docs/presentations/revalue_progress_20261103/validation/svg_quality_early_report.json",
+      "docs/presentations/revalue_progress_20261103/validation/svg_quality_report.json",
+      "docs/presentations/revalue_progress_20261103/validation/text_calibration.json",
+      "docs/revalue_32b_fact_generation_diagnosis_2026-11-03.md",
+      "docs/revalue_direct_verifier_execution_2026-10-30.md",
+      "docs/revalue_direct_verifier_offline_diagnosis_v1_2026-10-30.md",
+      "docs/revalue_direct_verifier_plan_v1_1_2026-10-30.md",
+      "docs/revalue_direct_verifier_plan_v1_2026-10-30.md",
+      "docs/revalue_direct_verifier_preparation_2026-10-30.md",
+      "docs/revalue_direct_verifier_results_2026-10-30.md",
+      "docs/revalue_gpu_scheduling_preference_2026-11-02.md",
+      "docs/revalue_progress_and_results_2026-11-02.md",
+      "docs/revalue_progress_and_results_2026-11-03.md",
+      "docs/revalue_trace_viewer_2026-10-30.md",
+      "docs/revalue_trace_viewer_direct_comparison_2026-11-03.md",
+      "docs/revalue_trace_viewer_video_playback_2026-11-03.md",
+      "docs/revalue_value_judgement_design_v2_2026-10-31.md",
+      "docs/revalue_value_qvqv100_32b_v1_1_execution_2026-11-03.md",
+      "docs/revalue_value_qvqv100_32b_v1_1_results_2026-11-03.md",
+      "docs/revalue_value_qvqv100_32b_v1_2_execution_2026-11-03.md",
+      "docs/revalue_value_qvqv100_32b_v1_2_results_2026-11-03.md",
+      "docs/revalue_value_qvqv100_32b_v1_execution_2026-11-02.md",
+      "docs/revalue_value_qvqv100_execution_2026-10-31.md",
+      "docs/revalue_value_qvqv100_protocol_2026-10-31.md",
+      "docs/revalue_value_qvqv100_results_2026-10-31.md",
+      "docs/revalue_value_qvqv100_v2_1_execution_2026-11-01.md",
+      "docs/revalue_value_qvqv100_v2_1_protocol_2026-11-01.md",
+      "docs/revalue_value_qvqv100_v2_1_results_2026-11-01.md",
+      "docs/revalue_value_qvqv100_v2_2_execution_2026-11-02.md",
+      "docs/revalue_value_qvqv100_v2_2_parallel_amendment_2026-11-02.md",
+      "docs/revalue_value_qvqv100_v2_2_parallel_execution_2026-11-02.md",
+      "docs/revalue_value_qvqv100_v2_2_parallel_results_2026-11-02.md",
+      "docs/revalue_value_qvqv100_v2_2_protocol_2026-11-02.md",
+      "docs/revalue_value_qvqv100_v2_4_results_2026-11-02.md",
+      "docs/revalue_value_qvqv20_32b_v1_2_execution_2026-11-03.md",
+      "docs/revalue_value_qvqv20_32b_v1_2_results_2026-11-03.md",
+      "docs/revalue_value_reference_dedup_v2_4_2026-11-02.md",
+      "docs/revalue_value_reference_dependency_fix_v2_3_2026-11-02.md",
+      "docs/revalue_value_state_schema_fix_v2_1_2026-11-01.md",
+      "docs/revalue_value_verification_related_work_2026-10-31.md",
+      "docs/revalue_verifier_improvement_plan_2026-10-31.md",
+      "docs/reze_direct_grounding_qv100_execution_2026-10-30.md",
+      "docs/reze_direct_grounding_qv100_protocol_v1_1_2026-10-30.md",
+      "docs/reze_direct_grounding_qv100_protocol_v1_2026-10-30.md",
+      "docs/reze_direct_grounding_qv100_protocol_v1_2_2026-10-30.md",
+      "docs/reze_direct_grounding_qv100_results_2026-10-30.md",
+      "docs/temporal_grounding_mainline_2026-10-29.md",
+      "projects/revalue_trace_viewer/validation/fact_audit_2026-11-03/audit.json",
+      "projects/revalue_trace_viewer/validation/fact_audit_2026-11-03/f0074.png",
+      "projects/revalue_trace_viewer/validation/fact_audit_2026-11-03/f0079.png",
+      "projects/revalue_trace_viewer/validation/fact_audit_2026-11-03/f0089.png"
+    ],
+    "scope_boundary": "Documentation/presentation delivery. Unpublished experimental implementation files remain outside this publication; this is not a full workspace/source synchronization.",
+    "full_source_audit_before": {
+      "unpublished_report_count": 44,
+      "unpublished_experimental_source_count": 262
+    },
+    "prior_entries": [
+      {
+        "source": "MERIT:docs/temporal_grounding_mainline_2026-10-29.md",
+        "destination": "docs/temporal_grounding_mainline_2026-10-29.md",
+        "source_sha256": "9dc9e79017bbdcab777ec39227ea761e85259467e1cfcef3d3f4bbe784f3c2d8",
+        "publication_sha256": "476d75e0184d2a2f388681fba77d19be20f19a1463c097f91e1e6a177f2f32a6",
+        "basis": "report",
+        "publication_changes": "Publication notice and path/link aliases only; scientific content unchanged.",
+        "local_only_references": []
+      }
+    ],
+    "prior_index_snapshot": [
+      {
+        "source": "MERIT:README.md",
+        "destination": "README.md",
+        "source_sha256": "0dea149cceb481ad70ed8874ea804489e116844562d7d8c20710f67abfa32af2",
+        "publication_sha256": "1377bfb98220c11ee52befd1e711ab62ff3e2d5cf84aa4fe5954139fe950b8d9",
+        "basis": "curated_publication_index_with_all_report_links_and_standing_user_instruction"
+      },
+      {
+        "source": "MERIT:docs/README.md",
+        "destination": "docs/README.md",
+        "source_sha256": "43504dddbaadd1e8591053a2a639eee16aac9cf32066740d1bd0d30f7bec35bb",
+        "publication_sha256": "eacd1911690211283a9d2487baf56e5b0e1a722f34bd002d4b74b3634c913db8",
+        "basis": "curated_publication_index_with_all_report_links_and_standing_user_instruction"
+      }
+    ],
+    "new_experiment_model_calls": 0,
+    "new_gpu_allocations": 0,
+    "research_sources_changed": false,
+    "original_predictions_changed": false,
+    "AGENTS_modified": false,
+    "verification_status": "passed_for_requested_reports_and_presentation_delivery",
+    "publication_verification": {
+      "passed": true,
+      "published_files_checked": 635,
+      "source_files_checked": 0,
+      "local_links_checked": 811,
+      "errors": []
+    },
+    "full_workspace_source_audit": {
+      "passed": false,
+      "published_files_checked": 635,
+      "source_files_checked": 623,
+      "local_links_checked": 811,
+      "unpublished_reports": 0,
+      "source_or_publication_hash_errors": 0,
+      "unpublished_experiment_source_files": 262,
+      "scope_note": "The full workspace source check remains false only for the same 262 implementation files already recorded before this documentation/presentation publication; no source coverage check was bypassed or reclassified."
+    },
+    "focused_delivery_verification": {
+      "selected_paths": 191,
+      "machine_specific_path_matches": 0,
+      "credential_pattern_matches": 0,
+      "files_over_10_mib": 0,
+      "slides": 15,
+      "speaker_notes_pages": 15,
+      "native_charts": 3,
+      "native_tables": 3,
+      "pptx_equal_to_research_delivery": true,
+      "legacy_presentation_preserved": true
+    },
+    "AGENTS_sha256": "db0f1604cfb81d376d42faaa91693e515ec457563dede66e862d4e5f71e059ee",
+    "pptx_sha256": "4f79ec821409c45e05e03a9e15e74543a442cf9f82d47e69b6c0b08a45fc99b5"
   }
 }

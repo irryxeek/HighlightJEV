@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="content">
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><polygon points="0,0 10,5 0,10" fill="#C96A32"/></marker></defs>
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="title" data-pptx-bounds="56 42 1168 122"><text x="56" y="65" font-size="20" fill="#237F89">08 / 案例：qid 10 · 候选 0–150 秒</text><text x="56" y="127" font-size="42" font-weight="bold" fill="#17324D">错误的条件依赖会扩散 unknown</text></g>
+  <g id="query" data-pptx-bounds="56 180 1168 44"><text x="56" y="210" fill="#17324D">Query：女子在盆栽旁独白</text></g>
+  <g id="dependency-comparison" data-pptx-bounds="56 244 1168 268">
+    <rect x="56" y="244" width="1168" height="72" fill="#F2F5F8"/>
+    <text x="80" y="289" font-size="28" font-weight="bold" fill="#C96A32">r1：独白 → 缺少音频，unknown</text>
+    <line x1="962" y1="318" x2="962" y2="366" stroke="#C96A32" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="994" y="351" font-size="20" fill="#C96A32">响应新增依赖</text>
+    <rect x="56" y="376" width="552" height="136" fill="#EAF3F3"/>
+    <text x="80" y="414" font-size="20" fill="#237F89">冻结条件</text>
+    <text x="80" y="456" fill="#17324D">r3：植物是否在盆里？<tspan x="80" dy="36">depends_on=[]</tspan></text>
+    <rect x="656" y="376" width="568" height="136" fill="#F2F5F8"/>
+    <text x="680" y="414" font-size="20" fill="#C96A32">模型响应</text>
+    <text x="680" y="456" fill="#17324D">r3：因依赖独白而 unknown<tspan x="680" dy="36">但模型事实多次描述“盆栽”</tspan></text>
+  </g>
+  <g id="dependency-lesson" data-pptx-bounds="56 548 1168 106">
+    <text x="56" y="580" font-size="28" font-weight="bold" fill="#17324D">局部事实独立判断，依赖按冻结合同传播</text>
+    <text x="56" y="624" fill="#637485">已确认响应内部不一致；程序传播依赖仍是待验证的修复建议。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="56 672 1168 32" data-pptx-role="footer" font-size="14" fill="#637485"><text x="56" y="693">来源：实验进度与结果报告 §4｜既有响应审查，不能代替人工确认画面内容</text><text x="1224" y="693" text-anchor="end">09 / 12</text></g>
+</svg>

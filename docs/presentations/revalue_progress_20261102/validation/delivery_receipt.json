@@ -1,0 +1,19 @@
+{
+  "at": "2026-11-03T00:28:19.946014+08:00",
+  "pptx": "$MERIT_ROOT/docs/presentations/ReVALUE_实验进度与结果_2026-11-02.pptx",
+  "export": "$MERIT_ROOT/docs/presentations/revalue_progress_20261102/exports/revalue_progress_20261103_002730_native_charts_tables.pptx",
+  "sha256": "ba90bb8c3b077c9e7b3bf111a451308349c19e6efa8968cc7861f08630dc7f50",
+  "source": "$MERIT_ROOT/docs/revalue_progress_and_results_2026-11-02.md",
+  "source_sha256": "28f9c8ee184a8111f15e05a28f75952c697fcb38502a176c8bd131a8a4ecdccf",
+  "slides": 12,
+  "notes": 12,
+  "native_charts": 3,
+  "native_tables": 2,
+  "quality": "passed",
+  "postflight": "passed",
+  "bytes": 88624,
+  "new_experiment_model_calls": 0,
+  "experiment_workers_started": 0,
+  "live_preview": "http://127.0.0.1:6060",
+  "notes_markdown": "$MERIT_ROOT/docs/presentations/revalue_progress_20261102/notes/total.md"
+}
