@@ -6,7 +6,9 @@
 
 **资源约定：[后续新运行可使用任意空闲 GPU](docs/gpu_resource_policy_2026-10-25.md)。** 可独立拆分的任务优先多卡并行，已有冻结运行保留原配置。
 
-**最新组会汇报（2026-11-03–09）：[本周总结](docs/revalue_weekly_progress_2026-11-03_to_2026-11-09.md) · [16页可编辑PPT](docs/presentations/ReVALUE_组会汇报_2026-11-03至11-09.pptx) · [讲稿、页面源文件与精选证据](docs/presentations/revalue_weekly_20261109/README.md)。** 固定40条TVSum视频上，F-local为57.5828，普通核验为58.4573，旧V15为58.4085，修复V15为57.6496 Top-5 mAP；详细价值核验尚未超过普通核验，也未确认稳定收益。最新200对已完成，原50对诊断发现最终结论与逐题证据之间的联合契约缺口。本次同时补齐82份相关报告和方案，详见[文档索引](docs/README.md)；没有新增实验，后续建议不构成启动授权。
+**会议对照修订版（2026-11-10制作，汇报期11月3–9日）：[修订报告](docs/revalue_weekly_progress_2026-11-03_to_2026-11-09_meeting_revision.md) · [16页可编辑PPT](docs/presentations/ReVALUE_实验进度汇报_2026-11-03至11-09_会议对照修订版.pptx) · [讲稿、页面源文件与证据](docs/presentations/revalue_weekly_meeting_revision_20261110/README.md)。** 重新对照11月3日纪要，区分已修复问题、未确认的价值与记忆收益，以及待验证的补证建议；补入SVHighlights七视频结果，十四视频27B扩测保留11月9日23:37的进行中快照。图表和表格原生可编辑，附16页讲稿。
+
+**同周期初稿（2026-11-03–09）：[本周总结](docs/revalue_weekly_progress_2026-11-03_to_2026-11-09.md) · [16页可编辑PPT](docs/presentations/ReVALUE_组会汇报_2026-11-03至11-09.pptx) · [讲稿、页面源文件与精选证据](docs/presentations/revalue_weekly_20261109/README.md)。** 固定40条TVSum视频上，F-local为57.5828，普通核验为58.4573，旧V15为58.4085，修复V15为57.6496 Top-5 mAP；详细价值核验尚未超过普通核验，也未确认稳定收益。最新200对已完成，原50对诊断发现最终结论与逐题证据之间的联合契约缺口。本次同时补齐82份相关报告和方案，详见[文档索引](docs/README.md)；没有新增实验，后续建议不构成启动授权。
 
 **此前汇报（2026-11-03）：[工作总结](docs/revalue_progress_and_results_2026-11-03.md) · [15 页可编辑 PPT](docs/presentations/ReVALUE_实验进度与结果_2026-11-03_更新版.pptx) · [PDF 预览](docs/presentations/ReVALUE_实验进度与结果_2026-11-03_更新版.pdf) · [文献到价值判断单页](docs/presentations/ReVALUE_相关工作到价值判断设计_2026-11-03.pdf) · [讲稿与源页面](docs/presentations/revalue_progress_20261103/README.md)。** 8B Q/Q+V v2.4 完成固定 100 条 query 的 278 次判断，273 条合法；错误召回率为 7.06% / 9.41%。32B 已完成原清单前 20 条（37 候选、74 次），同样本 Q/Q+V 错误召回率为 4% / 0%，65/74 次为证据不足；尚未证明检错或 grounding 提升。新增文献到价值判断的设计来源、32B 事实生成诊断和 GT / Direct 视频审查说明。
 

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="ending">
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#17324D" />
+<g id="identity" data-pptx-bounds="56 42 1168 58"><text x="56" y="68" font-size="20" fill="#FFFFFF">ReVALUE / 本次讨论</text><line x1="56" y1="94" x2="1224" y2="94" stroke="#64798B" /></g>
+<g id="closing-title" data-pptx-bounds="56 156 1168 200"><text x="56" y="220" font-size="64" font-family="SimSun, Arial" fill="#FFFFFF"><tspan x="56">保留五维</tspan><tspan x="56" dy="86">将其定位为按需问题库</tspan></text></g>
+<g id="decision-ask" data-pptx-bounds="56 382 1168 76"><text x="56" y="417" font-size="28" fill="#FFFFFF">以普通核验为主对照，先确认价值问题带来了有用的新证据。</text></g>
+<g id="evidence-status" data-pptx-bounds="56 478 1168 130" fill="#FFFFFF"><text x="56" y="511"><tspan x="56">已有：更可追溯的事实、更明确的失败机制。</tspan><tspan x="56" dy="44">待证：价值额外收益、定向补证、完整事件关系。</tspan></text><text x="56" y="600" font-size="20">多需求剪辑与多智能体成片继续后置；下一步实验建议仍待审阅。</text></g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="56 668 1168 32" font-size="14" fill="#FFFFFF"><text x="56" y="686">研究建议 · 尚未运行按需五维或定向补证实验 · 汇报周期2026.11.03–11.09</text><text x="1224" y="686" text-anchor="end">16 / 16</text></g>
+</svg>

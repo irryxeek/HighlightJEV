@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "filename": "z_6gVvQb2d0__pair01.jpg",
+      "source_type": "provided",
+      "source_path": "$MERIT_ROOT/comparisons/tvsum_value15_consistency50_diagnosis_2026-11-09/cached_frame_review/z_6gVvQb2d0__pair01.jpg",
+      "purpose": "已冻结输入帧联系表，展示诊断案例，保持原像素与标签",
+      "license_tier": "manual",
+      "attribution_required": false
+    },
+    {
+      "filename": "WxtbjNsCQ8A__pair02.jpg",
+      "source_type": "provided",
+      "source_path": "$MERIT_ROOT/comparisons/tvsum_value15_consistency50_diagnosis_2026-11-09/cached_frame_review/WxtbjNsCQ8A__pair02.jpg",
+      "purpose": "已冻结输入帧联系表，展示诊断案例，保持原像素与标签",
+      "license_tier": "manual",
+      "attribution_required": false
+    }
+  ]
+}

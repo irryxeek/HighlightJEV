@@ -1,6 +1,16 @@
 # 文档索引
 
-## 最新：本周记忆与价值核验进展（2026-11-03–09）
+## 最新：按会议纪要重整的本周汇报（2026-11-10）
+
+- [会议对照修订报告](revalue_weekly_progress_2026-11-03_to_2026-11-09_meeting_revision.md) · [16页可编辑PPT](presentations/ReVALUE_实验进度汇报_2026-11-03至11-09_会议对照修订版.pptx) · [讲稿与源页面](presentations/revalue_weekly_meeting_revision_20261110/README.md)。
+- [SVHighlights七视频结果](revalue_svhighlights_sparse7_v1_1_results_2026-11-09.md)、[七视频协议](revalue_svhighlights_sparse7_protocol_2026-11-09.md)、[v1.1执行记录](revalue_svhighlights_sparse7_execution_v1_1_2026-11-09.md)、[启动恢复记录](revalue_svhighlights_sparse7_startup_recovery_v1_1_2026-11-09.md)。
+- [十四视频27B扩测协议](revalue_svhighlights_expand14_27b_protocol_2026-11-09.md)、[执行快照](revalue_svhighlights_expand14_27b_execution_2026-11-09.md)。快照保留原日期，尚无本轮最终结果，不能视作当前实时监控。
+- 历史七视频[初版执行](revalue_svhighlights_sparse7_execution_2026-11-09.md)与[初版结果记录](revalue_svhighlights_sparse7_results_2026-11-09.md)保留；完成结论以上述v1.1结果为准。
+
+本次一并补齐9份新增报告和完整汇报材料。没有新增实验推理，也没有改变现有实验；已有未发布实验源码仍是独立的代码发布事项。
+
+
+## 同周期初稿：本周记忆与价值核验进展（2026-11-03–09）
 
 - [本周总结报告](revalue_weekly_progress_2026-11-03_to_2026-11-09.md) · [16页可编辑PPT](presentations/ReVALUE_组会汇报_2026-11-03至11-09.pptx) · [讲稿、源页面与精选帧证据](presentations/revalue_weekly_20261109/README.md)。
 - [固定40视频／200对核验结果](revalue_tvsum_value15_consistency40_results_2026-11-09.md)、[原50对合法率下降诊断](revalue_tvsum_value15_consistency50_diagnosis_2026-11-09.md)。

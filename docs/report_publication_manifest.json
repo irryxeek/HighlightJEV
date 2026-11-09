@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T17:12:31+08:00",
+  "updated_at": "2026-11-10T02:49:29+08:00",
   "scope": "All active MERIT docs/*.md except the curated index, plus related QVHighlights-ZeroShot docs/*.md. Historical frozen plan publications retained. Raw experiment artifacts are not implicitly published.",
   "standing_user_instruction": "Whenever pushing project updates, include newly created or updated reports, analyses, research plans, and document indexes.",
   "path_aliases": {
@@ -12,7 +12,9 @@
     "$MERIT_ARTIFACT_ROOT": "source location; configure separately",
     "$SHARED_DATA_ROOT": "source location; configure separately",
     "$WORKSPACE_PARENT": "source location; configure separately",
-    "$DATA_PARENT": "source location; configure separately"
+    "$DATA_PARENT": "source location; configure separately",
+    "$PPT_MASTER_ROOT": "installed presentation skill location; configure separately",
+    "$PPT_DOCUMENT_RUNTIME": "temporary documentation runtime; not the experiment environment"
   },
   "files": [
     {
@@ -5148,6 +5150,667 @@
       "basis": "weekly_progress_2026_11_03_to_11_09_reports_presentation_and_selected_frozen_evidence",
       "publication_changes": "Identical publication copy.",
       "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_svhighlights_expand14_27b_execution_2026-11-09.md",
+      "destination": "docs/revalue_svhighlights_expand14_27b_execution_2026-11-09.md",
+      "source_sha256": "f1c96612270231f7bb038fdc65dce731d58a6c3effadacfcd51509f6fbfc9f9a",
+      "publication_sha256": "af8a2c4494a0611fe7d50624fd4591ee71a929a208f0e8159aefb60744e4233f",
+      "basis": "presentation_or_report_with_publication_links_and_path_aliases",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_svhighlights_expand14_27b_protocol_2026-11-09.md",
+      "destination": "docs/revalue_svhighlights_expand14_27b_protocol_2026-11-09.md",
+      "source_sha256": "b521ead802f5af557ebe16dde0df844dd6f299af4bfb5d0f6aafc29868f7f19b",
+      "publication_sha256": "b521ead802f5af557ebe16dde0df844dd6f299af4bfb5d0f6aafc29868f7f19b",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_svhighlights_sparse7_execution_2026-11-09.md",
+      "destination": "docs/revalue_svhighlights_sparse7_execution_2026-11-09.md",
+      "source_sha256": "63ef762f0d188746c750c519aef7a1947d9e6725b589bebf3afaeb3cf48d4785",
+      "publication_sha256": "6c77742f75063b5963e23ff908a676b6759477c66edcaea700940b76d3ec750c",
+      "basis": "presentation_or_report_with_publication_links_and_path_aliases",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_svhighlights_sparse7_execution_v1_1_2026-11-09.md",
+      "destination": "docs/revalue_svhighlights_sparse7_execution_v1_1_2026-11-09.md",
+      "source_sha256": "9901a12edbf58872c9e76a0c373b8d0dac7be94be09eac076aa13e5896b5aed5",
+      "publication_sha256": "fa769d0c48d39c75164f0e82b4002c4868f4b64df1de9a4b4f15e58839e592bd",
+      "basis": "presentation_or_report_with_publication_links_and_path_aliases",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_svhighlights_sparse7_protocol_2026-11-09.md",
+      "destination": "docs/revalue_svhighlights_sparse7_protocol_2026-11-09.md",
+      "source_sha256": "02082fd1ecf9f5668236e82d5f36c35c66810859b11f1a3afff28b5fb9636849",
+      "publication_sha256": "27937e0eec356fcc6d761edc42a043e40cab65268e25f4e4fae3206203ba15c9",
+      "basis": "presentation_or_report_with_publication_links_and_path_aliases",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_svhighlights_sparse7_results_2026-11-09.md",
+      "destination": "docs/revalue_svhighlights_sparse7_results_2026-11-09.md",
+      "source_sha256": "7a57d6ed5811a22913c49b3c5de111b4892769d121f176d66a9f97675e429dee",
+      "publication_sha256": "c3397eab1f56094b52ab57cf6bb1ee4450d0f75c0ae96d7ad93cb0b959fbe220",
+      "basis": "presentation_or_report_with_publication_links_and_path_aliases",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_svhighlights_sparse7_startup_recovery_v1_1_2026-11-09.md",
+      "destination": "docs/revalue_svhighlights_sparse7_startup_recovery_v1_1_2026-11-09.md",
+      "source_sha256": "9d2dd0b6f1e68130e1ffef5c32d1fc04cc7447a247e2684497da3534e1f4eb80",
+      "publication_sha256": "6a645af0409a80c279a2f06124838afeeea0d94c044d06392bb14915021a1201",
+      "basis": "presentation_or_report_with_publication_links_and_path_aliases",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_svhighlights_sparse7_v1_1_results_2026-11-09.md",
+      "destination": "docs/revalue_svhighlights_sparse7_v1_1_results_2026-11-09.md",
+      "source_sha256": "fda2960380461fe17fcce99611efd98ac7dd2f39e8fe4186d868f7ef6bf0ff12",
+      "publication_sha256": "96edbb1ee34ed59b3e4bcb36f0156965224c718b70d819deb23cb3f501f4034a",
+      "basis": "presentation_or_report_with_publication_links_and_path_aliases",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_weekly_progress_2026-11-03_to_2026-11-09_meeting_revision.md",
+      "destination": "docs/revalue_weekly_progress_2026-11-03_to_2026-11-09_meeting_revision.md",
+      "source_sha256": "5a496598d084472317c94d3600f33cb73416bb0271f13cfa4854e745548462b5",
+      "publication_sha256": "154603c0c80c28370d84413e60ac315eb64cf34058e78bd42439a9e287c7a778",
+      "basis": "presentation_or_report_with_publication_links_and_path_aliases",
+      "local_only_references": [
+        "$MERIT_ROOT/docs/meetings/2026-11-03_会议纪要.md"
+      ]
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/01_cover.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/01_cover.svg",
+      "source_sha256": "5ccb28e32582df626f4a1891d3a68044acf01834f380b93607a99a53ff1142c7",
+      "publication_sha256": "5ccb28e32582df626f4a1891d3a68044acf01834f380b93607a99a53ff1142c7",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/02_main_findings.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/02_main_findings.svg",
+      "source_sha256": "75725510758febf6e5fb3d508d2a4b3158e8e509d255a64af103329aaec11663",
+      "publication_sha256": "75725510758febf6e5fb3d508d2a4b3158e8e509d255a64af103329aaec11663",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/03_meeting_progress.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/03_meeting_progress.svg",
+      "source_sha256": "aae019a418e76c5ab75b4fae1049c8291ee18c4ad4d91fe3065fc16d65c8306e",
+      "publication_sha256": "aae019a418e76c5ab75b4fae1049c8291ee18c4ad4d91fe3065fc16d65c8306e",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/04_module_positions.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/04_module_positions.svg",
+      "source_sha256": "ad1385df68c0cf4c0cd86f0b09f9b638142d0dfa48a56b056474af4cf155e43d",
+      "publication_sha256": "ad1385df68c0cf4c0cd86f0b09f9b638142d0dfa48a56b056474af4cf155e43d",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/05_value_questions.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/05_value_questions.svg",
+      "source_sha256": "5a82d311f6c1460de2472a22e5688489566e688796d726abced80cc5ddf55a90",
+      "publication_sha256": "5a82d311f6c1460de2472a22e5688489566e688796d726abced80cc5ddf55a90",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/06_cohort_expansion.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/06_cohort_expansion.svg",
+      "source_sha256": "531abcfa2439f851304bd284a30906188f2569c2e8e1f72792668b9217a486be",
+      "publication_sha256": "531abcfa2439f851304bd284a30906188f2569c2e8e1f72792668b9217a486be",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/07_memory_improvement.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/07_memory_improvement.svg",
+      "source_sha256": "b63a678a16963c85ac36d445557a20620c19df49019c8cb6daacff5562406593",
+      "publication_sha256": "b63a678a16963c85ac36d445557a20620c19df49019c8cb6daacff5562406593",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/08_repairs_and_limits.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/08_repairs_and_limits.svg",
+      "source_sha256": "356073703e23dc176ac32b69d460983f90db0c11adc2d1b91a6d4cda88b31043",
+      "publication_sha256": "356073703e23dc176ac32b69d460983f90db0c11adc2d1b91a6d4cda88b31043",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/09_verifier_results.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/09_verifier_results.svg",
+      "source_sha256": "b4ed1a47d7dd6a58a729ab5bcfe29db1afd1cd2d95b34de7a1463ad3087cf265",
+      "publication_sha256": "b4ed1a47d7dd6a58a729ab5bcfe29db1afd1cd2d95b34de7a1463ad3087cf265",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/10_verdict_distribution.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/10_verdict_distribution.svg",
+      "source_sha256": "bef6b0f015f32bc094e8df9f7020820126bf1cfa16ef9b31c657fd7b73dfa176",
+      "publication_sha256": "bef6b0f015f32bc094e8df9f7020820126bf1cfa16ef9b31c657fd7b73dfa176",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/11_case_contradiction.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/11_case_contradiction.svg",
+      "source_sha256": "9ee50e7d9b7ed15c0df49ceb8a5c5a0098a092388016450b2be20292018ec478",
+      "publication_sha256": "9ee50e7d9b7ed15c0df49ceb8a5c5a0098a092388016450b2be20292018ec478",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/12_case_comparison_evidence.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/12_case_comparison_evidence.svg",
+      "source_sha256": "b480c55c5d012a5e495adb8d784ebc5bddbe989bacaa7eb99349eb08d9d29a9e",
+      "publication_sha256": "b480c55c5d012a5e495adb8d784ebc5bddbe989bacaa7eb99349eb08d9d29a9e",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/13_transfer_results.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/13_transfer_results.svg",
+      "source_sha256": "e01bc2cd1703033f21104fbd786e3c1bec5d01bc0e69186df962dd7ce857dd51",
+      "publication_sha256": "e01bc2cd1703033f21104fbd786e3c1bec5d01bc0e69186df962dd7ce857dd51",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/14_long_video_status.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/14_long_video_status.svg",
+      "source_sha256": "3db9ddf37d241f7a402cbdec6e5f690699f4aeaf3e67b1a739f53d8be5057943",
+      "publication_sha256": "3db9ddf37d241f7a402cbdec6e5f690699f4aeaf3e67b1a739f53d8be5057943",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/15_next_steps.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/15_next_steps.svg",
+      "source_sha256": "c17ebffbb820c36143941ff73fe39ba09da98d16127d9bfee01c8ed7db8d219a",
+      "publication_sha256": "c17ebffbb820c36143941ff73fe39ba09da98d16127d9bfee01c8ed7db8d219a",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/16_discussion.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/16_discussion.svg",
+      "source_sha256": "ad8bf965aaee1151b46f1b6cc501be46782f7727ee70916129f2bcb62a0ede7b",
+      "publication_sha256": "ad8bf965aaee1151b46f1b6cc501be46782f7727ee70916129f2bcb62a0ede7b",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/01_cover.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/01_cover.svg",
+      "source_sha256": "9dfed036dfe0284c2e8c5a77e71d2ecfe1f0a046f0d8d6e27beaf3a9e609c1e4",
+      "publication_sha256": "9dfed036dfe0284c2e8c5a77e71d2ecfe1f0a046f0d8d6e27beaf3a9e609c1e4",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/02_main_findings.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/02_main_findings.svg",
+      "source_sha256": "e35d702d957575e0ae7d36879ca59c5743140ace1e76743afe1a3494ba8c6b61",
+      "publication_sha256": "e35d702d957575e0ae7d36879ca59c5743140ace1e76743afe1a3494ba8c6b61",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/03_meeting_progress.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/03_meeting_progress.svg",
+      "source_sha256": "aae019a418e76c5ab75b4fae1049c8291ee18c4ad4d91fe3065fc16d65c8306e",
+      "publication_sha256": "aae019a418e76c5ab75b4fae1049c8291ee18c4ad4d91fe3065fc16d65c8306e",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/04_module_positions.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/04_module_positions.svg",
+      "source_sha256": "ad1385df68c0cf4c0cd86f0b09f9b638142d0dfa48a56b056474af4cf155e43d",
+      "publication_sha256": "ad1385df68c0cf4c0cd86f0b09f9b638142d0dfa48a56b056474af4cf155e43d",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/05_value_questions.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/05_value_questions.svg",
+      "source_sha256": "5a82d311f6c1460de2472a22e5688489566e688796d726abced80cc5ddf55a90",
+      "publication_sha256": "5a82d311f6c1460de2472a22e5688489566e688796d726abced80cc5ddf55a90",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/06_cohort_expansion.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/06_cohort_expansion.svg",
+      "source_sha256": "9c623c32d1cda5949844bbc6c8215097c4e4809cf358d09fcfb163f6eac97917",
+      "publication_sha256": "9c623c32d1cda5949844bbc6c8215097c4e4809cf358d09fcfb163f6eac97917",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/07_memory_improvement.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/07_memory_improvement.svg",
+      "source_sha256": "316d3cdb5441e74d0fa958afc798113cfacec1eb7917d77058fd54a8035eb78d",
+      "publication_sha256": "316d3cdb5441e74d0fa958afc798113cfacec1eb7917d77058fd54a8035eb78d",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/08_repairs_and_limits.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/08_repairs_and_limits.svg",
+      "source_sha256": "356073703e23dc176ac32b69d460983f90db0c11adc2d1b91a6d4cda88b31043",
+      "publication_sha256": "356073703e23dc176ac32b69d460983f90db0c11adc2d1b91a6d4cda88b31043",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/09_verifier_results.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/09_verifier_results.svg",
+      "source_sha256": "33530f27d82cd693c34eb5324271aedd9f24653e080a0d821825732bd0c7f6ce",
+      "publication_sha256": "33530f27d82cd693c34eb5324271aedd9f24653e080a0d821825732bd0c7f6ce",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/10_verdict_distribution.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/10_verdict_distribution.svg",
+      "source_sha256": "bef6b0f015f32bc094e8df9f7020820126bf1cfa16ef9b31c657fd7b73dfa176",
+      "publication_sha256": "bef6b0f015f32bc094e8df9f7020820126bf1cfa16ef9b31c657fd7b73dfa176",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/11_case_contradiction.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/11_case_contradiction.svg",
+      "source_sha256": "6ea81257814ddd6548fad9cc7ca015141cce9a368d2bc1bfd16f512cd48776d4",
+      "publication_sha256": "6ea81257814ddd6548fad9cc7ca015141cce9a368d2bc1bfd16f512cd48776d4",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/12_case_comparison_evidence.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/12_case_comparison_evidence.svg",
+      "source_sha256": "47d882302d8f5ffbb689b96e7328c066d22e5cdb8713a99004f19d82a46efbe9",
+      "publication_sha256": "47d882302d8f5ffbb689b96e7328c066d22e5cdb8713a99004f19d82a46efbe9",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/13_transfer_results.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/13_transfer_results.svg",
+      "source_sha256": "a0b6c40b3503e1cb14a66e891855240bf69f6ffcda744b3f54c5514c58ad6cd9",
+      "publication_sha256": "a0b6c40b3503e1cb14a66e891855240bf69f6ffcda744b3f54c5514c58ad6cd9",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/14_long_video_status.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/14_long_video_status.svg",
+      "source_sha256": "5e1860f3adcf8626df2630af0f49ad4254f0282606a13680456c586f7f611046",
+      "publication_sha256": "5e1860f3adcf8626df2630af0f49ad4254f0282606a13680456c586f7f611046",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/15_next_steps.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/15_next_steps.svg",
+      "source_sha256": "c17ebffbb820c36143941ff73fe39ba09da98d16127d9bfee01c8ed7db8d219a",
+      "publication_sha256": "c17ebffbb820c36143941ff73fe39ba09da98d16127d9bfee01c8ed7db8d219a",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/16_discussion.svg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/svg_final/16_discussion.svg",
+      "source_sha256": "4c9aa3375cf80541989ef0f83450cfcd80e5887ee1588e0a21b7637fdf35f180",
+      "publication_sha256": "4c9aa3375cf80541989ef0f83450cfcd80e5887ee1588e0a21b7637fdf35f180",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/notes/01_cover.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/notes/01_cover.md",
+      "source_sha256": "b98e57e84019f98fe637797b7fe0a89058ebb1f0617af29345c81df7573cd7e3",
+      "publication_sha256": "b98e57e84019f98fe637797b7fe0a89058ebb1f0617af29345c81df7573cd7e3",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/notes/02_main_findings.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/notes/02_main_findings.md",
+      "source_sha256": "37a54cb8777e5ccdaa5cf794fc93cc8357ac9041af5e26de82451ee88d0dcc76",
+      "publication_sha256": "37a54cb8777e5ccdaa5cf794fc93cc8357ac9041af5e26de82451ee88d0dcc76",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/notes/03_meeting_progress.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/notes/03_meeting_progress.md",
+      "source_sha256": "1ef201240232e85f9493f70b5b838e16a8c5538740dbe92bda039c9d8e2da6de",
+      "publication_sha256": "1ef201240232e85f9493f70b5b838e16a8c5538740dbe92bda039c9d8e2da6de",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/notes/04_module_positions.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/notes/04_module_positions.md",
+      "source_sha256": "e64c106c51dec57d23cb1f15e990aea3cf363402637cf1338baafbfc73bff1dc",
+      "publication_sha256": "e64c106c51dec57d23cb1f15e990aea3cf363402637cf1338baafbfc73bff1dc",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/notes/05_value_questions.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/notes/05_value_questions.md",
+      "source_sha256": "cec2daa88787e5d7cb49889f32011b4755c1ca57cea692ae584bfa813b113620",
+      "publication_sha256": "cec2daa88787e5d7cb49889f32011b4755c1ca57cea692ae584bfa813b113620",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/notes/06_cohort_expansion.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/notes/06_cohort_expansion.md",
+      "source_sha256": "f51deadd6840cda1133cdfd20936fcf26d28193fd88dbc9aa5ec2bd92f59e6ec",
+      "publication_sha256": "f51deadd6840cda1133cdfd20936fcf26d28193fd88dbc9aa5ec2bd92f59e6ec",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/notes/07_memory_improvement.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/notes/07_memory_improvement.md",
+      "source_sha256": "2f208a36752752a1af1b62283b537fa20090423a79ca9686141922072984f72b",
+      "publication_sha256": "2f208a36752752a1af1b62283b537fa20090423a79ca9686141922072984f72b",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/notes/08_repairs_and_limits.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/notes/08_repairs_and_limits.md",
+      "source_sha256": "c55cd4313c747b755bff168001a26fdd3047d849c79b0d231fbc4efe7b5ad59b",
+      "publication_sha256": "c55cd4313c747b755bff168001a26fdd3047d849c79b0d231fbc4efe7b5ad59b",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/notes/09_verifier_results.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/notes/09_verifier_results.md",
+      "source_sha256": "7024388963b3193a8ee2ed2fa1636b2f222c4c3c8e8f75dfd4abb49c28abe00f",
+      "publication_sha256": "7024388963b3193a8ee2ed2fa1636b2f222c4c3c8e8f75dfd4abb49c28abe00f",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/notes/10_verdict_distribution.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/notes/10_verdict_distribution.md",
+      "source_sha256": "0b6da0e64bfe733b81b71c391508d486d798d8b8c1c960eb2619033a73610ca1",
+      "publication_sha256": "0b6da0e64bfe733b81b71c391508d486d798d8b8c1c960eb2619033a73610ca1",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/notes/11_case_contradiction.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/notes/11_case_contradiction.md",
+      "source_sha256": "da9944da95a4532e9998c36fc657d9e602c1226970d1c747f4ddf148156eec80",
+      "publication_sha256": "da9944da95a4532e9998c36fc657d9e602c1226970d1c747f4ddf148156eec80",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/notes/12_case_comparison_evidence.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/notes/12_case_comparison_evidence.md",
+      "source_sha256": "80c10b018b7997de422671e3cccecfde0dd07a6ac92aadbc7db6d656efb41bb0",
+      "publication_sha256": "80c10b018b7997de422671e3cccecfde0dd07a6ac92aadbc7db6d656efb41bb0",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/notes/13_transfer_results.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/notes/13_transfer_results.md",
+      "source_sha256": "e77a016755273be2af5d8aaeeb31ca30f528eeaeab2a983bbf2e420052937567",
+      "publication_sha256": "e77a016755273be2af5d8aaeeb31ca30f528eeaeab2a983bbf2e420052937567",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/notes/14_long_video_status.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/notes/14_long_video_status.md",
+      "source_sha256": "db43ac7c084a594bfc09c12e1baa74fb48146400f035189b1df24e9bfab4fa12",
+      "publication_sha256": "db43ac7c084a594bfc09c12e1baa74fb48146400f035189b1df24e9bfab4fa12",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/notes/15_next_steps.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/notes/15_next_steps.md",
+      "source_sha256": "c444235d2e5a12840ceb9d57715ebe709bca83d6e9408cfe1d180c2719520cbe",
+      "publication_sha256": "c444235d2e5a12840ceb9d57715ebe709bca83d6e9408cfe1d180c2719520cbe",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/notes/16_discussion.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/notes/16_discussion.md",
+      "source_sha256": "06a79cf263d890acc0d2be4455011ebd83072a62a3071c7b6bdd5d3cade44e69",
+      "publication_sha256": "06a79cf263d890acc0d2be4455011ebd83072a62a3071c7b6bdd5d3cade44e69",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/notes/total.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/notes/total.md",
+      "source_sha256": "2c1f99a6cd64285fffa86afe863ce85c222ab19b8d7a8e96f1a306ba0bae55d3",
+      "publication_sha256": "2c1f99a6cd64285fffa86afe863ce85c222ab19b8d7a8e96f1a306ba0bae55d3",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/images/WxtbjNsCQ8A__pair02.jpg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/images/WxtbjNsCQ8A__pair02.jpg",
+      "source_sha256": "31796e8549480b3bf5008ab8b731a96089475669b42426a72e5ec22a221ce9cd",
+      "publication_sha256": "31796e8549480b3bf5008ab8b731a96089475669b42426a72e5ec22a221ce9cd",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/images/image_sources.json",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/images/image_sources.json",
+      "source_sha256": "e08f76b51d6c82c4158dc6b0a44fc2543f4f5a0c29bbde339d74c35e0c1ad8e5",
+      "publication_sha256": "87c1db97e9e4cccbfa2a17927544e48632a38a6faa760964853ddca9a3a9d71b",
+      "basis": "presentation_or_report_with_publication_links_and_path_aliases",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/images/z_6gVvQb2d0__pair01.jpg",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/images/z_6gVvQb2d0__pair01.jpg",
+      "source_sha256": "bf738e2c9689e3dc0a09a6c663807dd7ebfab3b03f61adfe8227a5bea327bf3b",
+      "publication_sha256": "bf738e2c9689e3dc0a09a6c663807dd7ebfab3b03f61adfe8227a5bea327bf3b",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/sources/2026-11-03_会议纪要.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/sources/2026-11-03_会议纪要.md",
+      "source_sha256": "362ad965fe58ec1c8328d160fef18c988c186b9dec51869d463134706090f8c9",
+      "publication_sha256": "4e370dc7550d8d6b90cb489c96c2dcedadecd0bd186fab1ada4025ef47be46c6",
+      "basis": "research_workspace_with_whitespace_only_publication_cleanup",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/sources/revalue_svhighlights_expand14_27b_execution_2026-11-09.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/sources/revalue_svhighlights_expand14_27b_execution_2026-11-09.md",
+      "source_sha256": "f1c96612270231f7bb038fdc65dce731d58a6c3effadacfcd51509f6fbfc9f9a",
+      "publication_sha256": "af8a2c4494a0611fe7d50624fd4591ee71a929a208f0e8159aefb60744e4233f",
+      "basis": "presentation_or_report_with_publication_links_and_path_aliases",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/sources/revalue_svhighlights_sparse7_v1_1_results_2026-11-09.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/sources/revalue_svhighlights_sparse7_v1_1_results_2026-11-09.md",
+      "source_sha256": "fda2960380461fe17fcce99611efd98ac7dd2f39e8fe4186d868f7ef6bf0ff12",
+      "publication_sha256": "96edbb1ee34ed59b3e4bcb36f0156965224c718b70d819deb23cb3f501f4034a",
+      "basis": "presentation_or_report_with_publication_links_and_path_aliases",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/sources/revalue_tvsum_fact_local_40v_results_2026-11-07.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/sources/revalue_tvsum_fact_local_40v_results_2026-11-07.md",
+      "source_sha256": "04e689f2f0d1342503d5f515b26fb7817777b20d803f88b0310fca3945dc3b5c",
+      "publication_sha256": "aade2b395bb98b1315961775b5906fd749f22ac556d4bb7ad2d6adacef101454",
+      "basis": "presentation_or_report_with_publication_links_and_path_aliases",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/sources/revalue_tvsum_relative_full50_27b_v1_results_2026-11-05.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/sources/revalue_tvsum_relative_full50_27b_v1_results_2026-11-05.md",
+      "source_sha256": "519366b45fa7f49cb2c77d508d29d5bb020f52d3d1dc2603304233e3e331ad4b",
+      "publication_sha256": "65b3d26feb11c826f81c9e2013cee754132d0252f7cbcdaa5cf164c1e1d8ca1b",
+      "basis": "presentation_or_report_with_publication_links_and_path_aliases",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/sources/revalue_tvsum_value15_consistency40_results_2026-11-09.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/sources/revalue_tvsum_value15_consistency40_results_2026-11-09.md",
+      "source_sha256": "85ac43ca37c20e40cfb39c2b175f8a2201d06d67cb9f7b2de4703cdf54d7e820",
+      "publication_sha256": "d39f088b938e1dff2edb98c441e7995ea82cd353f51e74f0c5103290512e2ef5",
+      "basis": "presentation_or_report_with_publication_links_and_path_aliases",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/sources/revalue_tvsum_value15_consistency50_diagnosis_2026-11-09.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/sources/revalue_tvsum_value15_consistency50_diagnosis_2026-11-09.md",
+      "source_sha256": "94a325ad247bb6c52846698bcbcf4cd414ed8126d3a67e2ed95ed223ac9f5fed",
+      "publication_sha256": "8de8238b093bf8709f9bcb098c938944d3b40bc8f67ff6e8f43e3080bcd4f562",
+      "basis": "presentation_or_report_with_publication_links_and_path_aliases",
+      "local_only_references": [
+        "$MERIT_ROOT/comparisons/tvsum_value15_consistency50_diagnosis_2026-11-09",
+        "$MERIT_ROOT/comparisons/tvsum_value15_consistency50_diagnosis_2026-11-09/cached_frame_review/AwmHb44_ouw__pair01.jpg",
+        "$MERIT_ROOT/comparisons/tvsum_value15_consistency50_diagnosis_2026-11-09/cached_frame_review/GsAD1KT1xo8__pair01.jpg",
+        "$MERIT_ROOT/comparisons/tvsum_value15_consistency50_diagnosis_2026-11-09/cached_frame_review/XkqCExn6_Us__pair03.jpg",
+        "$MERIT_ROOT/comparisons/tvsum_value15_consistency50_diagnosis_2026-11-09/cached_frame_review/i3wAGJaaktw__pair00.jpg",
+        "$MERIT_ROOT/experiments/revalue_tvsum_value15_consistency_v2/contract.py:95",
+        "$MERIT_ROOT/experiments/revalue_tvsum_value15_consistency_v2/legacy_contract.py:21",
+        "$MERIT_ROOT/experiments/revalue_tvsum_value15_consistency_v2/prompts.py:9"
+      ]
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/sources/revalue_weekly_progress_2026-11-03_to_2026-11-09_meeting_revision.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/sources/revalue_weekly_progress_2026-11-03_to_2026-11-09_meeting_revision.md",
+      "source_sha256": "5a496598d084472317c94d3600f33cb73416bb0271f13cfa4854e745548462b5",
+      "publication_sha256": "71dbd15c31b2f986ed1b815b06d5ada798398e75b167333ad97d4725b7e3fa0c",
+      "basis": "presentation_or_report_with_publication_links_and_path_aliases",
+      "local_only_references": [
+        "$MERIT_ROOT/docs/meetings/2026-11-03_会议纪要.md"
+      ]
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/analysis/image_analysis.csv",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/analysis/image_analysis.csv",
+      "source_sha256": "1c9b51470548db477b27955103f48db33c380d7b6c4cd6c1a01e4ced9e7f0e0d",
+      "publication_sha256": "1c9b51470548db477b27955103f48db33c380d7b6c4cd6c1a01e4ced9e7f0e0d",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/design_spec.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/design_spec.md",
+      "source_sha256": "063c1f4c2385888f6d713e26aa121294793d2767c96ee2024a5ceb325d2d122a",
+      "publication_sha256": "063c1f4c2385888f6d713e26aa121294793d2767c96ee2024a5ceb325d2d122a",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/spec_lock.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/spec_lock.md",
+      "source_sha256": "326fcdf9d6e49146f98c779e7eae1fd3472d1693b1b209b3aa89a4ecd6267b88",
+      "publication_sha256": "326fcdf9d6e49146f98c779e7eae1fd3472d1693b1b209b3aa89a4ecd6267b88",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/validation/svg_quality_report.json",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/validation/svg_quality_report.json",
+      "source_sha256": "a3f7504d473c41400a14a0b4239a57783aa7d2d0dc351f7065d98547a7cb801e",
+      "publication_sha256": "2baf55b3f4422c1f74a8c7f022939bcdb0ee4236eea7ad324ffa6b10d91204e6",
+      "basis": "presentation_or_report_with_publication_links_and_path_aliases",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/validation/carrier_review.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/validation/carrier_review.md",
+      "source_sha256": "98ea2eefe64a20e39ecabf435f82e5b1ea569fcbcd832e9155749966154f1251",
+      "publication_sha256": "98ea2eefe64a20e39ecabf435f82e5b1ea569fcbcd832e9155749966154f1251",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/validation/chart_geometry_verification.json",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/validation/chart_geometry_verification.json",
+      "source_sha256": "bc7b61078fe28283e834a8920c5008b314a764022117913c626cdbcd3825d2e4",
+      "publication_sha256": "269b18c512b87b4abf4a322cbd8749539b53478c08420133bd4af043a86dd9d8",
+      "basis": "presentation_or_report_with_publication_links_and_path_aliases",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/validation/text_calibration.json",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/validation/text_calibration.json",
+      "source_sha256": "d5fd760f2188e111738b60a0443402c55fb438d666f35cfb2bd5fea2698f55de",
+      "publication_sha256": "d5fd760f2188e111738b60a0443402c55fb438d666f35cfb2bd5fea2698f55de",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/validation/delivery_receipt.json",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/validation/delivery_receipt.json",
+      "source_sha256": "f45f605cf03639aa358fc8347125ac7b15d0cf763be9a48739e557d80582ded7",
+      "publication_sha256": "83547a76e87295d31e90584d2ca526e9a6be9b3854de84d48f71cee290d84808",
+      "basis": "presentation_or_report_with_publication_links_and_path_aliases",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/validation/revalue_weekly_meeting_revision_20261110_003155_native_charts_tables.report.json",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/validation/revalue_weekly_meeting_revision_20261110_003155_native_charts_tables.report.json",
+      "source_sha256": "79acada416e6857d2748c8f2a4c67f90826c5e6e147618416000d807252a57c8",
+      "publication_sha256": "8064a0497623f063413b013a0e10e4b6ded5fd240660ed46cf3b602d0e4525a4",
+      "basis": "presentation_or_report_with_publication_links_and_path_aliases",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/exports/ReVALUE_实验进度汇报_2026-11-03至11-09_会议对照修订版.pptx",
+      "destination": "docs/presentations/ReVALUE_实验进度汇报_2026-11-03至11-09_会议对照修订版.pptx",
+      "source_sha256": "eb8ea2488bc78765b5d782cd3e60fe1e2a59e61e9a7530f3acb06b23906c9956",
+      "publication_sha256": "eb8ea2488bc78765b5d782cd3e60fe1e2a59e61e9a7530f3acb06b23906c9956",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/exports/preview_cover.png",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/exports/preview_cover.png",
+      "source_sha256": "a3c2890b722d9f45054adb4557df25981d344f72b536d355d350a77f231c962c",
+      "publication_sha256": "a3c2890b722d9f45054adb4557df25981d344f72b536d355d350a77f231c962c",
+      "basis": "research_workspace_identical_publication_copy",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/presentations/revalue_weekly_meeting_revision_20261110/README.md",
+      "destination": "docs/presentations/revalue_weekly_meeting_revision_20261110/README.md",
+      "source_sha256": "b8b78b572356cfc8b3a22eaafa2869b3dc7d42bf1558a11f723d6a75aed1d16d",
+      "publication_sha256": "a64f583a4a4ca0b8e50d4dab5d8d5c3dc84df4f9188a4c930e1ba7e4fe47bdb0",
+      "basis": "curated_presentation_delivery_guide",
+      "local_only_references": []
     }
   ],
   "indexes": [
@@ -5155,14 +5818,14 @@
       "source": "MERIT:README.md",
       "destination": "README.md",
       "source_sha256": "022c73470495dec3d225298a7af142c234baaa55c9c91b2e6ff9b2ede2d96daa",
-      "publication_sha256": "aa02ec0544120e9f3a2556db7acdbaf467a5f326c718d09eac449954db0c92bd",
+      "publication_sha256": "9a9ce0acf5a1c9eeca7590bc5e79695ee23c961d95d5c7767f61b7b1fe1e1733",
       "basis": "curated_publication_index_with_all_report_links_and_standing_user_instruction"
     },
     {
       "source": "MERIT:docs/README.md",
       "destination": "docs/README.md",
       "source_sha256": "c40157d88e54ce11d688330d4f61c5523eee6b30184512548636cef9fa8eda54",
-      "publication_sha256": "784f413c63121b3cf588115b67f941ea091cbf82325bb0816eb60027e2fad753",
+      "publication_sha256": "bcac4a7ae1f8e5615f75e0794452583e7130d9d64d61ecaf26b4d0d65c8c471c",
       "basis": "curated_publication_index_with_all_report_links_and_standing_user_instruction"
     }
   ],
@@ -6233,5 +6896,69 @@
       "diff_check": "passed after whitespace-only publication cleanup"
     },
     "verified_at": "2026-11-09T17:13:37+08:00"
+  },
+  "weekly_meeting_revision_publication_2026_11_10": {
+    "at": "2026-11-10T02:49:29+08:00",
+    "publication_authorization": "User requested 推送到远程 after delivery of the meeting-revision PPT; standing preference includes reports.",
+    "scope": "Revised weekly report/PPT, editable page sources, notes, two evidence contact sheets, all nine pending root reports, and indexes.",
+    "prior_index_snapshot": [
+      {
+        "source": "MERIT:README.md",
+        "destination": "README.md",
+        "source_sha256": "022c73470495dec3d225298a7af142c234baaa55c9c91b2e6ff9b2ede2d96daa",
+        "publication_sha256": "aa02ec0544120e9f3a2556db7acdbaf467a5f326c718d09eac449954db0c92bd",
+        "basis": "curated_publication_index_with_all_report_links_and_standing_user_instruction"
+      },
+      {
+        "source": "MERIT:docs/README.md",
+        "destination": "docs/README.md",
+        "source_sha256": "c40157d88e54ce11d688330d4f61c5523eee6b30184512548636cef9fa8eda54",
+        "publication_sha256": "784f413c63121b3cf588115b67f941ea091cbf82325bb0816eb60027e2fad753",
+        "basis": "curated_publication_index_with_all_report_links_and_standing_user_instruction"
+      }
+    ],
+    "new_reports": 9,
+    "selected_source_artifacts": 81,
+    "slides": 16,
+    "speaker_notes": 16,
+    "native_charts": 4,
+    "native_tables": 2,
+    "embedded_workbooks": 4,
+    "pptx": "docs/presentations/ReVALUE_实验进度汇报_2026-11-03至11-09_会议对照修订版.pptx",
+    "pptx_sha256": "eb8ea2488bc78765b5d782cd3e60fe1e2a59e61e9a7530f3acb06b23906c9956",
+    "experiment_model_calls_added": 0,
+    "experiment_gpu_tasks_added": 0,
+    "original_predictions_changed": false,
+    "AGENTS_modified": false,
+    "validation_status": "passed_for_published_artifacts_and_all_current_reports",
+    "code_scope_note": "The same 764 pre-existing unpublished implementation files are outside this documentation/presentation publication; existing untracked experiment directories are not staged.",
+    "publication_verification": {
+      "passed": true,
+      "published_files_checked": 869,
+      "source_files_checked": 0,
+      "local_links_checked": 1087,
+      "errors": []
+    },
+    "full_workspace_source_audit": {
+      "passed": false,
+      "published_files_checked": 869,
+      "source_files_checked": 857,
+      "local_links_checked": 1087,
+      "unpublished_experiment_source_files": 764,
+      "unpublished_reports": 0,
+      "other_errors": 0,
+      "scope_note": "Same 764 unpublished implementation files as the pre-publication audit; documentation publication passed, full workspace code coverage did not pass."
+    },
+    "focused_delivery_verification": {
+      "new_source_files_verified": 81,
+      "root_reports_numeric_compared": 9,
+      "numeric_differences": 0,
+      "machine_specific_paths": 0,
+      "credential_pattern_matches": 0,
+      "files_over_10_mib": 0,
+      "source_files_unchanged": true,
+      "pptx_equal_to_research_delivery": true,
+      "diff_check": "passed after whitespace-only publication cleanup"
+    }
   }
 }

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="content">
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFFFF"/>
+<g id="header" data-pptx-bounds="56 32 1168 120"><text x="56" y="53" font-size="18" fill="#237F89">11 / 比较依据与上下文</text><text x="56" y="114" font-family="SimSun, Arial" font-size="46" fill="#17324D">自身前后过程不能单独证明A胜B</text></g>
+<g id="bee-input-frames" data-pptx-bounds="56 184 730 463"><image href="../images/WxtbjNsCQ8A__pair02.jpg" x="56" y="184" width="730" height="462.3333" preserveAspectRatio="xMidYMid meet"/></g>
+<g id="wrong-comparison-role" data-pptx-bounds="834 178 390 264"><text x="834" y="209" font-size="28" fill="#17324D">模型选 A</text><text x="834" y="255" fill="#243746"><tspan x="834">A：66–68秒开蜂箱</tspan><tspan x="834" dy="36">B：118–120秒展示巢框</tspan></text><text x="834" y="346" fill="#C56B2C">比较引用：68.97秒</text><text x="834" y="390" fill="#243746"><tspan x="834">这是 A 的后续上下文，</tspan><tspan x="834" dy="36">没有绑定 B 片内画面。</tspan></text></g>
+<g id="schema-gap" data-pptx-bounds="834 472 390 175"><rect x="834" y="472" width="390" height="175" fill="#F2F5F7"/><text x="854" y="509" font-size="22" fill="#237F89">原50对局部违规：8/4 → 0</text><text x="854" y="552" font-size="22" fill="#243746"><tspan x="854">但22条最终无效仍通过JSON，</tspan><tspan x="854" dy="32">联合约束没有同步到生成端。</tspan><tspan x="854" dy="32">同批输出正常结束，非截断。</tspan></text></g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="56 668 1168 32" font-size="14" fill="#52677A"><text x="56" y="686">来源：V15原50对诊断（11.09），WxtbjNsCQ8A pair02；时间关联、动作完成与价值须分开</text><text x="1224" y="686" text-anchor="end">12 / 16</text></g>
+</svg>

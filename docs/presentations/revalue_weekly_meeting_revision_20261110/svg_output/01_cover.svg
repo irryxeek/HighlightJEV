@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="cover">
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFFFF" />
+<g id="identity" data-pptx-bounds="56 42 1168 72"><text x="56" y="68" font-size="20" fill="#237F89">ReVALUE / RESEARCH PROGRESS</text><line x1="56" y1="94" x2="1224" y2="94" stroke="#CCD7E0" /></g>
+<g id="cover-title" data-pptx-bounds="56 166 1168 212" font-family="SimSun, Arial" fill="#17324D"><text x="56" y="236" font-size="64"><tspan x="56">记忆更可用</tspan><tspan x="56" dy="86">价值增益仍待验证</tspan></text></g>
+<g id="period" data-pptx-bounds="56 399 1168 74" fill="#52677A"><text x="56" y="430">林逸飞 · 2026.11.03–11.09</text><text x="56" y="466" font-size="18">11 月 10 日会议对照修订版 · 实验结论以本周冻结报告为准</text></g>
+<g id="question" data-pptx-bounds="56 514 1168 118"><rect x="56" y="514" width="1168" height="118" fill="#17324D" /><text x="80" y="548" font-size="18" fill="#FFFFFF">承接上次会议的核心问题</text><text x="80" y="596" font-size="30" font-family="SimSun, Arial" fill="#FFFFFF">记忆和价值判断，是否帮助选出更值得观看的片段？</text></g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="56 668 1168 32" fill="#52677A" font-size="14"><text x="56" y="686">来源：11.03 会议纪要 · 本周会议对照修订稿</text><text x="1224" y="686" text-anchor="end">01 / 16</text></g>
+</svg>

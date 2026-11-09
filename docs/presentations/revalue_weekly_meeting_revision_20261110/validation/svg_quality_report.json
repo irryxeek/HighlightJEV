@@ -1,0 +1,1127 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "$MERIT_ROOT/docs/presentations/revalue_weekly_meeting_revision_20261110",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "c0921e663a831066be29845d7ea98530b0e19cf37f8e761fd1d6ffa71c62d57d",
+    "file_count": 16,
+    "files": [
+      {
+        "file": "01_cover.svg",
+        "sha256": "5ccb28e32582df626f4a1891d3a68044acf01834f380b93607a99a53ff1142c7"
+      },
+      {
+        "file": "02_main_findings.svg",
+        "sha256": "75725510758febf6e5fb3d508d2a4b3158e8e509d255a64af103329aaec11663"
+      },
+      {
+        "file": "03_meeting_progress.svg",
+        "sha256": "aae019a418e76c5ab75b4fae1049c8291ee18c4ad4d91fe3065fc16d65c8306e"
+      },
+      {
+        "file": "04_module_positions.svg",
+        "sha256": "ad1385df68c0cf4c0cd86f0b09f9b638142d0dfa48a56b056474af4cf155e43d"
+      },
+      {
+        "file": "05_value_questions.svg",
+        "sha256": "5a82d311f6c1460de2472a22e5688489566e688796d726abced80cc5ddf55a90"
+      },
+      {
+        "file": "06_cohort_expansion.svg",
+        "sha256": "531abcfa2439f851304bd284a30906188f2569c2e8e1f72792668b9217a486be"
+      },
+      {
+        "file": "07_memory_improvement.svg",
+        "sha256": "b63a678a16963c85ac36d445557a20620c19df49019c8cb6daacff5562406593"
+      },
+      {
+        "file": "08_repairs_and_limits.svg",
+        "sha256": "356073703e23dc176ac32b69d460983f90db0c11adc2d1b91a6d4cda88b31043"
+      },
+      {
+        "file": "09_verifier_results.svg",
+        "sha256": "b4ed1a47d7dd6a58a729ab5bcfe29db1afd1cd2d95b34de7a1463ad3087cf265"
+      },
+      {
+        "file": "10_verdict_distribution.svg",
+        "sha256": "bef6b0f015f32bc094e8df9f7020820126bf1cfa16ef9b31c657fd7b73dfa176"
+      },
+      {
+        "file": "11_case_contradiction.svg",
+        "sha256": "9ee50e7d9b7ed15c0df49ceb8a5c5a0098a092388016450b2be20292018ec478"
+      },
+      {
+        "file": "12_case_comparison_evidence.svg",
+        "sha256": "b480c55c5d012a5e495adb8d784ebc5bddbe989bacaa7eb99349eb08d9d29a9e"
+      },
+      {
+        "file": "13_transfer_results.svg",
+        "sha256": "e01bc2cd1703033f21104fbd786e3c1bec5d01bc0e69186df962dd7ce857dd51"
+      },
+      {
+        "file": "14_long_video_status.svg",
+        "sha256": "3db9ddf37d241f7a402cbdec6e5f690699f4aeaf3e67b1a739f53d8be5057943"
+      },
+      {
+        "file": "15_next_steps.svg",
+        "sha256": "c17ebffbb820c36143941ff73fe39ba09da98d16127d9bfee01c8ed7db8d219a"
+      },
+      {
+        "file": "16_discussion.svg",
+        "sha256": "ad8bf965aaee1151b46f1b6cc501be46782f7727ee70916129f2bcb62a0ede7b"
+      }
+    ]
+  },
+  "summary": {
+    "total": 16,
+    "passed": 16,
+    "warnings": 0,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 0,
+      "issues": []
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {},
+    "fonts": {},
+    "sizes": {}
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 16,
+    "totals": {
+      "text_elements": 295,
+      "image_placements": 2,
+      "icons": 0,
+      "svg_geometry_elements": 120,
+      "preset_shapes": 4,
+      "page_frame_elements": 16,
+      "marker_uses": 0,
+      "inline_emphasis_runs": 1,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "pages_with": {
+      "images": 2,
+      "icons": 0,
+      "presets": 1,
+      "charts": 4,
+      "tables": 2,
+      "formulas": 0,
+      "inline_emphasis_runs": 1,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "relationship_pages": 0,
+    "geometry_elements": {
+      "circle": 6,
+      "ellipse": 0,
+      "line": 38,
+      "path": 0,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 76
+    },
+    "preset_names": {
+      "rightArrow": 4
+    },
+    "native_objects": {
+      "chart": 4,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 2
+    },
+    "image_page_max_frame_share_range": [
+      0.3057,
+      0.3662
+    ]
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_cover.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/01_cover.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 8,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial",
+          "SimSun, Arial"
+        ],
+        "text_elements": 8,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "5ccb28e32582df626f4a1891d3a68044acf01834f380b93607a99a53ff1142c7"
+    },
+    {
+      "file": "02_main_findings.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/02_main_findings.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 19,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Microsoft YaHei, Arial",
+          "SimSun, Arial"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 4
+      },
+      "passed": true,
+      "source_sha256": "75725510758febf6e5fb3d508d2a4b3158e8e509d255a64af103329aaec11663"
+    },
+    {
+      "file": "03_meeting_progress.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/03_meeting_progress.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 26,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial",
+          "SimSun, Arial"
+        ],
+        "text_elements": 26,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "aae019a418e76c5ab75b4fae1049c8291ee18c4ad4d91fe3065fc16d65c8306e"
+    },
+    {
+      "file": "04_module_positions.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/04_module_positions.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 19,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 7,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 4,
+            "preset_names": {
+              "rightArrow": 4
+            },
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial",
+          "SimSun, Arial"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "ad1385df68c0cf4c0cd86f0b09f9b638142d0dfa48a56b056474af4cf155e43d"
+    },
+    {
+      "file": "05_value_questions.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/05_value_questions.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 18,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial",
+          "SimSun, Arial"
+        ],
+        "text_elements": 18,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "5a82d311f6c1460de2472a22e5688489566e688796d726abced80cc5ddf55a90"
+    },
+    {
+      "file": "06_cohort_expansion.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/06_cohort_expansion.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 26,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 10,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 6,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 1,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Microsoft YaHei, Arial",
+          "SimSun, Arial"
+        ],
+        "text_elements": 26,
+        "tspan_elements": 4
+      },
+      "passed": true,
+      "source_sha256": "531abcfa2439f851304bd284a30906188f2569c2e8e1f72792668b9217a486be"
+    },
+    {
+      "file": "07_memory_improvement.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/07_memory_improvement.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 29,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 7,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 9,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 1,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Microsoft YaHei, Arial",
+          "SimSun, Arial"
+        ],
+        "text_elements": 29,
+        "tspan_elements": 4
+      },
+      "passed": true,
+      "source_sha256": "b63a678a16963c85ac36d445557a20620c19df49019c8cb6daacff5562406593"
+    },
+    {
+      "file": "08_repairs_and_limits.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/08_repairs_and_limits.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 20,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Microsoft YaHei, Arial",
+          "SimSun, Arial"
+        ],
+        "text_elements": 20,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "356073703e23dc176ac32b69d460983f90db0c11adc2d1b91a6d4cda88b31043"
+    },
+    {
+      "file": "09_verifier_results.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/09_verifier_results.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 25,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 9,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 1,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Microsoft YaHei, Arial",
+          "SimSun, Arial"
+        ],
+        "text_elements": 25,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "b4ed1a47d7dd6a58a729ab5bcfe29db1afd1cd2d95b34de7a1463ad3087cf265"
+    },
+    {
+      "file": "10_verdict_distribution.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/10_verdict_distribution.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 24,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 20,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 6,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 1,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial",
+          "SimSun, Arial"
+        ],
+        "text_elements": 24,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "bef6b0f015f32bc094e8df9f7020820126bf1cfa16ef9b31c657fd7b73dfa176"
+    },
+    {
+      "file": "11_case_contradiction.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/11_case_contradiction.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 11,
+          "images": {
+            "placements": 1,
+            "files": [
+              "z_6gVvQb2d0__pair01.jpg"
+            ],
+            "max_frame_share": 0.3057
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial",
+          "SimSun, Arial"
+        ],
+        "text_elements": 11,
+        "tspan_elements": 4
+      },
+      "passed": true,
+      "source_sha256": "9ee50e7d9b7ed15c0df49ceb8a5c5a0098a092388016450b2be20292018ec478"
+    },
+    {
+      "file": "12_case_comparison_evidence.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/12_case_comparison_evidence.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 10,
+          "images": {
+            "placements": 1,
+            "files": [
+              "WxtbjNsCQ8A__pair02.jpg"
+            ],
+            "max_frame_share": 0.3662
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial",
+          "SimSun, Arial"
+        ],
+        "text_elements": 10,
+        "tspan_elements": 7
+      },
+      "passed": true,
+      "source_sha256": "b480c55c5d012a5e495adb8d784ebc5bddbe989bacaa7eb99349eb08d9d29a9e"
+    },
+    {
+      "file": "13_transfer_results.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/13_transfer_results.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 22,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial",
+          "SimSun, Arial"
+        ],
+        "text_elements": 22,
+        "tspan_elements": 12
+      },
+      "passed": true,
+      "source_sha256": "e01bc2cd1703033f21104fbd786e3c1bec5d01bc0e69186df962dd7ce857dd51"
+    },
+    {
+      "file": "14_long_video_status.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/14_long_video_status.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 2,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial",
+          "Microsoft YaHei, Arial",
+          "SimSun, Arial"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "3db9ddf37d241f7a402cbdec6e5f690699f4aeaf3e67b1a739f53d8be5057943"
+    },
+    {
+      "file": "15_next_steps.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/15_next_steps.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 17,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 4,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial",
+          "SimSun, Arial"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "c17ebffbb820c36143941ff73fe39ba09da98d16127d9bfee01c8ed7db8d219a"
+    },
+    {
+      "file": "16_discussion.svg",
+      "path": "$MERIT_ROOT/docs/presentations/revalue_weekly_meeting_revision_20261110/svg_output/16_discussion.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 7,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial",
+          "SimSun, Arial"
+        ],
+        "text_elements": 7,
+        "tspan_elements": 4
+      },
+      "passed": true,
+      "source_sha256": "ad8bf965aaee1151b46f1b6cc501be46782f7727ee70916129f2bcb62a0ede7b"
+    }
+  ]
+}

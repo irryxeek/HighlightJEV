@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="content">
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFFFF"/>
+<g id="header" data-pptx-bounds="56 32 1168 120"><text x="56" y="53" font-size="18" fill="#237F89">14 / 下一步建议，待审阅</text><text x="56" y="114" font-family="SimSun, Arial" font-size="46" fill="#17324D">先修证据链，再检验按需价值与补证</text></g>
+<g id="research-sequence" data-pptx-bounds="56 184 1168 420"><line x1="85" y1="217" x2="85" y2="545" stroke="#CCD7E0" stroke-width="3"/>
+<g id="repair-contract"><circle cx="85" cy="217" r="27" fill="#17324D"/><text x="85" y="226" text-anchor="middle" font-size="28" fill="#FFFFFF">1</text><text x="146" y="218" font-size="28" fill="#17324D">先修复确定的实现遗漏</text><text x="146" y="259" fill="#243746">原50对CPU回归：让事件、逐题答案、双边引用与最终结论遵循同一契约。</text></g>
+<g id="review-semantics"><circle cx="85" cy="326" r="27" fill="#17324D"/><text x="85" y="335" text-anchor="middle" font-size="28" fill="#FFFFFF">2</text><text x="146" y="327" font-size="28" fill="#17324D">分别核验观察、动作完成与观看贡献</text><text x="146" y="368" fill="#243746">固定案例清单；区分助手审阅和独立人工标签，定位看错、缺证或规则问题。</text></g>
+<g id="selective-values"><circle cx="85" cy="435" r="27" fill="#237F89"/><text x="85" y="444" text-anchor="middle" font-size="28" fill="#FFFFFF">3</text><text x="146" y="436" font-size="28" fill="#237F89">以普通核验为对照，验证按需价值问题</text><text x="146" y="477" fill="#243746">只启用与当前任务相关的检查项，检验它是否提供额外的可用证据。</text></g>
+<g id="targeted-observation"><circle cx="85" cy="544" r="27" fill="#C56B2C"/><text x="85" y="553" text-anchor="middle" font-size="28" fill="#FFFFFF">4</text><text x="146" y="545" font-size="28" fill="#C56B2C">再做单变量补证对照</text><text x="146" y="586" fill="#243746">等帧数均匀补看与<tspan fill="#C56B2C" font-weight="bold">定向补看</tspan>比较；讲话内容缺证另设视觉／视觉＋ASR。</text></g></g>
+<g id="acceptance" data-pptx-bounds="56 618 1168 40"><text x="56" y="644" font-size="18" fill="#52677A">模型复验建议：至少48/50合法，同时检查明确比较、替换与语义；新实验另冻范围与成本，已启动SV任务独立收尾。</text></g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="56 668 1168 32" font-size="14" fill="#52677A"><text x="56" y="686">来源：本周修订稿第六节、原50对诊断；上述建议不构成新增推理启动许可</text><text x="1224" y="686" text-anchor="end">15 / 16</text></g>
+</svg>

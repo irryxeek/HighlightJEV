@@ -1,0 +1,23 @@
+{
+  "pptx": "$MERIT_ROOT/docs/presentations/revalue_weekly_meeting_revision_20261110/exports/ReVALUE_实验进度汇报_2026-11-03至11-09_会议对照修订版.pptx",
+  "pptx_sha256": "eb8ea2488bc78765b5d782cd3e60fe1e2a59e61e9a7530f3acb06b23906c9956",
+  "slides": 16,
+  "speaker_notes": 16,
+  "native_charts": 4,
+  "native_tables": 2,
+  "embedded_workbooks": 4,
+  "quality_gate": "passed",
+  "postflight": "passed",
+  "warnings": 0,
+  "source_unchanged": true,
+  "source_sha256": "5a496598d084472317c94d3600f33cb73416bb0271f13cfa4854e745548462b5",
+  "chart_geometry_receipt": "validation/chart_geometry_verification.json",
+  "speaker_script": "notes/total.md",
+  "preview": "exports/preview_cover.png",
+  "experiment_model_calls_added": 0,
+  "experiment_gpu_tasks_added": 0,
+  "push_performed": false,
+  "period": "2026-11-03 after meeting through 2026-11-09",
+  "sv14_snapshot": "2026-11-09 23:37 Asia/Shanghai",
+  "runtime_library_path": "$PPT_DOCUMENT_RUNTIME"
+}
