@@ -1,0 +1,68 @@
+{
+  "source_manifest": "$MERIT_ROOT/comparisons/tvsum_value15_consistency50_diagnosis_2026-11-09/cached_frame_review/manifest.json",
+  "source_manifest_sha256": "da63affd283f1b2f2ae8b2f4c8c8304d88600185c715925556a288dc54c1e58d",
+  "assets": [
+    {
+      "filename": "hive_a_f0140.png",
+      "case": "WxtbjNsCQ8A__pair02",
+      "frame_id": "f0140",
+      "pts": 66.96690368652344,
+      "source_npy": "$ZEROSHOT_ARTIFACT_ROOT/revalue_tvsum_dense_memory_10v_27b_v1_2026-11-06/frames/WxtbjNsCQ8A.npy",
+      "array_index": 140,
+      "pixels_sha256": "4facf05b0078580471d752042b0a37f7677976671e5e77321c39949df0ae352b",
+      "file_sha256": "f81ca414f496360130fcd624945115882d32a191d51f9a35e305280c0c33f356",
+      "unchanged_pixels": true,
+      "no_new_sampling": true
+    },
+    {
+      "filename": "hive_context_f0142.png",
+      "case": "WxtbjNsCQ8A__pair02",
+      "frame_id": "f0142",
+      "pts": 68.96890258789062,
+      "source_npy": "$ZEROSHOT_ARTIFACT_ROOT/revalue_tvsum_dense_memory_10v_27b_v1_2026-11-06/frames/WxtbjNsCQ8A.npy",
+      "array_index": 142,
+      "pixels_sha256": "b47773b1f5296bfe8f5cd9b5444c82611a39d3d9cd9a7441f045d321412cdb08",
+      "file_sha256": "c4edc0d2ac75b1973e82a3c6c7968c49111c9e531ba4a8d71b0a82f1dc614f10",
+      "unchanged_pixels": true,
+      "no_new_sampling": true
+    },
+    {
+      "filename": "hive_b_f0178.png",
+      "case": "WxtbjNsCQ8A__pair02",
+      "frame_id": "f0178",
+      "pts": 118.98553466796875,
+      "source_npy": "$ZEROSHOT_ARTIFACT_ROOT/revalue_tvsum_dense_memory_10v_27b_v1_2026-11-06/frames/WxtbjNsCQ8A.npy",
+      "array_index": 178,
+      "pixels_sha256": "5f58e1eadd461dc91e24941ed08dab5fb84a230024953322842043e2955207d9",
+      "file_sha256": "0472783be94e23a38019d7ef0582fa6d9fe0ade366f15b278fc26738a8f36060",
+      "unchanged_pixels": true,
+      "no_new_sampling": true
+    },
+    {
+      "filename": "pet_a_f0000.png",
+      "case": "i3wAGJaaktw__pair00",
+      "frame_id": "f0000",
+      "pts": 0.0,
+      "source_npy": "$ZEROSHOT_ARTIFACT_ROOT/revalue_tvsum_dense_memory_10v_27b_v1_2026-11-06/frames/i3wAGJaaktw.npy",
+      "array_index": 0,
+      "pixels_sha256": "9a209209d366856ea882e15400b5f257109ef9d3a267b0606c996be637d8c20b",
+      "file_sha256": "2faae0ada233a62ce825c516e12ef484e3def2c71027ca8bcba75eabe8a845aa",
+      "unchanged_pixels": true,
+      "no_new_sampling": true
+    },
+    {
+      "filename": "pet_b_f0025.png",
+      "case": "i3wAGJaaktw__pair00",
+      "frame_id": "f0025",
+      "pts": 58.49176788330078,
+      "source_npy": "$ZEROSHOT_ARTIFACT_ROOT/revalue_tvsum_dense_memory_10v_27b_v1_2026-11-06/frames/i3wAGJaaktw.npy",
+      "array_index": 25,
+      "pixels_sha256": "3cbd1c4c8c31df718ead0d968c7a1bb18b4bbfd85b173957899ab8e2b3ba7b5d",
+      "file_sha256": "70e0a1abd86544802dad392b0d16e733b4db181ffa265a5166092100eac08562",
+      "unchanged_pixels": true,
+      "no_new_sampling": true
+    }
+  ],
+  "new_experiment_calls": 0,
+  "new_video_decoding": false
+}

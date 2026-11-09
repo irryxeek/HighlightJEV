@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" data-pptx-page-role="content">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="title" data-pptx-bounds="56 34 1168 128"><text x="56" y="63" font-size="20" fill="#257C82">08 / 输出健康与决策覆盖</text><text x="56" y="127" font-size="42" font-family="SimSun, Cambria, serif" font-weight="bold" fill="#18344B">合法率与比较覆盖一起下降，修复尚未成功</text></g>
+  <g id="verifier-coverage" data-pptx-bounds="56 218 1168 260" data-pptx-replace-with="table" data-pptx-fallback-sha256="3461ad6ddd406b03dd0061b38a6c3f6cfcd4d3e632d8f93ccc40f738435bc379">
+    <metadata type="application/json">{"schema":"ppt-master.semantic-table.v2","name":"verifier-coverage","x":56,"y":218,"width":1168,"height":260,"strict_grid":true,"column_widths":[440,260,250,218],"row_heights":[65,65,65,65],"style":{"font_family":"Microsoft YaHei, Arial, sans-serif","font_size":24,"header_font_size":24,"header_fill":"#18344B","header_text":"#FFFFFF","body_fill":"#FFFFFF","body_text":"#233746","band_row":false,"padding":{"left":20,"right":20,"top":8,"bottom":8},"valign":"middle"},"defaults":{"cell":{"align":"l","borders":{"left":{"style":"none"},"right":{"style":"none"},"top":{"style":"none"},"bottom":{"style":"solid","color":"#D5DEE4","width":1}}}},"columns":[{"text":"核验条件","align":"l","bold":true},{"text":"合法输出","align":"r","bold":true},{"text":"明确A/B","align":"r","bold":true},{"text":"接受替换","align":"r","bold":true}],"rows":[["普通C",{"text":"200 / 200","align":"r"},{"text":"116 / 200","align":"r"},{"text":"29 / 200","align":"r"}],["旧V15",{"text":"144 / 200","align":"r"},{"text":"63 / 200","align":"r"},{"text":"12 / 200","align":"r"}],["修复V15",{"text":"135 / 200","align":"r"},{"text":"26 / 200","align":"r"},{"text":"4 / 200","align":"r"}]]}</metadata>
+    <rect x="56" y="218" width="1168" height="65" fill="#18344B"/>
+    <g stroke="#D5DEE4"><line x1="56" y1="283" x2="1224" y2="283"/><line x1="56" y1="348" x2="1224" y2="348"/><line x1="56" y1="413" x2="1224" y2="413"/><line x1="56" y1="478" x2="1224" y2="478"/></g>
+    <g font-size="24" font-weight="bold" fill="#FFFFFF"><text x="76" y="259">核验条件</text><text x="736" y="259" text-anchor="end">合法输出</text><text x="986" y="259" text-anchor="end">明确A/B</text><text x="1204" y="259" text-anchor="end">接受替换</text></g>
+    <g font-size="24" fill="#233746"><text x="76" y="324">普通C</text><text x="76" y="389">旧V15</text><text x="76" y="454">修复V15</text></g>
+    <g font-size="24" fill="#233746" text-anchor="end"><text x="736" y="324">200 / 200</text><text x="986" y="324">116 / 200</text><text x="1204" y="324">29 / 200</text><text x="736" y="389">144 / 200</text><text x="986" y="389">63 / 200</text><text x="1204" y="389">12 / 200</text><text x="736" y="454">135 / 200</text><text x="986" y="454">26 / 200</text><text x="1204" y="454">4 / 200</text></g>
+  </g>
+  <g id="original50-transition" data-pptx-bounds="56 510 1168 136">
+    <rect x="56" y="510" width="1168" height="136" fill="#F2F5F7"/>
+    <text x="80" y="553" font-size="22" fill="#536777">原50对合法数</text><text x="80" y="610" font-size="32" font-family="SimSun, Cambria, serif" font-weight="bold" fill="#B74D4D">33 → 28</text>
+    <text x="430" y="562" fill="#233746">11条：旧合法 → 新无效</text><text x="430" y="611" fill="#233746">6条：旧无效 → 新合法</text>
+    <text x="1015" y="582" font-size="32" font-family="SimSun, Cambria, serif" fill="#18344B">净减少5条</text>
+  </g>
+  <g id="footer" data-pptx-bounds="56 670 1168 28" font-size="14" fill="#536777"><text x="56" y="690">来源：200对结果与原50对逐条诊断（11.09）· 合法、明确偏好和实际替换不等同于正确率</text><text x="1224" y="690" text-anchor="end">09 / 16</text></g>
+</svg>

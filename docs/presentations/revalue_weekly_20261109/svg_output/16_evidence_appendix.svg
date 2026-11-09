@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" data-pptx-page-role="content">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="title" data-pptx-bounds="56 34 1168 128"><text x="56" y="63" font-size="20" fill="#257C82">附录B / 成本、范围与证据边界</text><text x="56" y="127" font-size="42" font-family="SimSun, Cambria, serif" font-weight="bold" fill="#18344B">保留完整分母与失败，当前结论限于开发证据</text></g>
+  <g id="completed-execution" data-pptx-bounds="56 202 540 355">
+    <text x="64" y="242" font-size="30" font-weight="bold" fill="#18344B">最新扩展已完成并归档</text>
+    <text x="64" y="330" font-size="64" font-weight="bold" fill="#257C82">500</text>
+    <text x="234" y="328" fill="#233746">次新增调用</text>
+    <text x="64" y="397" fill="#233746">2,922,469 token</text>
+    <text x="64" y="445" fill="#233746">95,897.41 GPU秒</text>
+    <text x="64" y="493" fill="#233746">10个worker · 零重试</text>
+    <text x="64" y="542" font-size="20" fill="#536777">另复用100次旧响应，历史成本单列。</text>
+  </g>
+  <g id="scientific-boundaries" data-pptx-bounds="648 202 576 355" fill="#233746">
+    <text x="660" y="242" font-size="30" font-weight="bold" fill="#18344B">汇报中保留的限制</text>
+    <text x="660" y="305" font-size="24">开发视频已被多次查看，<tspan x="660" dy="38">不能据此宣称稳定泛化或SOTA。</tspan></text>
+    <text x="660" y="405" font-size="24">D与记忆组的上下文和成本不同；<tspan x="660" dy="38">案例查看不等于独立人工核验。</tspan></text>
+    <text x="660" y="505" font-size="24">brief/detail中止轮次仅各6视频完成；<tspan x="660" dy="38">其余34回退，不能当完整40条实验。</tspan></text>
+  </g>
+  <g id="archive" data-pptx-bounds="56 589 1168 65"><rect x="56" y="589" width="1168" height="65" fill="#F2F5F7"/><text x="76" y="629" font-size="22" fill="#18344B">完整来源见项目周报与本PPT的sources；旧预测、失败、输入及源码快照均保留。</text></g>
+  <g id="footer" data-pptx-bounds="56 670 1168 28" font-size="14" fill="#536777"><text x="56" y="690">来源：本周周报、最新complete.json与中止轮次结果 · 本次制作PPT新增实验模型调用为0</text><text x="1224" y="690" text-anchor="end">16 / 16</text></g>
+</svg>

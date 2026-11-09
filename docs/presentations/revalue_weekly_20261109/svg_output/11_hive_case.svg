@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" data-pptx-page-role="content">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="title" data-pptx-bounds="56 34 1168 128"><text x="56" y="63" font-size="20" fill="#257C82">10 / 引用案例 · WxtbjNsCQ8A / pair02</text><text x="56" y="127" font-size="42" font-family="SimSun, Cambria, serif" font-weight="bold" fill="#18344B">蜂箱案例：自身过程不能替代双方比较证据</text></g>
+  <g id="candidate-a" data-pptx-bounds="56 190 352 315">
+    <text x="56" y="219" font-size="24" fill="#18344B" font-weight="bold">A片内：开蜂箱</text>
+    <image href="../images/hive_a_f0140.png" x="56" y="242" width="352" height="193.6" preserveAspectRatio="xMidYMid meet"/>
+    <text x="56" y="472" font-size="20" fill="#536777">f0140 · 66.967s</text>
+  </g>
+  <g id="own-context" data-pptx-bounds="464 190 352 315">
+    <text x="464" y="219" font-size="24" fill="#B74D4D" font-weight="bold">实际比较帧：A上下文</text>
+    <image href="../images/hive_context_f0142.png" x="464" y="242" width="352" height="193.6" preserveAspectRatio="xMidYMid meet"/>
+    <text x="464" y="472" font-size="20" fill="#B74D4D">f0142 · 68.969s</text>
+  </g>
+  <g id="candidate-b" data-pptx-bounds="872 190 352 315">
+    <text x="872" y="219" font-size="24" fill="#18344B" font-weight="bold">B片内：展示巢框</text>
+    <image href="../images/hive_b_f0178.png" x="872" y="242" width="352" height="193.6" preserveAspectRatio="xMidYMid meet"/>
+    <text x="872" y="472" font-size="20" fill="#536777">f0178 · 118.986s</text>
+  </g>
+  <g id="citation-conflict" data-pptx-bounds="56 529 1168 121">
+    <rect x="56" y="529" width="1168" height="121" fill="#F2F5F7"/>
+    <text x="76" y="573" fill="#233746">实际引用：<tspan fill="#B74D4D" font-weight="bold">A.O3=s → f0142（A上下文）</tspan>，最终判A胜。</text>
+    <text x="76" y="620" font-size="22" fill="#536777">它说明A附近的先后过程，却没有给出B区间的对应比较依据。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="56 670 1168 28" font-size="14" fill="#536777"><text x="56" y="690">来源：原50对诊断与冻结像素缓存（11.09）· 助手审阅，不是独立人工语义标注；无新增取帧</text><text x="1224" y="690" text-anchor="end">11 / 16</text></g>
+</svg>

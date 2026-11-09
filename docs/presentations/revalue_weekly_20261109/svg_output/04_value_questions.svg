@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" data-pptx-page-role="content">
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><polygon points="0,0 8,4 0,8" fill="#536777"/></marker></defs>
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="title" data-pptx-bounds="56 34 1168 128"><text x="56" y="63" font-size="20" fill="#257C82">03 / 价值标准</text><text x="56" y="127" font-size="42" font-family="SimSun, Cambria, serif" font-weight="bold" fill="#18344B">五维价值拆成十五个问题，逐项绑定证据</text></g>
+  <g id="dimensions" data-pptx-bounds="56 206 304 360" fill="#233746">
+    <text x="64" y="244" font-size="30" font-weight="bold" fill="#257C82">五种价值视角</text>
+    <text x="64" y="303">O · 关键结果</text><text x="64" y="361">I · 核心信息</text><text x="64" y="419">E · 情绪反应</text><text x="64" y="477">A · 精彩动作</text><text x="64" y="535">S · 视觉事件</text>
+  </g>
+  <g id="three-question-levels" data-pptx-bounds="398 206 826 360">
+    <text x="408" y="244" font-size="30" font-weight="bold" fill="#18344B">每一维依次回答三个问题</text>
+    <g stroke="#536777" stroke-width="2"><line x1="649" y1="365" x2="678" y2="365" marker-end="url(#arrow)"/><line x1="922" y1="365" x2="951" y2="365" marker-end="url(#arrow)"/></g>
+    <g fill="#F2F5F7"><rect x="408" y="292" width="238" height="155"/><rect x="681" y="292" width="238" height="155"/><rect x="954" y="292" width="262" height="155"/></g>
+    <g fill="#233746" text-anchor="middle"><text x="527" y="335" font-size="24" fill="#257C82">01 / 观察</text><text x="527" y="388">事实是否可见？</text><text x="800" y="335" font-size="24" fill="#257C82">02 / 贡献</text><text x="800" y="388">为何值得观看？</text><text x="1085" y="335" font-size="24" fill="#C66A2D">03 / 相对优先</text><text x="1085" y="383">相对其他片段，<tspan x="1085" dy="40">是否有优先依据？</tspan></text></g>
+    <text x="408" y="503" font-size="22" fill="#536777">每候选15题；每对两个候选，共30题。</text>
+    <text x="408" y="547" font-size="22" fill="#536777">状态：支持 / 反证 / 证据不足 / 不适用。</text>
+  </g>
+  <g id="rubric-boundary" data-pptx-bounds="56 587 1168 58"><text x="64" y="624" font-size="22" fill="#C66A2D">借鉴VisionReward的问题分解；未使用其权重，不按yes数量评分。</text></g>
+  <g id="footer" data-pptx-bounds="56 670 1168 28" font-size="14" fill="#536777"><text x="56" y="690">来源：通用高光价值标准v4、V15冻结提示 · 五维为本项目的高光任务适配</text><text x="1224" y="690" text-anchor="end">04 / 16</text></g>
+</svg>

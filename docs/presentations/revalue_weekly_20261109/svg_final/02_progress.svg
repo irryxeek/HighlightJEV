@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" data-pptx-page-role="content">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="title" data-pptx-bounds="56 34 1168 128">
+    <text x="56" y="63" font-size="20" fill="#257C82">01 / 本周推进</text>
+    <text x="56" y="127" font-size="42" font-family="SimSun, Cambria, serif" font-weight="bold" fill="#18344B">完成了多组对照，尚未确认稳定价值收益</text>
+  </g>
+  <g id="scope-progression" data-pptx-bounds="56 198 1168 250">
+    <line x1="70" y1="410" x2="1208" y2="410" stroke="#D5DEE4" stroke-width="2"/>
+    <g fill="#18344B"><text x="72" y="293" font-size="64" font-weight="bold">50</text><text x="72" y="344">视频 · 初版TVSum</text><text x="72" y="387" font-size="20" fill="#536777">检查10条收益能否延续</text></g>
+    <g fill="#257C82"><text x="472" y="293" font-size="64" font-weight="bold">40</text><text x="472" y="344">视频 · 记忆改进</text><text x="472" y="387" font-size="20" fill="#536777">1fps、读取与时间绑定</text></g>
+    <g fill="#C66A2D"><text x="872" y="293" font-size="64" font-weight="bold">200</text><text x="872" y="344">候选对 · 后置核验</text><text x="872" y="387" font-size="20" fill="#536777">普通C / 旧V15 / 修复V15</text></g>
+  </g>
+  <g id="transfer-scope" data-pptx-bounds="56 477 1168 70">
+    <text x="72" y="520" fill="#233746">迁移测试：QFVS 40个query；Mr.HiSum 40条视频。</text>
+  </g>
+  <g id="status" data-pptx-bounds="56 565 1168 65">
+    <rect x="56" y="565" width="1168" height="65" fill="#F2F5F7"/>
+    <text x="78" y="607" fill="#18344B">最新500次新增调用已结束；主要卡点已定位到证据与结论的一致性。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="56 670 1168 28" font-size="14" fill="#536777"><text x="56" y="690">来源：本周进度报告；TVSum 200对完成收据（11.09）· 各范围为不同实验，非同一统计单位</text><text x="1224" y="690" text-anchor="end">02 / 16</text></g>
+</svg>

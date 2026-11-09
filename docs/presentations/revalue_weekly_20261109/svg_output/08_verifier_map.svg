@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" data-pptx-page-role="content">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="title" data-pptx-bounds="56 34 1168 128"><text x="56" y="63" font-size="20" fill="#257C82">07 / 后置核验 · 固定40视频 / 200对</text><text x="56" y="127" font-size="42" font-family="SimSun, Cambria, serif" font-weight="bold" fill="#18344B">详细价值核验仍未超过普通核验</text></g>
+  <g id="verifier-map" data-pptx-bounds="56 190 1168 400" data-pptx-replace-with="chart" data-pptx-fallback-sha256="abb1907ed58ef02ca8633fdf5eae0838a391a4b1d9ede044ef89f60931cbcdba">
+    <metadata type="application/json">{"name":"verifier-map","x":56,"y":190,"width":1168,"height":400,"type":"bar","categories":["F-local","普通C","旧V15","修复V15"],"series":[{"name":"Top-5 mAP","values":[57.5828,58.4573,58.4085,57.6496],"point_colors":["#536777","#257C82","#C66A2D","#B74D4D"]}],"plot_area":{"x":330,"y":220,"width":840,"height":320},"axes":{"value":{"minimum":0,"maximum":70,"major_unit":10}},"show_legend":false,"data_labels":{"show_value":true,"position":"outEnd","number_format":"0.00","font_size":22,"color":"#233746"},"style":{"colors":["#536777"],"font_family":"Microsoft YaHei, Arial, sans-serif","axis_font_size":22,"text_color":"#233746","axis_color":"#D5DEE4","grid_color":"#E5EBEF"}}</metadata>
+    <g id="verifier-map-chartArea">
+      <g id="verify-grid" stroke="#E5EBEF"><line x1="450" y1="220" x2="450" y2="540"/><line x1="570" y1="220" x2="570" y2="540"/><line x1="690" y1="220" x2="690" y2="540"/><line x1="810" y1="220" x2="810" y2="540"/><line x1="930" y1="220" x2="930" y2="540"/><line x1="1050" y1="220" x2="1050" y2="540"/><line x1="1170" y1="220" x2="1170" y2="540"/></g>
+      <g id="verify-axis" stroke="#D5DEE4"><line x1="330" y1="220" x2="330" y2="540"/><line x1="330" y1="540" x2="1170" y2="540"/></g>
+      <!-- chart-plot-area: object=verifier-map | 330,220,1170,540 -->
+      <g font-size="22" fill="#233746" text-anchor="end"><text x="306" y="268">F-local</text><text x="306" y="348">普通C</text><text x="306" y="428">旧V15</text><text x="306" y="508">修复V15</text></g>
+      <rect x="330" y="242" width="690.9936" height="36" fill="#536777"/><rect x="330" y="322" width="701.4876" height="36" fill="#257C82"/><rect x="330" y="402" width="700.9020" height="36" fill="#C66A2D"/><rect x="330" y="482" width="691.7952" height="36" fill="#B74D4D"/>
+      <g font-size="22" fill="#233746"><text x="1034" y="268">57.58</text><text x="1044" y="348">58.46</text><text x="1044" y="428">58.41</text><text x="1035" y="508">57.65</text></g>
+      <g font-size="22" fill="#233746" text-anchor="middle"><text x="330" y="576">0</text><text x="450" y="576">10</text><text x="570" y="576">20</text><text x="690" y="576">30</text><text x="810" y="576">40</text><text x="930" y="576">50</text><text x="1050" y="576">60</text><text x="1170" y="576">70</text></g>
+    </g>
+  </g>
+  <g id="effect-boundary" data-pptx-bounds="56 598 1168 58"><text x="64" y="632" font-size="22" fill="#233746">普通C相对F-local为 <tspan fill="#257C82" font-weight="bold">+0.87 pp</tspan>，95%区间跨0；C也包含一般观看贡献判断。</text></g>
+  <g id="footer" data-pptx-bounds="56 670 1168 28" font-size="14" fill="#536777"><text x="56" y="690">来源：value15_consistency40结果（11.09）· Top-5 mAP（%）· 旧结果复用且保留失败</text><text x="1224" y="690" text-anchor="end">08 / 16</text></g>
+</svg>

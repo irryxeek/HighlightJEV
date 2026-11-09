@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" data-pptx-page-role="ending">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="title" data-pptx-bounds="56 34 1168 128"><text x="56" y="63" font-size="20" fill="#257C82">13 / 下一步建议</text><text x="56" y="127" font-size="42" font-family="SimSun, Cambria, serif" font-weight="bold" fill="#18344B">先保证证据与结论一致，再验证价值增益</text></g>
+  <g id="repair-path" data-pptx-bounds="56 216 1168 310">
+    <g id="plan-cpu" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="56 232 368 118" fill="#18344B" stroke="none">
+<path d="M 56 232 L 365 232 L 424 291 L 365 350 L 56 350 L 115 291 Z"/>
+</g>
+<g id="plan-pilot" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="456 232 368 118" fill="#257C82" stroke="none">
+<path d="M 456 232 L 765 232 L 824 291 L 765 350 L 456 350 L 515 291 Z"/>
+</g>
+<g id="plan-assess" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="856 232 368 118" fill="#C66A2D" stroke="none">
+<path d="M 856 232 L 1165 232 L 1224 291 L 1165 350 L 856 350 L 915 291 Z"/>
+</g>
+    <g fill="#FFFFFF" text-anchor="middle" font-size="30" font-weight="bold"><text x="248" y="303">CPU联合契约</text><text x="648" y="303">原50对验证</text><text x="1048" y="303">共同验收</text></g>
+    <g font-size="22" fill="#233746"><text x="78" y="405">绑定最终结论与逐题证据<tspan x="78" dy="37">补回整体资格与报错定位</tspan></text><text x="478" y="405">复用候选、帧与事实库<tspan x="478" dy="37">仅重测修复V15</tspan></text><text x="878" y="405">合法率、明确比较与替换<tspan x="878" dy="37">同时看完整分母mAP</tspan></text></g>
+    <text x="478" y="498" font-size="20" fill="#257C82">拟议目标：至少48/50合法</text>
+  </g>
+  <g id="next-decision" data-pptx-bounds="56 554 1168 99"><line x1="56" y1="558" x2="1224" y2="558" stroke="#D5DEE4"/><text x="64" y="605" font-size="30" fill="#18344B">通过后再决定扩至200对；允许不足与负结果，不强迫胜负。</text><text x="64" y="645" font-size="20" fill="#536777">以上为下一步建议。本次仅制作汇报，未启动新的模型实验。</text></g>
+  <g id="footer" data-pptx-bounds="56 670 1168 28" font-size="14" fill="#536777"><text x="56" y="690">来源：原50对诊断与下一步修复方案（11.09）· 48/50为建议目标，不是已测结果</text><text x="1224" y="690" text-anchor="end">14 / 16</text></g>
+</svg>

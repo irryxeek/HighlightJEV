@@ -1,6 +1,105 @@
 # 文档索引
 
-## 最新：Verifier 与 32B 同样本结果（2026-11-03）
+## 最新：本周记忆与价值核验进展（2026-11-03–09）
+
+- [本周总结报告](revalue_weekly_progress_2026-11-03_to_2026-11-09.md) · [16页可编辑PPT](presentations/ReVALUE_组会汇报_2026-11-03至11-09.pptx) · [讲稿、源页面与精选帧证据](presentations/revalue_weekly_20261109/README.md)。
+- [固定40视频／200对核验结果](revalue_tvsum_value15_consistency40_results_2026-11-09.md)、[原50对合法率下降诊断](revalue_tvsum_value15_consistency50_diagnosis_2026-11-09.md)。
+- [事实保真与时间绑定结果](revalue_tvsum_fact_local_40v_results_2026-11-07.md)、[价值读取诊断](revalue_tvsum_value_read_40v_diagnosis_2026-11-07.md)、[初版全50视频结果](revalue_tvsum_relative_full50_27b_v1_results_2026-11-05.md)。
+- [QFVS固定40查询](revalue_qfvs_memory_read_results_2026-11-06.md)、[Mr.HiSum固定40视频](revalue_mrhisum_memory_read_results_2026-11-06.md)、[通用高光详细价值标准](revalue_generic_highlight_value_v4_2026-11-06.md)。
+
+当前没有稳定超过无文字记忆Direct参照的证据，详细V15未超过普通核验。固定40视频是多轮开发范围，QFVS／Mr.HiSum也不是全量；旧val10与当前40条前10条不同。初版全50汇总包含原train40和val10，不是独立官方test50。最新500次调用已结束，历史执行快照保留原日期；下一步建议尚待审阅。
+
+本次发布PPT、讲稿、页面源文件、精选证据及以下82份尚未发布的相关报告。实验源码、模型、完整视频和运行缓存不属于本次文档交付；明确标注的本地资料不冒充已上传附件。
+
+<details>
+<summary>本次补齐的82份详细报告、方案和历史执行记录</summary>
+
+- [当前高光价值提示词：已有细化与尚未验证的部分](highlight_value_prompt_current_2026-11-06.md)
+- [Qwen3.8-27B 权重下载记录](qwen3_8_27b_download_2026-11-03.md)
+- [反证误用诊断与下一步修复方案 v2](revalue_counterevidence_logic_repair_plan_v2_2026-11-08.md)
+- [ReVALUE 事实—价值联合记忆：近期工作对照与下一步设计](revalue_fact_value_memory_design_2026-11-06.md)
+- [通用高光价值判断 v4：细化标准、证据记忆与 TVSum40 对照](revalue_generic_highlight_value_v4_2026-11-06.md)
+- [ReVALUE 当前记忆机制与相关工作调研](revalue_memory_mechanism_and_related_work_2026-11-06.md)
+- [Mr.HiSum固定40视频实验：事实记忆、读取与摘要导出诊断](revalue_mrhisum_memory_diagnosis_2026-11-07.md)
+- [Mr.HiSum 40视频记忆读取实验启动记录](revalue_mrhisum_memory_read_execution_2026-11-06.md)
+- [Mr.HiSum 固定40视频：事实记忆读取迁移协议 v1](revalue_mrhisum_memory_read_protocol_2026-11-06.md)
+- [Mr.HiSum 固定40视频：事实记忆读取策略迁移结果](revalue_mrhisum_memory_read_results_2026-11-06.md)
+- [Mr.HiSum固定40视频：运行中输出预览](revalue_mrhisum_partial_outputs_20261106_174216.md)
+- [ReVALUE 下一步实验方案：高光价值证据与全视频记忆](revalue_next_experiment_plan_2026-11-04.md)
+- [QFVS 40查询记忆读取对照：启动记录](revalue_qfvs_memory_read_execution_2026-11-06.md)
+- [QFVS固定40查询：事实记忆读取策略对照协议 v1](revalue_qfvs_memory_read_protocol_2026-11-06.md)
+- [QFVS 固定40查询：事实记忆读取策略迁移结果](revalue_qfvs_memory_read_results_2026-11-06.md)
+- [ReVALUE 当前实验结果分析与下一步方案](revalue_results_analysis_and_next_plan_2026-11-07.md)
+- [TVSum 样本接入 ReVALUE 前端对比页面](revalue_trace_viewer_tvsum_2026-11-06.md)
+- [TVSum 固定 8 对：原子可观察性与动作前提 v3 验证分析](revalue_tvsum_atom_observability8_analysis_2026-11-08.md)
+- [TVSum 原子可观察性 v3：执行收据](revalue_tvsum_atom_observability8_execution_2026-11-08.md)
+- [TVSum 原子可观察性与动作前提 v3：固定 8 对验证协议](revalue_tvsum_atom_observability8_protocol_2026-11-08.md)
+- [TVSum 固定 8 例原子可观察性与前提依赖 v3：运行结果](revalue_tvsum_atom_observability8_results_2026-11-08.md)
+- [TVSum候选复核对照：结果分析与案例结论](revalue_tvsum_candidate_verifier10_analysis_2026-11-07.md)
+- [TVSum 固定10视频：普通复核与详细价值复核执行记录](revalue_tvsum_candidate_verifier10_execution_2026-11-07.md)
+- [TVSum候选复核：增益来源、替代质量与证据问题](revalue_tvsum_candidate_verifier10_failure_diagnosis_2026-11-07.md)
+- [TVSum固定10条候选核验：诊断结果](revalue_tvsum_candidate_verifier10_results_2026-11-07.md)
+- [TVSum 反证修复 v2：固定 8 例结果与失败定位](revalue_tvsum_counterevidence8_analysis_2026-11-08.md)
+- [TVSum 固定 8 例反证修复 v2：执行收据](revalue_tvsum_counterevidence8_execution_2026-11-08.md)
+- [TVSum 原子反证修复 v2：固定 8 例执行协议](revalue_tvsum_counterevidence8_protocol_2026-11-08.md)
+- [TVSum 固定 8 例原子反证修复 v2：运行结果](revalue_tvsum_counterevidence8_results_2026-11-08.md)
+- [TVSum 固定10条：D-1fps 对照执行记录](revalue_tvsum_dense_direct_10v_execution_2026-11-07.md)
+- [TVSum 固定10条：D-1fps 与事实/价值记忆对照](revalue_tvsum_dense_direct_10v_results_2026-11-07.md)
+- [TVSum 1 fps 记忆测试：固定10条执行记录](revalue_tvsum_dense_memory_10v_execution_2026-11-06.md)
+- [TVSum 1 fps 记忆测试：固定原40清单前10条](revalue_tvsum_dense_memory_10v_results_2026-11-06.md)
+- [TVSum 固定10条：1 fps事实／价值记忆结果诊断](revalue_tvsum_dense_memory_diagnosis_2026-11-07.md)
+- [TVSum固定40条：事实保真与时间绑定改进执行记录](revalue_tvsum_fact_local_40v_execution_2026-11-07.md)
+- [TVSum固定40条：事实保真与时间绑定模块对照结果](revalue_tvsum_fact_local_40v_results_2026-11-07.md)
+- [事实记忆＋后置价值 verifier：接入分析与下一步](revalue_tvsum_fact_verifier_integration_analysis_2026-11-08.md)
+- [TVSum：仅事实记忆＋后置价值 verifier 的离线接入协议 v1](revalue_tvsum_fact_verifier_integration_protocol_2026-11-08.md)
+- [TVSum：事实记忆＋后置价值 verifier 接入结果](revalue_tvsum_fact_verifier_integration_results_2026-11-08.md)
+- [TVSum固定六案例：事实、时间与观看理由审计](revalue_tvsum_fixed6_case_audit_2026-11-07.md)
+- [TVSum 全50视频结果分析与下一步实验方案](revalue_tvsum_full50_analysis_and_next_plan_2026-11-06.md)
+- [TVSum高光价值与记忆：27B三臂实验当前执行记录v1.1](revalue_tvsum_highlight_memory_27b_v1_1_execution_2026-11-04.md)
+- [ReVALUE TVSum：27B Direct-HD与事实／价值记忆对照](revalue_tvsum_highlight_memory_27b_v1_1_results_2026-11-04.md)
+- [TVSum高光价值与记忆：27B三臂实验执行记录](revalue_tvsum_highlight_memory_27b_v1_execution_2026-11-04.md)
+- [TVSum 固定十视频三组对照：11月5日启动记录](revalue_tvsum_highlight_memory_27b_v2_1_execution_2026-11-05.md)
+- [ReVALUE TVSum v2.1：相同修复条件下重新启动三臂对照](revalue_tvsum_highlight_memory_27b_v2_1_results_2026-11-05.md)
+- [TVSum 固定十视频：引用时间与截断修复、三组重跑](revalue_tvsum_highlight_memory_27b_v2_repair_and_execution_2026-11-04.md)
+- [ReVALUE TVSum v2：时间引用与输出长度修复后的三臂对照](revalue_tvsum_highlight_memory_27b_v2_results_2026-11-04.md)
+- [ReVALUE TVSum：相对高光选片 F-relative / FV-relative 对照](revalue_tvsum_highlight_relative_27b_v1_results_2026-11-05.md)
+- [TVSum 事实读取对照执行记录](revalue_tvsum_memory_read_execution_2026-11-06.md)
+- [TVSum 原40视频：仅改变事实读取策略](revalue_tvsum_memory_read_protocol_2026-11-06.md)
+- [TVSum 原40视频：事实记忆读取策略对照结果](revalue_tvsum_memory_read_results_2026-11-06.md)
+- [TVSum 八小时自动执行安排](revalue_tvsum_overnight_execution_2026-11-06.md)
+- [TVSum 八小时自动任务结果](revalue_tvsum_overnight_results_2026-11-06.md)
+- [TVSum 原 10 条：反证约束修复与旧理由可见性对照](revalue_tvsum_reason_visibility10_analysis_2026-11-08.md)
+- [TVSum 旧理由可见性对照：执行记录](revalue_tvsum_reason_visibility10_execution_2026-11-08.md)
+- [TVSum：反证约束修复后的旧理由可见性对照 v1](revalue_tvsum_reason_visibility10_protocol_2026-11-08.md)
+- [TVSum固定10条：旧选片理由可见性对照](revalue_tvsum_reason_visibility10_results_2026-11-08.md)
+- [ReVALUE TVSum 全 50 视频：F-relative / FV-relative](revalue_tvsum_relative_full50_27b_v1_results_2026-11-05.md)
+- [TVSum全50视频：F-relative／FV-relative执行记录](revalue_tvsum_relative_full50_execution_2026-11-05.md)
+- [TVSum 固定十视频：F / FV 离线案例审计](revalue_tvsum_relative_offline_audit_2026-11-05.md)
+- [TVSum：相对价值判据的固定十视频对照](revalue_tvsum_relative_plan_and_execution_2026-11-05.md)
+- [TVSum 40视频：V15一致性修复对照执行记录](revalue_tvsum_value15_consistency40_execution_2026-11-09.md)
+- [TVSum40：V15一致性与负向依赖修复对照 v2](revalue_tvsum_value15_consistency40_protocol_2026-11-09.md)
+- [TVSum固定40条：V15一致性修复与三组核验对照](revalue_tvsum_value15_consistency40_results_2026-11-09.md)
+- [TVSum V15修复后合法率下降：原50对诊断与下一步修复方案](revalue_tvsum_value15_consistency50_diagnosis_2026-11-09.md)
+- [TVSum V15：17条无效响应、选片差异与下一步修复方案](revalue_tvsum_value15_verifier10_diagnosis_2026-11-09.md)
+- [TVSum10：逐项 15 问价值 verifier 对照执行记录](revalue_tvsum_value15_verifier10_execution_2026-11-08.md)
+- [TVSum10：逐项 15 问价值 verifier 与普通 verifier 对照 v1](revalue_tvsum_value15_verifier10_protocol_2026-11-08.md)
+- [TVSum固定10条：普通核验与15题逐项价值核验结果](revalue_tvsum_value15_verifier10_results_2026-11-08.md)
+- [TVSum40 详细价值记忆对照：执行记录](revalue_tvsum_value_detail_execution_2026-11-06.md)
+- [TVSum 原40视频：详细价值判据与简短判据的配对结果](revalue_tvsum_value_detail_results_2026-11-06.md)
+- [TVSum固定10条：价值记忆读取修复执行记录](revalue_tvsum_value_read_10v_execution_2026-11-07.md)
+- [TVSum固定10条：价值记忆读取修复对照](revalue_tvsum_value_read_10v_results_2026-11-07.md)
+- [TVSum固定40视频：价值记忆读取对照诊断](revalue_tvsum_value_read_40v_diagnosis_2026-11-07.md)
+- [TVSum固定40条：1 fps记忆与V读取扩展执行记录](revalue_tvsum_value_read_40v_execution_2026-11-07.md)
+- [TVSum固定40条：1 fps记忆与价值读取扩展结果](revalue_tvsum_value_read_40v_results_2026-11-07.md)
+- [Qwen3.8-27B 固定20条 Q / Q+V 启动记录](revalue_value_qvqv20_qwen3_8_27b_v1_1_execution_2026-11-04.md)
+- [Qwen3.8-27B 固定20条 Q/Q+V 结果](revalue_value_qvqv20_qwen3_8_27b_v1_1_results_2026-11-04.md)
+- [Qwen3.8-27B 固定20条 Q / Q+V 执行记录（当前四卡运行）](revalue_value_qvqv20_qwen3_8_27b_v1_execution_2026-11-04.md)
+- [Qwen3.8-27B 固定20条 Q/Q+V 结果](revalue_value_qvqv20_qwen3_8_27b_v1_results_2026-11-04.md)
+- [ReVALUE 本周实验进度与结果](revalue_weekly_progress_2026-11-03_to_2026-11-09.md)
+
+</details>
+
+## 此前：Verifier 与 32B 同样本结果（2026-11-03）
 
 - [最新汇报](revalue_progress_and_results_2026-11-03.md) · [15 页可编辑 PPT](presentations/ReVALUE_实验进度与结果_2026-11-03_更新版.pptx) · [PDF 预览](presentations/ReVALUE_实验进度与结果_2026-11-03_更新版.pdf)。
 - [相关工作到价值判断单页](presentations/ReVALUE_相关工作到价值判断设计_2026-11-03.pdf) · [逐页讲稿与源页面](presentations/revalue_progress_20261103/README.md)。

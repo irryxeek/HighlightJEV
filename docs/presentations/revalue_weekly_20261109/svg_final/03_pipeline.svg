@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" data-pptx-page-role="content">
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><polygon points="0,0 8,4 0,8" fill="#536777"/></marker></defs>
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="title" data-pptx-bounds="56 34 1168 128"><text x="56" y="63" font-size="20" fill="#257C82">02 / 当前方法</text><text x="56" y="127" font-size="42" font-family="SimSun, Cambria, serif" font-weight="bold" fill="#18344B">先用事实记忆选片，再对固定候选做核验</text></g>
+  <g id="method-flow" data-pptx-bounds="56 192 1168 285">
+    <text x="64" y="225" font-size="20" fill="#536777">当前已接入的静态路径</text>
+    <g stroke="#536777" stroke-width="2"><line x1="274" y1="324" x2="295" y2="324" marker-end="url(#arrow)"/><line x1="511" y1="324" x2="531" y2="324" marker-end="url(#arrow)"/><line x1="747" y1="324" x2="767" y2="324" marker-end="url(#arrow)"/><line x1="983" y1="324" x2="1003" y2="324" marker-end="url(#arrow)"/></g>
+    <rect x="64" y="258" width="208" height="130" fill="#F2F5F7" stroke="#D5DEE4"/>
+    <g id="fact-store-shape" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="flowChartInternalStorage" data-pptx-frame="300 258 208 130" fill="#F2F5F7" stroke="#257C82" stroke-width="2">
+<path d="M 300 258 L 508 258 L 508 388 L 300 388 Z" stroke="none"/>
+<path d="M 326 258 L 326 388 M 300 274.25 L 508 274.25" fill="none"/>
+<path d="M 300 258 L 508 258 L 508 388 L 300 388 Z" fill="none"/>
+</g>
+    <rect x="536" y="258" width="208" height="130" fill="#F2F5F7" stroke="#D5DEE4"/>
+    <rect x="772" y="258" width="208" height="130" fill="#18344B"/>
+    <rect x="1008" y="258" width="208" height="130" fill="#F2F5F7" stroke="#D5DEE4"/>
+    <g text-anchor="middle" fill="#18344B"><text x="168" y="309" font-weight="bold">1fps观察</text><text x="168" y="352" font-size="20">按时间分组</text><text x="415" y="309" font-weight="bold">事实库 F</text><text x="415" y="352" font-size="20">预算读取</text><text x="640" y="309" font-weight="bold">初始 Top-5</text><text x="640" y="352" font-size="20">事实 + 旧帧</text><text x="876" y="309" font-weight="bold" fill="#FFFFFF">局部核验</text><text x="876" y="352" font-size="20" fill="#FFFFFF">C 或 V15</text><text x="1112" y="309" font-weight="bold">受控替换</text><text x="1112" y="352" font-size="20">输出高光</text></g>
+    <text x="64" y="447" font-size="22" fill="#536777">前置V记忆保留作对照；当前后置verifier不读V库，只读事实与固定局部帧。</text>
+  </g>
+  <g id="limits" data-pptx-bounds="56 515 1168 120">
+    <line x1="56" y1="521" x2="1224" y2="521" stroke="#D5DEE4"/>
+    <text x="64" y="560" fill="#233746">通过条件才替换；失败或弃判时保留原选择。</text>
+    <text x="64" y="608" font-size="22" fill="#C66A2D">待验证：定向回看、候选外搜索、事件边界细化和完整Agent闭环。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="56 670 1168 28" font-size="14" fill="#536777"><text x="56" y="690">来源：事实保真40条结果、后置verifier接入与200对协议 · 非完整Agent闭环</text><text x="1224" y="690" text-anchor="end">03 / 16</text></g>
+</svg>

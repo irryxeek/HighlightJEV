@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" data-pptx-page-role="content">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="title" data-pptx-bounds="56 34 1168 128"><text x="56" y="63" font-size="20" fill="#257C82">11 / 命题案例 · i3wAGJaaktw / pair00</text><text x="56" y="127" font-size="42" font-family="SimSun, Cambria, serif" font-weight="bold" fill="#18344B">狗在美容台上可见，完成美容仍需额外证据</text></g>
+  <g id="storefront" data-pptx-bounds="56 187 540 350"><text x="56" y="218" font-size="24" fill="#18344B" font-weight="bold">A · 门面 / f0000 · 0.000s</text><image href="../images/pet_a_f0000.png" x="56" y="238" width="540" height="297" preserveAspectRatio="xMidYMid meet"/></g>
+  <g id="grooming-table" data-pptx-bounds="684 187 540 350"><text x="684" y="218" font-size="24" fill="#18344B" font-weight="bold">B · 美容台 / f0025 · 58.492s</text><image href="../images/pet_b_f0025.png" x="684" y="238" width="540" height="297" preserveAspectRatio="xMidYMid meet"/></g>
+  <g id="proposition-separation" data-pptx-bounds="56 557 1168 100"><text x="64" y="589" fill="#233746">可见：<tspan fill="#257C82" font-weight="bold">狗在台上</tspan>；尚未确认：<tspan fill="#C66A2D" font-weight="bold">美容是否完成</tspan>。</text><text x="64" y="636" font-size="22" fill="#536777">新版将整体事件标为不足，却仍选择A；结果缺证与可见事实、最终结论没有分开。</text></g>
+  <g id="footer" data-pptx-bounds="56 670 1168 28" font-size="14" fill="#536777"><text x="56" y="690">来源：原50对诊断（11.09）· 报错曾误指空missing，实际分支冲突在候选事件状态；助手旧帧审阅</text><text x="1224" y="690" text-anchor="end">12 / 16</text></g>
+</svg>
