@@ -1,0 +1,3415 @@
+{
+  "audit_kind": "posthoc descriptive CPU analysis; not new model predictions",
+  "selection_rule": "three largest AP declines and two largest AP improvements, diagnostic only; full10 statistics retained",
+  "selected_visual_cases": [
+    "J0nA4VgnoCo",
+    "cjibtmSLxQ4",
+    "sTEELN-vY30",
+    "Se3oxnaPsz0",
+    "Bhxk-O1Y7Ho"
+  ],
+  "videos": [
+    {
+      "vid": "J0nA4VgnoCo",
+      "title_for_posthoc_context_only": "#0001: FLAT TIRE",
+      "domain": "VT",
+      "delta_pp": -51.694444444444436,
+      "all_clip_spearman_to_mean_annotation": {
+        "baseline": 0.35597854987662136,
+        "generic": 0.3858717038535846
+      },
+      "clips": {
+        "baseline": [
+          {
+            "rank": 1,
+            "clip_index": 177,
+            "seconds": [
+              354,
+              356
+            ],
+            "baseline_score": 0.6343840243815447,
+            "generic_score": 0.9968817364633384,
+            "mean_annotation_1_to_5": 2.799999952316284,
+            "positive_annotators_of_20": 15,
+            "source_windows": [
+              {
+                "index": 117,
+                "seconds": [
+                  351.0,
+                  354.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.5,
+                "generic_score": 0.9933071487351836
+              },
+              {
+                "index": 118,
+                "seconds": [
+                  354.0,
+                  357.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.679178699175393,
+                "generic_score": 0.9980732657060568
+              }
+            ]
+          },
+          {
+            "rank": 2,
+            "clip_index": 183,
+            "seconds": [
+              366,
+              368
+            ],
+            "baseline_score": 0.6037691915810811,
+            "generic_score": 0.9980116800720564,
+            "mean_annotation_1_to_5": 2.950000047683716,
+            "positive_annotators_of_20": 12,
+            "source_windows": [
+              {
+                "index": 121,
+                "seconds": [
+                  363.0,
+                  366.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.37754066879814546,
+                "generic_score": 0.9947798743644765
+              },
+              {
+                "index": 122,
+                "seconds": [
+                  366.0,
+                  369.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.679178699175393,
+                "generic_score": 0.9990889486412496
+              }
+            ]
+          },
+          {
+            "rank": 3,
+            "clip_index": 196,
+            "seconds": [
+              392,
+              394
+            ],
+            "baseline_score": 0.5340798522790167,
+            "generic_score": 0.9924508436945494,
+            "mean_annotation_1_to_5": 2.25,
+            "positive_annotators_of_20": 11,
+            "source_windows": [
+              {
+                "index": 130,
+                "seconds": [
+                  390.0,
+                  393.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.6224593312018546,
+                "generic_score": 0.9959298622161507
+              },
+              {
+                "index": 131,
+                "seconds": [
+                  393.0,
+                  396.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.26894141551050293,
+                "generic_score": 0.9820137881297457
+              }
+            ]
+          },
+          {
+            "rank": 4,
+            "clip_index": 178,
+            "seconds": [
+              356,
+              358
+            ],
+            "baseline_score": 0.5121307597760739,
+            "generic_score": 0.9428799145732154,
+            "mean_annotation_1_to_5": 2.6500000953674316,
+            "positive_annotators_of_20": 16,
+            "source_windows": [
+              {
+                "index": 118,
+                "seconds": [
+                  354.0,
+                  357.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.679178699175393,
+                "generic_score": 0.9980732657060568
+              },
+              {
+                "index": 119,
+                "seconds": [
+                  357.0,
+                  360.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.010986941578116865,
+                "generic_score": 0.7772998611746911
+              }
+            ]
+          },
+          {
+            "rank": 5,
+            "clip_index": 184,
+            "seconds": [
+              368,
+              370
+            ],
+            "baseline_score": 0.5115283956953733,
+            "generic_score": 0.9874602431023976,
+            "mean_annotation_1_to_5": 2.8499999046325684,
+            "positive_annotators_of_20": 12,
+            "source_windows": [
+              {
+                "index": 122,
+                "seconds": [
+                  366.0,
+                  369.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.679178699175393,
+                "generic_score": 0.9990889486412496
+              },
+              {
+                "index": 123,
+                "seconds": [
+                  369.0,
+                  372.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.00857748525531428,
+                "generic_score": 0.9525741264858409
+              }
+            ]
+          }
+        ],
+        "generic": [
+          {
+            "rank": 1,
+            "clip_index": 65,
+            "seconds": [
+              130,
+              132
+            ],
+            "baseline_score": 0.4378234991142019,
+            "generic_score": 0.9999038976078541,
+            "mean_annotation_1_to_5": 1.4500000476837158,
+            "positive_annotators_of_20": 2,
+            "source_windows": [
+              {
+                "index": 43,
+                "seconds": [
+                  129.0,
+                  132.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.4378234991142019,
+                "generic_score": 0.9999038976078541
+              }
+            ]
+          },
+          {
+            "rank": 2,
+            "clip_index": 62,
+            "seconds": [
+              124,
+              126
+            ],
+            "baseline_score": 0.14804719991116141,
+            "generic_score": 0.9995694429072773,
+            "mean_annotation_1_to_5": 1.399999976158142,
+            "positive_annotators_of_20": 2,
+            "source_windows": [
+              {
+                "index": 41,
+                "seconds": [
+                  123.0,
+                  126.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.14804719991116141,
+                "generic_score": 0.9995694429072773
+              }
+            ]
+          },
+          {
+            "rank": 3,
+            "clip_index": 64,
+            "seconds": [
+              128,
+              130
+            ],
+            "baseline_score": 0.2764809788975321,
+            "generic_score": 0.9981215071947113,
+            "mean_annotation_1_to_5": 1.75,
+            "positive_annotators_of_20": 4,
+            "source_windows": [
+              {
+                "index": 42,
+                "seconds": [
+                  126.0,
+                  129.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.22270013882530884,
+                "generic_score": 0.997527377056997
+              },
+              {
+                "index": 43,
+                "seconds": [
+                  129.0,
+                  132.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.4378234991142019,
+                "generic_score": 0.9999038976078541
+              }
+            ]
+          },
+          {
+            "rank": 4,
+            "clip_index": 162,
+            "seconds": [
+              324,
+              326
+            ],
+            "baseline_score": 0.45336762433565136,
+            "generic_score": 0.9980809427373534,
+            "mean_annotation_1_to_5": 2.950000047683716,
+            "positive_annotators_of_20": 13,
+            "source_windows": [
+              {
+                "index": 107,
+                "seconds": [
+                  321.0,
+                  324.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.5,
+                "generic_score": 0.9968273169307178
+              },
+              {
+                "index": 108,
+                "seconds": [
+                  324.0,
+                  327.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.4378234991142019,
+                "generic_score": 0.9984988180062319
+              }
+            ]
+          },
+          {
+            "rank": 5,
+            "clip_index": 63,
+            "seconds": [
+              126,
+              128
+            ],
+            "baseline_score": 0.204036904096772,
+            "generic_score": 0.9980378935195671,
+            "mean_annotation_1_to_5": 1.399999976158142,
+            "positive_annotators_of_20": 2,
+            "source_windows": [
+              {
+                "index": 41,
+                "seconds": [
+                  123.0,
+                  126.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.14804719991116141,
+                "generic_score": 0.9995694429072773
+              },
+              {
+                "index": 42,
+                "seconds": [
+                  126.0,
+                  129.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.22270013882530884,
+                "generic_score": 0.997527377056997
+              }
+            ]
+          }
+        ]
+      },
+      "sheets": [
+        {
+          "path": "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_tvsum_failure_analysis_2026-11-10/J0nA4VgnoCo_page1.jpg",
+          "sha256": "4c52fe34692b704f5168b56622e8e5764e237a4f136d8af7fc9f0979774285a8"
+        },
+        {
+          "path": "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_tvsum_failure_analysis_2026-11-10/J0nA4VgnoCo_page2.jpg",
+          "sha256": "de3fbe155ad94d7da322bcb9bb8c0fa6373130867b84c06967a3d25c06758ae9"
+        },
+        {
+          "path": "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_tvsum_failure_analysis_2026-11-10/J0nA4VgnoCo_page3.jpg",
+          "sha256": "1f4eb6447526c95e9b9db12883fe0f906fb159e5592304e48754b3f99d805d9e"
+        }
+      ],
+      "audited_source_windows": [
+        {
+          "index": 41,
+          "model_rgb_sha256": "fd9daf68b0f00d0584325da9826f693bd546c3b6a39dff81cf084ec1ea610972",
+          "original_hash_match": true
+        },
+        {
+          "index": 42,
+          "model_rgb_sha256": "74791dca37147fbae9e5eb39822c160d387d68312c07bea4a16328cc536dac48",
+          "original_hash_match": true
+        },
+        {
+          "index": 43,
+          "model_rgb_sha256": "b58d8977206d3d6f12155961c6af3db982e19631dfe9bbd65374446eb598f53e",
+          "original_hash_match": true
+        },
+        {
+          "index": 107,
+          "model_rgb_sha256": "f926c48c9fd56d4c6dc6b23dc873aa71461150dff089df8940b885971fe4f082",
+          "original_hash_match": true
+        },
+        {
+          "index": 108,
+          "model_rgb_sha256": "4669fb67026909b4cfc1dca7056565df21aa1d0920b2555912776df90524374f",
+          "original_hash_match": true
+        },
+        {
+          "index": 117,
+          "model_rgb_sha256": "6e915cbb8549e530a67ce8e4b51b52dd9507ddf8548a9fce7536ab98e04dfd27",
+          "original_hash_match": true
+        },
+        {
+          "index": 118,
+          "model_rgb_sha256": "0189ba073327e4f972fe475598769ff26e331155c9a1348f0612b3abedf881f5",
+          "original_hash_match": true
+        },
+        {
+          "index": 119,
+          "model_rgb_sha256": "3d6c0df7526c7999171da3e78f14cc706339ad10b757548f05553bd10188d503",
+          "original_hash_match": true
+        },
+        {
+          "index": 121,
+          "model_rgb_sha256": "eae1d73b030e57eec049480d22f31a9229ed20aaa791ded7983ba98691d260ee",
+          "original_hash_match": true
+        },
+        {
+          "index": 122,
+          "model_rgb_sha256": "17df3b82b60b690766cad9b9b6d70cc51a67be2a4bfa3dc5f887532c5a9cc929",
+          "original_hash_match": true
+        },
+        {
+          "index": 123,
+          "model_rgb_sha256": "ef65fc96a4d38bba3a1879a7c89ef75d0999be81d03f5f963d128133cda3268b",
+          "original_hash_match": true
+        },
+        {
+          "index": 130,
+          "model_rgb_sha256": "b448bf5ee3a68ee47de5990f2de3a145ca8ff20a6b7f8f68ca4a1a7baa8cff9a",
+          "original_hash_match": true
+        },
+        {
+          "index": 131,
+          "model_rgb_sha256": "650ed7c4077f273d3da519a9ab25cb13383aa31b9c61b1d6a26d22bd5d515c1a",
+          "original_hash_match": true
+        }
+      ]
+    },
+    {
+      "vid": "cjibtmSLxQ4",
+      "title_for_posthoc_context_only": "David Belle | Fondateur du parkour | Reportage de TF1",
+      "domain": "PK",
+      "delta_pp": -29.631944444444443,
+      "all_clip_spearman_to_mean_annotation": {
+        "baseline": 0.31356191362806435,
+        "generic": 0.35440520940189624
+      },
+      "clips": {
+        "baseline": [
+          {
+            "rank": 1,
+            "clip_index": 97,
+            "seconds": [
+              194,
+              196
+            ],
+            "baseline_score": 0.7795087252880786,
+            "generic_score": 0.9994462396324049,
+            "mean_annotation_1_to_5": 2.450000047683716,
+            "positive_annotators_of_20": 15,
+            "source_windows": [
+              {
+                "index": 64,
+                "seconds": [
+                  192.0,
+                  195.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.8519528000888387,
+                "generic_score": 0.9999038976078541
+              },
+              {
+                "index": 65,
+                "seconds": [
+                  195.0,
+                  198.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.5621765008857981,
+                "generic_score": 0.9980732657060568
+              }
+            ]
+          },
+          {
+            "rank": 2,
+            "clip_index": 96,
+            "seconds": [
+              192,
+              194
+            ],
+            "baseline_score": 0.6402696314755099,
+            "generic_score": 0.8593837979844411,
+            "mean_annotation_1_to_5": 2.299999952316284,
+            "positive_annotators_of_20": 12,
+            "source_windows": [
+              {
+                "index": 63,
+                "seconds": [
+                  189.0,
+                  192.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.005220125635523485,
+                "generic_score": 0.4378234991142019
+              },
+              {
+                "index": 64,
+                "seconds": [
+                  192.0,
+                  195.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.8519528000888387,
+                "generic_score": 0.9999038976078541
+              }
+            ]
+          },
+          {
+            "rank": 3,
+            "clip_index": 98,
+            "seconds": [
+              196,
+              198
+            ],
+            "baseline_score": 0.5621765008857981,
+            "generic_score": 0.9980732657060568,
+            "mean_annotation_1_to_5": 2.25,
+            "positive_annotators_of_20": 12,
+            "source_windows": [
+              {
+                "index": 65,
+                "seconds": [
+                  195.0,
+                  198.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.5621765008857981,
+                "generic_score": 0.9980732657060568
+              }
+            ]
+          },
+          {
+            "rank": 4,
+            "clip_index": 239,
+            "seconds": [
+              478,
+              480
+            ],
+            "baseline_score": 0.5621765008857981,
+            "generic_score": 0.99979657295342,
+            "mean_annotation_1_to_5": 1.4500000476837158,
+            "positive_annotators_of_20": 4,
+            "source_windows": [
+              {
+                "index": 159,
+                "seconds": [
+                  477.0,
+                  480.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.5621765008857981,
+                "generic_score": 0.99979657295342
+              }
+            ]
+          },
+          {
+            "rank": 5,
+            "clip_index": 23,
+            "seconds": [
+              46,
+              48
+            ],
+            "baseline_score": 0.4378234991142019,
+            "generic_score": 0.9984988180062319,
+            "mean_annotation_1_to_5": 1.7999999523162842,
+            "positive_annotators_of_20": 6,
+            "source_windows": [
+              {
+                "index": 15,
+                "seconds": [
+                  45.0,
+                  48.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.4378234991142019,
+                "generic_score": 0.9984988180062319
+              }
+            ]
+          }
+        ],
+        "generic": [
+          {
+            "rank": 1,
+            "clip_index": 239,
+            "seconds": [
+              478,
+              480
+            ],
+            "baseline_score": 0.5621765008857981,
+            "generic_score": 0.99979657295342,
+            "mean_annotation_1_to_5": 1.4500000476837158,
+            "positive_annotators_of_20": 4,
+            "source_windows": [
+              {
+                "index": 159,
+                "seconds": [
+                  477.0,
+                  480.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.5621765008857981,
+                "generic_score": 0.99979657295342
+              }
+            ]
+          },
+          {
+            "rank": 2,
+            "clip_index": 261,
+            "seconds": [
+              522,
+              524
+            ],
+            "baseline_score": 0.37754066879814546,
+            "generic_score": 0.999763592207145,
+            "mean_annotation_1_to_5": 2.450000047683716,
+            "positive_annotators_of_20": 11,
+            "source_windows": [
+              {
+                "index": 173,
+                "seconds": [
+                  519.0,
+                  522.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.37754066879814546,
+                "generic_score": 0.99966464996832
+              },
+              {
+                "index": 174,
+                "seconds": [
+                  522.0,
+                  525.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.37754066879814546,
+                "generic_score": 0.99979657295342
+              }
+            ]
+          },
+          {
+            "rank": 3,
+            "clip_index": 260,
+            "seconds": [
+              520,
+              522
+            ],
+            "baseline_score": 0.37754066879814546,
+            "generic_score": 0.99966464996832,
+            "mean_annotation_1_to_5": 2.8499999046325684,
+            "positive_annotators_of_20": 12,
+            "source_windows": [
+              {
+                "index": 173,
+                "seconds": [
+                  519.0,
+                  522.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.37754066879814546,
+                "generic_score": 0.99966464996832
+              }
+            ]
+          },
+          {
+            "rank": 4,
+            "clip_index": 230,
+            "seconds": [
+              460,
+              462
+            ],
+            "baseline_score": 0.4378234991142019,
+            "generic_score": 0.9995694429072773,
+            "mean_annotation_1_to_5": 1.7999999523162842,
+            "positive_annotators_of_20": 6,
+            "source_windows": [
+              {
+                "index": 153,
+                "seconds": [
+                  459.0,
+                  462.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.4378234991142019,
+                "generic_score": 0.9995694429072773
+              }
+            ]
+          },
+          {
+            "rank": 5,
+            "clip_index": 97,
+            "seconds": [
+              194,
+              196
+            ],
+            "baseline_score": 0.7795087252880786,
+            "generic_score": 0.9994462396324049,
+            "mean_annotation_1_to_5": 2.450000047683716,
+            "positive_annotators_of_20": 15,
+            "source_windows": [
+              {
+                "index": 64,
+                "seconds": [
+                  192.0,
+                  195.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.8519528000888387,
+                "generic_score": 0.9999038976078541
+              },
+              {
+                "index": 65,
+                "seconds": [
+                  195.0,
+                  198.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.5621765008857981,
+                "generic_score": 0.9980732657060568
+              }
+            ]
+          }
+        ]
+      },
+      "sheets": [
+        {
+          "path": "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_tvsum_failure_analysis_2026-11-10/cjibtmSLxQ4_page1.jpg",
+          "sha256": "28a7cea9243b56370e425d63a006156a7df536909e2e33f4b4e1050133706af9"
+        },
+        {
+          "path": "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_tvsum_failure_analysis_2026-11-10/cjibtmSLxQ4_page2.jpg",
+          "sha256": "99d4606646e67f1051cf5b5bae2b102da80cfac539992e5ad5e084bf54feffbf"
+        }
+      ],
+      "audited_source_windows": [
+        {
+          "index": 15,
+          "model_rgb_sha256": "b785ab58e4378e1509ea422ba76a0cf165f3a42468eb1b733cd55ad19273ac19",
+          "original_hash_match": true
+        },
+        {
+          "index": 63,
+          "model_rgb_sha256": "e41fd0d45a212f0e85a5266470084940a76cc66befa718729f53d93407110972",
+          "original_hash_match": true
+        },
+        {
+          "index": 64,
+          "model_rgb_sha256": "7f4c3b6ccb1d5d902a818943243e2bfeb7c7347488995ea3e840b2da79fcbba6",
+          "original_hash_match": true
+        },
+        {
+          "index": 65,
+          "model_rgb_sha256": "ca871b02decfabcd2e88a8cfa7e549a2201ab718df1491734c29af31750c3c3a",
+          "original_hash_match": true
+        },
+        {
+          "index": 153,
+          "model_rgb_sha256": "11f61c2c883c814732a19dd00dddb1be4faa45db7fe408db98430f5eacfafebf",
+          "original_hash_match": true
+        },
+        {
+          "index": 159,
+          "model_rgb_sha256": "7de2e414141342aa7ce1272287f712d528ff8c5296b91c41309ac7ecd4a12216",
+          "original_hash_match": true
+        },
+        {
+          "index": 173,
+          "model_rgb_sha256": "29c5976261ba1f4217862f53d43bf9afda1869abbc1cce4b3cc98fe6aea4c5f1",
+          "original_hash_match": true
+        },
+        {
+          "index": 174,
+          "model_rgb_sha256": "bb8c44c5185e38a85697e9b47e97aa6a8baa4c1a26c128b1318fe7fc5a5a8625",
+          "original_hash_match": true
+        }
+      ]
+    },
+    {
+      "vid": "JgHubY5Vw3Y",
+      "title_for_posthoc_context_only": "How to lock your bike. The RIGHT way!",
+      "domain": "BT",
+      "delta_pp": -1.6631944444444429,
+      "all_clip_spearman_to_mean_annotation": {
+        "baseline": 0.5570495947870323,
+        "generic": 0.7224368778932452
+      },
+      "clips": {
+        "baseline": [
+          {
+            "rank": 1,
+            "clip_index": 52,
+            "seconds": [
+              104,
+              106
+            ],
+            "baseline_score": 0.919269002245166,
+            "generic_score": 0.9998600277948393,
+            "mean_annotation_1_to_5": 3.5,
+            "positive_annotators_of_20": 17,
+            "source_windows": [
+              {
+                "index": 34,
+                "seconds": [
+                  102.0,
+                  105.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.9241418267688303,
+                "generic_score": 0.9999251537370123
+              },
+              {
+                "index": 35,
+                "seconds": [
+                  105.0,
+                  108.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.9046505286741726,
+                "generic_score": 0.99966464996832
+              }
+            ]
+          },
+          {
+            "rank": 2,
+            "clip_index": 51,
+            "seconds": [
+              102,
+              104
+            ],
+            "baseline_score": 0.9192690044945171,
+            "generic_score": 0.999878567725214,
+            "mean_annotation_1_to_5": 3.799999952316284,
+            "positive_annotators_of_20": 16,
+            "source_windows": [
+              {
+                "index": 33,
+                "seconds": [
+                  99.0,
+                  102.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.9046505376715775,
+                "generic_score": 0.9997388096898188
+              },
+              {
+                "index": 34,
+                "seconds": [
+                  102.0,
+                  105.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.9241418267688303,
+                "generic_score": 0.9999251537370123
+              }
+            ]
+          },
+          {
+            "rank": 3,
+            "clip_index": 53,
+            "seconds": [
+              106,
+              108
+            ],
+            "baseline_score": 0.9046505286741726,
+            "generic_score": 0.99966464996832,
+            "mean_annotation_1_to_5": 3.700000047683716,
+            "positive_annotators_of_20": 17,
+            "source_windows": [
+              {
+                "index": 35,
+                "seconds": [
+                  105.0,
+                  108.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.9046505286741726,
+                "generic_score": 0.99966464996832
+              }
+            ]
+          },
+          {
+            "rank": 4,
+            "clip_index": 50,
+            "seconds": [
+              100,
+              102
+            ],
+            "baseline_score": 0.9046505376715775,
+            "generic_score": 0.9997388096898188,
+            "mean_annotation_1_to_5": 3.549999952316284,
+            "positive_annotators_of_20": 17,
+            "source_windows": [
+              {
+                "index": 33,
+                "seconds": [
+                  99.0,
+                  102.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.9046505376715775,
+                "generic_score": 0.9997388096898188
+              }
+            ]
+          },
+          {
+            "rank": 5,
+            "clip_index": 54,
+            "seconds": [
+              108,
+              110
+            ],
+            "baseline_score": 0.6477950078328918,
+            "generic_score": 0.9984711117716226,
+            "mean_annotation_1_to_5": 3.5999999046325684,
+            "positive_annotators_of_20": 17,
+            "source_windows": [
+              {
+                "index": 35,
+                "seconds": [
+                  105.0,
+                  108.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.9046505286741726,
+                "generic_score": 0.99966464996832
+              },
+              {
+                "index": 36,
+                "seconds": [
+                  108.0,
+                  111.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.5621765008857981,
+                "generic_score": 0.9980732657060568
+              }
+            ]
+          }
+        ],
+        "generic": [
+          {
+            "rank": 1,
+            "clip_index": 51,
+            "seconds": [
+              102,
+              104
+            ],
+            "baseline_score": 0.9192690044945171,
+            "generic_score": 0.999878567725214,
+            "mean_annotation_1_to_5": 3.799999952316284,
+            "positive_annotators_of_20": 16,
+            "source_windows": [
+              {
+                "index": 33,
+                "seconds": [
+                  99.0,
+                  102.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.9046505376715775,
+                "generic_score": 0.9997388096898188
+              },
+              {
+                "index": 34,
+                "seconds": [
+                  102.0,
+                  105.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.9241418267688303,
+                "generic_score": 0.9999251537370123
+              }
+            ]
+          },
+          {
+            "rank": 2,
+            "clip_index": 52,
+            "seconds": [
+              104,
+              106
+            ],
+            "baseline_score": 0.919269002245166,
+            "generic_score": 0.9998600277948393,
+            "mean_annotation_1_to_5": 3.5,
+            "positive_annotators_of_20": 17,
+            "source_windows": [
+              {
+                "index": 34,
+                "seconds": [
+                  102.0,
+                  105.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.9241418267688303,
+                "generic_score": 0.9999251537370123
+              },
+              {
+                "index": 35,
+                "seconds": [
+                  105.0,
+                  108.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.9046505286741726,
+                "generic_score": 0.99966464996832
+              }
+            ]
+          },
+          {
+            "rank": 3,
+            "clip_index": 50,
+            "seconds": [
+              100,
+              102
+            ],
+            "baseline_score": 0.9046505376715775,
+            "generic_score": 0.9997388096898188,
+            "mean_annotation_1_to_5": 3.549999952316284,
+            "positive_annotators_of_20": 17,
+            "source_windows": [
+              {
+                "index": 33,
+                "seconds": [
+                  99.0,
+                  102.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.9046505376715775,
+                "generic_score": 0.9997388096898188
+              }
+            ]
+          },
+          {
+            "rank": 4,
+            "clip_index": 53,
+            "seconds": [
+              106,
+              108
+            ],
+            "baseline_score": 0.9046505286741726,
+            "generic_score": 0.99966464996832,
+            "mean_annotation_1_to_5": 3.700000047683716,
+            "positive_annotators_of_20": 17,
+            "source_windows": [
+              {
+                "index": 35,
+                "seconds": [
+                  105.0,
+                  108.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.9046505286741726,
+                "generic_score": 0.99966464996832
+              }
+            ]
+          },
+          {
+            "rank": 5,
+            "clip_index": 26,
+            "seconds": [
+              52,
+              54
+            ],
+            "baseline_score": 0.32082130731838393,
+            "generic_score": 0.9988304896995872,
+            "mean_annotation_1_to_5": 2.3499999046325684,
+            "positive_annotators_of_20": 12,
+            "source_windows": [
+              {
+                "index": 17,
+                "seconds": [
+                  51.0,
+                  54.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.32082130731838393,
+                "generic_score": 0.9988304896995872
+              }
+            ]
+          }
+        ]
+      },
+      "sheets": [],
+      "audited_source_windows": []
+    },
+    {
+      "vid": "Bhxk-O1Y7Ho",
+      "title_for_posthoc_context_only": "Vlog #509 I'M A PUPPY DOG GROOMER! September 13, 2014",
+      "domain": "GA",
+      "delta_pp": 14.937499999999986,
+      "all_clip_spearman_to_mean_annotation": {
+        "baseline": 0.3170177432743228,
+        "generic": 0.487791994322513
+      },
+      "clips": {
+        "baseline": [
+          {
+            "rank": 1,
+            "clip_index": 222,
+            "seconds": [
+              444,
+              446
+            ],
+            "baseline_score": 0.2387178660052867,
+            "generic_score": 0.9639489112908949,
+            "mean_annotation_1_to_5": 2.75,
+            "positive_annotators_of_20": 14,
+            "source_windows": [
+              {
+                "index": 147,
+                "seconds": [
+                  441.0,
+                  444.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.14804719991116141,
+                "generic_score": 0.9980732657060568
+              },
+              {
+                "index": 148,
+                "seconds": [
+                  444.0,
+                  447.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.2689414213699951,
+                "generic_score": 0.9525741264858409
+              }
+            ]
+          },
+          {
+            "rank": 2,
+            "clip_index": 223,
+            "seconds": [
+              446,
+              448
+            ],
+            "baseline_score": 0.21672772862359585,
+            "generic_score": 0.9405932292822751,
+            "mean_annotation_1_to_5": 3.049999952316284,
+            "positive_annotators_of_20": 15,
+            "source_windows": [
+              {
+                "index": 148,
+                "seconds": [
+                  444.0,
+                  447.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.2689414213699951,
+                "generic_score": 0.9525741264858409
+              },
+              {
+                "index": 149,
+                "seconds": [
+                  447.0,
+                  450.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.060086650384398026,
+                "generic_score": 0.9046505376715775
+              }
+            ]
+          },
+          {
+            "rank": 3,
+            "clip_index": 8,
+            "seconds": [
+              16,
+              18
+            ],
+            "baseline_score": 0.18242551491653522,
+            "generic_score": 0.9820137881297457,
+            "mean_annotation_1_to_5": 1.25,
+            "positive_annotators_of_20": 1,
+            "source_windows": [
+              {
+                "index": 5,
+                "seconds": [
+                  15.0,
+                  18.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.18242551491653522,
+                "generic_score": 0.9820137881297457
+              }
+            ]
+          },
+          {
+            "rank": 4,
+            "clip_index": 221,
+            "seconds": [
+              442,
+              444
+            ],
+            "baseline_score": 0.14804719991116141,
+            "generic_score": 0.9980732657060568,
+            "mean_annotation_1_to_5": 3.200000047683716,
+            "positive_annotators_of_20": 18,
+            "source_windows": [
+              {
+                "index": 147,
+                "seconds": [
+                  441.0,
+                  444.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.14804719991116141,
+                "generic_score": 0.9980732657060568
+              }
+            ]
+          },
+          {
+            "rank": 5,
+            "clip_index": 40,
+            "seconds": [
+              80,
+              82
+            ],
+            "baseline_score": 0.14131568915496495,
+            "generic_score": 0.8836306582662551,
+            "mean_annotation_1_to_5": 2.950000047683716,
+            "positive_annotators_of_20": 18,
+            "source_windows": [
+              {
+                "index": 26,
+                "seconds": [
+                  78.0,
+                  81.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.18242551491653522,
+                "generic_score": 0.9706877672877219
+              },
+              {
+                "index": 27,
+                "seconds": [
+                  81.0,
+                  84.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.01798621187025419,
+                "generic_score": 0.6224593312018546
+              }
+            ]
+          }
+        ],
+        "generic": [
+          {
+            "rank": 1,
+            "clip_index": 221,
+            "seconds": [
+              442,
+              444
+            ],
+            "baseline_score": 0.14804719991116141,
+            "generic_score": 0.9980732657060568,
+            "mean_annotation_1_to_5": 3.200000047683716,
+            "positive_annotators_of_20": 18,
+            "source_windows": [
+              {
+                "index": 147,
+                "seconds": [
+                  441.0,
+                  444.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.14804719991116141,
+                "generic_score": 0.9980732657060568
+              }
+            ]
+          },
+          {
+            "rank": 2,
+            "clip_index": 86,
+            "seconds": [
+              172,
+              174
+            ],
+            "baseline_score": 0.022977372418942873,
+            "generic_score": 0.9914225147446858,
+            "mean_annotation_1_to_5": 2.1500000953674316,
+            "positive_annotators_of_20": 10,
+            "source_windows": [
+              {
+                "index": 57,
+                "seconds": [
+                  171.0,
+                  174.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.022977372418942873,
+                "generic_score": 0.9914225147446858
+              }
+            ]
+          },
+          {
+            "rank": 3,
+            "clip_index": 85,
+            "seconds": [
+              170,
+              172
+            ],
+            "baseline_score": 0.04131374824035507,
+            "generic_score": 0.9914225147446858,
+            "mean_annotation_1_to_5": 2.5,
+            "positive_annotators_of_20": 12,
+            "source_windows": [
+              {
+                "index": 56,
+                "seconds": [
+                  168.0,
+                  171.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.04742587351415913,
+                "generic_score": 0.9914225147446858
+              },
+              {
+                "index": 57,
+                "seconds": [
+                  171.0,
+                  174.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.022977372418942873,
+                "generic_score": 0.9914225147446858
+              }
+            ]
+          },
+          {
+            "rank": 4,
+            "clip_index": 191,
+            "seconds": [
+              382,
+              384
+            ],
+            "baseline_score": 0.060086650384398026,
+            "generic_score": 0.989013058421883,
+            "mean_annotation_1_to_5": 2.0999999046325684,
+            "positive_annotators_of_20": 11,
+            "source_windows": [
+              {
+                "index": 127,
+                "seconds": [
+                  381.0,
+                  384.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.060086650384398026,
+                "generic_score": 0.989013058421883
+              }
+            ]
+          },
+          {
+            "rank": 5,
+            "clip_index": 59,
+            "seconds": [
+              118,
+              120
+            ],
+            "baseline_score": 0.060086650384398026,
+            "generic_score": 0.989013058421883,
+            "mean_annotation_1_to_5": 3.0,
+            "positive_annotators_of_20": 18,
+            "source_windows": [
+              {
+                "index": 39,
+                "seconds": [
+                  117.0,
+                  120.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.060086650384398026,
+                "generic_score": 0.989013058421883
+              }
+            ]
+          }
+        ]
+      },
+      "sheets": [
+        {
+          "path": "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_tvsum_failure_analysis_2026-11-10/Bhxk-O1Y7Ho_page1.jpg",
+          "sha256": "174d2aeb799ea04d012ab32edb9741e3a14bb332559efe09ce31ccd9ceaf9638"
+        },
+        {
+          "path": "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_tvsum_failure_analysis_2026-11-10/Bhxk-O1Y7Ho_page2.jpg",
+          "sha256": "0f2111372e4cbb6e223a000128309827a69c748ac567246972118912968125a3"
+        }
+      ],
+      "audited_source_windows": [
+        {
+          "index": 5,
+          "model_rgb_sha256": "8cf50da98f3ee151032308ab6e32a6b1276f6008f4deb73751c34ea22731d4b7",
+          "original_hash_match": true
+        },
+        {
+          "index": 26,
+          "model_rgb_sha256": "dca33b8c162a9ef86782d3c9069e31b6a66a050be94927e4224175aa3fe11bb0",
+          "original_hash_match": true
+        },
+        {
+          "index": 27,
+          "model_rgb_sha256": "19cdb0b88476990092edbcc27767b47e78131a95ecf86ba61e705734cb7b077c",
+          "original_hash_match": true
+        },
+        {
+          "index": 39,
+          "model_rgb_sha256": "e89f095390a2adc1a23d1254f87a11ae5d71600b419f86fee5977e9b292c4152",
+          "original_hash_match": true
+        },
+        {
+          "index": 56,
+          "model_rgb_sha256": "f66f9d1aad8595aa74858c26f6d4dafb675af367edc7795085a33f5b4778ebce",
+          "original_hash_match": true
+        },
+        {
+          "index": 57,
+          "model_rgb_sha256": "b7ffb20bbbed1b859f662a1402885dfda8d23e741d8c10cd48acf212bdab168f",
+          "original_hash_match": true
+        },
+        {
+          "index": 127,
+          "model_rgb_sha256": "0663599ffb6d68f14d72bfb7cee6327e3cb37d8f1d4475a9b47bb4e7e3fe07a7",
+          "original_hash_match": true
+        },
+        {
+          "index": 147,
+          "model_rgb_sha256": "d6c70cd882da0641d80b3b74fc4581e99bb002fbd1a37697e3829532bb5f005d",
+          "original_hash_match": true
+        },
+        {
+          "index": 148,
+          "model_rgb_sha256": "baa1556843c30362f5e07d3d7cd2ae1f09495f3916ab6735fd1a32cee0f2fe48",
+          "original_hash_match": true
+        },
+        {
+          "index": 149,
+          "model_rgb_sha256": "97c11d823b58e2c208ab453146c304fdd24e18a6618a742a714b04daeb125fdc",
+          "original_hash_match": true
+        }
+      ]
+    },
+    {
+      "vid": "sTEELN-vY30",
+      "title_for_posthoc_context_only": "BBC - Train crash 2013",
+      "domain": "VU",
+      "delta_pp": -19.562499999999986,
+      "all_clip_spearman_to_mean_annotation": {
+        "baseline": 0.05211417011643396,
+        "generic": 0.4844941904235578
+      },
+      "clips": {
+        "baseline": [
+          {
+            "rank": 1,
+            "clip_index": 5,
+            "seconds": [
+              10,
+              12
+            ],
+            "baseline_score": 0.5621765008857981,
+            "generic_score": 0.99979657295342,
+            "mean_annotation_1_to_5": 4.349999904632568,
+            "positive_annotators_of_20": 18,
+            "source_windows": [
+              {
+                "index": 3,
+                "seconds": [
+                  9.0,
+                  12.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.5621765008857981,
+                "generic_score": 0.99979657295342
+              }
+            ]
+          },
+          {
+            "rank": 2,
+            "clip_index": 32,
+            "seconds": [
+              64,
+              66
+            ],
+            "baseline_score": 0.5,
+            "generic_score": 0.9999038976078541,
+            "mean_annotation_1_to_5": 1.350000023841858,
+            "positive_annotators_of_20": 2,
+            "source_windows": [
+              {
+                "index": 21,
+                "seconds": [
+                  63.0,
+                  66.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.5,
+                "generic_score": 0.9999038976078541
+              }
+            ]
+          },
+          {
+            "rank": 3,
+            "clip_index": 59,
+            "seconds": [
+              118,
+              120
+            ],
+            "baseline_score": 0.4378234991142019,
+            "generic_score": 0.9999417087274893,
+            "mean_annotation_1_to_5": 2.75,
+            "positive_annotators_of_20": 13,
+            "source_windows": [
+              {
+                "index": 39,
+                "seconds": [
+                  117.0,
+                  120.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.4378234991142019,
+                "generic_score": 0.9999417087274893
+              }
+            ]
+          },
+          {
+            "rank": 4,
+            "clip_index": 29,
+            "seconds": [
+              58,
+              60
+            ],
+            "baseline_score": 0.37754066879814546,
+            "generic_score": 0.99979657295342,
+            "mean_annotation_1_to_5": 1.5499999523162842,
+            "positive_annotators_of_20": 4,
+            "source_windows": [
+              {
+                "index": 19,
+                "seconds": [
+                  57.0,
+                  60.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.37754066879814546,
+                "generic_score": 0.99979657295342
+              }
+            ]
+          },
+          {
+            "rank": 5,
+            "clip_index": 33,
+            "seconds": [
+              66,
+              68
+            ],
+            "baseline_score": 0.36561598048878796,
+            "generic_score": 0.9998234041170285,
+            "mean_annotation_1_to_5": 2.75,
+            "positive_annotators_of_20": 14,
+            "source_windows": [
+              {
+                "index": 21,
+                "seconds": [
+                  63.0,
+                  66.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.5,
+                "generic_score": 0.9999038976078541
+              },
+              {
+                "index": 22,
+                "seconds": [
+                  66.0,
+                  69.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.32082130731838393,
+                "generic_score": 0.99979657295342
+              }
+            ]
+          }
+        ],
+        "generic": [
+          {
+            "rank": 1,
+            "clip_index": 59,
+            "seconds": [
+              118,
+              120
+            ],
+            "baseline_score": 0.4378234991142019,
+            "generic_score": 0.9999417087274893,
+            "mean_annotation_1_to_5": 2.75,
+            "positive_annotators_of_20": 13,
+            "source_windows": [
+              {
+                "index": 39,
+                "seconds": [
+                  117.0,
+                  120.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.4378234991142019,
+                "generic_score": 0.9999417087274893
+              }
+            ]
+          },
+          {
+            "rank": 2,
+            "clip_index": 32,
+            "seconds": [
+              64,
+              66
+            ],
+            "baseline_score": 0.5,
+            "generic_score": 0.9999038976078541,
+            "mean_annotation_1_to_5": 1.350000023841858,
+            "positive_annotators_of_20": 2,
+            "source_windows": [
+              {
+                "index": 21,
+                "seconds": [
+                  63.0,
+                  66.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.5,
+                "generic_score": 0.9999038976078541
+              }
+            ]
+          },
+          {
+            "rank": 3,
+            "clip_index": 65,
+            "seconds": [
+              130,
+              132
+            ],
+            "baseline_score": 0.14804719991116141,
+            "generic_score": 0.9998766053808289,
+            "mean_annotation_1_to_5": 3.25,
+            "positive_annotators_of_20": 16,
+            "source_windows": [
+              {
+                "index": 43,
+                "seconds": [
+                  129.0,
+                  132.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.14804719991116141,
+                "generic_score": 0.9998766053808289
+              }
+            ]
+          },
+          {
+            "rank": 4,
+            "clip_index": 33,
+            "seconds": [
+              66,
+              68
+            ],
+            "baseline_score": 0.36561598048878796,
+            "generic_score": 0.9998234041170285,
+            "mean_annotation_1_to_5": 2.75,
+            "positive_annotators_of_20": 14,
+            "source_windows": [
+              {
+                "index": 21,
+                "seconds": [
+                  63.0,
+                  66.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.5,
+                "generic_score": 0.9999038976078541
+              },
+              {
+                "index": 22,
+                "seconds": [
+                  66.0,
+                  69.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.32082130731838393,
+                "generic_score": 0.99979657295342
+              }
+            ]
+          },
+          {
+            "rank": 5,
+            "clip_index": 23,
+            "seconds": [
+              46,
+              48
+            ],
+            "baseline_score": 0.11920291732853862,
+            "generic_score": 0.99979657295342,
+            "mean_annotation_1_to_5": 2.450000047683716,
+            "positive_annotators_of_20": 13,
+            "source_windows": [
+              {
+                "index": 15,
+                "seconds": [
+                  45.0,
+                  48.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.11920291732853862,
+                "generic_score": 0.99979657295342
+              }
+            ]
+          }
+        ]
+      },
+      "sheets": [
+        {
+          "path": "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_tvsum_failure_analysis_2026-11-10/sTEELN-vY30_page1.jpg",
+          "sha256": "61661990a8d82968fe374b9dc748b8291261a1f307558a8eaf89442035f4ad6a"
+        },
+        {
+          "path": "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_tvsum_failure_analysis_2026-11-10/sTEELN-vY30_page2.jpg",
+          "sha256": "d5548294dd55fe9b2287e91e3234995dc40d3a8a6c80a4d5462fd03ff4c29fa8"
+        }
+      ],
+      "audited_source_windows": [
+        {
+          "index": 3,
+          "model_rgb_sha256": "1d9439837bd8babb214b5fca85badb5673bed7a5fcf994f477f9d46ce13870dd",
+          "original_hash_match": true
+        },
+        {
+          "index": 15,
+          "model_rgb_sha256": "b0c6afd218287aa3da356e5dc649bb25c7a971a853ded6fd343dec9745189065",
+          "original_hash_match": true
+        },
+        {
+          "index": 19,
+          "model_rgb_sha256": "b1a16c1e34339cc3ab9c72a911d834832527d9d0a64c7a26b303d9f2e274af23",
+          "original_hash_match": true
+        },
+        {
+          "index": 21,
+          "model_rgb_sha256": "dd1f473dd3dfbad1738704ba0af314c4a130bfa4dbac8f07ebaee861c01983aa",
+          "original_hash_match": true
+        },
+        {
+          "index": 22,
+          "model_rgb_sha256": "bd27c824bcadb509f92aeba527cb90b08d2db2342ef948c1fb6941749fd740c9",
+          "original_hash_match": true
+        },
+        {
+          "index": 39,
+          "model_rgb_sha256": "7e5a99d3c8692b19edbbf482f6a2d0661c31ce0774dfc5c8aabe831c9af53f25",
+          "original_hash_match": true
+        },
+        {
+          "index": 43,
+          "model_rgb_sha256": "8b93a0499e5816ab0ad87bd2067d84da6e12dd6c8e3c00b387596a0832b7c73a",
+          "original_hash_match": true
+        }
+      ]
+    },
+    {
+      "vid": "Yi4Ij2NM7U4",
+      "title_for_posthoc_context_only": "Poor Man's Meals: Spicy Sausage Sandwich",
+      "domain": "MS",
+      "delta_pp": 1.2569444444444429,
+      "all_clip_spearman_to_mean_annotation": {
+        "baseline": 0.7180248147274153,
+        "generic": 0.6128295861474743
+      },
+      "clips": {
+        "baseline": [
+          {
+            "rank": 1,
+            "clip_index": 119,
+            "seconds": [
+              238,
+              240
+            ],
+            "baseline_score": 0.9525741264858409,
+            "generic_score": 0.9999898700126424,
+            "mean_annotation_1_to_5": 2.25,
+            "positive_annotators_of_20": 13,
+            "source_windows": [
+              {
+                "index": 79,
+                "seconds": [
+                  237.0,
+                  240.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.9525741264858409,
+                "generic_score": 0.9999898700126424
+              }
+            ]
+          },
+          {
+            "rank": 2,
+            "clip_index": 118,
+            "seconds": [
+              236,
+              238
+            ],
+            "baseline_score": 0.9430785390993772,
+            "generic_score": 0.9999946725240307,
+            "mean_annotation_1_to_5": 2.6500000953674316,
+            "positive_annotators_of_20": 14,
+            "source_windows": [
+              {
+                "index": 78,
+                "seconds": [
+                  234.0,
+                  237.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.9399133433038893,
+                "generic_score": 0.9999962733611601
+              },
+              {
+                "index": 79,
+                "seconds": [
+                  237.0,
+                  240.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.9525741264858409,
+                "generic_score": 0.9999898700126424
+              }
+            ]
+          },
+          {
+            "rank": 3,
+            "clip_index": 185,
+            "seconds": [
+              370,
+              372
+            ],
+            "baseline_score": 0.9046505376715775,
+            "generic_score": 0.9988304896995872,
+            "mean_annotation_1_to_5": 2.799999952316284,
+            "positive_annotators_of_20": 12,
+            "source_windows": [
+              {
+                "index": 123,
+                "seconds": [
+                  369.0,
+                  372.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.9046505376715775,
+                "generic_score": 0.9988304896995872
+              }
+            ]
+          },
+          {
+            "rank": 4,
+            "clip_index": 86,
+            "seconds": [
+              172,
+              174
+            ],
+            "baseline_score": 0.8519528057272543,
+            "generic_score": 0.999447221447556,
+            "mean_annotation_1_to_5": 2.75,
+            "positive_annotators_of_20": 15,
+            "source_windows": [
+              {
+                "index": 57,
+                "seconds": [
+                  171.0,
+                  174.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.8519528057272543,
+                "generic_score": 0.999447221447556
+              }
+            ]
+          },
+          {
+            "rank": 5,
+            "clip_index": 127,
+            "seconds": [
+              254,
+              256
+            ],
+            "baseline_score": 0.834102727555179,
+            "generic_score": 0.9988899195896593,
+            "mean_annotation_1_to_5": 3.049999952316284,
+            "positive_annotators_of_20": 15,
+            "source_windows": [
+              {
+                "index": 84,
+                "seconds": [
+                  252.0,
+                  255.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.9046505286741726,
+                "generic_score": 0.9998766053808289
+              },
+              {
+                "index": 85,
+                "seconds": [
+                  255.0,
+                  258.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.622459324198198,
+                "generic_score": 0.9959298622161507
+              }
+            ]
+          }
+        ],
+        "generic": [
+          {
+            "rank": 1,
+            "clip_index": 118,
+            "seconds": [
+              236,
+              238
+            ],
+            "baseline_score": 0.9430785390993772,
+            "generic_score": 0.9999946725240307,
+            "mean_annotation_1_to_5": 2.6500000953674316,
+            "positive_annotators_of_20": 14,
+            "source_windows": [
+              {
+                "index": 78,
+                "seconds": [
+                  234.0,
+                  237.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.9399133433038893,
+                "generic_score": 0.9999962733611601
+              },
+              {
+                "index": 79,
+                "seconds": [
+                  237.0,
+                  240.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.9525741264858409,
+                "generic_score": 0.9999898700126424
+              }
+            ]
+          },
+          {
+            "rank": 2,
+            "clip_index": 119,
+            "seconds": [
+              238,
+              240
+            ],
+            "baseline_score": 0.9525741264858409,
+            "generic_score": 0.9999898700126424,
+            "mean_annotation_1_to_5": 2.25,
+            "positive_annotators_of_20": 13,
+            "source_windows": [
+              {
+                "index": 79,
+                "seconds": [
+                  237.0,
+                  240.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.9525741264858409,
+                "generic_score": 0.9999898700126424
+              }
+            ]
+          },
+          {
+            "rank": 3,
+            "clip_index": 134,
+            "seconds": [
+              268,
+              270
+            ],
+            "baseline_score": 0.7772998560157665,
+            "generic_score": 0.9999417087274893,
+            "mean_annotation_1_to_5": 3.1500000953674316,
+            "positive_annotators_of_20": 14,
+            "source_windows": [
+              {
+                "index": 89,
+                "seconds": [
+                  267.0,
+                  270.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.7772998560157665,
+                "generic_score": 0.9999417087274893
+              }
+            ]
+          },
+          {
+            "rank": 4,
+            "clip_index": 79,
+            "seconds": [
+              158,
+              160
+            ],
+            "baseline_score": 0.782975531939081,
+            "generic_score": 0.999818086907506,
+            "mean_annotation_1_to_5": 2.8499999046325684,
+            "positive_annotators_of_20": 13,
+            "source_windows": [
+              {
+                "index": 52,
+                "seconds": [
+                  156.0,
+                  159.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.8175744761936437,
+                "generic_score": 0.9999417087274893
+              },
+              {
+                "index": 53,
+                "seconds": [
+                  159.0,
+                  162.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.679178699175393,
+                "generic_score": 0.999447221447556
+              }
+            ]
+          },
+          {
+            "rank": 5,
+            "clip_index": 120,
+            "seconds": [
+              240,
+              242
+            ],
+            "baseline_score": 0.786437469988583,
+            "generic_score": 0.9997459549794006,
+            "mean_annotation_1_to_5": 2.5999999046325684,
+            "positive_annotators_of_20": 14,
+            "source_windows": [
+              {
+                "index": 79,
+                "seconds": [
+                  237.0,
+                  240.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.9525741264858409,
+                "generic_score": 0.9999898700126424
+              },
+              {
+                "index": 80,
+                "seconds": [
+                  240.0,
+                  243.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.731058584489497,
+                "generic_score": 0.99966464996832
+              }
+            ]
+          }
+        ]
+      },
+      "sheets": [],
+      "audited_source_windows": []
+    },
+    {
+      "vid": "E11zDS9XGzg",
+      "title_for_posthoc_context_only": "German Shepherd Dog Show (KCI) | DoHangout",
+      "domain": "DS",
+      "delta_pp": 0.48263888888889994,
+      "all_clip_spearman_to_mean_annotation": {
+        "baseline": 0.3443497153774846,
+        "generic": 0.5817364498611205
+      },
+      "clips": {
+        "baseline": [
+          {
+            "rank": 1,
+            "clip_index": 194,
+            "seconds": [
+              388,
+              390
+            ],
+            "baseline_score": 0.5,
+            "generic_score": 0.99966464996832,
+            "mean_annotation_1_to_5": 2.799999952316284,
+            "positive_annotators_of_20": 12,
+            "source_windows": [
+              {
+                "index": 129,
+                "seconds": [
+                  387.0,
+                  390.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.5,
+                "generic_score": 0.99966464996832
+              }
+            ]
+          },
+          {
+            "rank": 2,
+            "clip_index": 218,
+            "seconds": [
+              436,
+              438
+            ],
+            "baseline_score": 0.37754066879814546,
+            "generic_score": 0.9984988180062319,
+            "mean_annotation_1_to_5": 2.1500000953674316,
+            "positive_annotators_of_20": 10,
+            "source_windows": [
+              {
+                "index": 145,
+                "seconds": [
+                  435.0,
+                  438.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.37754066879814546,
+                "generic_score": 0.9984988180062319
+              }
+            ]
+          },
+          {
+            "rank": 3,
+            "clip_index": 46,
+            "seconds": [
+              92,
+              94
+            ],
+            "baseline_score": 0.3341119674403871,
+            "generic_score": 0.9803521681731449,
+            "mean_annotation_1_to_5": 2.5999999046325684,
+            "positive_annotators_of_20": 9,
+            "source_windows": [
+              {
+                "index": 30,
+                "seconds": [
+                  90.0,
+                  93.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.4378234991142019,
+                "generic_score": 0.9990889486412496
+              },
+              {
+                "index": 31,
+                "seconds": [
+                  93.0,
+                  96.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.022977372418942873,
+                "generic_score": 0.9241418267688303
+              }
+            ]
+          },
+          {
+            "rank": 4,
+            "clip_index": 45,
+            "seconds": [
+              90,
+              92
+            ],
+            "baseline_score": 0.33051199564948,
+            "generic_score": 0.8743167114809371,
+            "mean_annotation_1_to_5": 2.5,
+            "positive_annotators_of_20": 9,
+            "source_windows": [
+              {
+                "index": 29,
+                "seconds": [
+                  87.0,
+                  90.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.00857748525531428,
+                "generic_score": 0.5
+              },
+              {
+                "index": 30,
+                "seconds": [
+                  90.0,
+                  93.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.4378234991142019,
+                "generic_score": 0.9990889486412496
+              }
+            ]
+          },
+          {
+            "rank": 5,
+            "clip_index": 215,
+            "seconds": [
+              430,
+              432
+            ],
+            "baseline_score": 0.32082130731838393,
+            "generic_score": 0.9988304896995872,
+            "mean_annotation_1_to_5": 2.200000047683716,
+            "positive_annotators_of_20": 10,
+            "source_windows": [
+              {
+                "index": 143,
+                "seconds": [
+                  429.0,
+                  432.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.32082130731838393,
+                "generic_score": 0.9988304896995872
+              }
+            ]
+          }
+        ],
+        "generic": [
+          {
+            "rank": 1,
+            "clip_index": 194,
+            "seconds": [
+              388,
+              390
+            ],
+            "baseline_score": 0.5,
+            "generic_score": 0.99966464996832,
+            "mean_annotation_1_to_5": 2.799999952316284,
+            "positive_annotators_of_20": 12,
+            "source_windows": [
+              {
+                "index": 129,
+                "seconds": [
+                  387.0,
+                  390.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.5,
+                "generic_score": 0.99966464996832
+              }
+            ]
+          },
+          {
+            "rank": 2,
+            "clip_index": 89,
+            "seconds": [
+              178,
+              180
+            ],
+            "baseline_score": 0.07585817323116976,
+            "generic_score": 0.9995694429072773,
+            "mean_annotation_1_to_5": 2.4000000953674316,
+            "positive_annotators_of_20": 12,
+            "source_windows": [
+              {
+                "index": 59,
+                "seconds": [
+                  177.0,
+                  180.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.07585817323116976,
+                "generic_score": 0.9995694429072773
+              }
+            ]
+          },
+          {
+            "rank": 3,
+            "clip_index": 155,
+            "seconds": [
+              310,
+              312
+            ],
+            "baseline_score": 0.14804719991116141,
+            "generic_score": 0.999290329695098,
+            "mean_annotation_1_to_5": 1.899999976158142,
+            "positive_annotators_of_20": 5,
+            "source_windows": [
+              {
+                "index": 103,
+                "seconds": [
+                  309.0,
+                  312.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.14804719991116141,
+                "generic_score": 0.999290329695098
+              }
+            ]
+          },
+          {
+            "rank": 4,
+            "clip_index": 80,
+            "seconds": [
+              160,
+              162
+            ],
+            "baseline_score": 0.22270013882530884,
+            "generic_score": 0.999290329695098,
+            "mean_annotation_1_to_5": 2.8499999046325684,
+            "positive_annotators_of_20": 13,
+            "source_windows": [
+              {
+                "index": 53,
+                "seconds": [
+                  159.0,
+                  162.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.22270013882530884,
+                "generic_score": 0.999290329695098
+              }
+            ]
+          },
+          {
+            "rank": 5,
+            "clip_index": 214,
+            "seconds": [
+              428,
+              430
+            ],
+            "baseline_score": 0.2170244630169974,
+            "generic_score": 0.9991753696962202,
+            "mean_annotation_1_to_5": 2.299999952316284,
+            "positive_annotators_of_20": 11,
+            "source_windows": [
+              {
+                "index": 142,
+                "seconds": [
+                  426.0,
+                  429.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.18242551491653522,
+                "generic_score": 0.999290329695098
+              },
+              {
+                "index": 143,
+                "seconds": [
+                  429.0,
+                  432.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.32082130731838393,
+                "generic_score": 0.9988304896995872
+              }
+            ]
+          }
+        ]
+      },
+      "sheets": [],
+      "audited_source_windows": []
+    },
+    {
+      "vid": "Se3oxnaPsz0",
+      "title_for_posthoc_context_only": "9/15/11 Killer Bees Kill 1000-lb Hog in Bisbee AZ",
+      "domain": "BK",
+      "delta_pp": 51.04166666666667,
+      "all_clip_spearman_to_mean_annotation": {
+        "baseline": -0.613047096399658,
+        "generic": -0.0959570919313503
+      },
+      "clips": {
+        "baseline": [
+          {
+            "rank": 1,
+            "clip_index": 68,
+            "seconds": [
+              136,
+              138
+            ],
+            "baseline_score": 0.2689414213699951,
+            "generic_score": 0.7772998611746911,
+            "mean_annotation_1_to_5": 1.600000023841858,
+            "positive_annotators_of_20": 4,
+            "source_windows": [
+              {
+                "index": 45,
+                "seconds": [
+                  135.0,
+                  138.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.2689414213699951,
+                "generic_score": 0.7772998611746911
+              }
+            ]
+          },
+          {
+            "rank": 2,
+            "clip_index": 31,
+            "seconds": [
+              62,
+              64
+            ],
+            "baseline_score": 0.1408361292655057,
+            "generic_score": 0.9824280714449276,
+            "mean_annotation_1_to_5": 1.350000023841858,
+            "positive_annotators_of_20": 1,
+            "source_windows": [
+              {
+                "index": 20,
+                "seconds": [
+                  60.0,
+                  63.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.14804719991116141,
+                "generic_score": 0.989013058421883
+              },
+              {
+                "index": 21,
+                "seconds": [
+                  63.0,
+                  66.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.11920291732853862,
+                "generic_score": 0.9626731105140616
+              }
+            ]
+          },
+          {
+            "rank": 3,
+            "clip_index": 42,
+            "seconds": [
+              84,
+              86
+            ],
+            "baseline_score": 0.13849234900360555,
+            "generic_score": 0.7921853758036366,
+            "mean_annotation_1_to_5": 1.5499999523162842,
+            "positive_annotators_of_20": 2,
+            "source_windows": [
+              {
+                "index": 27,
+                "seconds": [
+                  81.0,
+                  84.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.006692851264816554,
+                "generic_score": 0.22270013882530884
+              },
+              {
+                "index": 28,
+                "seconds": [
+                  84.0,
+                  87.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.18242551491653522,
+                "generic_score": 0.9820137881297457
+              }
+            ]
+          },
+          {
+            "rank": 4,
+            "clip_index": 43,
+            "seconds": [
+              86,
+              88
+            ],
+            "baseline_score": 0.13695733082551242,
+            "generic_score": 0.7392570764918385,
+            "mean_annotation_1_to_5": 3.549999952316284,
+            "positive_annotators_of_20": 19,
+            "source_windows": [
+              {
+                "index": 28,
+                "seconds": [
+                  84.0,
+                  87.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.18242551491653522,
+                "generic_score": 0.9820137881297457
+              },
+              {
+                "index": 29,
+                "seconds": [
+                  87.0,
+                  90.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.0005527785524441058,
+                "generic_score": 0.010986941578116865
+              }
+            ]
+          },
+          {
+            "rank": 5,
+            "clip_index": 30,
+            "seconds": [
+              60,
+              62
+            ],
+            "baseline_score": 0.13487276551547667,
+            "generic_score": 0.9679224282343066,
+            "mean_annotation_1_to_5": 1.399999976158142,
+            "positive_annotators_of_20": 2,
+            "source_windows": [
+              {
+                "index": 19,
+                "seconds": [
+                  57.0,
+                  60.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.09534946232842245,
+                "generic_score": 0.9046505376715775
+              },
+              {
+                "index": 20,
+                "seconds": [
+                  60.0,
+                  63.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.14804719991116141,
+                "generic_score": 0.989013058421883
+              }
+            ]
+          }
+        ],
+        "generic": [
+          {
+            "rank": 1,
+            "clip_index": 26,
+            "seconds": [
+              52,
+              54
+            ],
+            "baseline_score": 0.04742587351415913,
+            "generic_score": 0.9959298622161507,
+            "mean_annotation_1_to_5": 3.3499999046325684,
+            "positive_annotators_of_20": 15,
+            "source_windows": [
+              {
+                "index": 17,
+                "seconds": [
+                  51.0,
+                  54.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.04742587351415913,
+                "generic_score": 0.9959298622161507
+              }
+            ]
+          },
+          {
+            "rank": 2,
+            "clip_index": 31,
+            "seconds": [
+              62,
+              64
+            ],
+            "baseline_score": 0.1408361292655057,
+            "generic_score": 0.9824280714449276,
+            "mean_annotation_1_to_5": 1.350000023841858,
+            "positive_annotators_of_20": 1,
+            "source_windows": [
+              {
+                "index": 20,
+                "seconds": [
+                  60.0,
+                  63.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.14804719991116141,
+                "generic_score": 0.989013058421883
+              },
+              {
+                "index": 21,
+                "seconds": [
+                  63.0,
+                  66.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.11920291732853862,
+                "generic_score": 0.9626731105140616
+              }
+            ]
+          },
+          {
+            "rank": 3,
+            "clip_index": 30,
+            "seconds": [
+              60,
+              62
+            ],
+            "baseline_score": 0.13487276551547667,
+            "generic_score": 0.9679224282343066,
+            "mean_annotation_1_to_5": 1.399999976158142,
+            "positive_annotators_of_20": 2,
+            "source_windows": [
+              {
+                "index": 19,
+                "seconds": [
+                  57.0,
+                  60.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.09534946232842245,
+                "generic_score": 0.9046505376715775
+              },
+              {
+                "index": 20,
+                "seconds": [
+                  60.0,
+                  63.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.14804719991116141,
+                "generic_score": 0.989013058421883
+              }
+            ]
+          },
+          {
+            "rank": 4,
+            "clip_index": 32,
+            "seconds": [
+              64,
+              66
+            ],
+            "baseline_score": 0.11920291732853862,
+            "generic_score": 0.9626731105140616,
+            "mean_annotation_1_to_5": 1.2999999523162842,
+            "positive_annotators_of_20": 1,
+            "source_windows": [
+              {
+                "index": 21,
+                "seconds": [
+                  63.0,
+                  66.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.11920291732853862,
+                "generic_score": 0.9626731105140616
+              }
+            ]
+          },
+          {
+            "rank": 5,
+            "clip_index": 10,
+            "seconds": [
+              20,
+              22
+            ],
+            "baseline_score": 0.059640365317906535,
+            "generic_score": 0.9596515508503198,
+            "mean_annotation_1_to_5": 1.4500000476837158,
+            "positive_annotators_of_20": 2,
+            "source_windows": [
+              {
+                "index": 6,
+                "seconds": [
+                  18.0,
+                  21.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.07585817323116976,
+                "generic_score": 0.9859363735766059
+              },
+              {
+                "index": 7,
+                "seconds": [
+                  21.0,
+                  24.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.010986941578116865,
+                "generic_score": 0.8807970826714613
+              }
+            ]
+          }
+        ]
+      },
+      "sheets": [
+        {
+          "path": "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_tvsum_failure_analysis_2026-11-10/Se3oxnaPsz0_page1.jpg",
+          "sha256": "bb089eb1e559229b9030ede00020edcf0b495eed8d55cfca0369601332bf8348"
+        },
+        {
+          "path": "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_tvsum_failure_analysis_2026-11-10/Se3oxnaPsz0_page2.jpg",
+          "sha256": "4fe3168b743e4151a3f13d026762836c2f37a379c06041f01e2e4df00966e8d5"
+        }
+      ],
+      "audited_source_windows": [
+        {
+          "index": 6,
+          "model_rgb_sha256": "786a1d5753805cdf82d379bea359cea964171f871ff73f209b6b57b3aab6e49b",
+          "original_hash_match": true
+        },
+        {
+          "index": 7,
+          "model_rgb_sha256": "b1934027fbe0e4e0464cedd4b8ec097afc30c5abe4ecb23094fb5d0eee602e98",
+          "original_hash_match": true
+        },
+        {
+          "index": 17,
+          "model_rgb_sha256": "0ce7d1b286d8f6100ed704825b4ca4b73e4753f40f207de28b12604292e2e63d",
+          "original_hash_match": true
+        },
+        {
+          "index": 19,
+          "model_rgb_sha256": "07c87bdf75b1b65a67a0d81d8935da7831a0e7e24d8ec31242fcd29caa472c49",
+          "original_hash_match": true
+        },
+        {
+          "index": 20,
+          "model_rgb_sha256": "5a3e8b0901e98cd2413073a554a84d1cc93e2328ecc1fea4b6c8fc7297dbdc4c",
+          "original_hash_match": true
+        },
+        {
+          "index": 21,
+          "model_rgb_sha256": "108b6dbf06d8b88df69728f8bcf07e8fb4a84269704d8439d7c25009c7dff46c",
+          "original_hash_match": true
+        },
+        {
+          "index": 27,
+          "model_rgb_sha256": "e713b1dbb79d8660eb9202583475372cfd2c67f6d2d0fe66f4dc3d4f6a6e8246",
+          "original_hash_match": true
+        },
+        {
+          "index": 28,
+          "model_rgb_sha256": "77ef15ee16fa07b7a2de4d769a7c651ff099bea35a1eda6066338992da0ca57e",
+          "original_hash_match": true
+        },
+        {
+          "index": 29,
+          "model_rgb_sha256": "34082459fcd030195e76ce1b912a6c07ca0bb59bd015255ea18a66096a5267bf",
+          "original_hash_match": true
+        },
+        {
+          "index": 45,
+          "model_rgb_sha256": "9ba1caa2c16c0bf311714b17e82e1ed0087f30d13bcbf36a3128bd8a3523b5f4",
+          "original_hash_match": true
+        }
+      ]
+    },
+    {
+      "vid": "JKpqYvAdIsw",
+      "title_for_posthoc_context_only": "ICC World Twenty20 Bangladesh 2014 Flash Mob - Pabna University of Science & Technology ( PUST )",
+      "domain": "FM",
+      "delta_pp": 2.798611111111107,
+      "all_clip_spearman_to_mean_annotation": {
+        "baseline": 0.2970491946677805,
+        "generic": 0.27065807027253025
+      },
+      "clips": {
+        "baseline": [
+          {
+            "rank": 1,
+            "clip_index": 12,
+            "seconds": [
+              24,
+              26
+            ],
+            "baseline_score": 0.5918444984013909,
+            "generic_score": 0.9998415637640006,
+            "mean_annotation_1_to_5": 2.1500000953674316,
+            "positive_annotators_of_20": 6,
+            "source_windows": [
+              {
+                "index": 7,
+                "seconds": [
+                  21.0,
+                  24.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.5,
+                "generic_score": 0.9998415637640006
+              },
+              {
+                "index": 8,
+                "seconds": [
+                  24.0,
+                  27.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.6224593312018546,
+                "generic_score": 0.9998415637640006
+              }
+            ]
+          },
+          {
+            "rank": 2,
+            "clip_index": 13,
+            "seconds": [
+              26,
+              28
+            ],
+            "baseline_score": 0.5038562983791813,
+            "generic_score": 0.9990880020556798,
+            "mean_annotation_1_to_5": 1.7999999523162842,
+            "positive_annotators_of_20": 4,
+            "source_windows": [
+              {
+                "index": 8,
+                "seconds": [
+                  24.0,
+                  27.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.6224593312018546,
+                "generic_score": 0.9998415637640006
+              },
+              {
+                "index": 9,
+                "seconds": [
+                  27.0,
+                  30.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.14804719991116141,
+                "generic_score": 0.9968273169307178
+              }
+            ]
+          },
+          {
+            "rank": 3,
+            "clip_index": 11,
+            "seconds": [
+              22,
+              24
+            ],
+            "baseline_score": 0.5,
+            "generic_score": 0.9998415637640006,
+            "mean_annotation_1_to_5": 1.899999976158142,
+            "positive_annotators_of_20": 4,
+            "source_windows": [
+              {
+                "index": 7,
+                "seconds": [
+                  21.0,
+                  24.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.5,
+                "generic_score": 0.9998415637640006
+              }
+            ]
+          },
+          {
+            "rank": 4,
+            "clip_index": 19,
+            "seconds": [
+              38,
+              40
+            ],
+            "baseline_score": 0.42275279153518774,
+            "generic_score": 0.9994493193407704,
+            "mean_annotation_1_to_5": 1.7000000476837158,
+            "positive_annotators_of_20": 4,
+            "source_windows": [
+              {
+                "index": 12,
+                "seconds": [
+                  36.0,
+                  39.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.4378234991142019,
+                "generic_score": 0.9995694429072773
+              },
+              {
+                "index": 13,
+                "seconds": [
+                  39.0,
+                  42.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.37754066879814546,
+                "generic_score": 0.9990889486412496
+              }
+            ]
+          },
+          {
+            "rank": 5,
+            "clip_index": 18,
+            "seconds": [
+              36,
+              38
+            ],
+            "baseline_score": 0.38404265904197865,
+            "generic_score": 0.999538887542347,
+            "mean_annotation_1_to_5": 1.9500000476837158,
+            "positive_annotators_of_20": 5,
+            "source_windows": [
+              {
+                "index": 11,
+                "seconds": [
+                  33.0,
+                  36.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.22270013882530884,
+                "generic_score": 0.999447221447556
+              },
+              {
+                "index": 12,
+                "seconds": [
+                  36.0,
+                  39.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.4378234991142019,
+                "generic_score": 0.9995694429072773
+              }
+            ]
+          }
+        ],
+        "generic": [
+          {
+            "rank": 1,
+            "clip_index": 12,
+            "seconds": [
+              24,
+              26
+            ],
+            "baseline_score": 0.5918444984013909,
+            "generic_score": 0.9998415637640006,
+            "mean_annotation_1_to_5": 2.1500000953674316,
+            "positive_annotators_of_20": 6,
+            "source_windows": [
+              {
+                "index": 7,
+                "seconds": [
+                  21.0,
+                  24.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.5,
+                "generic_score": 0.9998415637640006
+              },
+              {
+                "index": 8,
+                "seconds": [
+                  24.0,
+                  27.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.6224593312018546,
+                "generic_score": 0.9998415637640006
+              }
+            ]
+          },
+          {
+            "rank": 2,
+            "clip_index": 11,
+            "seconds": [
+              22,
+              24
+            ],
+            "baseline_score": 0.5,
+            "generic_score": 0.9998415637640006,
+            "mean_annotation_1_to_5": 1.899999976158142,
+            "positive_annotators_of_20": 4,
+            "source_windows": [
+              {
+                "index": 7,
+                "seconds": [
+                  21.0,
+                  24.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.5,
+                "generic_score": 0.9998415637640006
+              }
+            ]
+          },
+          {
+            "rank": 3,
+            "clip_index": 56,
+            "seconds": [
+              112,
+              114
+            ],
+            "baseline_score": 0.09534946232842245,
+            "generic_score": 0.99979657295342,
+            "mean_annotation_1_to_5": 2.25,
+            "positive_annotators_of_20": 9,
+            "source_windows": [
+              {
+                "index": 37,
+                "seconds": [
+                  111.0,
+                  114.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.09534946232842245,
+                "generic_score": 0.99979657295342
+              }
+            ]
+          },
+          {
+            "rank": 4,
+            "clip_index": 74,
+            "seconds": [
+              148,
+              150
+            ],
+            "baseline_score": 0.18242551491653522,
+            "generic_score": 0.9997388096898188,
+            "mean_annotation_1_to_5": 2.0999999046325684,
+            "positive_annotators_of_20": 5,
+            "source_windows": [
+              {
+                "index": 49,
+                "seconds": [
+                  147.0,
+                  150.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.18242551491653522,
+                "generic_score": 0.9997388096898188
+              }
+            ]
+          },
+          {
+            "rank": 5,
+            "clip_index": 26,
+            "seconds": [
+              52,
+              54
+            ],
+            "baseline_score": 0.22270013882530884,
+            "generic_score": 0.99966464996832,
+            "mean_annotation_1_to_5": 2.75,
+            "positive_annotators_of_20": 14,
+            "source_windows": [
+              {
+                "index": 17,
+                "seconds": [
+                  51.0,
+                  54.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.22270013882530884,
+                "generic_score": 0.99966464996832
+              }
+            ]
+          }
+        ]
+      },
+      "sheets": [],
+      "audited_source_windows": []
+    },
+    {
+      "vid": "fWutDQy1nnY",
+      "title_for_posthoc_context_only": "Chinatown Parade",
+      "domain": "PR",
+      "delta_pp": -2.5659722222222143,
+      "all_clip_spearman_to_mean_annotation": {
+        "baseline": 0.6100074743686518,
+        "generic": 0.6397370912354863
+      },
+      "clips": {
+        "baseline": [
+          {
+            "rank": 1,
+            "clip_index": 159,
+            "seconds": [
+              318,
+              320
+            ],
+            "baseline_score": 0.8075058291062713,
+            "generic_score": 0.9998078206560651,
+            "mean_annotation_1_to_5": 2.3499999046325684,
+            "positive_annotators_of_20": 9,
+            "source_windows": [
+              {
+                "index": 105,
+                "seconds": [
+                  315.0,
+                  318.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.7772998611746911,
+                "generic_score": 0.9998415637640006
+              },
+              {
+                "index": 106,
+                "seconds": [
+                  318.0,
+                  321.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.8175744850834649,
+                "generic_score": 0.99979657295342
+              }
+            ]
+          },
+          {
+            "rank": 2,
+            "clip_index": 148,
+            "seconds": [
+              296,
+              298
+            ],
+            "baseline_score": 0.7959455084700999,
+            "generic_score": 0.9998821141027645,
+            "mean_annotation_1_to_5": 2.799999952316284,
+            "positive_annotators_of_20": 13,
+            "source_windows": [
+              {
+                "index": 98,
+                "seconds": [
+                  294.0,
+                  297.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.8175744850834649,
+                "generic_score": 0.9999546021475793
+              },
+              {
+                "index": 99,
+                "seconds": [
+                  297.0,
+                  300.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.7310585786300049,
+                "generic_score": 0.99966464996832
+              }
+            ]
+          },
+          {
+            "rank": 3,
+            "clip_index": 153,
+            "seconds": [
+              306,
+              308
+            ],
+            "baseline_score": 0.7829755369830027,
+            "generic_score": 0.9999166724866171,
+            "mean_annotation_1_to_5": 2.3499999046325684,
+            "positive_annotators_of_20": 10,
+            "source_windows": [
+              {
+                "index": 101,
+                "seconds": [
+                  303.0,
+                  306.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.6791786926816161,
+                "generic_score": 0.9998415637640006
+              },
+              {
+                "index": 102,
+                "seconds": [
+                  306.0,
+                  309.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.8175744850834649,
+                "generic_score": 0.9999417087274893
+              }
+            ]
+          },
+          {
+            "rank": 4,
+            "clip_index": 158,
+            "seconds": [
+              316,
+              318
+            ],
+            "baseline_score": 0.7772998611746911,
+            "generic_score": 0.9998415637640006,
+            "mean_annotation_1_to_5": 2.5,
+            "positive_annotators_of_20": 10,
+            "source_windows": [
+              {
+                "index": 105,
+                "seconds": [
+                  315.0,
+                  318.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.7772998611746911,
+                "generic_score": 0.9998415637640006
+              }
+            ]
+          },
+          {
+            "rank": 5,
+            "clip_index": 157,
+            "seconds": [
+              314,
+              316
+            ],
+            "baseline_score": 0.7772998611746911,
+            "generic_score": 0.9998678449766218,
+            "mean_annotation_1_to_5": 2.4000000953674316,
+            "positive_annotators_of_20": 10,
+            "source_windows": [
+              {
+                "index": 104,
+                "seconds": [
+                  312.0,
+                  315.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.7772998611746911,
+                "generic_score": 0.9998766053808289
+              },
+              {
+                "index": 105,
+                "seconds": [
+                  315.0,
+                  318.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.7772998611746911,
+                "generic_score": 0.9998415637640006
+              }
+            ]
+          }
+        ],
+        "generic": [
+          {
+            "rank": 1,
+            "clip_index": 147,
+            "seconds": [
+              294,
+              296
+            ],
+            "baseline_score": 0.7687956966130622,
+            "generic_score": 0.9999263425516847,
+            "mean_annotation_1_to_5": 2.4000000953674316,
+            "positive_annotators_of_20": 8,
+            "source_windows": [
+              {
+                "index": 97,
+                "seconds": [
+                  291.0,
+                  294.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.6224593312018546,
+                "generic_score": 0.9998415637640006
+              },
+              {
+                "index": 98,
+                "seconds": [
+                  294.0,
+                  297.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.8175744850834649,
+                "generic_score": 0.9999546021475793
+              }
+            ]
+          },
+          {
+            "rank": 2,
+            "clip_index": 153,
+            "seconds": [
+              306,
+              308
+            ],
+            "baseline_score": 0.7829755369830027,
+            "generic_score": 0.9999166724866171,
+            "mean_annotation_1_to_5": 2.3499999046325684,
+            "positive_annotators_of_20": 10,
+            "source_windows": [
+              {
+                "index": 101,
+                "seconds": [
+                  303.0,
+                  306.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.6791786926816161,
+                "generic_score": 0.9998415637640006
+              },
+              {
+                "index": 102,
+                "seconds": [
+                  306.0,
+                  309.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.8175744850834649,
+                "generic_score": 0.9999417087274893
+              }
+            ]
+          },
+          {
+            "rank": 3,
+            "clip_index": 154,
+            "seconds": [
+              308,
+              310
+            ],
+            "baseline_score": 0.7687956966130622,
+            "generic_score": 0.9999166724866171,
+            "mean_annotation_1_to_5": 2.549999952316284,
+            "positive_annotators_of_20": 11,
+            "source_windows": [
+              {
+                "index": 102,
+                "seconds": [
+                  306.0,
+                  309.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.8175744850834649,
+                "generic_score": 0.9999417087274893
+              },
+              {
+                "index": 103,
+                "seconds": [
+                  309.0,
+                  312.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.6224593312018546,
+                "generic_score": 0.9998415637640006
+              }
+            ]
+          },
+          {
+            "rank": 4,
+            "clip_index": 122,
+            "seconds": [
+              244,
+              246
+            ],
+            "baseline_score": 0.6791786926816161,
+            "generic_score": 0.9999038976078541,
+            "mean_annotation_1_to_5": 2.450000047683716,
+            "positive_annotators_of_20": 9,
+            "source_windows": [
+              {
+                "index": 81,
+                "seconds": [
+                  243.0,
+                  246.0
+                ],
+                "weight": 1.0,
+                "baseline_score": 0.6791786926816161,
+                "generic_score": 0.9999038976078541
+              }
+            ]
+          },
+          {
+            "rank": 5,
+            "clip_index": 148,
+            "seconds": [
+              296,
+              298
+            ],
+            "baseline_score": 0.7959455084700999,
+            "generic_score": 0.9998821141027645,
+            "mean_annotation_1_to_5": 2.799999952316284,
+            "positive_annotators_of_20": 13,
+            "source_windows": [
+              {
+                "index": 98,
+                "seconds": [
+                  294.0,
+                  297.0
+                ],
+                "weight": 0.75,
+                "baseline_score": 0.8175744850834649,
+                "generic_score": 0.9999546021475793
+              },
+              {
+                "index": 99,
+                "seconds": [
+                  297.0,
+                  300.0
+                ],
+                "weight": 0.25,
+                "baseline_score": 0.7310585786300049,
+                "generic_score": 0.99966464996832
+              }
+            ]
+          }
+        ]
+      },
+      "sheets": [],
+      "audited_source_windows": []
+    }
+  ],
+  "frozen_run_files_before": {
+    "manifest.json": "f67743a78fcda47aa46ab5b3345d921b0520ada5a91f61f209176e9585b0831d",
+    "predictions.json": "01661aabba1cec406f1b68b430bc12d4b87e519b9973e5b2d4729e73aa3a7330",
+    "prediction_freeze.json": "9c6a151f78abaeff83e796cfcd485245b37951d54a68f7f0bd23271c141f488f",
+    "worker_exit.json": "f60324bf43a9ba6c0d811f04d062e9154189ebd9ab8bda00e535cf037879a0ab"
+  },
+  "frozen_run_files_after": {
+    "manifest.json": "f67743a78fcda47aa46ab5b3345d921b0520ada5a91f61f209176e9585b0831d",
+    "predictions.json": "01661aabba1cec406f1b68b430bc12d4b87e519b9973e5b2d4729e73aa3a7330",
+    "prediction_freeze.json": "9c6a151f78abaeff83e796cfcd485245b37951d54a68f7f0bd23271c141f488f",
+    "worker_exit.json": "f60324bf43a9ba6c0d811f04d062e9154189ebd9ab8bda00e535cf037879a0ab"
+  },
+  "analysis_source_sha256": "6c46cfe6a70db7b1cfc1513b3463451cbaf5e39f8b99096b7ee4544b9ec3cc4f",
+  "new_experiment_model_calls": 0,
+  "new_experiment_tokens": 0,
+  "gpu_allocation": 0,
+  "reference_annotation": "$ZEROSHOT_ARTIFACT_ROOT/metric_sources/tvsum_umt_release/tvsum_anno.json",
+  "annotation_sha256": "2afb1be629d1d44d8028291364606560976540a8a074d1f75dfbcecdffe97ed2"
+}

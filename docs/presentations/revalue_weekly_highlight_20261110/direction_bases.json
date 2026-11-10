@@ -1,0 +1,10 @@
+{
+  "frozen_before_detail_reads": true,
+  "directions": [
+    {"id": "evidence-first", "mode_references": ["pyramid"], "visual_style_references": ["swiss-minimal"], "image_rendering_references": ["minimalist-swiss"]},
+    {"id": "failure-narrative", "mode_references": ["narrative"], "visual_style_references": ["editorial"], "image_rendering_references": ["editorial"]},
+    {"id": "module-review", "mode_references": ["briefing"], "visual_style_references": ["data-journalism"], "image_rendering_references": ["editorial"]}
+  ],
+  "selected": 0,
+  "reason": "The evidence-first map preserves the approved group update, distinguishes methods and scopes, and gives uncertain results adequate space."
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="content">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFFFF"/>
+  <g id="header" data-pptx-bounds="64 36 1152 112" fill="#19344E"><text x="64" y="57" font-size="16" fill="#207F89">05 / 具体失败案例</text><text x="64" y="119" font-size="42" font-weight="bold">“有观看理由”还不能保证选中关键片段</text></g>
+  <g id="case-context" data-pptx-bounds="64 164 1152 46"><text x="64" y="193" fill="#607586">旧修订版的两个事后案例 · 对照人工重要性评分与模型排名</text></g>
+  <g id="obie-case" data-pptx-bounds="64 232 552 326">
+    <line x1="64" y1="237" x2="616" y2="237" stroke="#D6E1E8" stroke-width="2"/>
+    <text x="64" y="279" font-size="28" font-weight="bold" fill="#19344E">Obie：主体展示排在前面</text>
+    <text x="64" y="329" fill="#C76B2C">第1名：主体展示，人工仅1.45/5</text>
+    <text x="64" y="405" font-size="52" font-weight="bold" fill="#19344E">第59名</text>
+    <text x="64" y="461" font-size="28" fill="#207F89">96–98秒的行走片段</text>
+    <text x="64" y="507" fill="#263D50">人工重要性均值 <tspan font-weight="bold" fill="#207F89">3.80 / 5</tspan></text>
+    <text x="64" y="548" font-size="16" fill="#607586">视频：jcoYJXDG9sw</text>
+  </g>
+  <g id="ear-case" data-pptx-bounds="664 232 552 326">
+    <line x1="664" y1="237" x2="1216" y2="237" stroke="#D6E1E8" stroke-width="2"/>
+    <text x="664" y="279" font-size="28" font-weight="bold" fill="#19344E">洗耳：文字页占据前4名</text>
+    <text x="664" y="329" fill="#C76B2C">操作演示的排名落在文字说明之后</text>
+    <text x="664" y="405" font-size="52" font-weight="bold" fill="#19344E">第11名</text>
+    <text x="664" y="461" font-size="28" fill="#207F89">78–80秒的操作片段</text>
+    <text x="664" y="507" fill="#263D50">人工重要性均值 <tspan font-weight="bold" fill="#207F89">3.90 / 5</tspan></text>
+    <text x="664" y="548" font-size="16" fill="#607586">视频：xxdtq8mxegs</text>
+  </g>
+  <g id="interpretation" data-pptx-bounds="64 584 1152 74"><text x="64" y="612" fill="#263D50">局部“有信息／有主体”，仍需检验对视频主线和全片选择的贡献。</text><text x="64" y="643" font-size="20" fill="#607586">单token没有原始规则解释；以上现象不能证明某一价值项就是实际原因。</text></g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 672 1152 26" font-size="14" fill="#607586"><text x="64" y="689">来源：8B低AP根因复核（11.10）；内容解释来自助手案例审阅，分数来自数据集标注</text><text x="1216" y="689" text-anchor="end">06 / 10</text></g>
+</svg>

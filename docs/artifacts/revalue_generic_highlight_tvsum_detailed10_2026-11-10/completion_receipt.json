@@ -1,0 +1,114 @@
+{
+  "status": "complete",
+  "checked_at_utc": "2026-11-09T20:35:17.599158+00:00",
+  "run_root": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_detailed_v1_2026-11-10",
+  "archived_files": {
+    "manifest.json": {
+      "source": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_detailed_v1_2026-11-10/manifest.json",
+      "sha256": "c8f70c5801f54aef9f1b1b351f173506ff13338f4066668187ea02af6c864907",
+      "bytes": 4722
+    },
+    "rows.json": {
+      "source": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_detailed_v1_2026-11-10/rows.json",
+      "sha256": "2cf278e781184f4681de862287d309ff7a32b70adcbaf9926f73f9a5ee129b9c",
+      "bytes": 2769
+    },
+    "authorization.json": {
+      "source": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_detailed_v1_2026-11-10/authorization.json",
+      "sha256": "0530843c757d5a49fc33ff3751d21b16c5025f82b673d3926b633ac919ea32c0",
+      "bytes": 981
+    },
+    "preparation_receipt.json": {
+      "source": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_detailed_v1_2026-11-10/preparation_receipt.json",
+      "sha256": "07fb5d29d9cf065ce6c908a220ab368713336f1a32476e45dd301f0d399a9b83",
+      "bytes": 334
+    },
+    "cpu_preflight_10videos.json": {
+      "source": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_detailed_v1_2026-11-10/cpu_preflight_10videos.json",
+      "sha256": "c86c696e8b2182d9f6e024906dd6b4c768533210755385dd28d26135105f2b1a",
+      "bytes": 64444
+    },
+    "matched_source_preflight.json": {
+      "source": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_detailed_v1_2026-11-10/matched_source_preflight.json",
+      "sha256": "6519509b52f5784b75f95e253c8ad2289261036537c9add23cf25586fdc889fa",
+      "bytes": 478
+    },
+    "comparison_binding.json": {
+      "source": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_detailed_v1_2026-11-10/comparison_binding.json",
+      "sha256": "da0f69893e2a05c88931f2aad1c683f25d5d6a969b173805895114b1f8600983",
+      "bytes": 3224
+    },
+    "runtime_input_parity.json": {
+      "source": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_detailed_v1_2026-11-10/runtime_input_parity.json",
+      "sha256": "45c4e0db25f6e9971748e36ebb2398c6daab2243abcc6b90907a8aab1afadcd5",
+      "bytes": 1546
+    },
+    "prediction_freeze.json": {
+      "source": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_detailed_v1_2026-11-10/prediction_freeze.json",
+      "sha256": "619afe94dd791c2c8178311d09234780aa35d1dd65620fe3ee22f8390eddfcba",
+      "bytes": 434
+    },
+    "predictions.json": {
+      "source": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_detailed_v1_2026-11-10/predictions.json",
+      "sha256": "30347319fb0aea0c6bae05cbf061f064370133f106756b746dd4950e1bea1acd",
+      "bytes": 241194
+    },
+    "worker_exit.json": {
+      "source": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_detailed_v1_2026-11-10/worker_exit.json",
+      "sha256": "ae60f08485847fd1d71d46258f40d98dd43c0cdad8a6e81d92d688665946958e",
+      "bytes": 284
+    },
+    "driver_exit.json": {
+      "source": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_detailed_v1_2026-11-10/driver_exit.json",
+      "sha256": "c8816b2631c2e59df74d7c3e5555d4091cc5c4dfdef46d8b82afa1f6972e30a6",
+      "bytes": 137
+    },
+    "evaluation.json": {
+      "source": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_detailed_v1_2026-11-10/evaluation.json",
+      "sha256": "5799e11f93d57c02b3b6802e813e34638fb99f6b7b73e5649203ea90af0038d4",
+      "bytes": 10986
+    },
+    "token_ids.json": {
+      "source": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_detailed_v1_2026-11-10/token_ids.json",
+      "sha256": "4ea21f1e22c21e77ba89449120248987e6e90a557c541415afe2959dbd357d12",
+      "bytes": 32
+    },
+    "prompts_rendered.json": {
+      "source": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_detailed_v1_2026-11-10/prompts_rendered.json",
+      "sha256": "e848b115315fcefdbd6751ce705e26342dc4f3d96934f88a3d739db7ee1b20bc",
+      "bytes": 39869
+    },
+    "cpu_render_receipt.json": {
+      "source": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_detailed_v1_2026-11-10/cpu_render_receipt.json",
+      "sha256": "f5db522fc83b7b29cbd1a4b74fe9213477326023b0dc9c73cb7f00e0ac6405ba",
+      "bytes": 237
+    },
+    "launch_receipt.json": {
+      "source": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_detailed_v1_2026-11-10/launch_receipt.json",
+      "sha256": "3b543c5a06e2ba82cc3854d059ec2d036ff511661b06080fc2607ad17191e3f8",
+      "bytes": 328
+    }
+  },
+  "report_sha256": "b77c692d2fc99f8a79b25dcc527905caab875927395809551d5e6e4b446405bd",
+  "comparison_sha256": "08fcf0309a20964e577436cbd1d93220a2df78c31a0201c407f5836e86001ecb",
+  "comparison_script_sha256": "4cac392ab44f3ff553df5bece083d76ea7a78765e783e34c3cb55b0e09441821",
+  "prior_predictions_freeze_and_manifest_unchanged": true,
+  "new_formal_model_attempts": 1260,
+  "successful_attempts": 1260,
+  "failed_attempts": 0,
+  "retries": 0,
+  "charged_tokens": 2257445,
+  "gpu_lifecycle_seconds": 422.11135765898507,
+  "experiment_worker_starts": 1,
+  "baseline_new_model_calls": 0,
+  "postprocessing_model_calls": 0,
+  "old_budgets_transferred": false,
+  "cpu_new_contract_tests": 5,
+  "old_cpu_tests_reused_after_source_parity": 26,
+  "runtime_matched_windows": 1260,
+  "analysis_exit_status": 0,
+  "lint_exit_status": 0,
+  "gpu0_after_run": "0, GPU-52bc8c91-36c3-e8a6-29d7-855731f40568, 15 MiB, 0 %\n",
+  "owned_live_processes_remaining": [],
+  "scientific_result": "point estimate above brief, below REZE; paired intervals cross zero; no stable gain claim"
+}

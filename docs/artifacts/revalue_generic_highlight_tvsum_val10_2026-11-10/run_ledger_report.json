@@ -1,0 +1,29 @@
+{
+  "ledger": "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_tvsum_val10_2026-11-10/material_passport_run_ledger.yaml",
+  "ledger_status": "ok",
+  "detail": null,
+  "untrusted_from_seq": null,
+  "entries": 8,
+  "awaiting_answer": [],
+  "cannot_confirm": [],
+  "not_run": [],
+  "missing": [],
+  "backed": 6,
+  "step_outcomes": {
+    "authorized_inference": "passed",
+    "cpu_evaluation": "passed",
+    "native_processor_preflight": "passed",
+    "paired_comparison": "passed"
+  },
+  "counters": {
+    "complete": {
+      "complete_videos": 10,
+      "model_attempts": 1260,
+      "model_successes": 1260,
+      "retries": 0,
+      "charged_tokens": 1050365,
+      "worker_starts": 1,
+      "cached_baseline_new_calls": 0
+    }
+  }
+}

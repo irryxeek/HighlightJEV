@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="content">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFFFF" />
+  <g id="header" data-pptx-bounds="64 36 1152 112" fill="#19344E"><text x="64" y="57" font-size="16" fill="#207F89">06 / 最新关键贡献版 · 同一后40条</text><text x="64" y="119" font-size="42" font-weight="bold">收紧关键贡献目标，后40条均值上升</text></g>
+  <g id="caption" data-pptx-bounds="64 172 1152 42"><text x="64" y="201" fill="#607586">Top-5 mAP、mAP15、mAP50 (%) · 三组40/40完成</text></g>
+  <g id="core40-metrics" data-pptx-bounds="63 227 746 307" data-pptx-replace-with="table" data-pptx-fallback-sha256="5c0e5d4a848b2c685e525e4e169e6c0f4b966151f8350654a1773d35ee71e42c">
+    <metadata type="application/json">{"schema":"ppt-master.semantic-table.v2","name":"core40-metrics","x":64,"y":228,"width":744,"height":304,"columns":[{"text":"方法","align":"l","bold":true},{"text":"Top-5","align":"r","bold":true},{"text":"mAP15","align":"r","bold":true},{"text":"mAP50","align":"r","bold":true}],"rows":[[{"text":"REZE 8B"},{"text":"53.29","align":"r"},{"text":"34.09","align":"r"},{"text":"68.40","align":"r"}],[{"text":"上一修订版"},{"text":"53.57","align":"r"},{"text":"34.44","align":"r"},{"text":"69.24","align":"r"}],[{"text":"关键贡献版","fill":"#F1F5F7","color":"#207F89","bold":true},{"text":"55.80","align":"r","fill":"#F1F5F7","color":"#207F89","bold":true},{"text":"35.12","align":"r","fill":"#F1F5F7","color":"#207F89","bold":true},{"text":"70.49","align":"r","fill":"#F1F5F7","color":"#207F89","bold":true}]],"column_widths":[288,152,152,152],"row_heights":[64,80,80,80],"defaults":{"cell":{"align":"l","valign":"middle","padding":16,"borders":{"left":{"style":"none"},"right":{"style":"none"},"top":{"style":"none"},"bottom":{"style":"solid","color":"#D6E1E8","width":1}}}},"style":{"font_family":"Microsoft YaHei, Arial","font_size":24,"header_font_size":24,"header_fill":"#19344E","header_text":"#FFFFFF","body_fill":"#FFFFFF","body_text":"#263D50","band_row":false}}</metadata>
+    <rect x="64" y="228" width="744" height="304" fill="#FFFFFF" /><rect x="64" y="228" width="744" height="64" fill="#19344E" /><rect x="64" y="452" width="744" height="80" fill="#F1F5F7" />
+    <g stroke="#D6E1E8" stroke-width="1"><line x1="64" y1="292" x2="808" y2="292" /><line x1="64" y1="372" x2="808" y2="372" /><line x1="64" y1="452" x2="808" y2="452" /><line x1="64" y1="532" x2="808" y2="532" /></g>
+    <g fill="#FFFFFF" font-weight="bold"><text x="80" y="268">方法</text><text x="488" y="268" text-anchor="end">Top-5</text><text x="640" y="268" text-anchor="end">mAP15</text><text x="792" y="268" text-anchor="end">mAP50</text></g>
+    <g fill="#263D50"><text x="80" y="340">REZE 8B</text><text x="488" y="340" text-anchor="end">53.29</text><text x="640" y="340" text-anchor="end">34.09</text><text x="792" y="340" text-anchor="end">68.40</text><text x="80" y="420">上一修订版</text><text x="488" y="420" text-anchor="end">53.57</text><text x="640" y="420" text-anchor="end">34.44</text><text x="792" y="420" text-anchor="end">69.24</text></g>
+    <g fill="#207F89" font-weight="bold"><text x="80" y="500">关键贡献版</text><text x="488" y="500" text-anchor="end">55.80</text><text x="640" y="500" text-anchor="end">35.12</text><text x="792" y="500" text-anchor="end">70.49</text></g>
+  </g>
+  <g id="paired-interpretation" data-pptx-bounds="856 228 360 306">
+    <text x="864" y="257" font-size="20" fill="#607586">相对REZE（同40条）</text>
+    <text x="864" y="338" font-size="72" font-weight="bold" fill="#207F89">+2.51<tspan font-size="24"> pp</tspan></text>
+    <text fill="#607586" font-size="20" x="864" y="388">95%配对区间</text><text fill="#607586" font-size="20" x="864" y="422">[−2.74, +7.69] pp</text><text fill="#263D50" x="864" y="478">区间包含0，</text><text fill="#263D50" x="864" y="514">仍不能确认稳定提升。</text></g>
+  <g id="scope-and-meaning" data-pptx-bounds="64 554 1152 100">
+    <text x="64" y="580" fill="#263D50">关键贡献目标＋品牌／场景门槛为联合改动，不能归因于单个维度。</text>
+    <text x="64" y="615" font-size="20" fill="#607586">相对上一修订版 +2.23pp，区间[−0.68,+5.36]；mAP15/50沿用TVSum2秒补充口径。</text>
+    <text x="64" y="647" font-size="20" fill="#607586">最新版本仍为40/50完成；区间跨0针对“差值”，不表示模型的mAP等于0。</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 672 1152 26" font-size="14" fill="#607586"><text x="64" y="689">来源：关键贡献目标与品牌／场景门槛40条结果、mAP15/50补充评价（11.10）</text><text x="1216" y="689" text-anchor="end">07 / 10</text></g>
+</svg>

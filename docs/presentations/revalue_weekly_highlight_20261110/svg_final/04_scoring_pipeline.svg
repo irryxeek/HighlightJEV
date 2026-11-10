@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="content">
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><polygon points="0,0 8,4 0,8" fill="#607586" /></marker></defs>
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFFFF" />
+  <g id="header" data-pptx-bounds="64 36 1152 112"><text x="64" y="57" font-size="16" fill="#207F89">03 / 通用高光评分</text><text x="64" y="119" font-size="42" font-weight="bold" fill="#19344E">用背景与具体价值标准生成全片分数</text></g>
+  <g id="scoring-system" data-pptx-bounds="64 190 1152 370">
+    <g fill="#F1F5F7"><rect x="64" y="210" width="320" height="136" /><rect x="64" y="400" width="320" height="136" /><rect x="474" y="236" width="460" height="310" /></g>
+    <rect x="998" y="296" width="218" height="184" fill="#19344E" />
+    <g stroke="#607586" stroke-width="2"><line x1="384" y1="278" x2="470" y2="340" marker-end="url(#arrow)" /><line x1="384" y1="468" x2="470" y2="412" marker-end="url(#arrow)" /><line x1="934" y1="382" x2="992" y2="382" marker-end="url(#arrow)" /></g>
+    <text x="88" y="252" font-size="28" font-weight="bold" fill="#19344E">同一份全片背景</text>
+    <text fill="#607586" font-size="20" x="88" y="294">稀疏旧窗口描述后汇总</text><text fill="#607586" font-size="20" x="88" y="324">同视频的所有窗口复用</text><text x="88" y="444" font-size="28" font-weight="bold" fill="#19344E">当前3秒窗口</text>
+    <text x="88" y="488" font-size="20" fill="#607586">2fps · 完整窗口6帧</text>
+    <text x="506" y="284" font-size="16" fill="#C76B2C">任务与具体判据</text>
+    <text x="506" y="330" font-size="28" font-weight="bold" fill="#19344E">是否值得进入高光摘要？</text>
+    <line x1="506" y1="354" x2="902" y2="354" stroke="#D6E1E8" stroke-width="1" />
+    <text x="506" y="393" fill="#207F89" font-weight="bold">结果 · 信息 · 情绪 · 动作 · 视觉</text>
+    <text fill="#263D50" font-size="20" x="506" y="445">一个充分的贡献路径即可；</text><text fill="#263D50" font-size="20" x="506" y="477">其他维度不必同时支持。</text><text x="1022" y="343" fill="#FFFFFF">Yes / No</text>
+    <text x="1022" y="390" font-size="30" font-weight="bold" fill="#FFFFFF">概率评分</text>
+    <text x="1022" y="439" font-size="20" fill="#FFFFFF">输出1个token</text>
+    <line x1="1107" y1="480" x2="1107" y2="558" stroke="#607586" stroke-width="2" />
+  </g>
+  <g id="mapping" data-pptx-bounds="976 562 240 92">
+    <line x1="1107" y1="564" x2="1107" y2="582" stroke="#607586" stroke-width="2" marker-end="url(#arrow)" />
+    <text x="996" y="614" font-weight="bold" fill="#19344E">2秒全片分数</text>
+    <text x="996" y="643" font-size="16" fill="#607586">沿用REZE时间映射</text>
+  </g>
+  <g id="limits" data-pptx-bounds="64 582 872 74"><text fill="#607586" font-size="20" x="64" y="608">单token只给整体分数，不记录模型实际采用哪条价值规则。</text><text fill="#607586" font-size="20" x="64" y="640">当前仅使用静态背景，没有动态回看，也没有逐维数值加权。</text></g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 672 1152 26" fill="#607586" font-size="14"><text x="64" y="689">来源：通用高光评分实现、背景版与修订版实验协议（11.10）</text><text x="1216" y="689" text-anchor="end">04 / 10</text></g>
+</svg>

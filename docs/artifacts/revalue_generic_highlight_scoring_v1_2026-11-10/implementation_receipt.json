@@ -1,0 +1,81 @@
+{
+  "status": "implementation_and_cpu_validation_complete",
+  "model_effectiveness": "not_tested",
+  "unit_tests": {
+    "passed": 26,
+    "failed": 0,
+    "exit_code": 0,
+    "elapsed_reported_seconds": 1.923,
+    "command": "CUDA_VISIBLE_DEVICES='' HF_HUB_OFFLINE=1 PYTHONDONTWRITEBYTECODE=1 $DATA_PARENT/longvt-repro/env/inference/bin/python -m unittest discover -s experiments/revalue_generic_highlight_scoring_v1 -p 'test_*_on_cpu.py' -v"
+  },
+  "lint": {
+    "new_authored_modules": "passed",
+    "original_vendored_files": "preserved; not reformatted"
+  },
+  "readonly_review": {
+    "issues_initially_identified": 5,
+    "issues_fixed_and_rechecked": 5,
+    "extra_targeted_cpu_tests_passed": 4,
+    "model_execution_verified": false
+  },
+  "frozen_source_matches_working_source": true,
+  "source_sha256": {
+    "README.md": "01002e6efe884b2c4c1e37e39ed1ee248c6d3b6deace5f479905f037bb53ad42",
+    "__init__.py": "33ad23f4b01dc02ae60d4f53c646e0391bcb848a942ab3699fda75d36821826a",
+    "backend.py": "c4fe29bef85d3536ac3ac4caa7ebc32910f8c3b9bf30624b75dcbcc73a999475",
+    "core.py": "1ca856d6201432fd9f638b784fd87f85687413413a8941842b2668aedefde823",
+    "evaluate_tvsum.py": "0dd3699a9fb728efd1d6780d9f8bfb190a68f3450188fe67f6396d84cc4a4e00",
+    "media.py": "26de9f42a7d7832b6f769b9e66cebc288606906dee76fe6bdf5d11a8f7ac6333",
+    "metrics.py": "b8f7c6c0420753bfcbe529686a775a7ee177cb5f521710bd65e036be3de2f8a8",
+    "preflight.py": "f3d961b65e2f8c65d25d01515afce50dc64fc6d026b7259ea981c8758037a505",
+    "prepare.py": "2684ebd9143ad41f22957d4fb8656dacb19ff635019a49cecaa7fd7185aefb9a",
+    "prompts.py": "fd67245ff83384fd17bd3cafa2dcf31e354e955559bec04c7bf2897b026c8306",
+    "provenance.json": "607e734ea46da37a26153de76cd7ac608c0311543d879c4e79231a80ebc8eff1",
+    "run.py": "5356b794135ecad55a8c4bdfa4c29bf914b5269471097f0875e57f2cb473c2d1",
+    "test_scoring_on_cpu.py": "fc99db78236e758ae8d0f0a7a64ec27e6d641cbc82be31534da9dc6960af64e9",
+    "vendor/__init__.py": "43d000e279ba1dcf578e70424f47e9c606a0e5f302997fe7d7e5ea0a0437f648",
+    "vendor/reze_core.py": "c98207b9731441afdbd2b40f16fd19a5c5bd9ca4c953e69a195a1b1bc9fc166d",
+    "vendor/umt_tvsum.py": "f7c962a7abb061d37844eb4baa1503e0e3dba54caa5483d97f68287776e7f347"
+  },
+  "manifest_sha256": "e9d017659d9b7a7977ce6336e04d05b3d904a173acdcabdfc12431ef16bd82ca",
+  "native_processor_preflight_sha256": "f947d1606f446e40a1572e8498028adba2df7e868e799211ecec5b544f5fd62e",
+  "native_processor_coverage": {
+    "videos": 1,
+    "windows": 3,
+    "weights_loaded": false
+  },
+  "reference_pixel_audit_sha256": "f3a6abd6a32651c611b9d5f2f0d05397808e9dae1e9bdfc0170b0674f4fc4525",
+  "reference_pixel_audit": {
+    "matching_windows": 3,
+    "total_checked": 3,
+    "old_full50_window_count": 4213
+  },
+  "cpu_prepared_scope": {
+    "videos": 50,
+    "formal_windows": 4213,
+    "token_reservation_requirement": 17256448
+  },
+  "execution_authorized": false,
+  "experiment_model_calls": 0,
+  "experiment_api_calls": 0,
+  "experiment_tokens": 0,
+  "gpu_allocations": 0,
+  "gpu_seconds": 0,
+  "experiment_worker_starts": 0,
+  "pushed": false,
+  "zero_execution_evidence": [
+    "No execution authorization receipt",
+    "No worker_start receipt",
+    "No request directory",
+    "Preflight uses only CPU native processor and tokenizer",
+    "Model/engine constructor not invoked"
+  ],
+  "historical_sources_and_input_hashes_unchanged": true,
+  "old_budget_transfer": false,
+  "limitations": [
+    "Actual GPU engine and generation are untested",
+    "Only 3 real windows CPU-checked",
+    "No semantic accuracy or benchmark gain established",
+    "Only TVSum official evaluation adapter implemented"
+  ]
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="ending">
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><polygon points="0,0 8,4 0,8" fill="#607586" /></marker></defs>
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFFFF" />
+  <g id="header" data-pptx-bounds="64 36 1152 112" fill="#19344E"><text x="64" y="57" font-size="16" fill="#207F89">09 / 下一步推进顺序</text><text x="64" y="119" font-size="42" font-weight="bold">统一版本、核对判断，再做按需补证</text></g>
+  <g id="ordered-plan" data-pptx-bounds="64 212 1152 304">
+    <g stroke="#607586" stroke-width="2"><line x1="404" y1="301" x2="438" y2="301" marker-end="url(#arrow)" /><line x1="798" y1="301" x2="830" y2="301" marker-end="url(#arrow)" /></g>
+    <text x="64" y="270" font-size="52" font-weight="bold" fill="#207F89">01</text>
+    <text x="64" y="332" font-size="28" font-weight="bold" fill="#19344E">统一版本验证</text>
+    <text fill="#263D50" x="64" y="392">补齐缺少的10条视频；</text><text fill="#263D50" x="64" y="428">旧10＋新40可拼接，</text><text fill="#263D50" x="64" y="464">混合版本只作单独诊断。</text><text x="460" y="270" font-size="52" font-weight="bold" fill="#207F89">02</text>
+    <text x="460" y="332" font-size="28" font-weight="bold" fill="#19344E">核对判断链</text>
+    <text fill="#263D50" x="460" y="392">固定案例核对事实、</text><text fill="#263D50" x="460" y="428">主线贡献与相对优先级；</text><text fill="#263D50" x="460" y="464">同时保留提升与退步。</text><text x="856" y="270" font-size="52" font-weight="bold" fill="#C76B2C">03</text>
+    <text x="856" y="332" font-size="28" font-weight="bold" fill="#19344E">按缺口设计补证</text>
+    <text fill="#263D50" x="856" y="392">明确动作、反应或语音缺口，</text><text fill="#263D50" x="856" y="428">再设计回看／ASR对照；</text><text fill="#263D50" x="856" y="464">验证补证能否纠正判断。</text></g>
+  <g id="closing-takeaway" data-pptx-bounds="64 550 1152 78"><rect x="64" y="550" width="1152" height="78" fill="#19344E" /><text x="88" y="601" font-size="30" font-weight="bold" fill="#FFFFFF">先把判断做对，再验证回看是否有用</text></g>
+  <g id="current-status" data-pptx-bounds="64 638 1152 25"><text x="64" y="657" font-size="16" fill="#607586">当前最新版本40/50；补齐启动受GPU资源竞争影响，新增评分0次；混合版本汇总尚未完成。</text></g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 672 1152 26" font-size="14" fill="#607586"><text x="64" y="689">以上为待执行验证计划；定向补证、ASR与完整Agent闭环尚未验证</text><text x="1216" y="689" text-anchor="end">10 / 10</text></g>
+</svg>

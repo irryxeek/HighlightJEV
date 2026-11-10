@@ -1,0 +1,88 @@
+{
+  "checked_at_utc": "2026-11-09T20:03:38.737770+00:00",
+  "run_root": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_v1_2026-11-10",
+  "copied_receipts": {
+    "manifest.json": {
+      "source_path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_v1_2026-11-10/manifest.json",
+      "sha256": "f67743a78fcda47aa46ab5b3345d921b0520ada5a91f61f209176e9585b0831d",
+      "bytes": 4226
+    },
+    "authorization.json": {
+      "source_path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_v1_2026-11-10/authorization.json",
+      "sha256": "82afe2ce33ba795f6c771f2560969e95e380f8ff578725f458116355e7098528",
+      "bytes": 764
+    },
+    "preparation_receipt.json": {
+      "source_path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_v1_2026-11-10/preparation_receipt.json",
+      "sha256": "bb5951c95fd5daad1632f90955d9f50ec56b64e89119d7e7573627b247292c0b",
+      "bytes": 334
+    },
+    "source_and_model_review.json": {
+      "source_path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_v1_2026-11-10/source_and_model_review.json",
+      "sha256": "586268e8bb80dbba2a6889a1b869c58ba1f46a6dbea06dc8f525de4d4c2e0112",
+      "bytes": 345
+    },
+    "cpu_preflight_10videos.json": {
+      "source_path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_v1_2026-11-10/cpu_preflight_10videos.json",
+      "sha256": "9faba507a868dd460c8537bc09ad2afd95845d9ce426bdd8353172172179664b",
+      "bytes": 63127
+    },
+    "matched_source_preflight.json": {
+      "source_path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_v1_2026-11-10/matched_source_preflight.json",
+      "sha256": "37221ef943fa1ff30a61e062dac07988e54a5824dbbf0ea69da17e356384f219",
+      "bytes": 10494
+    },
+    "comparison_binding.json": {
+      "source_path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_v1_2026-11-10/comparison_binding.json",
+      "sha256": "93b9bbc4611bd03821dc5d2a4863ce032e922efc5e689f63288d52e5d1aaf804",
+      "bytes": 2689
+    },
+    "runtime_input_parity.json": {
+      "source_path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_v1_2026-11-10/runtime_input_parity.json",
+      "sha256": "c3121da3214d17791b6d2ab598e0b451e4be6db9144c21dc7a7c0627c7bcd12e",
+      "bytes": 2016
+    },
+    "prediction_freeze.json": {
+      "source_path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_v1_2026-11-10/prediction_freeze.json",
+      "sha256": "9c6a151f78abaeff83e796cfcd485245b37951d54a68f7f0bd23271c141f488f",
+      "bytes": 434
+    },
+    "worker_exit.json": {
+      "source_path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_v1_2026-11-10/worker_exit.json",
+      "sha256": "f60324bf43a9ba6c0d811f04d062e9154189ebd9ab8bda00e535cf037879a0ab",
+      "bytes": 283
+    },
+    "driver_exit.json": {
+      "source_path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_v1_2026-11-10/driver_exit.json",
+      "sha256": "0a95fff6a462433d9c064689bae731ca48a99ea4705f30ef60ac1bc019a1365b",
+      "bytes": 137
+    },
+    "evaluation.json": {
+      "source_path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_v1_2026-11-10/evaluation.json",
+      "sha256": "a1a56e76d021d0484f139e90b06b2c45d04fc9881b2736f485ac82348c09f3cb",
+      "bytes": 11120
+    },
+    "token_ids.json": {
+      "source_path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_v1_2026-11-10/token_ids.json",
+      "sha256": "4ea21f1e22c21e77ba89449120248987e6e90a557c541415afe2959dbd357d12",
+      "bytes": 32
+    }
+  },
+  "archived_comparison_sha256": "efe7355dc50f79adbf7ef536f60847e5eecd4880e15ed6ead134c6052bcc3304",
+  "per_video_csv_sha256": "afc8001c1d66a713cb07f0a2effb570ca13301a614e655b13701e7cf7adcfbf0",
+  "post_run_gpu_snapshot": "0, GPU-52bc8c91-36c3-e8a6-29d7-855731f40568, 15 MiB, 0 %\n1, GPU-e79c6a8a-f8b3-022f-cb1d-ae1d0ec8c6c0, 15 MiB, 0 %\n2, GPU-085557b9-ee2b-1d9f-0092-ff58c8f7e103, 15 MiB, 0 %\n3, GPU-9b39095c-bc69-aa41-f4f5-87c7832cb7b4, 15 MiB, 0 %\n4, GPU-d10eb394-a7a8-6d84-1093-59199e1e3844, 23859 MiB, 0 %\n5, GPU-36b85f2d-f15f-dfd0-8077-2ba366acfdad, 23859 MiB, 0 %\n6, GPU-ad65fcb4-2ea3-97af-810d-0fd7a4c9c433, 23859 MiB, 0 %\n7, GPU-fc25b561-af72-ca7b-fe62-ba0d3a097fd9, 23859 MiB, 0 %\n",
+  "matching_model_worker_commands": [],
+  "window_reserved_files": 1260,
+  "window_result_files": 1260,
+  "experiment_worker_starts": 1,
+  "new_experiment_requests": 1260,
+  "retries": 0,
+  "new_experiment_tokens": 1050365,
+  "gpu_lifecycle_seconds": 281.7632076939335,
+  "cached_baseline_new_calls": 0,
+  "old_budgets_transferred": false,
+  "comparison_cpu_exit_status": 0,
+  "lint_exit_status": 0,
+  "input_matched_windows": 1260,
+  "scientific_result": "negative point estimate on previously seen val10; paired interval crosses zero"
+}

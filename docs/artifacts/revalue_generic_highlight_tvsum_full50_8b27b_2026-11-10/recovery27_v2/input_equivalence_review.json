@@ -1,0 +1,23 @@
+{
+  "validation_mode": "reused_verified_input_equivalence",
+  "native_processor_recomputed": false,
+  "old_manifest_sha256": "3c06fa053c217d5636cbcc61bd4dccced0c9b95f80a50ba1b196ce70de30c075",
+  "new_manifest_sha256": "bb9cffc2b00d3c8f07d10cc9567462c3878a79e2318b4621cf0bca5585af4fd9",
+  "old_cpu_receipt_sha256": "2acf90c1c6ab9fc854df7781b6b754d8426ec063e9c038b59b3fc82fc0fa6dfb",
+  "old_contracts_sha256": "77f9097f9e5cea00627fa906ddd72bdf9a360c15129c3b45030a880b7d220123",
+  "new_contracts_sha256": "77f9097f9e5cea00627fa906ddd72bdf9a360c15129c3b45030a880b7d220123",
+  "identical_fields": [
+    "videos",
+    "rows_sha256",
+    "extra_input_sha256",
+    "model_assets_sha256",
+    "weight_stats",
+    "engine",
+    "sampling",
+    "conditions",
+    "package_versions"
+  ],
+  "new_input_source_changes": 0,
+  "runtime_mapping_ast_test": "numeric pass; UUID same ValueError reproduced",
+  "gpu_imports_or_calls": 0
+}

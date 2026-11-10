@@ -1,6 +1,57 @@
 # 文档索引
 
-## 最新：按会议纪要重整的本周汇报（2026-11-10）
+## 最新：高光评分与本周组会汇报（2026-11-10）
+
+- [十页可编辑PPT](presentations/ReVALUE_组会汇报_2026-11-10.pptx) · [两段汇报及范围说明](revalue_group_update_2026-11-10.md) · [讲稿、源页面与核验](presentations/revalue_weekly_highlight_20261110/README.md)。
+- [TVSum全50条8B／27B对照](revalue_generic_highlight_tvsum_full50_8b27b_results_v2_2026-11-10.md)：修订8B55.9560、修订27B56.2622、REZE8B54.8919 Top-5 mAP，配对区间跨零；没有27B REZE对照。
+- [最新关键贡献版后40条](revalue_generic_highlight_tvsum_new40_core_value_results_2026-11-10.md)、[mAP15／mAP50](revalue_generic_highlight_tvsum_core_map15_map50_2026-11-10.md)：Top-5为55.8007；完整同版本全50尚未完成。[补齐失败记账](revalue_generic_highlight_tvsum_full50_core_value_results_2026-11-10.md)不能当作新的全50模型性能。
+- [Mr.HiSum十条评分迁移](revalue_generic_highlight_mrhisum10_core_results_2026-11-10.md)、[SVHighlights十四场27B结果](revalue_svhighlights_expand14_27b_results_2026-11-09.md)与[匹配比较](revalue_svhighlights_expand14_27b_comparison_2026-11-09.md)。
+
+本次同步PPT、讲稿、全部新增根报告，以及所链接的小型结果表和案例材料。历史计划保留其日期；本次发布不运行实验，也不代表整个研究工作区的实验源码已全部同步。
+
+<details>
+<summary>本次同步的35份实验报告、分析与协议</summary>
+
+- [Mr.HiSum 固定10条：8B新版价值评分小规模迁移协议](revalue_generic_highlight_mrhisum10_core_protocol_2026-11-10.md)
+- [Mr.HiSum 固定10条：8B关键贡献价值评分迁移](revalue_generic_highlight_mrhisum10_core_results_2026-11-10.md)
+- [Mr.HiSum 8B 固定10条：负样本与漏检案例审查](revalue_generic_highlight_mrhisum10_negative_cases_2026-11-10.md)
+- [通用高光评分：10窗口结构化价值规则审计协议 v1](revalue_generic_highlight_rule_audit10_protocol_2026-11-10.md)
+- [高光评分中间输出：10窗口规则审计结果](revalue_generic_highlight_rule_audit10_results_2026-11-10.md)
+- [REZE 启发的通用高光密集评分 v1：实现与 CPU 验证](revalue_generic_highlight_scoring_v1_2026-11-10.md)
+- [TVSum 27B：低 AP 案例诊断](revalue_generic_highlight_tvsum_27b_low_ap_cases_2026-11-10.md)
+- [TVSum 8B：低 AP 根因复核与改进优先级](revalue_generic_highlight_tvsum_8b_improvement_diagnosis_2026-11-10.md)
+- [TVSum 8B 新增40条：低 AP 案例与失败机制](revalue_generic_highlight_tvsum_8b_new40_low_ap_cases_2026-11-10.md)
+- [TVSum val10：具体五维评分＋固定全片背景协议 v1](revalue_generic_highlight_tvsum_context10_protocol_2026-11-10.md)
+- [TVSum val10：具体五维评分加入全片背景的结果](revalue_generic_highlight_tvsum_context10_results_2026-11-10.md)
+- [TVSum 最新8B方法：mAP15 / mAP50补充结果](revalue_generic_highlight_tvsum_core_map15_map50_2026-11-10.md)
+- [TVSum val10：具体五维标准密集评分对照协议 v1](revalue_generic_highlight_tvsum_detailed10_protocol_2026-11-10.md)
+- [TVSum val10：具体五维标准评分结果](revalue_generic_highlight_tvsum_detailed10_results_2026-11-10.md)
+- [TVSum 通用高光评分 v1：失败案例与下一步改进](revalue_generic_highlight_tvsum_failure_analysis_2026-11-10.md)
+- [TVSum 全50视频：背景版与修订版，8B／27B执行协议 v1](revalue_generic_highlight_tvsum_full50_8b27b_protocol_2026-11-10.md)
+- [TVSum 全50：固定背景下的价值标准与模型对照](revalue_generic_highlight_tvsum_full50_8b27b_results_2026-11-10.md)
+- [TVSum 全50：固定背景下的价值标准与模型对照](revalue_generic_highlight_tvsum_full50_8b27b_results_v2_2026-11-10.md)
+- [TVSum 全50：固定背景下的价值标准与模型对照](revalue_generic_highlight_tvsum_full50_8b_results_2026-11-10.md)
+- [TVSum 最新8B关键贡献版：补齐10条并统一评全50](revalue_generic_highlight_tvsum_full50_core_value_protocol_2026-11-10.md)
+- [TVSum 最新8B关键贡献版：补齐10条并统一评全50](revalue_generic_highlight_tvsum_full50_core_value_protocol_v2_2026-11-10.md)
+- [TVSum 最新8B关键贡献版：全50条统一评价](revalue_generic_highlight_tvsum_full50_core_value_results_2026-11-10.md)
+- [TVSum全50两版及27B：执行快照](revalue_generic_highlight_tvsum_full50_execution_2026-11-10.md)
+- [TVSum50 27B启动修订 v2：保留零请求失败，继续原任务](revalue_generic_highlight_tvsum_full50_runtime_amendment_v2_2026-11-10.md)
+- [TVSum 后40：关键贡献与品牌/场景门槛联合验证协议](revalue_generic_highlight_tvsum_new40_core_value_protocol_2026-11-10.md)
+- [TVSum 后40：关键贡献目标与品牌/场景门槛实验](revalue_generic_highlight_tvsum_new40_core_value_results_2026-11-10.md)
+- [通用高光评分 v1：TVSum val10 与 REZE 配对测试协议](revalue_generic_highlight_tvsum_val10_protocol_2026-11-10.md)
+- [通用高光评分 v1：TVSum val10 与 REZE 配对结果](revalue_generic_highlight_tvsum_val10_results_2026-11-10.md)
+- [TVSum val10：最新价值标准完整评分对照协议 v1](revalue_generic_highlight_tvsum_value_gate10_protocol_2026-11-10.md)
+- [TVSum val10：最新价值标准完整评分结果](revalue_generic_highlight_tvsum_value_gate10_results_2026-11-10.md)
+- [通用高光：弱线索降权与单维充分贡献判定协议 v1](revalue_generic_highlight_value_gate10_protocol_2026-11-10.md)
+- [弱线索降权与单维充分贡献：10窗口诊断结果](revalue_generic_highlight_value_gate10_results_2026-11-10.md)
+- [SVHighlights 十四视频扩测：27B 稀疏记忆与核验](revalue_svhighlights_expand14_27b_comparison_2026-11-09.md)
+- [SVHighlights 稀疏事实记忆与核验：十四视频27B测试结果](revalue_svhighlights_expand14_27b_results_2026-11-09.md)
+- [TVSum mAP15 / mAP50 补充评价结果（2026-11-10）](revalue_tvsum_map15_map50_supplement_2026-11-10.md)
+
+</details>
+
+
+## 此前：按会议纪要重整的本周汇报（2026-11-10制作）
 
 - [会议对照修订报告](revalue_weekly_progress_2026-11-03_to_2026-11-09_meeting_revision.md) · [16页可编辑PPT](presentations/ReVALUE_实验进度汇报_2026-11-03至11-09_会议对照修订版.pptx) · [讲稿与源页面](presentations/revalue_weekly_meeting_revision_20261110/README.md)。
 - [SVHighlights七视频结果](revalue_svhighlights_sparse7_v1_1_results_2026-11-09.md)、[七视频协议](revalue_svhighlights_sparse7_protocol_2026-11-09.md)、[v1.1执行记录](revalue_svhighlights_sparse7_execution_v1_1_2026-11-09.md)、[启动恢复记录](revalue_svhighlights_sparse7_startup_recovery_v1_1_2026-11-09.md)。

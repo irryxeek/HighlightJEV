@@ -1,0 +1,21 @@
+{
+  "kind": "posthoc explanatory case selection; not a new test subset",
+  "rule": "union of worst core-minus-REZE video for each of mAP50/mAP15/F1; ties by ID",
+  "selected": [
+    "video_3286",
+    "video_23234",
+    "video_23227"
+  ],
+  "reasons": {
+    "video_3286": [
+      "largest decline in mAP50"
+    ],
+    "video_23234": [
+      "largest decline in mAP15"
+    ],
+    "video_23227": [
+      "largest decline in F1"
+    ]
+  },
+  "retain_full_ten_in_descriptive_tables": true
+}

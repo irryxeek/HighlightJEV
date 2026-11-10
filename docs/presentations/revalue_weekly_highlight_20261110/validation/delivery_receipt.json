@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "pptx": "$MERIT_ROOT/projects/revalue_weekly_highlight_20261110/exports/ReVALUE_组会汇报_2026-11-10.pptx",
+  "sha256": "df9225c8004be47ffb93785fac34ffc7e985c62b4f05336cb7df4580748c5296",
+  "bytes": 79679,
+  "slides": 10,
+  "notes": 10,
+  "native_charts": 3,
+  "native_tables": 2,
+  "postflight_report": "$MERIT_ROOT/projects/revalue_weekly_highlight_20261110/validation/revalue_weekly_highlight_20261110_173531_native_charts_tables.report.json",
+  "source": "$MERIT_ROOT/projects/revalue_weekly_highlight_20261110/exports/revalue_weekly_highlight_20261110_173531_native_charts_tables.pptx",
+  "experiment_model_calls": 0,
+  "experiment_gpu_seconds": 0,
+  "pushed": false
+}

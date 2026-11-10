@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="content">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFFFF" />
+  <g id="header" data-pptx-bounds="64 36 1152 112">
+    <text x="64" y="57" font-size="16" fill="#207F89">02 / 记忆与核验</text>
+    <text x="64" y="119" font-size="42" font-weight="bold" fill="#19344E">事实改进后均值上升，价值增益仍未确认</text>
+  </g>
+  <g id="panel-headings" data-pptx-bounds="64 166 1152 65">
+    <text x="64" y="192" font-size="28" font-weight="bold" fill="#19344E">事实保真与时间绑定</text>
+    <text x="64" y="223" font-size="20" fill="#607586">固定40条 · Top-5 mAP (%)</text>
+    <text x="664" y="192" font-size="28" font-weight="bold" fill="#19344E">选片后核验</text>
+    <text x="664" y="223" font-size="20" fill="#607586">同40条 · 固定200候选对</text>
+  </g>
+  <g id="memory-bars" data-pptx-bounds="64 236 552 300" data-pptx-replace-with="chart" data-pptx-fallback-sha256="ff938a84245c7905d647244e94fccc0e97ca605b63e3ce3b8274ca48d6cb2018">
+    <metadata type="application/json">{"name":"memory-bars","type":"bar","x":64,"y":236,"width":552,"height":300,"plot_area":{"x":216,"y":240,"width":292,"height":240},"categories":["D-1fps","旧F","F-local","FV-local"],"series":[{"name":"Top-5 mAP","values":[58.4767,54.4796,57.5828,56.3439],"point_colors":["#607586","#19344E","#207F89","#C76B2C"]}],"axes":{"value":{"minimum":0,"maximum":70,"major_unit":20,"number_format":"0"}},"show_legend":false,"gap_width":130.7692,"data_labels":{"show_value":true,"position":"outside_end","number_format":"0.00","font_size":24,"bold":true,"color":"#19344E"},"style":{"colors":["#19344E"],"font_family":"Microsoft YaHei, Arial","axis_font_size":20,"text_color":"#607586","axis_color":"#D6E1E8","grid_color":"#E7EDF1","chart_area_fill":"none","plot_area_fill":"none"}}</metadata>
+    <g id="memory-bars-chartArea">
+      <g id="memory-grid" stroke="#E7EDF1" stroke-width="1"><line x1="299.4286" y1="240" x2="299.4286" y2="480" /><line x1="382.8571" y1="240" x2="382.8571" y2="480" /><line x1="466.2857" y1="240" x2="466.2857" y2="480" /></g>
+      <line id="memory-axis" x1="216" y1="240" x2="216" y2="480" stroke="#D6E1E8" stroke-width="1" />
+      <!-- chart-plot-area: object=memory-bars | 216,240,508,480 -->
+      <rect x="216" y="257" width="243.9314" height="26" fill="#607586" />
+      <rect x="216" y="317" width="227.2578" height="26" fill="#19344E" />
+      <rect x="216" y="377" width="240.2025" height="26" fill="#207F89" />
+      <rect x="216" y="437" width="235.0346" height="26" fill="#C76B2C" />
+    </g>
+    <g fill="#607586" font-size="20">
+      <text x="72" y="278">D-1fps</text><text x="72" y="338">旧F</text><text x="72" y="398">F-local</text><text x="72" y="458">FV-local</text>
+      <text x="216" y="512" text-anchor="middle">0</text><text x="299.4286" y="512" text-anchor="middle">20</text><text x="382.8571" y="512" text-anchor="middle">40</text><text x="466.2857" y="512" text-anchor="middle">60</text>
+    </g>
+    <g fill="#19344E" font-weight="bold"><text x="469.9314" y="278">58.48</text><text x="453.2578" y="338">54.48</text><text x="466.2025" y="398">57.58</text><text x="461.0346" y="458">56.34</text></g>
+  </g>
+  <g id="verifier-bars" data-pptx-bounds="664 236 552 300" data-pptx-replace-with="chart" data-pptx-fallback-sha256="932ca973200e6dafedd0b7135048c2ce18059c8d61d156f3016c1f8ed77e7b8b">
+    <metadata type="application/json">{"name":"verifier-bars","type":"bar","x":664,"y":236,"width":552,"height":300,"plot_area":{"x":844,"y":240,"width":292,"height":240},"categories":["F-local","普通C","旧V15","修复V15"],"series":[{"name":"Top-5 mAP","values":[57.5828,58.4573,58.4085,57.6496],"point_colors":["#607586","#207F89","#C76B2C","#19344E"]}],"axes":{"value":{"minimum":0,"maximum":70,"major_unit":20,"number_format":"0"}},"show_legend":false,"gap_width":130.7692,"data_labels":{"show_value":true,"position":"outside_end","number_format":"0.00","font_size":24,"bold":true,"color":"#19344E"},"style":{"colors":["#19344E"],"font_family":"Microsoft YaHei, Arial","axis_font_size":20,"text_color":"#607586","axis_color":"#D6E1E8","grid_color":"#E7EDF1","chart_area_fill":"none","plot_area_fill":"none"}}</metadata>
+    <g id="verifier-bars-chartArea">
+      <g id="verifier-grid" stroke="#E7EDF1" stroke-width="1"><line x1="927.4286" y1="240" x2="927.4286" y2="480" /><line x1="1010.8571" y1="240" x2="1010.8571" y2="480" /><line x1="1094.2857" y1="240" x2="1094.2857" y2="480" /></g>
+      <line id="verifier-axis" x1="844" y1="240" x2="844" y2="480" stroke="#D6E1E8" stroke-width="1" />
+      <!-- chart-plot-area: object=verifier-bars | 844,240,1136,480 -->
+      <rect x="844" y="257" width="240.2025" height="26" fill="#607586" /><rect x="844" y="317" width="243.8505" height="26" fill="#207F89" /><rect x="844" y="377" width="243.6469" height="26" fill="#C76B2C" /><rect x="844" y="437" width="240.4812" height="26" fill="#19344E" />
+    </g>
+    <g fill="#607586" font-size="20"><text x="672" y="278">F-local</text><text x="672" y="338">普通C</text><text x="672" y="398">旧V15</text><text x="672" y="458">修复V15</text><text x="844" y="512" text-anchor="middle">0</text><text x="927.4286" y="512" text-anchor="middle">20</text><text x="1010.8571" y="512" text-anchor="middle">40</text><text x="1094.2857" y="512" text-anchor="middle">60</text></g>
+    <g fill="#19344E" font-weight="bold"><text x="1094.2025" y="278">57.58</text><text x="1097.8505" y="338">58.46</text><text x="1097.6469" y="398">58.41</text><text x="1094.4812" y="458">57.65</text></g>
+  </g>
+  <g id="findings" data-pptx-bounds="64 550 1152 104">
+    <text x="64" y="578" fill="#263D50">事实改进较旧F <tspan font-weight="bold" fill="#207F89">+3.10 pp</tspan>，仍低于Direct。</text>
+    <text x="664" y="578" fill="#263D50">普通C替换29次；修复V15仅4次。</text>
+    <text x="64" y="619" font-size="20" fill="#607586">配对区间均跨0；修复V15合法135/200。D与记忆组视觉组织不同，属于系统对照。</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 672 1152 26" fill="#607586" font-size="14"><text x="64" y="689">来源：事实保真与时间绑定40条（11.07）；V15一致性40条／200对（11.09）</text><text x="1216" y="689" text-anchor="end">03 / 10</text></g>
+</svg>

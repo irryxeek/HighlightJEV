@@ -1,0 +1,155 @@
+[
+  {
+    "vid": "J0nA4VgnoCo",
+    "detailed_top5": [
+      {
+        "rank": 1,
+        "seconds": [
+          130,
+          132
+        ],
+        "model_score": 0.9988304896995872,
+        "mean_human_importance": 1.45
+      },
+      {
+        "rank": 2,
+        "seconds": [
+          124,
+          126
+        ],
+        "model_score": 0.9984988180062319,
+        "mean_human_importance": 1.4
+      },
+      {
+        "rank": 3,
+        "seconds": [
+          132,
+          134
+        ],
+        "model_score": 0.9777234478906882,
+        "mean_human_importance": 1.25
+      },
+      {
+        "rank": 4,
+        "seconds": [
+          128,
+          130
+        ],
+        "model_score": 0.9777234478906882,
+        "mean_human_importance": 1.75
+      },
+      {
+        "rank": 5,
+        "seconds": [
+          126,
+          128
+        ],
+        "model_score": 0.9776405299673494,
+        "mean_human_importance": 1.4
+      }
+    ],
+    "delta_vs_brief": -6.916666666666664
+  },
+  {
+    "vid": "cjibtmSLxQ4",
+    "detailed_top5": [
+      {
+        "rank": 1,
+        "seconds": [
+          522,
+          524
+        ],
+        "model_score": 0.9973523620254272,
+        "mean_human_importance": 2.45
+      },
+      {
+        "rank": 2,
+        "seconds": [
+          520,
+          522
+        ],
+        "model_score": 0.9968273169307178,
+        "mean_human_importance": 2.85
+      },
+      {
+        "rank": 3,
+        "seconds": [
+          460,
+          462
+        ],
+        "model_score": 0.9968273169307178,
+        "mean_human_importance": 1.8
+      },
+      {
+        "rank": 4,
+        "seconds": [
+          478,
+          480
+        ],
+        "model_score": 0.9968273169307178,
+        "mean_human_importance": 1.45
+      },
+      {
+        "rank": 5,
+        "seconds": [
+          194,
+          196
+        ],
+        "model_score": 0.9897911449032057,
+        "mean_human_importance": 2.45
+      }
+    ],
+    "delta_vs_brief": 23.368055555555557
+  },
+  {
+    "vid": "sTEELN-vY30",
+    "detailed_top5": [
+      {
+        "rank": 1,
+        "seconds": [
+          118,
+          120
+        ],
+        "model_score": 0.999447221447556,
+        "mean_human_importance": 2.75
+      },
+      {
+        "rank": 2,
+        "seconds": [
+          10,
+          12
+        ],
+        "model_score": 0.999290329695098,
+        "mean_human_importance": 4.35
+      },
+      {
+        "rank": 3,
+        "seconds": [
+          130,
+          132
+        ],
+        "model_score": 0.9990889486412496,
+        "mean_human_importance": 3.25
+      },
+      {
+        "rank": 4,
+        "seconds": [
+          66,
+          68
+        ],
+        "model_score": 0.9976434986647331,
+        "mean_human_importance": 2.75
+      },
+      {
+        "rank": 5,
+        "seconds": [
+          58,
+          60
+        ],
+        "model_score": 0.9959298622161507,
+        "mean_human_importance": 1.55
+      }
+    ],
+    "delta_vs_brief": 19.09722222222223
+  }
+]

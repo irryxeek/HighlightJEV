@@ -1,0 +1,97 @@
+{
+  "decision_kind": "delegated_agent_choice_not_user_ui_receipt",
+  "candidates": [
+    {
+      "id": "evidence-first",
+      "name": "证据先行",
+      "mode": "custom",
+      "mode_behavior": "先陈述判断，再分别展示两条路线的可比证据，保留负结果和边界，最后收敛验证顺序。",
+      "mode_references": [
+        "pyramid"
+      ],
+      "visual_style": "custom",
+      "visual_style_behavior": "严格栅格、锐利边界和大留白，以数据和结构连接承载页面。",
+      "visual_style_references": [
+        "swiss-minimal"
+      ],
+      "typography": {
+        "title": "Microsoft YaHei, Arial",
+        "body": "Microsoft YaHei, Arial"
+      },
+      "image_strategy": {
+        "rendering": "custom",
+        "references": [
+          "minimalist-swiss"
+        ],
+        "visual": "平面精确结构和克制注释",
+        "mood": "学术、审慎，类似研究海报",
+        "behavior": "单一线重和少量大平面，零纹理、零投影。颜色作为概念分区，保持清晰留白。"
+      }
+    },
+    {
+      "id": "failure-narrative",
+      "name": "案例带动",
+      "mode": "custom",
+      "mode_behavior": "从误选案例出发形成问题，再给出旧目标、新目标和效果检验。",
+      "mode_references": [
+        "narrative"
+      ],
+      "visual_style": "custom",
+      "visual_style_behavior": "案例画面与证据旁注为主，衬线标题与无衬线正文形成编辑层级。",
+      "visual_style_references": [
+        "editorial"
+      ],
+      "typography": {
+        "title": "SimSun, Cambria",
+        "body": "Microsoft YaHei, Arial"
+      },
+      "image_strategy": {
+        "rendering": "custom",
+        "references": [
+          "editorial"
+        ],
+        "visual": "案例证据与编辑式注释",
+        "mood": "冷静、直观，类似研究报道",
+        "behavior": "精确细线、轻层次和极少纹理。以事实图像为核心，数据标记服从内容。"
+      }
+    },
+    {
+      "id": "module-review",
+      "name": "模块验收",
+      "mode": "custom",
+      "mode_behavior": "按模块平行罗列实现、证据、失败和待验收项，便于组会逐项检查。",
+      "mode_references": [
+        "briefing"
+      ],
+      "visual_style": "custom",
+      "visual_style_behavior": "多列表格、微型图和来源行构成主体，衬线标题与精确数字字体区分。",
+      "visual_style_references": [
+        "data-journalism"
+      ],
+      "typography": {
+        "title": "SimSun, Cambria",
+        "body": "Microsoft YaHei, Arial"
+      },
+      "image_strategy": {
+        "rendering": "custom",
+        "references": [
+          "editorial"
+        ],
+        "visual": "表格与证据侧栏",
+        "mood": "严谨、可核查，类似数据报道",
+        "behavior": "细规则划分密集但清楚的信息区域。平面少色、没有装饰景深，让数字承担视觉中心。"
+      }
+    }
+  ],
+  "selected": 0,
+  "image_usage": [
+    "none"
+  ],
+  "refine_spec": false,
+  "speaker_notes": true,
+  "custom_animations": false,
+  "narration_audio": false,
+  "generation_mode": "continuous",
+  "page_count": 10,
+  "design_spec_depth": "brief"
+}

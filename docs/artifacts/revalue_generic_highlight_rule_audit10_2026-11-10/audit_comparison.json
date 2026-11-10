@@ -1,0 +1,1751 @@
+{
+  "scope": "ten post-hoc diagnostic windows, not full-video performance",
+  "cases": [
+    {
+      "status": "complete",
+      "vid": "Se3oxnaPsz0",
+      "window_index": 17,
+      "segment": [
+        51.0,
+        54.0
+      ],
+      "audit": {
+        "facts": [
+          {
+            "id": "f1",
+            "text": "Close-up of dense swarm of bees inside wooden structure.",
+            "frames": [
+              1,
+              2
+            ]
+          }
+        ],
+        "rules": {
+          "O1": {
+            "state": "counterevidence",
+            "evidence_ids": [],
+            "note": "No visible completion, transition, or state change shown."
+          },
+          "O2": {
+            "state": "counterevidence",
+            "evidence_ids": [],
+            "note": "No attempt or material change resolved in visible frames."
+          },
+          "O3": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No other phase or comparable result visible for comparison."
+          },
+          "I1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1"
+            ],
+            "note": "Visible bees in structure provide diagnostic detail of hive location."
+          },
+          "I2": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1"
+            ],
+            "note": "Adds context to bee removal or inspection process."
+          },
+          "I3": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No other moment for comparison within this segment."
+          },
+          "E1": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No discernible human expression or reaction visible."
+          },
+          "E2": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No intensity or change in emotion attributable to any participant."
+          },
+          "E3": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No baseline or other reaction for comparison."
+          },
+          "A1": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No participants or interaction visible for action identification."
+          },
+          "A2": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No execution detail, mistake, or diagnostic phase observed."
+          },
+          "A3": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No action phase to support claimed difference or significance."
+          },
+          "S1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1"
+            ],
+            "note": "Visible reveal of dense bee swarm inside wooden structure."
+          },
+          "S2": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1"
+            ],
+            "note": "Adds discovery value to understanding bee removal context."
+          },
+          "S3": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No other scene or state for visual contrast or comparison."
+          }
+        },
+        "decision": "No",
+        "decisive_rules": [
+          "I1",
+          "I2",
+          "S1",
+          "S2"
+        ],
+        "justification": "Visible bee swarm provides diagnostic detail and discovery value, but lacks action, emotion, or outcome to justify retention as a highlight.",
+        "context_use": "Background context suggests bee removal theme, but segment lacks sufficient event value beyond visual observation."
+      },
+      "contract_warnings": [],
+      "prompt_tokens": 2048,
+      "output_tokens": 726,
+      "finish_reason": "stop",
+      "original_context_score": 0.9968273169307178,
+      "original_emitted": "Yes"
+    },
+    {
+      "status": "complete",
+      "vid": "Se3oxnaPsz0",
+      "window_index": 19,
+      "segment": [
+        57.0,
+        60.0
+      ],
+      "audit": {
+        "facts": [
+          {
+            "id": "f1",
+            "text": "Woman wearing pink cap and glasses smiles while speaking outdoors.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f2",
+            "text": "Lower third graphic credits 'Al Signori, freelance videographer, Bisbee'.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f3",
+            "text": "Background shows trees and a building with stacked wood.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f4",
+            "text": "Woman’s facial expression shows engaged, animated conversation.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f5",
+            "text": "News channel branding 'ONLY ON KOLD NEWS 13' visible.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f6",
+            "text": "Scene appears to be part of a news report or interview segment.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          }
+        ],
+        "rules": {
+          "O1": {
+            "state": "counterevidence",
+            "evidence_ids": [
+              "f6"
+            ],
+            "note": "No visible completion, failure, or transition established."
+          },
+          "O2": {
+            "state": "counterevidence",
+            "evidence_ids": [
+              "f6"
+            ],
+            "note": "No material change or resolution of attempt observed."
+          },
+          "O3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No comparable phase or result for comparison available."
+          },
+          "I1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f2",
+              "f5"
+            ],
+            "note": "Credits and channel branding provide specific context."
+          },
+          "I2": {
+            "state": "supported",
+            "evidence_ids": [
+              "f2",
+              "f5"
+            ],
+            "note": "Identifies source and context for the footage."
+          },
+          "I3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No other moment for comparison to establish novelty."
+          },
+          "E1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f4"
+            ],
+            "note": "Visible facial expression indicates engagement."
+          },
+          "E2": {
+            "state": "supported",
+            "evidence_ids": [
+              "f4"
+            ],
+            "note": "Smile and animated expression show intensity."
+          },
+          "E3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No baseline or comparison to establish relative intensity."
+          },
+          "A1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1",
+              "f4"
+            ],
+            "note": "Woman speaking and smiling indicates interaction."
+          },
+          "A2": {
+            "state": "counterevidence",
+            "evidence_ids": [
+              "f1",
+              "f4"
+            ],
+            "note": "No distinctive execution detail or mistake observed."
+          },
+          "A3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No other action for comparison to establish significance."
+          },
+          "S1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1",
+              "f3"
+            ],
+            "note": "Visible outdoor setting with trees and building."
+          },
+          "S2": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1",
+              "f3"
+            ],
+            "note": "Scene provides contextual visual information."
+          },
+          "S3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No other scene for comparison to establish visual contrast."
+          }
+        },
+        "decision": "Yes",
+        "decisive_rules": [
+          "I1",
+          "I2",
+          "E1",
+          "E2",
+          "S1"
+        ],
+        "justification": "Provides context, visible emotion, and setting with identifiable source credit.",
+        "context_use": "Background context confirms this is a news segment, but no event completion or action is visible."
+      },
+      "contract_warnings": [],
+      "prompt_tokens": 2048,
+      "output_tokens": 940,
+      "finish_reason": "stop",
+      "original_context_score": 0.999290329695098,
+      "original_emitted": "Yes"
+    },
+    {
+      "status": "complete",
+      "vid": "Se3oxnaPsz0",
+      "window_index": 20,
+      "segment": [
+        60.0,
+        63.0
+      ],
+      "audit": {
+        "facts": [
+          {
+            "id": "f1",
+            "text": "Woman wearing purple cap and glasses speaks outdoors.",
+            "frames": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "f2",
+            "text": "Lower third graphic identifies her as Jane Hewitt, Kold News 13.",
+            "frames": [
+              2
+            ]
+          },
+          {
+            "id": "f3",
+            "text": "Woman smiles while speaking, showing engaged expression.",
+            "frames": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f4",
+            "text": "Background includes building and trees, suggesting rural setting.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f5",
+            "text": "Camera remains steady, focused on speaker’s face and upper body.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f6",
+            "text": "Graphic overlay indicates news segment context.",
+            "frames": [
+              2
+            ]
+          }
+        ],
+        "rules": {
+          "O1": {
+            "state": "counterevidence",
+            "evidence_ids": [
+              "f1",
+              "f3"
+            ],
+            "note": "No visible completion or state transition observed."
+          },
+          "O2": {
+            "state": "counterevidence",
+            "evidence_ids": [
+              "f1",
+              "f3"
+            ],
+            "note": "No material change or resolved attempt demonstrated."
+          },
+          "O3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No comparable phase or result for comparison available."
+          },
+          "I1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f2"
+            ],
+            "note": "Graphic provides specific identity and news source context."
+          },
+          "I2": {
+            "state": "supported",
+            "evidence_ids": [
+              "f2",
+              "f4"
+            ],
+            "note": "Identifies speaker and situates segment in rural news context."
+          },
+          "I3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No other moment for comparison to establish novelty."
+          },
+          "E1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f3"
+            ],
+            "note": "Visible smile indicates discernible facial expression."
+          },
+          "E2": {
+            "state": "supported",
+            "evidence_ids": [
+              "f3"
+            ],
+            "note": "Smile shows specific emotional intensity beyond neutrality."
+          },
+          "E3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No baseline or comparison to establish relative emotional priority."
+          },
+          "A1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1",
+              "f3"
+            ],
+            "note": "Woman is visibly speaking to camera, establishing interaction."
+          },
+          "A2": {
+            "state": "counterevidence",
+            "evidence_ids": [
+              "f1",
+              "f3"
+            ],
+            "note": "No diagnostic step or distinctive execution detail observed."
+          },
+          "A3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No other action for comparison to establish significance."
+          },
+          "S1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f2",
+              "f6"
+            ],
+            "note": "Graphic overlay reveals contextual information not previously visible."
+          },
+          "S2": {
+            "state": "supported",
+            "evidence_ids": [
+              "f2",
+              "f6"
+            ],
+            "note": "Graphic adds meaning by identifying speaker and news source."
+          },
+          "S3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No other scene for comparison to establish visual contrast."
+          }
+        },
+        "decision": "Yes",
+        "decisive_rules": [
+          "I1",
+          "I2",
+          "E1",
+          "E2",
+          "S1"
+        ],
+        "justification": "Graphic provides identity and context; smile adds emotional engagement; visual reveal enhances informational value.",
+        "context_use": "Background context supports rural news segment interpretation; no resolution or action value, but identification and emotion justify retention."
+      },
+      "contract_warnings": [],
+      "prompt_tokens": 2048,
+      "output_tokens": 936,
+      "finish_reason": "stop",
+      "original_context_score": 0.9995694429072773,
+      "original_emitted": "Yes"
+    },
+    {
+      "status": "complete",
+      "vid": "Se3oxnaPsz0",
+      "window_index": 21,
+      "segment": [
+        63.0,
+        66.0
+      ],
+      "audit": {
+        "facts": [
+          {
+            "id": "f1",
+            "text": "Woman identified as Jane Hewitt, farmer, speaking outdoors.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f2",
+            "text": "She wears pink cap, glasses, and scarf, smiling slightly.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f3",
+            "text": "News graphic shows 'ONLY ON KOLD NEWS 13' and her title.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f4",
+            "text": "Background includes building, trees, and stacked wood.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f5",
+            "text": "Her mouth moves, suggesting she is speaking to camera.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f6",
+            "text": "Lower third graphic remains static throughout segment.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          }
+        ],
+        "rules": {
+          "O1": {
+            "state": "counterevidence",
+            "evidence_ids": [
+              "f1",
+              "f5"
+            ],
+            "note": "No visible completion, failure, or transition shown."
+          },
+          "O2": {
+            "state": "counterevidence",
+            "evidence_ids": [
+              "f1",
+              "f5"
+            ],
+            "note": "No material change or resolved attempt observed."
+          },
+          "O3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No comparable phase or result for comparison."
+          },
+          "I1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1",
+              "f3"
+            ],
+            "note": "Visible identification of speaker and role."
+          },
+          "I2": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1",
+              "f3"
+            ],
+            "note": "Provides context for who is speaking and why."
+          },
+          "I3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No other moment for comparison to establish novelty."
+          },
+          "E1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f2"
+            ],
+            "note": "Visible facial expression and posture."
+          },
+          "E2": {
+            "state": "counterevidence",
+            "evidence_ids": [
+              "f2"
+            ],
+            "note": "Smile is generic, no intensity or change shown."
+          },
+          "E3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No baseline or comparison for emotional difference."
+          },
+          "A1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1",
+              "f5"
+            ],
+            "note": "Action of speaking to camera is visibly established."
+          },
+          "A2": {
+            "state": "counterevidence",
+            "evidence_ids": [
+              "f5"
+            ],
+            "note": "No distinctive execution detail or mistake observed."
+          },
+          "A3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No other action for comparison to establish significance."
+          },
+          "S1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f4"
+            ],
+            "note": "Visible background context including building and trees."
+          },
+          "S2": {
+            "state": "counterevidence",
+            "evidence_ids": [
+              "f4"
+            ],
+            "note": "No visual transformation or unusual scene observed."
+          },
+          "S3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No other scene for comparison to establish visual difference."
+          }
+        },
+        "decision": "No",
+        "decisive_rules": [
+          "I1",
+          "I2",
+          "A1",
+          "S1"
+        ],
+        "justification": "Identifies speaker and context, but lacks emotional intensity, action detail, or visual novelty to justify retention.",
+        "context_use": "Background provides setting but no unique event or transformation. No added value beyond basic identification."
+      },
+      "contract_warnings": [],
+      "prompt_tokens": 2048,
+      "output_tokens": 941,
+      "finish_reason": "stop",
+      "original_context_score": 0.9997388096898188,
+      "original_emitted": "Yes"
+    },
+    {
+      "status": "complete",
+      "vid": "J0nA4VgnoCo",
+      "window_index": 2,
+      "segment": [
+        6.0,
+        9.0
+      ],
+      "audit": {
+        "facts": [
+          {
+            "id": "f1",
+            "text": "Man in sunglasses smiles while driving.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f2",
+            "text": "Woman in striped shirt smiles beside driver.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f3",
+            "text": "Both occupants appear happy and engaged.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f4",
+            "text": "Car interior visible with seatbelts and steering wheel.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f5",
+            "text": "Sunlight visible through car windows.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f6",
+            "text": "Camera angle suggests self-recorded video.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          }
+        ],
+        "rules": {
+          "O1": {
+            "state": "counterevidence",
+            "evidence_ids": [
+              "f1",
+              "f2",
+              "f3"
+            ],
+            "note": "No visible completion, transition, or failure observed."
+          },
+          "O2": {
+            "state": "counterevidence",
+            "evidence_ids": [
+              "f1",
+              "f2",
+              "f3"
+            ],
+            "note": "No material change or resolved attempt demonstrated."
+          },
+          "O3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No comparable phase or result visible for comparison."
+          },
+          "I1": {
+            "state": "counterevidence",
+            "evidence_ids": [
+              "f1",
+              "f2",
+              "f3"
+            ],
+            "note": "No diagnostic detail or crucial step visible."
+          },
+          "I2": {
+            "state": "counterevidence",
+            "evidence_ids": [
+              "f1",
+              "f2",
+              "f3"
+            ],
+            "note": "No process or situation explanation beyond presence."
+          },
+          "I3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No other moment for comparison or novelty claim."
+          },
+          "E1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1",
+              "f2",
+              "f3"
+            ],
+            "note": "Visible smiles and engaged expressions from both occupants."
+          },
+          "E2": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1",
+              "f2",
+              "f3"
+            ],
+            "note": "Intensity of smiles suggests positive emotional state."
+          },
+          "E3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No baseline or comparison reaction visible for intensity."
+          },
+          "A1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1",
+              "f2",
+              "f3"
+            ],
+            "note": "Action of driving and smiling by occupants visible."
+          },
+          "A2": {
+            "state": "counterevidence",
+            "evidence_ids": [
+              "f1",
+              "f2",
+              "f3"
+            ],
+            "note": "No distinctive execution detail or mistake observed."
+          },
+          "A3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No other action for comparative significance visible."
+          },
+          "S1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f5",
+              "f4"
+            ],
+            "note": "Sunlight and interior reveal context and mood."
+          },
+          "S2": {
+            "state": "supported",
+            "evidence_ids": [
+              "f5",
+              "f4"
+            ],
+            "note": "Visuals add mood and setting context for viewing."
+          },
+          "S3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No other scene for visual contrast or comparison."
+          }
+        },
+        "decision": "No",
+        "decisive_rules": [
+          "E1",
+          "E2",
+          "S1",
+          "S2"
+        ],
+        "justification": "Smiling occupants and sunlight add mood, but no unique event, action, or information justifies retention.",
+        "context_use": "Background context shows varied scenes, but this segment lacks unique event or information to justify retention."
+      },
+      "contract_warnings": [],
+      "prompt_tokens": 2205,
+      "output_tokens": 974,
+      "finish_reason": "stop",
+      "original_context_score": 0.9998415637640006,
+      "original_emitted": "Yes"
+    },
+    {
+      "status": "complete",
+      "vid": "J0nA4VgnoCo",
+      "window_index": 41,
+      "segment": [
+        123.0,
+        126.0
+      ],
+      "audit": {
+        "facts": [
+          {
+            "id": "f1",
+            "text": "Woman in car holds Cadbury Mini Eggs package.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f2",
+            "text": "Woman smiles broadly while holding candy package.",
+            "frames": [
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f3",
+            "text": "Car interior visible with window showing residential street.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f4",
+            "text": "Woman’s striped shirt and dark hair visible.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f5",
+            "text": "Package label clearly shows 'Mini Eggs' branding.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f6",
+            "text": "Camera angle suggests self-shot or handheld recording.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          }
+        ],
+        "rules": {
+          "O1": {
+            "state": "counterevidence",
+            "evidence_ids": [
+              "f1",
+              "f2"
+            ],
+            "note": "No completion, failure, or state transition observed."
+          },
+          "O2": {
+            "state": "counterevidence",
+            "evidence_ids": [
+              "f1",
+              "f2"
+            ],
+            "note": "No resolved attempt or material change in situation."
+          },
+          "O3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No comparable phase or result for comparison."
+          },
+          "I1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f5"
+            ],
+            "note": "Visible product branding adds specific information."
+          },
+          "I2": {
+            "state": "supported",
+            "evidence_ids": [
+              "f5"
+            ],
+            "note": "Identifies product, useful for understanding context."
+          },
+          "I3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No other moment for comparison to establish novelty."
+          },
+          "E1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f2"
+            ],
+            "note": "Visible smile on woman’s face."
+          },
+          "E2": {
+            "state": "supported",
+            "evidence_ids": [
+              "f2"
+            ],
+            "note": "Intensity of smile suggests positive emotion."
+          },
+          "E3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No baseline or comparison to establish emotional difference."
+          },
+          "A1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1"
+            ],
+            "note": "Action of holding package clearly established."
+          },
+          "A2": {
+            "state": "counterevidence",
+            "evidence_ids": [
+              "f1"
+            ],
+            "note": "No distinctive execution detail or mistake observed."
+          },
+          "A3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No other action for comparison to establish significance."
+          },
+          "S1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f2"
+            ],
+            "note": "Visible smile and candy package create visual contrast."
+          },
+          "S2": {
+            "state": "supported",
+            "evidence_ids": [
+              "f2"
+            ],
+            "note": "Emotional expression adds distinctive viewing experience."
+          },
+          "S3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No other scene for comparison to establish visual difference."
+          }
+        },
+        "decision": "Yes",
+        "decisive_rules": [
+          "I1",
+          "I2",
+          "E1",
+          "E2",
+          "S1"
+        ],
+        "justification": "Visible product branding, smiling expression, and visual contrast make this moment worth retaining.",
+        "context_use": "Background context (car, residential street) supports interpretation but does not override local evidence."
+      },
+      "contract_warnings": [],
+      "prompt_tokens": 2205,
+      "output_tokens": 903,
+      "finish_reason": "stop",
+      "original_context_score": 0.9999417087274893,
+      "original_emitted": "Yes"
+    },
+    {
+      "status": "complete",
+      "vid": "J0nA4VgnoCo",
+      "window_index": 43,
+      "segment": [
+        129.0,
+        132.0
+      ],
+      "audit": {
+        "facts": [
+          {
+            "id": "f1",
+            "text": "Woman holds colorful candy package inside car.",
+            "frames": [
+              0
+            ]
+          },
+          {
+            "id": "f2",
+            "text": "Woman smiles broadly while holding candy package.",
+            "frames": [
+              1
+            ]
+          },
+          {
+            "id": "f3",
+            "text": "Woman shakes candy package slightly while smiling.",
+            "frames": [
+              2
+            ]
+          }
+        ],
+        "rules": {
+          "O1": {
+            "state": "counterevidence",
+            "evidence_ids": [],
+            "note": "No visible completion, failure, or state transition shown."
+          },
+          "O2": {
+            "state": "counterevidence",
+            "evidence_ids": [],
+            "note": "No resolved attempt or material change observed."
+          },
+          "O3": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No other phase or comparable result visible for comparison."
+          },
+          "I1": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No diagnostic detail or crucial step visible beyond object display."
+          },
+          "I2": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No process or situation requiring additional information shown."
+          },
+          "I3": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No other moment for comparison to establish novelty."
+          },
+          "E1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f2"
+            ],
+            "note": "Visible smile on woman’s face indicates discernible expression."
+          },
+          "E2": {
+            "state": "supported",
+            "evidence_ids": [
+              "f2"
+            ],
+            "note": "Intensity of smile suggests specific emotional reaction."
+          },
+          "E3": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No baseline or other reaction visible for comparison."
+          },
+          "A1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1",
+              "f3"
+            ],
+            "note": "Action of holding and shaking candy package is visibly established."
+          },
+          "A2": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No diagnostic detail or meaningful mistake observed."
+          },
+          "A3": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No other action or phase for comparative significance."
+          },
+          "S1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1",
+              "f2"
+            ],
+            "note": "Visible candy package and smiling face constitute a visual reveal."
+          },
+          "S2": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1",
+              "f2"
+            ],
+            "note": "Smiling face and candy package add emotional and visual meaning."
+          },
+          "S3": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No other scene or state for visual contrast or comparison."
+          }
+        },
+        "decision": "No",
+        "decisive_rules": [
+          "E1",
+          "E2",
+          "S1",
+          "S2",
+          "A1"
+        ],
+        "justification": "Smiling face and candy reveal are visible, but no completion, action detail, or contextual change justifies retention.",
+        "context_use": "Background context shows car interior and outdoor setting, but no event progression or unique action supports highlight retention."
+      },
+      "contract_warnings": [],
+      "prompt_tokens": 2205,
+      "output_tokens": 810,
+      "finish_reason": "stop",
+      "original_context_score": 0.9999251537370123,
+      "original_emitted": "Yes"
+    },
+    {
+      "status": "complete",
+      "vid": "J0nA4VgnoCo",
+      "window_index": 118,
+      "segment": [
+        354.0,
+        357.0
+      ],
+      "audit": {
+        "facts": [
+          {
+            "id": "f1",
+            "text": "Man in white shirt bends over car tire.",
+            "frames": [
+              0
+            ]
+          },
+          {
+            "id": "f2",
+            "text": "Man uses tool on wheel lug nuts.",
+            "frames": [
+              1
+            ]
+          },
+          {
+            "id": "f3",
+            "text": "Man lifts tire slightly off ground.",
+            "frames": [
+              2
+            ]
+          },
+          {
+            "id": "f4",
+            "text": "Jack stand visible under car near tire.",
+            "frames": [
+              0
+            ]
+          },
+          {
+            "id": "f5",
+            "text": "Man wears flip-flops while working.",
+            "frames": [
+              0
+            ]
+          },
+          {
+            "id": "f6",
+            "text": "White parking line visible on asphalt.",
+            "frames": [
+              0
+            ]
+          }
+        ],
+        "rules": {
+          "O1": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No visible completion or state transition established."
+          },
+          "O2": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No resolved attempt or material change visible."
+          },
+          "O3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No comparable result or phase for comparison."
+          },
+          "I1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f2"
+            ],
+            "note": "Tool use visible, indicating specific action step."
+          },
+          "I2": {
+            "state": "supported",
+            "evidence_ids": [
+              "f2"
+            ],
+            "note": "Tool use adds diagnostic detail to tire repair process."
+          },
+          "I3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No other moment for comparison to establish novelty."
+          },
+          "E1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1"
+            ],
+            "note": "Man’s bent posture indicates focused effort."
+          },
+          "E2": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1"
+            ],
+            "note": "Posture suggests concentrated physical engagement."
+          },
+          "E3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No baseline or comparison to establish emotional intensity."
+          },
+          "A1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1",
+              "f2"
+            ],
+            "note": "Man and tool visibly interacting with tire."
+          },
+          "A2": {
+            "state": "supported",
+            "evidence_ids": [
+              "f2"
+            ],
+            "note": "Tool application visible, indicating key step."
+          },
+          "A3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No other action for comparison to establish significance."
+          },
+          "S1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f3"
+            ],
+            "note": "Tire visibly lifted, indicating physical change."
+          },
+          "S2": {
+            "state": "supported",
+            "evidence_ids": [
+              "f3"
+            ],
+            "note": "Lifted tire adds visual meaning to repair process."
+          },
+          "S3": {
+            "state": "unknown",
+            "evidence_ids": [],
+            "note": "No other scene for comparison to establish visual priority."
+          }
+        },
+        "decision": "Yes",
+        "decisive_rules": [
+          "I1",
+          "I2",
+          "E1",
+          "E2",
+          "A1"
+        ],
+        "justification": "Tool use, posture, and tire lift provide diagnostic, emotional, and action value.",
+        "context_use": "Background context confirms tire repair setting but does not override local evidence."
+      },
+      "contract_warnings": [],
+      "prompt_tokens": 2205,
+      "output_tokens": 848,
+      "finish_reason": "stop",
+      "original_context_score": 0.9046505376715775,
+      "original_emitted": "Yes"
+    },
+    {
+      "status": "complete",
+      "vid": "J0nA4VgnoCo",
+      "window_index": 122,
+      "segment": [
+        366.0,
+        369.0
+      ],
+      "audit": {
+        "facts": [
+          {
+            "id": "f1",
+            "text": "Two people are crouched beside a car with a flat tire.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f2",
+            "text": "Woman in white shirt and orange shorts is working on the tire.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f3",
+            "text": "Man in white shirt and jeans is assisting with the tire.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f4",
+            "text": "Car is stationary on asphalt with visible jack and tools nearby.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f5",
+            "text": "Both individuals are focused on the wheel well area.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "f6",
+            "text": "No visible completion, mistake, or state transition is shown.",
+            "frames": [
+              0,
+              1,
+              2
+            ]
+          }
+        ],
+        "rules": {
+          "O1": {
+            "state": "counterevidence",
+            "evidence_ids": [
+              "f6"
+            ],
+            "note": "No visible completion or state transition established."
+          },
+          "O2": {
+            "state": "counterevidence",
+            "evidence_ids": [
+              "f6"
+            ],
+            "note": "No material change or resolved attempt visible."
+          },
+          "O3": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No other phase or comparable result visible for comparison."
+          },
+          "I1": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No diagnostic detail or crucial step identifiable beyond general action."
+          },
+          "I2": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No information beyond visible action or object identification."
+          },
+          "I3": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No comparison to another moment for novelty or added content."
+          },
+          "E1": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No discernible facial expression or posture attributable to participants."
+          },
+          "E2": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No specific intensity or change in emotion observed."
+          },
+          "E3": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No baseline or comparison to establish emotional difference."
+          },
+          "A1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1",
+              "f2",
+              "f3",
+              "f4",
+              "f5"
+            ],
+            "note": "Action of two people working on flat tire is visibly established."
+          },
+          "A2": {
+            "state": "counterevidence",
+            "evidence_ids": [
+              "f1",
+              "f2",
+              "f3",
+              "f4",
+              "f5"
+            ],
+            "note": "No distinctive execution detail or mistake observed."
+          },
+          "A3": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No other action or phase for comparative significance."
+          },
+          "S1": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No specific visual change, reveal, or transformation observed."
+          },
+          "S2": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No visual event adding meaning or distinctive experience."
+          },
+          "S3": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No other scene or state for visual contrast or support."
+          }
+        },
+        "decision": "No",
+        "decisive_rules": [
+          "O1",
+          "O2",
+          "I1",
+          "E1",
+          "A2"
+        ],
+        "justification": "No completion, diagnostic detail, emotion, or distinctive action visible to justify retention.",
+        "context_use": "Background context shows varied scenes, but no local evidence supports highlight value in this segment."
+      },
+      "contract_warnings": [],
+      "prompt_tokens": 2205,
+      "output_tokens": 972,
+      "finish_reason": "stop",
+      "original_context_score": 0.9914225147446858,
+      "original_emitted": "Yes"
+    },
+    {
+      "status": "complete",
+      "vid": "sTEELN-vY30",
+      "window_index": 3,
+      "segment": [
+        9.0,
+        12.0
+      ],
+      "audit": {
+        "facts": [
+          {
+            "id": "f1",
+            "text": "Red car is visibly crushed under train locomotive.",
+            "frames": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "f2",
+            "text": "Police car and minivan are visible on adjacent road.",
+            "frames": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "f3",
+            "text": "Emergency personnel in yellow vests are near wreckage.",
+            "frames": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "f4",
+            "text": "Train tracks run parallel to paved roadway.",
+            "frames": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "f5",
+            "text": "CBS Atlanta logo and location text are displayed on screen.",
+            "frames": [
+              0,
+              1
+            ]
+          },
+          {
+            "id": "f6",
+            "text": "Temperature and time display visible in lower right corner.",
+            "frames": [
+              0,
+              1
+            ]
+          }
+        ],
+        "rules": {
+          "O1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1"
+            ],
+            "note": "Train collision visibly completed, car crushed under locomotive."
+          },
+          "O2": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1"
+            ],
+            "note": "Collision result materially changes scene, establishes wreckage state."
+          },
+          "O3": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No other comparable result or phase visible for comparison."
+          },
+          "I1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1",
+              "f5"
+            ],
+            "note": "Visible wreckage and location text provide specific context."
+          },
+          "I2": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1",
+              "f5"
+            ],
+            "note": "Wreckage and location text add diagnostic detail to understand event."
+          },
+          "I3": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No other observed moment for comparison to establish novelty."
+          },
+          "E1": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No discernible facial expressions or reactions from individuals visible."
+          },
+          "E2": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No specific intensity or change in emotion attributable to participants."
+          },
+          "E3": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No baseline or comparison reaction to establish emotional priority."
+          },
+          "A1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1"
+            ],
+            "note": "Train and car interaction clearly established as collision event."
+          },
+          "A2": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1"
+            ],
+            "note": "Crushed car and locomotive position show key diagnostic phase."
+          },
+          "A3": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No other action or phase visible for comparative significance."
+          },
+          "S1": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1"
+            ],
+            "note": "Visible transformation: car crushed under train locomotive."
+          },
+          "S2": {
+            "state": "supported",
+            "evidence_ids": [
+              "f1"
+            ],
+            "note": "Visual event adds meaning: collision outcome clearly revealed."
+          },
+          "S3": {
+            "state": "not_applicable",
+            "evidence_ids": [],
+            "note": "No other scene or state visible for contrast or comparison."
+          }
+        },
+        "decision": "Yes",
+        "decisive_rules": [
+          "O1",
+          "O2",
+          "I1",
+          "I2",
+          "S1"
+        ],
+        "justification": "Train collision visibly completed, car crushed, providing diagnostic detail and visual transformation.",
+        "context_use": "Background context confirms urban setting and CBS Atlanta branding, but no additional interpretation needed for local judgment."
+      },
+      "contract_warnings": [],
+      "prompt_tokens": 2243,
+      "output_tokens": 927,
+      "finish_reason": "stop",
+      "original_context_score": 0.99966464996832,
+      "original_emitted": "Yes"
+    }
+  ],
+  "decisions": {
+    "No": 5,
+    "Yes": 5
+  },
+  "rule_states": {
+    "counterevidence": 26,
+    "not_applicable": 35,
+    "supported": 57,
+    "unknown": 32
+  },
+  "frame_reference_histogram": {
+    "1": 43,
+    "2": 38,
+    "0": 43
+  },
+  "freeze": {
+    "manifest_sha256": "c90b2ff3723d70941ca8a27fbc0ee7e25e63f612d469845711abe3ff04921bce",
+    "outputs_sha256": "7da0b07310c5418cbddadb31c8543c6b01c6a0ed6affec3d343bfe9d74763495",
+    "labels_or_old_scores_read": false,
+    "formal_requested": 10,
+    "attempted_requests_including_unresolved": 10,
+    "complete": 10,
+    "success_tokens": 30437,
+    "failure_reserved_tokens": 0,
+    "charged_tokens": 30437,
+    "retries": 0,
+    "no_full_video_metric": true
+  },
+  "worker_exit": {
+    "exit_code": 0,
+    "timed_out": false,
+    "gpu_lifecycle_seconds": 257.8042379269609,
+    "worker_starts": 1,
+    "cleanup_reserve_within_budget_seconds": 5,
+    "gpu_uuid": "GPU-52bc8c91-36c3-e8a6-29d7-855731f40568",
+    "owned_live_processes_remaining": [],
+    "budget_exceeded": false
+  },
+  "audit_sha256": "7da0b07310c5418cbddadb31c8543c6b01c6a0ed6affec3d343bfe9d74763495",
+  "parent_prediction_sha256": "a1487dadd018268ddb1e75064bbbfe97e5dbc67226dfac97b94e5f9493bc6b61",
+  "analysis_source_sha256": "490b7ff50938f5fa892854afcb2aca3c83e3344bf05e432a1c1eecf9f0df0434",
+  "analysis_model_calls": 0,
+  "no_GT_loaded_in_this_export": true
+}

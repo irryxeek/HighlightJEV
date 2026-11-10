@@ -1,0 +1,31 @@
+{
+  "ledger": "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_value_gate10_2026-11-10/material_passport_run_ledger.yaml",
+  "ledger_status": "ok",
+  "detail": null,
+  "untrusted_from_seq": null,
+  "entries": 8,
+  "awaiting_answer": [],
+  "cannot_confirm": [],
+  "not_run": [],
+  "missing": [],
+  "backed": 6,
+  "step_outcomes": {
+    "value_gate_cpu_comparison": "passed",
+    "value_gate_cpu_contracts": "passed",
+    "value_gate_cpu_export_initial": "failed",
+    "value_gate_final_verification": "passed",
+    "value_gate_inference": "passed",
+    "value_gate_native_preflight": "passed"
+  },
+  "counters": {
+    "complete": {
+      "formal_attempts": 10,
+      "successes": 10,
+      "model_retries": 0,
+      "charged_tokens": 31675,
+      "worker_starts": 1,
+      "full_video_metrics_computed": 0,
+      "cpu_export_retries": 1
+    }
+  }
+}

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="content">
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><polygon points="0,0 8,4 0,8" fill="#607586" /></marker></defs>
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFFFF" />
+  <g id="header" data-pptx-bounds="64 36 1152 112">
+    <text x="64" y="57" font-size="16" fill="#207F89">01 / 本周工作地图</text>
+    <text x="64" y="119" font-size="42" font-weight="bold" fill="#19344E">本周验证了价值加入的两个位置</text>
+  </g>
+  <g id="memory-route" data-pptx-bounds="64 172 1152 192">
+    <rect x="64" y="208" width="1152" height="156" fill="#F1F5F7" />
+    <text x="64" y="195" font-weight="bold" fill="#207F89">A / 记忆辅助选片与候选核验</text>
+    <g stroke="#607586" stroke-width="2">
+      <line x1="271" y1="263" x2="346" y2="263" marker-end="url(#arrow)" />
+      <line x1="565" y1="263" x2="648" y2="263" marker-end="url(#arrow)" />
+      <line x1="802" y1="263" x2="932" y2="263" marker-end="url(#arrow)" />
+    </g>
+    <g fill="#19344E" font-weight="bold">
+      <text x="96" y="272">全片采样观察</text>
+      <text x="380" y="272">事实F / 价值FV</text>
+      <text x="688" y="272">候选选择</text>
+      <text x="970" y="272">C / V15核验</text>
+    </g>
+    <g fill="#607586" font-size="20">
+      <text x="96" y="324">分组读取已有帧</text>
+      <text x="380" y="324">F与FV分别对照</text>
+      <text x="688" y="324">固定候选与预算</text>
+      <text x="970" y="324">受控替换候选</text>
+    </g>
+  </g>
+  <g id="scoring-route" data-pptx-bounds="64 394 1152 192">
+    <rect x="64" y="430" width="1152" height="156" fill="#F1F5F7" />
+    <text x="64" y="417" font-weight="bold" fill="#C76B2C">B / 通用高光窗口评分</text>
+    <g stroke="#607586" stroke-width="2">
+      <line x1="271" y1="485" x2="346" y2="485" marker-end="url(#arrow)" />
+      <line x1="573" y1="485" x2="648" y2="485" marker-end="url(#arrow)" />
+      <line x1="863" y1="485" x2="932" y2="485" marker-end="url(#arrow)" />
+    </g>
+    <g fill="#19344E" font-weight="bold">
+      <text x="96" y="494">3秒局部窗口</text>
+      <text x="380" y="494">背景＋价值标准</text>
+      <text x="688" y="494">Yes/No概率</text>
+      <text x="970" y="494">2秒全片曲线</text>
+    </g>
+    <g fill="#607586" font-size="20">
+      <text x="96" y="546">2fps，完整窗口6帧</text>
+      <text x="380" y="546">判断实质观看贡献</text>
+      <text x="688" y="546">独立窗口评分</text>
+      <text x="970" y="546">沿用REZE时间映射</text>
+    </g>
+  </g>
+  <g id="scope" data-pptx-bounds="64 604 1152 45">
+    <text x="64" y="632" font-size="20" fill="#607586">已测静态建库、读取、核验与评分；缺证触发、定向补看、记忆更新和边界修正仍待验证。</text>
+  </g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 672 1152 26" fill="#607586" font-size="14">
+    <text x="64" y="689">来源：事实／价值记忆设计及本周实验报告；通用评分实现（11.10）</text>
+    <text x="1216" y="689" text-anchor="end">02 / 10</text>
+  </g>
+</svg>

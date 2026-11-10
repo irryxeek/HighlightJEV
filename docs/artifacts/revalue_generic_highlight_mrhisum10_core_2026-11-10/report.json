@@ -1,0 +1,438 @@
+{
+  "status": "complete",
+  "evaluation": {
+    "summary": {
+      "REZE_8B": {
+        "mAP50": {
+          "mean": 63.86582385686752,
+          "bootstrap_95ci": [
+            55.700523923268626,
+            71.2341908638755
+          ]
+        },
+        "mAP15": {
+          "mean": 20.068723457639045,
+          "bootstrap_95ci": [
+            12.606432669911227,
+            28.348677029160346
+          ]
+        },
+        "F1": {
+          "mean": 36.99845299406558,
+          "bootstrap_95ci": [
+            25.006871240936643,
+            48.407612847813226
+          ]
+        }
+      },
+      "core_8B": {
+        "mAP50": {
+          "mean": 62.13818957571234,
+          "bootstrap_95ci": [
+            53.940958741234915,
+            70.00279430527142
+          ]
+        },
+        "mAP15": {
+          "mean": 19.223609706248304,
+          "bootstrap_95ci": [
+            15.470387468350152,
+            23.10435789383792
+          ]
+        },
+        "F1": {
+          "mean": 58.051679693658365,
+          "bootstrap_95ci": [
+            51.00365440956764,
+            64.93348512463281
+          ]
+        }
+      },
+      "Constant": {
+        "mAP50": {
+          "mean": 48.99977818537245,
+          "bootstrap_95ci": [
+            48.57122926199926,
+            49.462214484102304
+          ]
+        },
+        "mAP15": {
+          "mean": 13.310970246051937,
+          "bootstrap_95ci": [
+            12.811814870553338,
+            13.815890794370835
+          ]
+        },
+        "F1": {
+          "mean": 50.37371568323565,
+          "bootstrap_95ci": [
+            40.27973603279965,
+            60.75524648370674
+          ]
+        }
+      }
+    },
+    "paired": {
+      "mAP50": {
+        "mean": -1.7276342811551644,
+        "bootstrap_95ci": [
+          -12.187258412909095,
+          8.85261315832567
+        ],
+        "improved": 4,
+        "worsened": 6,
+        "unchanged": 0
+      },
+      "mAP15": {
+        "mean": -0.8451137513907391,
+        "bootstrap_95ci": [
+          -8.534902152997066,
+          5.7813314294054665
+        ],
+        "improved": 6,
+        "worsened": 4,
+        "unchanged": 0
+      },
+      "F1": {
+        "mean": 21.053226699592777,
+        "bootstrap_95ci": [
+          10.322960690880283,
+          31.928769483598003
+        ],
+        "improved": 9,
+        "worsened": 1,
+        "unchanged": 0
+      }
+    },
+    "per_video": {
+      "REZE_8B": {
+        "video_23234": {
+          "status": "complete",
+          "mAP50": 75.77403034264447,
+          "mAP15": 42.259913999044436,
+          "F1": 54.16666305555563
+        },
+        "video_26502": {
+          "status": "complete",
+          "mAP50": 54.856987764081154,
+          "mAP15": 11.951345755693582,
+          "F1": 47.8260836502836
+        },
+        "video_9757": {
+          "status": "complete",
+          "mAP50": 60.50993124522536,
+          "mAP15": 14.790552584670232,
+          "F1": 19.047617741496634
+        },
+        "video_6458": {
+          "status": "complete",
+          "mAP50": 79.6194482335241,
+          "mAP15": 28.866792929292934,
+          "F1": 29.999997952499992
+        },
+        "video_3286": {
+          "status": "complete",
+          "mAP50": 76.10671936758892,
+          "mAP15": 8.580368906455863,
+          "F1": 0.0
+        },
+        "video_12709": {
+          "status": "complete",
+          "mAP50": 74.08082393120755,
+          "mAP15": 13.459841628959277,
+          "F1": 54.5454507768596
+        },
+        "video_11969": {
+          "status": "complete",
+          "mAP50": 62.23520204370529,
+          "mAP15": 16.43145024723972,
+          "F1": 32.25806236212283
+        },
+        "video_22751": {
+          "status": "complete",
+          "mAP50": 40.579505315869,
+          "mAP15": 9.603341781407648,
+          "F1": 27.02702518626738
+        },
+        "video_20977": {
+          "status": "complete",
+          "mAP50": 47.002118205550694,
+          "mAP15": 10.166907166907166,
+          "F1": 36.36363383471078
+        },
+        "video_23227": {
+          "status": "complete",
+          "mAP50": 67.89347211927857,
+          "mAP15": 44.57671957671958,
+          "F1": 68.74999538085937
+        }
+      },
+      "core_8B": {
+        "video_23234": {
+          "status": "complete",
+          "mAP50": 77.14512475541888,
+          "mAP15": 19.157000407000407,
+          "F1": 74.99999500000017
+        },
+        "video_26502": {
+          "status": "complete",
+          "mAP50": 52.51262626262626,
+          "mAP15": 16.4983164983165,
+          "F1": 60.869561009451786
+        },
+        "video_9757": {
+          "status": "complete",
+          "mAP50": 59.81885702999148,
+          "mAP15": 28.154761904761905,
+          "F1": 57.14285322448985
+        },
+        "video_6458": {
+          "status": "complete",
+          "mAP50": 75.03437654043397,
+          "mAP15": 30.845825001558463,
+          "F1": 52.49999641687498
+        },
+        "video_3286": {
+          "status": "complete",
+          "mAP50": 39.1348093331789,
+          "mAP15": 8.413702239789195,
+          "F1": 55.55555169753113
+        },
+        "video_12709": {
+          "status": "complete",
+          "mAP50": 66.86841349225249,
+          "mAP15": 14.423076923076922,
+          "F1": 77.27272193388444
+        },
+        "video_11969": {
+          "status": "complete",
+          "mAP50": 67.1887227020888,
+          "mAP15": 15.122425467253056,
+          "F1": 35.483868598335114
+        },
+        "video_22751": {
+          "status": "complete",
+          "mAP50": 45.18969008977381,
+          "mAP15": 18.56048276855409,
+          "F1": 51.35134785390804
+        },
+        "video_20977": {
+          "status": "complete",
+          "mAP50": 81.06231416589473,
+          "mAP15": 18.763227513227513,
+          "F1": 59.09090498140502
+        },
+        "video_23227": {
+          "status": "complete",
+          "mAP50": 57.426961385464146,
+          "mAP15": 22.297278338945006,
+          "F1": 56.2499962207031
+        }
+      },
+      "Constant": {
+        "video_23234": {
+          "status": "complete",
+          "mAP50": 50.0,
+          "mAP15": 12.5,
+          "F1": 16.66666555555559
+        },
+        "video_26502": {
+          "status": "complete",
+          "mAP50": 50.0,
+          "mAP15": 12.5,
+          "F1": 47.82608365028353
+        },
+        "video_9757": {
+          "status": "complete",
+          "mAP50": 48.275862068965516,
+          "mAP15": 13.793103448275861,
+          "F1": 52.38094878911568
+        },
+        "video_6458": {
+          "status": "complete",
+          "mAP50": 49.09090909090909,
+          "mAP15": 14.545454545454545,
+          "F1": 59.999995904999984
+        },
+        "video_3286": {
+          "status": "complete",
+          "mAP50": 48.0,
+          "mAP15": 12.0,
+          "F1": 55.555551697531136
+        },
+        "video_12709": {
+          "status": "complete",
+          "mAP50": 48.38709677419355,
+          "mAP15": 12.903225806451612,
+          "F1": 86.36363039669436
+        },
+        "video_11969": {
+          "status": "complete",
+          "mAP50": 50.0,
+          "mAP15": 14.285714285714285,
+          "F1": 48.38709354318419
+        },
+        "video_22751": {
+          "status": "complete",
+          "mAP50": 49.01960784313725,
+          "mAP15": 13.725490196078432,
+          "F1": 43.2432402980278
+        },
+        "video_20977": {
+          "status": "complete",
+          "mAP50": 48.38709677419355,
+          "mAP15": 12.903225806451612,
+          "F1": 55.81394951649546
+        },
+        "video_23227": {
+          "status": "complete",
+          "mAP50": 48.837209302325576,
+          "mAP15": 13.953488372093023,
+          "F1": 37.49999748046873
+        }
+      }
+    },
+    "denominator": 10,
+    "complete": {
+      "REZE_8B": 10,
+      "core_8B": 10,
+      "Constant": 10
+    },
+    "native_metrics": [
+      "mAP50",
+      "mAP15"
+    ],
+    "secondary_metric": "F1",
+    "gpu_calls": 0,
+    "interpretation": "Constant is 0.5 per second through the same KTS/knapsack, not uniform temporal selection"
+  },
+  "video_ids": [
+    "video_23234",
+    "video_26502",
+    "video_9757",
+    "video_6458",
+    "video_3286",
+    "video_12709",
+    "video_11969",
+    "video_22751",
+    "video_20977",
+    "video_23227"
+  ],
+  "total_cost": {
+    "attempted_requests": 745,
+    "successful_requests": 745,
+    "success_tokens": 1752487,
+    "failure_reserved_tokens": 0,
+    "charged_tokens": 1752487,
+    "gpu_seconds": 675.1632953048684,
+    "worker_starts": 4,
+    "retries": 0
+  },
+  "stage_costs": {
+    "background0": {
+      "kind": "background",
+      "attempted_requests": 65,
+      "successful_requests": 65,
+      "success_tokens": 63671,
+      "failure_reserved_tokens": 0,
+      "charged_tokens": 63671,
+      "gpu_seconds": 165.48515714600217,
+      "worker_starts": 1,
+      "retries": 0,
+      "emitted": {},
+      "exit": {
+        "exit_code": 0,
+        "timed_out": false,
+        "gpu_lifecycle_seconds": 165.48515714600217,
+        "worker_starts": 1,
+        "cleanup_reserve_within_budget_seconds": 5,
+        "gpu_uuid": "GPU-52bc8c91-36c3-e8a6-29d7-855731f40568",
+        "owned_live_processes_remaining": [],
+        "budget_exceeded": false
+      }
+    },
+    "background1": {
+      "kind": "background",
+      "attempted_requests": 65,
+      "successful_requests": 65,
+      "success_tokens": 63282,
+      "failure_reserved_tokens": 0,
+      "charged_tokens": 63282,
+      "gpu_seconds": 156.54580335097853,
+      "worker_starts": 1,
+      "retries": 0,
+      "emitted": {},
+      "exit": {
+        "exit_code": 0,
+        "timed_out": false,
+        "gpu_lifecycle_seconds": 156.54580335097853,
+        "worker_starts": 1,
+        "cleanup_reserve_within_budget_seconds": 5,
+        "gpu_uuid": "GPU-e79c6a8a-f8b3-022f-cb1d-ae1d0ec8c6c0",
+        "owned_live_processes_remaining": [],
+        "budget_exceeded": false
+      }
+    },
+    "scoring0": {
+      "kind": "scoring",
+      "attempted_requests": 264,
+      "successful_requests": 264,
+      "success_tokens": 702677,
+      "failure_reserved_tokens": 0,
+      "charged_tokens": 702677,
+      "gpu_seconds": 164.59626153192949,
+      "worker_starts": 1,
+      "retries": 0,
+      "emitted": {
+        "No": 108,
+        "Yes": 156
+      },
+      "exit": {
+        "exit_code": 0,
+        "timed_out": false,
+        "gpu_lifecycle_seconds": 164.59626153192949,
+        "worker_starts": 1,
+        "cleanup_reserve_within_budget_seconds": 5,
+        "gpu_uuid": "GPU-52bc8c91-36c3-e8a6-29d7-855731f40568",
+        "owned_live_processes_remaining": [],
+        "budget_exceeded": false
+      }
+    },
+    "scoring1": {
+      "kind": "scoring",
+      "attempted_requests": 351,
+      "successful_requests": 351,
+      "success_tokens": 922857,
+      "failure_reserved_tokens": 0,
+      "charged_tokens": 922857,
+      "gpu_seconds": 188.5360732759582,
+      "worker_starts": 1,
+      "retries": 0,
+      "emitted": {
+        "Yes": 174,
+        "No": 177
+      },
+      "exit": {
+        "exit_code": 0,
+        "timed_out": false,
+        "gpu_lifecycle_seconds": 188.5360732759582,
+        "worker_starts": 1,
+        "cleanup_reserve_within_budget_seconds": 5,
+        "gpu_uuid": "GPU-e79c6a8a-f8b3-022f-cb1d-ae1d0ec8c6c0",
+        "owned_live_processes_remaining": [],
+        "budget_exceeded": false
+      }
+    }
+  },
+  "budget_ok": true,
+  "health_ok": true,
+  "native_REZE_metric_crosscheck": "passed, all10/all3 metrics within1e-9",
+  "labels_sha256": {
+    "mr_hisum.h5": "b40fd8c16f2f13763f1e3e3fa99687a275485179bc57764e6b267a4ac7250c78",
+    "mr_hisum_split.json": "5c571d1d9f00b33662d631d85a62468dfb7599b096dc640d67873a2a0ba93f63",
+    "metadata.csv": "a925b3ef5e56c01821a44012ce1be78ff92e2863fe5be5dfb12c39a0e5626d2e"
+  },
+  "predictions_sha256": "c281b4e8dce9e9acba749224a55832f6963e47e20cb8fb094c948bdd45c2adfd",
+  "model_calls_in_comparison": 0,
+  "created_at": "2026-11-10T07:44:54.468229+00:00"
+}

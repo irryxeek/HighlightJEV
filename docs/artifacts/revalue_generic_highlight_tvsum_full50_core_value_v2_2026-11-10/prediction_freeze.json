@@ -1,0 +1,13 @@
+{
+  "predictions_sha256": "08189352de86b99448507a4381306d93068b3b01efc53c552211c4ac9c5a5df1",
+  "manifest_sha256": "41e6be97b11c5c5c2f122f1dc9559fcb3d08b25497480a7b7a45d015d54ec71b",
+  "labels_read": false,
+  "videos": 10,
+  "complete_videos": 0,
+  "attempted_requests_including_unresolved": 0,
+  "retries": 0,
+  "success_tokens": 0,
+  "failure_reserved_tokens": 0,
+  "charged_tokens": 0,
+  "formal_requested": 1260
+}

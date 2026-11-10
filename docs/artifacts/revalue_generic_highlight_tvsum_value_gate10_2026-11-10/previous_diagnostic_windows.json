@@ -1,0 +1,136 @@
+{
+  "scope": "All ten previously fixed diagnostic windows, displayed only after full prediction freeze; no subset mAP",
+  "new_model_calls": 0,
+  "records": [
+    {
+      "vid": "Se3oxnaPsz0",
+      "window_index": 17,
+      "seconds": [
+        51,
+        54
+      ],
+      "old_context_pyes": 0.9968273169307178,
+      "revised_pyes": 0.9997388096898188,
+      "emitted_single_token": "Yes",
+      "previous_structured_gate_decision": "Yes",
+      "score_record_sha256": "84c1b2195b8f03a78d76e1e75221d7fc91050e5748d03c29ea55e09648318831"
+    },
+    {
+      "vid": "Se3oxnaPsz0",
+      "window_index": 19,
+      "seconds": [
+        57,
+        60
+      ],
+      "old_context_pyes": 0.999290329695098,
+      "revised_pyes": 0.9770226275810572,
+      "emitted_single_token": "Yes",
+      "previous_structured_gate_decision": "No",
+      "score_record_sha256": "b8f00fc664b2e9218d8572c9ca1ebed8e24384d605bbcf13ab76cb42270831bc"
+    },
+    {
+      "vid": "Se3oxnaPsz0",
+      "window_index": 20,
+      "seconds": [
+        60,
+        63
+      ],
+      "old_context_pyes": 0.9995694429072773,
+      "revised_pyes": 0.989013058421883,
+      "emitted_single_token": "Yes",
+      "previous_structured_gate_decision": "Yes",
+      "score_record_sha256": "7cc49284e6238886f2a9396e9bea8006ffdf6b480f9f66506d8c21373cdad05f"
+    },
+    {
+      "vid": "Se3oxnaPsz0",
+      "window_index": 21,
+      "seconds": [
+        63,
+        66
+      ],
+      "old_context_pyes": 0.9997388096898188,
+      "revised_pyes": 0.9859363735766059,
+      "emitted_single_token": "Yes",
+      "previous_structured_gate_decision": "Yes",
+      "score_record_sha256": "7b4492f6673793f070d973c37bb2b1b4452fc8b7979c8fd5f7e689596be009a0"
+    },
+    {
+      "vid": "J0nA4VgnoCo",
+      "window_index": 2,
+      "seconds": [
+        6,
+        9
+      ],
+      "old_context_pyes": 0.9998415637640006,
+      "revised_pyes": 0.9980732657060568,
+      "emitted_single_token": "Yes",
+      "previous_structured_gate_decision": "No",
+      "score_record_sha256": "4df229222640eba35242731f5c9300db80f17c19b1aaa28f166292806d47a729"
+    },
+    {
+      "vid": "J0nA4VgnoCo",
+      "window_index": 41,
+      "seconds": [
+        123,
+        126
+      ],
+      "old_context_pyes": 0.9999417087274893,
+      "revised_pyes": 0.999447221447556,
+      "emitted_single_token": "Yes",
+      "previous_structured_gate_decision": "Yes",
+      "score_record_sha256": "0408b5d3d4ccd77532bbd3c1b4e60c3f583ab10eed29aed7ce17485b581efc6c"
+    },
+    {
+      "vid": "J0nA4VgnoCo",
+      "window_index": 43,
+      "seconds": [
+        129,
+        132
+      ],
+      "old_context_pyes": 0.9999251537370123,
+      "revised_pyes": 0.9990889486412496,
+      "emitted_single_token": "Yes",
+      "previous_structured_gate_decision": "Yes",
+      "score_record_sha256": "17875c44a91b76d30f766818764946cb52dc28429ccf3657a2ffa06720d57dda"
+    },
+    {
+      "vid": "J0nA4VgnoCo",
+      "window_index": 118,
+      "seconds": [
+        354,
+        357
+      ],
+      "old_context_pyes": 0.9046505376715775,
+      "revised_pyes": 0.9820137881297457,
+      "emitted_single_token": "Yes",
+      "previous_structured_gate_decision": "No",
+      "score_record_sha256": "4aa3bbb628c2e0b52edae34950321e631dc34e0b562c01d8c5c928d2cc8b6d7d"
+    },
+    {
+      "vid": "J0nA4VgnoCo",
+      "window_index": 122,
+      "seconds": [
+        366,
+        369
+      ],
+      "old_context_pyes": 0.9914225147446858,
+      "revised_pyes": 0.9980732657060568,
+      "emitted_single_token": "Yes",
+      "previous_structured_gate_decision": "Yes",
+      "score_record_sha256": "e6d369d143bf22cb7c74fd0b54bfa2b87f2476330c8c8dccb6cdf80ce60cef06"
+    },
+    {
+      "vid": "sTEELN-vY30",
+      "window_index": 3,
+      "seconds": [
+        9,
+        12
+      ],
+      "old_context_pyes": 0.99966464996832,
+      "revised_pyes": 0.99966464996832,
+      "emitted_single_token": "Yes",
+      "previous_structured_gate_decision": "Yes",
+      "score_record_sha256": "4f4c23724ea0a44a3f761d28f3ea3ba4264b4249bc30761b317cdcfbddfbe17a"
+    }
+  ]
+}

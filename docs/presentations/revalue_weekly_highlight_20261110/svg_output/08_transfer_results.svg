@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="content">
+  <rect id="background" data-pptx-role="background" width="1280" height="720" fill="#FFFFFF" />
+  <g id="header" data-pptx-bounds="64 36 1152 112" fill="#19344E"><text x="64" y="57" font-size="16" fill="#207F89">07 / 跨数据集测试</text><text x="64" y="119" font-size="42" font-weight="bold">跨数据集测试尚未得到一致收益</text></g>
+  <g id="caption" data-pptx-bounds="64 166 1152 42"><text x="64" y="195" fill="#607586">已完成范围与结果 · 各数据集内比较 · 均非官方全量测试</text></g>
+  <g id="cross-dataset" data-pptx-bounds="63 219 1154 362" data-pptx-replace-with="table" data-pptx-fallback-sha256="0ed78aadc2c8726472619b525abaa4dbad3f99238abcf8c43eca6abd0040b9ca">
+    <metadata type="application/json">{"schema":"ppt-master.semantic-table.v2","name":"cross-dataset","x":64,"y":220,"width":1152,"height":360,"columns":[{"text":"数据集与范围","align":"l","bold":true},{"text":"指标","align":"l","bold":true},{"text":"对照 → 方法","align":"l","bold":true},{"text":"主要限制","align":"l","bold":true}],"rows":[[{"text":"QFVS ·40 query","bold":true},"Oracle F1","D43.77 → F-read43.52","Uniform47.72；候选覆盖不同"],[{"text":"Mr.HiSum ·40","bold":true},"mAP50","D59.60 → F-read59.10","事实读取策略对照"],[{"text":"Mr.HiSum ·10","bold":true},"mAP50","REZE63.87 → 新评分62.14","F1上升，主要mAP未升"],[{"text":"SVHighlights","bold":true},"HL-mAP","B0 15.32 → F+C15.45","14场27B；每场64时刻"]],"column_widths":[240,140,390,382],"row_heights":[64,74,74,74,74],"defaults":{"cell":{"align":"l","valign":"middle","padding":14,"borders":{"left":{"style":"none"},"right":{"style":"none"},"top":{"style":"none"},"bottom":{"style":"solid","color":"#D6E1E8","width":1}}}},"style":{"font_family":"Microsoft YaHei, Arial","font_size":22,"header_font_size":22,"header_fill":"#19344E","header_text":"#FFFFFF","body_fill":"#FFFFFF","body_text":"#263D50","band_row":false}}</metadata>
+    <rect x="64" y="220" width="1152" height="360" fill="#FFFFFF" /><rect x="64" y="220" width="1152" height="64" fill="#19344E" />
+    <g stroke="#D6E1E8" stroke-width="1"><line x1="64" y1="284" x2="1216" y2="284" /><line x1="64" y1="358" x2="1216" y2="358" /><line x1="64" y1="432" x2="1216" y2="432" /><line x1="64" y1="506" x2="1216" y2="506" /><line x1="64" y1="580" x2="1216" y2="580" /></g>
+    <g fill="#FFFFFF" font-size="22" font-weight="bold"><text x="78" y="260">数据集与范围</text><text x="318" y="260">指标</text><text x="458" y="260">对照 → 方法</text><text x="848" y="260">主要限制</text></g>
+    <g fill="#263D50" font-size="22">
+      <text x="78" y="329" font-weight="bold">QFVS ·40 query</text><text x="318" y="329">Oracle F1</text><text x="458" y="329">D43.77 → F-read43.52</text><text x="848" y="329">Uniform47.72；候选覆盖不同</text>
+      <text x="78" y="403" font-weight="bold">Mr.HiSum ·40</text><text x="318" y="403">mAP50</text><text x="458" y="403">D59.60 → F-read59.10</text><text x="848" y="403">事实读取策略对照</text>
+      <text x="78" y="477" font-weight="bold">Mr.HiSum ·10</text><text x="318" y="477">mAP50</text><text x="458" y="477">REZE63.87 → 新评分62.14</text><text x="848" y="477">F1上升，主要mAP未升</text>
+      <text x="78" y="551" font-weight="bold">SVHighlights</text><text x="318" y="551">HL-mAP</text><text x="458" y="551">B0 15.32 → F+C15.45</text><text x="848" y="551">14场27B；每场64时刻</text>
+    </g>
+  </g>
+  <g id="boundaries" data-pptx-bounds="64 602 1152 64" fill="#607586" font-size="20"><text x="64" y="625">QFVS的40查询来自4条视频；不同指标不能横向比较大小。</text><text x="64" y="654">Mr.HiSum两行分别是记忆读取与新评分迁移；数据、模型和采样差异限制跨任务归因。</text></g>
+  <g id="footer" data-pptx-role="footer" data-pptx-bounds="64 672 1152 26" font-size="14" fill="#607586"><text x="64" y="689">来源：QFVS40query、Mr.HiSum40记忆／10评分、SVHighlights14场27B结果（11.06–11.10）</text><text x="1216" y="689" text-anchor="end">08 / 10</text></g>
+</svg>

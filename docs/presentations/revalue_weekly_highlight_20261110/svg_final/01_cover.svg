@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Microsoft YaHei, Arial" font-size="24" data-pptx-page-role="cover">
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><polygon points="0,0 8,4 0,8" fill="#FFFFFF" /></marker></defs>
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#19344E" />
+  <g id="identity" data-pptx-bounds="64 42 1152 66" fill="#FFFFFF">
+    <text x="64" y="72" font-size="30" font-weight="bold">ReVALUE</text>
+    <text x="1216" y="68" font-size="16" text-anchor="end">RESEARCH UPDATE / 2026.11.10</text>
+  </g>
+  <g id="cover-hook" data-pptx-bounds="64 158 1152 252" fill="#FFFFFF">
+    <text font-size="72" font-weight="bold" x="64" y="226">从“有价值”</text><text font-size="72" font-weight="bold" x="64" y="320">到“值得优先保留”</text><text x="68" y="390" font-size="30">五维价值与记忆：初步改善，稳定收益仍待验证</text>
+  </g>
+  <g id="evidence-path" data-pptx-bounds="64 458 1152 118">
+    <line x1="214" y1="501" x2="428" y2="501" stroke="#FFFFFF" stroke-width="2" marker-end="url(#arrow)" />
+    <line x1="611" y1="501" x2="855" y2="501" stroke="#FFFFFF" stroke-width="2" marker-end="url(#arrow)" />
+    <text x="68" y="510" font-size="30" fill="#FFFFFF">事实观察</text>
+    <text x="459" y="510" font-size="30" fill="#FFFFFF">观看贡献</text>
+    <text x="890" y="510" font-size="30" font-weight="bold" fill="#FFFFFF">全片优先级</text>
+    <text x="68" y="558" font-size="20" fill="#FFFFFF">本周关注：哪些信息真的帮助找到并选中关键片段？</text>
+  </g>
+  <g id="cover-footer" data-pptx-role="footer" data-pptx-bounds="64 636 1152 60" fill="#FFFFFF">
+    <text x="64" y="661" font-size="20">林逸飞 · 11月3日组会后至11月10日</text>
+    <text x="1216" y="684" font-size="14" text-anchor="end">01 / 10</text>
+  </g>
+</svg>

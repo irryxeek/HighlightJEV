@@ -1,0 +1,2569 @@
+{
+  "all10": [
+    {
+      "vid": "video_23234",
+      "metric_deltas": {
+        "mAP50": 1.3710944127744114,
+        "mAP15": -23.10291359204403,
+        "F1": 20.833331944444538
+      },
+      "metrics": {
+        "REZE_8B": {
+          "status": "complete",
+          "mAP50": 75.77403034264447,
+          "mAP15": 42.259913999044436,
+          "F1": 54.16666305555563
+        },
+        "core_8B": {
+          "status": "complete",
+          "mAP50": 77.14512475541888,
+          "mAP15": 19.157000407000407,
+          "F1": 74.99999500000017
+        }
+      },
+      "native_bins": 32,
+      "ranked_nonpositives": {
+        "REZE_8B_top50": {
+          "k": 16,
+          "nonpositive_count": 5,
+          "boundary_tie": false
+        },
+        "REZE_8B_top15": {
+          "k": 4,
+          "nonpositive_count": 3,
+          "boundary_tie": false
+        },
+        "core_8B_top50": {
+          "k": 16,
+          "nonpositive_count": 4,
+          "boundary_tie": false
+        },
+        "core_8B_top15": {
+          "k": 4,
+          "nonpositive_count": 3,
+          "boundary_tie": false
+        }
+      },
+      "emissions": {
+        "No": 48,
+        "Yes": 6
+      },
+      "raw_windows": 54,
+      "summary_selected_seconds": {
+        "REZE_8B": 24,
+        "core_8B": 24
+      }
+    },
+    {
+      "vid": "video_26502",
+      "metric_deltas": {
+        "mAP50": -2.344361501454891,
+        "mAP15": 4.546970742622916,
+        "F1": 13.043477359168186
+      },
+      "metrics": {
+        "REZE_8B": {
+          "status": "complete",
+          "mAP50": 54.856987764081154,
+          "mAP15": 11.951345755693582,
+          "F1": 47.8260836502836
+        },
+        "core_8B": {
+          "status": "complete",
+          "mAP50": 52.51262626262626,
+          "mAP15": 16.4983164983165,
+          "F1": 60.869561009451786
+        }
+      },
+      "native_bins": 32,
+      "ranked_nonpositives": {
+        "REZE_8B_top50": {
+          "k": 16,
+          "nonpositive_count": 9,
+          "boundary_tie": false
+        },
+        "REZE_8B_top15": {
+          "k": 4,
+          "nonpositive_count": 4,
+          "boundary_tie": false
+        },
+        "core_8B_top50": {
+          "k": 16,
+          "nonpositive_count": 7,
+          "boundary_tie": true
+        },
+        "core_8B_top15": {
+          "k": 4,
+          "nonpositive_count": 4,
+          "boundary_tie": false
+        }
+      },
+      "emissions": {
+        "No": 53
+      },
+      "raw_windows": 53,
+      "summary_selected_seconds": {
+        "REZE_8B": 23,
+        "core_8B": 23
+      }
+    },
+    {
+      "vid": "video_9757",
+      "metric_deltas": {
+        "mAP50": -0.6910742152338827,
+        "mAP15": 13.364209320091673,
+        "F1": 38.09523548299322
+      },
+      "metrics": {
+        "REZE_8B": {
+          "status": "complete",
+          "mAP50": 60.50993124522536,
+          "mAP15": 14.790552584670232,
+          "F1": 19.047617741496634
+        },
+        "core_8B": {
+          "status": "complete",
+          "mAP50": 59.81885702999148,
+          "mAP15": 28.154761904761905,
+          "F1": 57.14285322448985
+        }
+      },
+      "native_bins": 29,
+      "ranked_nonpositives": {
+        "REZE_8B_top50": {
+          "k": 14,
+          "nonpositive_count": 6,
+          "boundary_tie": false
+        },
+        "REZE_8B_top15": {
+          "k": 4,
+          "nonpositive_count": 4,
+          "boundary_tie": false
+        },
+        "core_8B_top50": {
+          "k": 14,
+          "nonpositive_count": 5,
+          "boundary_tie": false
+        },
+        "core_8B_top15": {
+          "k": 4,
+          "nonpositive_count": 4,
+          "boundary_tie": false
+        }
+      },
+      "emissions": {
+        "No": 19,
+        "Yes": 29
+      },
+      "raw_windows": 48,
+      "summary_selected_seconds": {
+        "REZE_8B": 21,
+        "core_8B": 21
+      }
+    },
+    {
+      "vid": "video_6458",
+      "metric_deltas": {
+        "mAP50": -4.5850716930901285,
+        "mAP15": 1.9790320722655288,
+        "F1": 22.499998464374986
+      },
+      "metrics": {
+        "REZE_8B": {
+          "status": "complete",
+          "mAP50": 79.6194482335241,
+          "mAP15": 28.866792929292934,
+          "F1": 29.999997952499992
+        },
+        "core_8B": {
+          "status": "complete",
+          "mAP50": 75.03437654043397,
+          "mAP15": 30.845825001558463,
+          "F1": 52.49999641687498
+        }
+      },
+      "native_bins": 55,
+      "ranked_nonpositives": {
+        "REZE_8B_top50": {
+          "k": 27,
+          "nonpositive_count": 10,
+          "boundary_tie": false
+        },
+        "REZE_8B_top15": {
+          "k": 8,
+          "nonpositive_count": 5,
+          "boundary_tie": false
+        },
+        "core_8B_top50": {
+          "k": 27,
+          "nonpositive_count": 11,
+          "boundary_tie": false
+        },
+        "core_8B_top15": {
+          "k": 8,
+          "nonpositive_count": 5,
+          "boundary_tie": false
+        }
+      },
+      "emissions": {
+        "No": 79,
+        "Yes": 12
+      },
+      "raw_windows": 91,
+      "summary_selected_seconds": {
+        "REZE_8B": 40,
+        "core_8B": 40
+      }
+    },
+    {
+      "vid": "video_3286",
+      "metric_deltas": {
+        "mAP50": -36.97191003441002,
+        "mAP15": -0.16666666666666785,
+        "F1": 55.55555169753113
+      },
+      "metrics": {
+        "REZE_8B": {
+          "status": "complete",
+          "mAP50": 76.10671936758892,
+          "mAP15": 8.580368906455863,
+          "F1": 0.0
+        },
+        "core_8B": {
+          "status": "complete",
+          "mAP50": 39.1348093331789,
+          "mAP15": 8.413702239789195,
+          "F1": 55.55555169753113
+        }
+      },
+      "native_bins": 25,
+      "ranked_nonpositives": {
+        "REZE_8B_top50": {
+          "k": 12,
+          "nonpositive_count": 4,
+          "boundary_tie": false
+        },
+        "REZE_8B_top15": {
+          "k": 3,
+          "nonpositive_count": 3,
+          "boundary_tie": false
+        },
+        "core_8B_top50": {
+          "k": 12,
+          "nonpositive_count": 8,
+          "boundary_tie": false
+        },
+        "core_8B_top15": {
+          "k": 3,
+          "nonpositive_count": 3,
+          "boundary_tie": false
+        }
+      },
+      "emissions": {
+        "No": 1,
+        "Yes": 41
+      },
+      "raw_windows": 42,
+      "summary_selected_seconds": {
+        "REZE_8B": 18,
+        "core_8B": 18
+      }
+    },
+    {
+      "vid": "video_12709",
+      "metric_deltas": {
+        "mAP50": -7.212410438955061,
+        "mAP15": 0.963235294117645,
+        "F1": 22.727271157024838
+      },
+      "metrics": {
+        "REZE_8B": {
+          "status": "complete",
+          "mAP50": 74.08082393120755,
+          "mAP15": 13.459841628959277,
+          "F1": 54.5454507768596
+        },
+        "core_8B": {
+          "status": "complete",
+          "mAP50": 66.86841349225249,
+          "mAP15": 14.423076923076922,
+          "F1": 77.27272193388444
+        }
+      },
+      "native_bins": 31,
+      "ranked_nonpositives": {
+        "REZE_8B_top50": {
+          "k": 15,
+          "nonpositive_count": 6,
+          "boundary_tie": false
+        },
+        "REZE_8B_top15": {
+          "k": 4,
+          "nonpositive_count": 4,
+          "boundary_tie": false
+        },
+        "core_8B_top50": {
+          "k": 15,
+          "nonpositive_count": 5,
+          "boundary_tie": false
+        },
+        "core_8B_top15": {
+          "k": 4,
+          "nonpositive_count": 4,
+          "boundary_tie": false
+        }
+      },
+      "emissions": {
+        "Yes": 24,
+        "No": 27
+      },
+      "raw_windows": 51,
+      "summary_selected_seconds": {
+        "REZE_8B": 22,
+        "core_8B": 22
+      }
+    },
+    {
+      "vid": "video_11969",
+      "metric_deltas": {
+        "mAP50": 4.953520658383503,
+        "mAP15": -1.3090247799866646,
+        "F1": 3.2258062362122857
+      },
+      "metrics": {
+        "REZE_8B": {
+          "status": "complete",
+          "mAP50": 62.23520204370529,
+          "mAP15": 16.43145024723972,
+          "F1": 32.25806236212283
+        },
+        "core_8B": {
+          "status": "complete",
+          "mAP50": 67.1887227020888,
+          "mAP15": 15.122425467253056,
+          "F1": 35.483868598335114
+        }
+      },
+      "native_bins": 42,
+      "ranked_nonpositives": {
+        "REZE_8B_top50": {
+          "k": 21,
+          "nonpositive_count": 8,
+          "boundary_tie": false
+        },
+        "REZE_8B_top15": {
+          "k": 6,
+          "nonpositive_count": 5,
+          "boundary_tie": false
+        },
+        "core_8B_top50": {
+          "k": 21,
+          "nonpositive_count": 7,
+          "boundary_tie": false
+        },
+        "core_8B_top15": {
+          "k": 6,
+          "nonpositive_count": 6,
+          "boundary_tie": false
+        }
+      },
+      "emissions": {
+        "No": 31,
+        "Yes": 38
+      },
+      "raw_windows": 69,
+      "summary_selected_seconds": {
+        "REZE_8B": 31,
+        "core_8B": 31
+      }
+    },
+    {
+      "vid": "video_22751",
+      "metric_deltas": {
+        "mAP50": 4.6101847739048125,
+        "mAP15": 8.95714098714644,
+        "F1": 24.324322667640658
+      },
+      "metrics": {
+        "REZE_8B": {
+          "status": "complete",
+          "mAP50": 40.579505315869,
+          "mAP15": 9.603341781407648,
+          "F1": 27.02702518626738
+        },
+        "core_8B": {
+          "status": "complete",
+          "mAP50": 45.18969008977381,
+          "mAP15": 18.56048276855409,
+          "F1": 51.35134785390804
+        }
+      },
+      "native_bins": 51,
+      "ranked_nonpositives": {
+        "REZE_8B_top50": {
+          "k": 25,
+          "nonpositive_count": 16,
+          "boundary_tie": false
+        },
+        "REZE_8B_top15": {
+          "k": 7,
+          "nonpositive_count": 7,
+          "boundary_tie": false
+        },
+        "core_8B_top50": {
+          "k": 25,
+          "nonpositive_count": 16,
+          "boundary_tie": false
+        },
+        "core_8B_top15": {
+          "k": 7,
+          "nonpositive_count": 5,
+          "boundary_tie": false
+        }
+      },
+      "emissions": {
+        "Yes": 81,
+        "No": 3
+      },
+      "raw_windows": 84,
+      "summary_selected_seconds": {
+        "REZE_8B": 37,
+        "core_8B": 37
+      }
+    },
+    {
+      "vid": "video_20977",
+      "metric_deltas": {
+        "mAP50": 34.06019596034404,
+        "mAP15": 8.596320346320347,
+        "F1": 22.727271146694235
+      },
+      "metrics": {
+        "REZE_8B": {
+          "status": "complete",
+          "mAP50": 47.002118205550694,
+          "mAP15": 10.166907166907166,
+          "F1": 36.36363383471078
+        },
+        "core_8B": {
+          "status": "complete",
+          "mAP50": 81.06231416589473,
+          "mAP15": 18.763227513227513,
+          "F1": 59.09090498140502
+        }
+      },
+      "native_bins": 31,
+      "ranked_nonpositives": {
+        "REZE_8B_top50": {
+          "k": 15,
+          "nonpositive_count": 10,
+          "boundary_tie": false
+        },
+        "REZE_8B_top15": {
+          "k": 4,
+          "nonpositive_count": 4,
+          "boundary_tie": false
+        },
+        "core_8B_top50": {
+          "k": 15,
+          "nonpositive_count": 4,
+          "boundary_tie": false
+        },
+        "core_8B_top15": {
+          "k": 4,
+          "nonpositive_count": 4,
+          "boundary_tie": true
+        }
+      },
+      "emissions": {
+        "Yes": 42,
+        "No": 9
+      },
+      "raw_windows": 51,
+      "summary_selected_seconds": {
+        "REZE_8B": 22,
+        "core_8B": 22
+      }
+    },
+    {
+      "vid": "video_23227",
+      "metric_deltas": {
+        "mAP50": -10.466510733814424,
+        "mAP15": -22.279441237774577,
+        "F1": -12.499999160156271
+      },
+      "metrics": {
+        "REZE_8B": {
+          "status": "complete",
+          "mAP50": 67.89347211927857,
+          "mAP15": 44.57671957671958,
+          "F1": 68.74999538085937
+        },
+        "core_8B": {
+          "status": "complete",
+          "mAP50": 57.426961385464146,
+          "mAP15": 22.297278338945006,
+          "F1": 56.2499962207031
+        }
+      },
+      "native_bins": 43,
+      "ranked_nonpositives": {
+        "REZE_8B_top50": {
+          "k": 21,
+          "nonpositive_count": 8,
+          "boundary_tie": false
+        },
+        "REZE_8B_top15": {
+          "k": 6,
+          "nonpositive_count": 4,
+          "boundary_tie": false
+        },
+        "core_8B_top50": {
+          "k": 21,
+          "nonpositive_count": 8,
+          "boundary_tie": false
+        },
+        "core_8B_top15": {
+          "k": 6,
+          "nonpositive_count": 5,
+          "boundary_tie": false
+        }
+      },
+      "emissions": {
+        "Yes": 57,
+        "No": 15
+      },
+      "raw_windows": 72,
+      "summary_selected_seconds": {
+        "REZE_8B": 32,
+        "core_8B": 32
+      }
+    }
+  ],
+  "cases": [
+    {
+      "vid": "video_23234",
+      "metric_deltas": {
+        "mAP50": 1.3710944127744114,
+        "mAP15": -23.10291359204403,
+        "F1": 20.833331944444538
+      },
+      "metrics": {
+        "REZE_8B": {
+          "status": "complete",
+          "mAP50": 75.77403034264447,
+          "mAP15": 42.259913999044436,
+          "F1": 54.16666305555563
+        },
+        "core_8B": {
+          "status": "complete",
+          "mAP50": 77.14512475541888,
+          "mAP15": 19.157000407000407,
+          "F1": 74.99999500000017
+        }
+      },
+      "native_bins": 32,
+      "ranked_nonpositives": {
+        "REZE_8B_top50": {
+          "k": 16,
+          "nonpositive_count": 5,
+          "boundary_tie": false
+        },
+        "REZE_8B_top15": {
+          "k": 4,
+          "nonpositive_count": 3,
+          "boundary_tie": false
+        },
+        "core_8B_top50": {
+          "k": 16,
+          "nonpositive_count": 4,
+          "boundary_tie": false
+        },
+        "core_8B_top15": {
+          "k": 4,
+          "nonpositive_count": 3,
+          "boundary_tie": false
+        }
+      },
+      "emissions": {
+        "No": 48,
+        "Yes": 6
+      },
+      "raw_windows": 54,
+      "summary_selected_seconds": {
+        "REZE_8B": 24,
+        "core_8B": 24
+      },
+      "reasons": [
+        "largest decline in mAP15"
+      ],
+      "reference_fraction": "15",
+      "background": "Indoor and brief outdoor scenes show two women interacting in domestic settings, often near potted plants or kitchen areas, with recurring attire including striped shirts and patterned cardigans. One woman with curly blonde hair and a necklace appears frequently, sometimes speaking or gesturing. Backgrounds include framed pictures, wallpaper, and cabinets. The BBC logo appears in several frames, suggesting broadcast context. One frame transitions to an outdoor blur, and another shows animated digital elements, indicating a possible shift in content or interface. Unclear whether scenes are continuous or edited.",
+      "examined_native_bins": [
+        {
+          "role": "highest_ranked_nonpositive",
+          "bin_index": 11,
+          "seconds": [
+            55,
+            60
+          ],
+          "gt_score": 0.1834688037633896,
+          "gt_rank": 11,
+          "labels": {
+            "50": 1,
+            "15": 0
+          },
+          "scores": {
+            "REZE_8B": 0.1508142203092575,
+            "core_8B": 0.5923179388046265
+          },
+          "ranks": {
+            "REZE_8B": [
+              3,
+              3
+            ],
+            "core_8B": [
+              1,
+              1
+            ]
+          },
+          "source_windows": [
+            {
+              "index": 18,
+              "seconds": [
+                54.0,
+                57.0
+              ],
+              "mean_weight": 0.5,
+              "score": 0.5621765008857981
+            },
+            {
+              "index": 19,
+              "seconds": [
+                57.0,
+                60.0
+              ],
+              "mean_weight": 0.5,
+              "score": 0.6224593312018546
+            }
+          ]
+        },
+        {
+          "role": "highest_GT_missed_positive",
+          "bin_index": 25,
+          "seconds": [
+            125,
+            130
+          ],
+          "gt_score": 0.9478460550308228,
+          "gt_rank": 1,
+          "labels": {
+            "50": 1,
+            "15": 1
+          },
+          "scores": {
+            "REZE_8B": 0.0554843470454216,
+            "core_8B": 0.12599556148052216
+          },
+          "ranks": {
+            "REZE_8B": [
+              13,
+              13
+            ],
+            "core_8B": [
+              13,
+              13
+            ]
+          },
+          "source_windows": [
+            {
+              "index": 41,
+              "seconds": [
+                123.0,
+                126.0
+              ],
+              "mean_weight": 0.30000000000000004,
+              "score": 0.11920291732853862
+            },
+            {
+              "index": 42,
+              "seconds": [
+                126.0,
+                129.0
+              ],
+              "mean_weight": 0.6,
+              "score": 0.14804719991116141
+            },
+            {
+              "index": 43,
+              "seconds": [
+                129.0,
+                132.0
+              ],
+              "mean_weight": 0.1,
+              "score": 0.014063626423394072
+            }
+          ]
+        }
+      ],
+      "sheets": [
+        {
+          "path": "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_mrhisum10_negative_cases_2026-11-10/video_23234_page1.jpg",
+          "sha256": "5bb79966f731976c0ad1e313f63a25bc88b5e9aca4e90c440c7fbf59e9472d68"
+        },
+        {
+          "path": "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_mrhisum10_negative_cases_2026-11-10/video_23234_page2.jpg",
+          "sha256": "eb431a3118f29f4254433d45a0f54949bbfeff54bd17e204eb82b46c7953a388"
+        }
+      ],
+      "audited_windows": [
+        {
+          "index": 18,
+          "model_rgb_sha256": "10373dd5dde0a4fe0e6a99aac9b3cbd819421fea4121f4a8117d9c3dd46c25e2",
+          "frame_timestamps": [
+            [
+              54.0,
+              54.040000915527344
+            ],
+            [
+              54.47999954223633,
+              54.52000045776367
+            ],
+            [
+              55.0,
+              55.040000915527344
+            ],
+            [
+              55.47999954223633,
+              55.52000045776367
+            ],
+            [
+              56.0,
+              56.040000915527344
+            ],
+            [
+              56.47999954223633,
+              56.52000045776367
+            ]
+          ],
+          "tags": [
+            "highest_ranked_nonpositive 55-60s"
+          ]
+        },
+        {
+          "index": 19,
+          "model_rgb_sha256": "e1d781a890696c6a9cd81de58a369412305c5d8322c38ca83d287876a0c86ad7",
+          "frame_timestamps": [
+            [
+              57.0,
+              57.040000915527344
+            ],
+            [
+              57.47999954223633,
+              57.52000045776367
+            ],
+            [
+              58.0,
+              58.040000915527344
+            ],
+            [
+              58.47999954223633,
+              58.52000045776367
+            ],
+            [
+              59.0,
+              59.040000915527344
+            ],
+            [
+              59.47999954223633,
+              59.52000045776367
+            ]
+          ],
+          "tags": [
+            "highest_ranked_nonpositive 55-60s"
+          ]
+        },
+        {
+          "index": 41,
+          "model_rgb_sha256": "99ba6a5c3ef3d5871c1c60365f950a411de421030e23188e8f493ffa57224b85",
+          "frame_timestamps": [
+            [
+              123.0,
+              123.04000091552734
+            ],
+            [
+              123.4800033569336,
+              123.5199966430664
+            ],
+            [
+              124.0,
+              124.04000091552734
+            ],
+            [
+              124.4800033569336,
+              124.5199966430664
+            ],
+            [
+              125.0,
+              125.04000091552734
+            ],
+            [
+              125.4800033569336,
+              125.5199966430664
+            ]
+          ],
+          "tags": [
+            "highest_GT_missed_positive 125-130s"
+          ]
+        },
+        {
+          "index": 42,
+          "model_rgb_sha256": "85d2bb5bf3f4ca9185aeea4e94c72ba35c3846e0523ad4b8de85d60c323dc654",
+          "frame_timestamps": [
+            [
+              126.0,
+              126.04000091552734
+            ],
+            [
+              126.4800033569336,
+              126.5199966430664
+            ],
+            [
+              127.0,
+              127.04000091552734
+            ],
+            [
+              127.4800033569336,
+              127.5199966430664
+            ],
+            [
+              128.0,
+              128.0399932861328
+            ],
+            [
+              128.47999572753906,
+              128.52000427246094
+            ]
+          ],
+          "tags": [
+            "highest_GT_missed_positive 125-130s"
+          ]
+        },
+        {
+          "index": 43,
+          "model_rgb_sha256": "99fba6bd5ed55c399f7907cc6fa13b00b4e6d7b94081fa4a83ba5786ec5a68f7",
+          "frame_timestamps": [
+            [
+              129.0,
+              129.0399932861328
+            ],
+            [
+              129.47999572753906,
+              129.52000427246094
+            ],
+            [
+              130.0,
+              130.0399932861328
+            ],
+            [
+              130.47999572753906,
+              130.52000427246094
+            ],
+            [
+              131.0,
+              131.0399932861328
+            ],
+            [
+              131.47999572753906,
+              131.52000427246094
+            ]
+          ],
+          "tags": [
+            "highest_GT_missed_positive 125-130s"
+          ]
+        }
+      ],
+      "native_summary": {
+        "REZE_8B": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_8B": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "vid": "video_3286",
+      "metric_deltas": {
+        "mAP50": -36.97191003441002,
+        "mAP15": -0.16666666666666785,
+        "F1": 55.55555169753113
+      },
+      "metrics": {
+        "REZE_8B": {
+          "status": "complete",
+          "mAP50": 76.10671936758892,
+          "mAP15": 8.580368906455863,
+          "F1": 0.0
+        },
+        "core_8B": {
+          "status": "complete",
+          "mAP50": 39.1348093331789,
+          "mAP15": 8.413702239789195,
+          "F1": 55.55555169753113
+        }
+      },
+      "native_bins": 25,
+      "ranked_nonpositives": {
+        "REZE_8B_top50": {
+          "k": 12,
+          "nonpositive_count": 4,
+          "boundary_tie": false
+        },
+        "REZE_8B_top15": {
+          "k": 3,
+          "nonpositive_count": 3,
+          "boundary_tie": false
+        },
+        "core_8B_top50": {
+          "k": 12,
+          "nonpositive_count": 8,
+          "boundary_tie": false
+        },
+        "core_8B_top15": {
+          "k": 3,
+          "nonpositive_count": 3,
+          "boundary_tie": false
+        }
+      },
+      "emissions": {
+        "No": 1,
+        "Yes": 41
+      },
+      "raw_windows": 42,
+      "summary_selected_seconds": {
+        "REZE_8B": 18,
+        "core_8B": 18
+      },
+      "reasons": [
+        "largest decline in mAP50"
+      ],
+      "reference_fraction": "50",
+      "background": "A series of short video windows shows snowplows operating in snowy environments under clear or partly cloudy skies. Vehicles, mostly black or dark green with orange plows, clear roads by pushing or ejecting snow, forming piles along the sides. Some frames show smoke from exhausts, and one includes a visible person inside a cab. One vehicle is stationary, another appears military-style. Snow covers the ground, and sky conditions vary slightly. No consistent human activity outside vehicles is observed. Unclear whether all vehicles are part of the same operation or location.",
+      "examined_native_bins": [
+        {
+          "role": "highest_ranked_nonpositive",
+          "bin_index": 8,
+          "seconds": [
+            40,
+            45
+          ],
+          "gt_score": 0.08699328452348709,
+          "gt_rank": 19,
+          "labels": {
+            "50": 0,
+            "15": 0
+          },
+          "scores": {
+            "REZE_8B": 0.8491857647895813,
+            "core_8B": 0.9999945759773254
+          },
+          "ranks": {
+            "REZE_8B": [
+              5,
+              6
+            ],
+            "core_8B": [
+              1,
+              2
+            ]
+          },
+          "source_windows": [
+            {
+              "index": 13,
+              "seconds": [
+                39.0,
+                42.0
+              ],
+              "mean_weight": 0.5,
+              "score": 0.9999952149055051
+            },
+            {
+              "index": 14,
+              "seconds": [
+                42.0,
+                45.0
+              ],
+              "mean_weight": 0.5,
+              "score": 0.9999938558224681
+            }
+          ]
+        },
+        {
+          "role": "highest_GT_missed_positive",
+          "bin_index": 0,
+          "seconds": [
+            0,
+            5
+          ],
+          "gt_score": 0.6248691082000732,
+          "gt_rank": 1,
+          "labels": {
+            "50": 1,
+            "15": 1
+          },
+          "scores": {
+            "REZE_8B": 0.13903792202472687,
+            "core_8B": 0.48815837502479553
+          },
+          "ranks": {
+            "REZE_8B": [
+              23,
+              23
+            ],
+            "core_8B": [
+              25,
+              25
+            ]
+          },
+          "source_windows": [
+            {
+              "index": 0,
+              "seconds": [
+                0.0,
+                3.0
+              ],
+              "mean_weight": 0.7000000000000001,
+              "score": 0.2689414213699951
+            },
+            {
+              "index": 1,
+              "seconds": [
+                3.0,
+                6.0
+              ],
+              "mean_weight": 0.30000000000000004,
+              "score": 0.99966464996832
+            }
+          ]
+        }
+      ],
+      "sheets": [
+        {
+          "path": "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_mrhisum10_negative_cases_2026-11-10/video_3286_page1.jpg",
+          "sha256": "d2a831203869bcf61b5c41a5f84d1a266c9b330f717bcb122f2e68c0fa38cb70"
+        }
+      ],
+      "audited_windows": [
+        {
+          "index": 0,
+          "model_rgb_sha256": "691f706616440d9b6207373f2fb883825bfe7468ada0a949f4f0d597b3797651",
+          "frame_timestamps": [
+            [
+              0.0,
+              0.03333333507180214
+            ],
+            [
+              0.5,
+              0.5333333611488342
+            ],
+            [
+              1.0,
+              1.0333333015441895
+            ],
+            [
+              1.5,
+              1.5333333015441895
+            ],
+            [
+              2.0,
+              2.0333333015441895
+            ],
+            [
+              2.5,
+              2.5333333015441895
+            ]
+          ],
+          "tags": [
+            "highest_GT_missed_positive 0-5s"
+          ]
+        },
+        {
+          "index": 1,
+          "model_rgb_sha256": "905d51754b04c6100aa30813091a51004fc888bc855f48d2bb5156da5063af64",
+          "frame_timestamps": [
+            [
+              3.0,
+              3.0333333015441895
+            ],
+            [
+              3.5,
+              3.5333333015441895
+            ],
+            [
+              4.0,
+              4.0333333015441895
+            ],
+            [
+              4.5,
+              4.5333333015441895
+            ],
+            [
+              5.0,
+              5.0333333015441895
+            ],
+            [
+              5.5,
+              5.5333333015441895
+            ]
+          ],
+          "tags": [
+            "highest_GT_missed_positive 0-5s"
+          ]
+        },
+        {
+          "index": 13,
+          "model_rgb_sha256": "1824d68e76be0ba0e42e88df4f56517cd58856860b2a406ba897864c0114e1f3",
+          "frame_timestamps": [
+            [
+              39.0,
+              39.03333282470703
+            ],
+            [
+              39.5,
+              39.53333282470703
+            ],
+            [
+              40.0,
+              40.03333282470703
+            ],
+            [
+              40.5,
+              40.53333282470703
+            ],
+            [
+              41.0,
+              41.03333282470703
+            ],
+            [
+              41.5,
+              41.53333282470703
+            ]
+          ],
+          "tags": [
+            "highest_ranked_nonpositive 40-45s"
+          ]
+        },
+        {
+          "index": 14,
+          "model_rgb_sha256": "a4d12cd9e7bbbb5f9210fadff7bee9a50f5fedcdd266706a30f000a03adf6cab",
+          "frame_timestamps": [
+            [
+              42.0,
+              42.03333282470703
+            ],
+            [
+              42.5,
+              42.53333282470703
+            ],
+            [
+              43.0,
+              43.03333282470703
+            ],
+            [
+              43.5,
+              43.53333282470703
+            ],
+            [
+              44.0,
+              44.03333282470703
+            ],
+            [
+              44.5,
+              44.53333282470703
+            ]
+          ],
+          "tags": [
+            "highest_ranked_nonpositive 40-45s"
+          ]
+        }
+      ],
+      "native_summary": {
+        "REZE_8B": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_8B": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "vid": "video_23227",
+      "metric_deltas": {
+        "mAP50": -10.466510733814424,
+        "mAP15": -22.279441237774577,
+        "F1": -12.499999160156271
+      },
+      "metrics": {
+        "REZE_8B": {
+          "status": "complete",
+          "mAP50": 67.89347211927857,
+          "mAP15": 44.57671957671958,
+          "F1": 68.74999538085937
+        },
+        "core_8B": {
+          "status": "complete",
+          "mAP50": 57.426961385464146,
+          "mAP15": 22.297278338945006,
+          "F1": 56.2499962207031
+        }
+      },
+      "native_bins": 43,
+      "ranked_nonpositives": {
+        "REZE_8B_top50": {
+          "k": 21,
+          "nonpositive_count": 8,
+          "boundary_tie": false
+        },
+        "REZE_8B_top15": {
+          "k": 6,
+          "nonpositive_count": 4,
+          "boundary_tie": false
+        },
+        "core_8B_top50": {
+          "k": 21,
+          "nonpositive_count": 8,
+          "boundary_tie": false
+        },
+        "core_8B_top15": {
+          "k": 6,
+          "nonpositive_count": 5,
+          "boundary_tie": false
+        }
+      },
+      "emissions": {
+        "Yes": 57,
+        "No": 15
+      },
+      "raw_windows": 72,
+      "summary_selected_seconds": {
+        "REZE_8B": 32,
+        "core_8B": 32
+      },
+      "reasons": [
+        "largest decline in F1"
+      ],
+      "reference_fraction": "15",
+      "background": "A hand with various nail art styles is shown across multiple frames, performing or posing for close-up views of nail decoration, including glitter tips, gradient designs, and brush applications of polish or clear sealant. Backgrounds are mostly plain and light-colored, with occasional pink floral elements or watermark text. Some frames show tools like brushes or sponges in use, while others display tutorial-style split screens with text overlays. Two frames are entirely black, offering no visual context. No consistent narrative or environmental continuity is established across the sequence.",
+      "examined_native_bins": [
+        {
+          "role": "highest_ranked_nonpositive",
+          "bin_index": 20,
+          "seconds": [
+            100,
+            105
+          ],
+          "gt_score": 0.4042588770389557,
+          "gt_rank": 31,
+          "labels": {
+            "50": 0,
+            "15": 0
+          },
+          "scores": {
+            "REZE_8B": 0.7799879312515259,
+            "core_8B": 0.9997017979621887
+          },
+          "ranks": {
+            "REZE_8B": [
+              2,
+              2
+            ],
+            "core_8B": [
+              1,
+              1
+            ]
+          },
+          "source_windows": [
+            {
+              "index": 33,
+              "seconds": [
+                99.0,
+                102.0
+              ],
+              "mean_weight": 0.5,
+              "score": 0.99966464996832
+            },
+            {
+              "index": 34,
+              "seconds": [
+                102.0,
+                105.0
+              ],
+              "mean_weight": 0.5,
+              "score": 0.9997388096898188
+            }
+          ]
+        },
+        {
+          "role": "highest_GT_missed_positive",
+          "bin_index": 32,
+          "seconds": [
+            160,
+            165
+          ],
+          "gt_score": 0.9541386365890503,
+          "gt_rank": 1,
+          "labels": {
+            "50": 1,
+            "15": 1
+          },
+          "scores": {
+            "REZE_8B": 0.5330185890197754,
+            "core_8B": 0.9673466682434082
+          },
+          "ranks": {
+            "REZE_8B": [
+              14,
+              14
+            ],
+            "core_8B": [
+              32,
+              32
+            ]
+          },
+          "source_windows": [
+            {
+              "index": 53,
+              "seconds": [
+                159.0,
+                162.0
+              ],
+              "mean_weight": 0.5,
+              "score": 0.9399133496156019
+            },
+            {
+              "index": 54,
+              "seconds": [
+                162.0,
+                165.0
+              ],
+              "mean_weight": 0.5,
+              "score": 0.9947798743644765
+            }
+          ]
+        }
+      ],
+      "sheets": [
+        {
+          "path": "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_mrhisum10_negative_cases_2026-11-10/video_23227_page1.jpg",
+          "sha256": "a69c08bd789192a8d29998a75eed0b7f2fc4c4c2ba27dc80cf27f6e21f3b0ed0"
+        }
+      ],
+      "audited_windows": [
+        {
+          "index": 33,
+          "model_rgb_sha256": "cab8e003cb41b630fe0c393b5eaba43202128c5687757f0a644d2ea160ace27c",
+          "frame_timestamps": [
+            [
+              99.0,
+              99.03333282470703
+            ],
+            [
+              99.5,
+              99.53333282470703
+            ],
+            [
+              100.0,
+              100.03333282470703
+            ],
+            [
+              100.5,
+              100.53333282470703
+            ],
+            [
+              101.0,
+              101.03333282470703
+            ],
+            [
+              101.5,
+              101.53333282470703
+            ]
+          ],
+          "tags": [
+            "highest_ranked_nonpositive 100-105s"
+          ]
+        },
+        {
+          "index": 34,
+          "model_rgb_sha256": "5cf5a59847ba8fd9e6ca3bf5fb34c5966bd195bfe0e13dda0ec93a8dfca5954b",
+          "frame_timestamps": [
+            [
+              102.0,
+              102.03333282470703
+            ],
+            [
+              102.5,
+              102.53333282470703
+            ],
+            [
+              103.0,
+              103.03333282470703
+            ],
+            [
+              103.5,
+              103.53333282470703
+            ],
+            [
+              104.0,
+              104.03333282470703
+            ],
+            [
+              104.5,
+              104.53333282470703
+            ]
+          ],
+          "tags": [
+            "highest_ranked_nonpositive 100-105s"
+          ]
+        },
+        {
+          "index": 53,
+          "model_rgb_sha256": "bb3c7286689d65a7a98218676b39771ab5aec748ba4ed15f7d04280ee70180e6",
+          "frame_timestamps": [
+            [
+              159.0,
+              159.03334045410156
+            ],
+            [
+              159.5,
+              159.53334045410156
+            ],
+            [
+              160.0,
+              160.03334045410156
+            ],
+            [
+              160.5,
+              160.53334045410156
+            ],
+            [
+              161.0,
+              161.03334045410156
+            ],
+            [
+              161.5,
+              161.53334045410156
+            ]
+          ],
+          "tags": [
+            "highest_GT_missed_positive 160-165s"
+          ]
+        },
+        {
+          "index": 54,
+          "model_rgb_sha256": "c70f0975ca8a7f53a022d8da25ee42301e2c69de01c5f7fea68c2083af4f7148",
+          "frame_timestamps": [
+            [
+              162.0,
+              162.03334045410156
+            ],
+            [
+              162.5,
+              162.53334045410156
+            ],
+            [
+              163.0,
+              163.03334045410156
+            ],
+            [
+              163.5,
+              163.53334045410156
+            ],
+            [
+              164.0,
+              164.03334045410156
+            ],
+            [
+              164.5,
+              164.53334045410156
+            ]
+          ],
+          "tags": [
+            "highest_GT_missed_positive 160-165s"
+          ]
+        }
+      ],
+      "native_summary": {
+        "REZE_8B": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_8B": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "selection": {
+    "kind": "posthoc explanatory case selection; not a new test subset",
+    "rule": "union of worst core-minus-REZE video for each of mAP50/mAP15/F1; ties by ID",
+    "selected": [
+      "video_3286",
+      "video_23234",
+      "video_23227"
+    ],
+    "reasons": {
+      "video_3286": [
+        "largest decline in mAP50"
+      ],
+      "video_23234": [
+        "largest decline in mAP15"
+      ],
+      "video_23227": [
+        "largest decline in F1"
+      ]
+    },
+    "retain_full_ten_in_descriptive_tables": true
+  },
+  "overall_emissions": {
+    "No": 285,
+    "Yes": 330
+  },
+  "old_records_before": {
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/campaign_manifest.json": "8e892f27a6e6e3fd53401a49e280b50e5c55c864f1a57b54385c682b7b9a7750",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/authorization.json": "1ed53992c6db8cd0a4ada8ae379f78076d3edf3f532918422f22634d563e1393",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/complete.json": "5fcb5ecf3474501db5e6a40fb371b55a69e2e6104c0fdaf7ba5f32eb32e7ec5a",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/comparison/report.json": "89a9ccef1837218b49ed5325d483a96f87f90fd9a9103cd12e2398dd617e7670",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/comparison/predictions.json": "c281b4e8dce9e9acba749224a55832f6963e47e20cb8fb094c948bdd45c2adfd",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/comparison/prediction_freeze.json": "aff01fdf962c02e75c0ab52b7538f89c8e8be9b01ce8d40a532af0d9f5c549c3",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/rows10.json": "5c35cbaeb0b529fa9679b6961c740691511709bc10bd37059ea79a10a4dbb464",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/controls.json": "50652b249a3d051352001fe49e47bc37cc24bbfa645c45e940c6775e1ab42b45",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/backgrounds10.json": "f02945225b79517ce4d2f802a7b45101017b4afea8b9302b5679c54fc8e1f583",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/input_reference.json": "e75b99c1dc85a33283323d06c7975284cc4cbdad39c2ab2f6b8056f4b13d2d0a",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/background0/manifest.json": "7f3bf47afa7b281dd4c5a983a79aaba6b12f1fd0abee60745f13838cd9834a19",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/background0/worker_exit.json": "bc0e7d11096c9601b34499c30aaeb35464417be106b33af019b04b9a6b9fb255",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/background1/manifest.json": "38567152135e7caf6441eec9993c72b05b5848d2bd290f78fe3616d697134d01",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/background1/worker_exit.json": "65b083d98d6a5bd8c76d597ba68a507b886f6b37d5b83191c9e25422c6c7748f",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/scoring0/manifest.json": "e3726aa8e6516bcfb6420836e7d803d99185d5992ec29ebf7d45546c3f62aa22",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/scoring0/worker_exit.json": "e42ea28d186257b2375eeaed3a1bc4b3672216edcb2f71b0f098606b2f349c51",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/scoring1/manifest.json": "a64cd78d96910157ae58b847b973671d47e672ce26b24e68643afd012a6567f1",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/scoring1/worker_exit.json": "abf6eaed623bac90c4043383281e713a5e86a44b973b293279d4e819d0053fb5"
+  },
+  "old_records_after": {
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/campaign_manifest.json": "8e892f27a6e6e3fd53401a49e280b50e5c55c864f1a57b54385c682b7b9a7750",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/authorization.json": "1ed53992c6db8cd0a4ada8ae379f78076d3edf3f532918422f22634d563e1393",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/complete.json": "5fcb5ecf3474501db5e6a40fb371b55a69e2e6104c0fdaf7ba5f32eb32e7ec5a",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/comparison/report.json": "89a9ccef1837218b49ed5325d483a96f87f90fd9a9103cd12e2398dd617e7670",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/comparison/predictions.json": "c281b4e8dce9e9acba749224a55832f6963e47e20cb8fb094c948bdd45c2adfd",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/comparison/prediction_freeze.json": "aff01fdf962c02e75c0ab52b7538f89c8e8be9b01ce8d40a532af0d9f5c549c3",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/rows10.json": "5c35cbaeb0b529fa9679b6961c740691511709bc10bd37059ea79a10a4dbb464",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/controls.json": "50652b249a3d051352001fe49e47bc37cc24bbfa645c45e940c6775e1ab42b45",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/backgrounds10.json": "f02945225b79517ce4d2f802a7b45101017b4afea8b9302b5679c54fc8e1f583",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/input_reference.json": "e75b99c1dc85a33283323d06c7975284cc4cbdad39c2ab2f6b8056f4b13d2d0a",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/background0/manifest.json": "7f3bf47afa7b281dd4c5a983a79aaba6b12f1fd0abee60745f13838cd9834a19",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/background0/worker_exit.json": "bc0e7d11096c9601b34499c30aaeb35464417be106b33af019b04b9a6b9fb255",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/background1/manifest.json": "38567152135e7caf6441eec9993c72b05b5848d2bd290f78fe3616d697134d01",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/background1/worker_exit.json": "65b083d98d6a5bd8c76d597ba68a507b886f6b37d5b83191c9e25422c6c7748f",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/scoring0/manifest.json": "e3726aa8e6516bcfb6420836e7d803d99185d5992ec29ebf7d45546c3f62aa22",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/scoring0/worker_exit.json": "e42ea28d186257b2375eeaed3a1bc4b3672216edcb2f71b0f098606b2f349c51",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/scoring1/manifest.json": "a64cd78d96910157ae58b847b973671d47e672ce26b24e68643afd012a6567f1",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_mrhisum10_core_v1_2026-11-10/scoring1/worker_exit.json": "abf6eaed623bac90c4043383281e713a5e86a44b973b293279d4e819d0053fb5"
+  },
+  "labels_sha256": {
+    "mr_hisum.h5": "b40fd8c16f2f13763f1e3e3fa99687a275485179bc57764e6b267a4ac7250c78",
+    "mr_hisum_split.json": "5c571d1d9f00b33662d631d85a62468dfb7599b096dc640d67873a2a0ba93f63",
+    "metadata.csv": "a925b3ef5e56c01821a44012ce1be78ff92e2863fe5be5dfb12c39a0e5626d2e"
+  },
+  "source_sha256": "480b0e84d09905f1e1cd5ddee5dfea3aa7464162bfd1b17b658f7db758c66a76",
+  "new_experiment_model_calls": 0,
+  "new_experiment_tokens": 0,
+  "gpu_allocation": 0,
+  "limitations": "Labels used only for posthoc diagnosis, not new predictions; negatives are native relative labels, not proof of no semantic value. Single-token probabilities do not reveal causal rule use."
+}

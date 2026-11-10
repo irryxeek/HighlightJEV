@@ -1,0 +1,82 @@
+{
+  "status": "passed",
+  "checked_at": "2026-11-10T08:01:08.556824+00:00",
+  "scope": "CPU-only posthoc audit of frozen predictions and original frames",
+  "all10_retained": true,
+  "audited_source_windows": 13,
+  "raw_scoring_results_verified": 615,
+  "contact_sheets_verified": 4,
+  "protected_old_files_unchanged": 18,
+  "old_experiment_costs_unchanged": {
+    "attempted_requests": 745,
+    "successful_requests": 745,
+    "success_tokens": 1752487,
+    "failure_reserved_tokens": 0,
+    "charged_tokens": 1752487,
+    "gpu_seconds": 675.1632953048684,
+    "worker_starts": 4,
+    "retries": 0
+  },
+  "stage_request_and_exit_checks": {
+    "background0": {
+      "reserved_attempts": 65,
+      "result_count": 65,
+      "worker_pid": 58854,
+      "worker_pid_exists_now": false,
+      "worker_pid_matches_experiment_now": false,
+      "worker_exit_sha256": "bc0e7d11096c9601b34499c30aaeb35464417be106b33af019b04b9a6b9fb255",
+      "reservation_digest_sha256": "ba238e9c711c73bcefe4ff46e1485ba034609b9cf44e9d85b42e98680d3e468f",
+      "exit_code": 0
+    },
+    "background1": {
+      "reserved_attempts": 65,
+      "result_count": 65,
+      "worker_pid": 58945,
+      "worker_pid_exists_now": false,
+      "worker_pid_matches_experiment_now": false,
+      "worker_exit_sha256": "65b083d98d6a5bd8c76d597ba68a507b886f6b37d5b83191c9e25422c6c7748f",
+      "reservation_digest_sha256": "300a0acdde0840b548b39641a76824d15b0ed5aeb0c4ce595218451c45eac5ee",
+      "exit_code": 0
+    },
+    "scoring0": {
+      "reserved_attempts": 264,
+      "result_count": 264,
+      "worker_pid": 50480,
+      "worker_pid_exists_now": false,
+      "worker_pid_matches_experiment_now": false,
+      "worker_exit_sha256": "e42ea28d186257b2375eeaed3a1bc4b3672216edcb2f71b0f098606b2f349c51",
+      "reservation_digest_sha256": "0d3d4ec20f1e875e8d782aa4014958c106ef4b7229a30a3b2e1e4e6797d342be",
+      "exit_code": 0
+    },
+    "scoring1": {
+      "reserved_attempts": 351,
+      "result_count": 351,
+      "worker_pid": 50479,
+      "worker_pid_exists_now": false,
+      "worker_pid_matches_experiment_now": false,
+      "worker_exit_sha256": "abf6eaed623bac90c4043383281e713a5e86a44b973b293279d4e819d0053fb5",
+      "reservation_digest_sha256": "790f5b4535bd4b14de16cc105d66b03495e6db5c5705b1fc31b891bee28e8234",
+      "exit_code": 0
+    }
+  },
+  "live_processes_matching_run_root_or_nonce": [],
+  "new_experiment_model_calls": 0,
+  "new_experiment_tokens": 0,
+  "new_gpu_allocations": 0,
+  "new_gpu_lifecycle_seconds": 0,
+  "new_experiment_workers": 0,
+  "evidence_basis": "Old completion/report/manifest/exit hashes unchanged; reserved/results counts unchanged; all 615 scoring records unchanged; CPU decoder asserted CUDA uninitialized; audit and validator contain no inference call.",
+  "artifact_sha256": {
+    "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_mrhisum10_negative_cases_2026-11-10/analysis.json": "e12adf055feaa3440dbcda7dd2eade0cdd85be592c037f78a6a8c4a01eb900b7",
+    "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_mrhisum10_negative_cases_2026-11-10/analysis.log": "8f9f768b843c2acd0f403d69b63798a249ab3eb80994e9b9ce0b2a5ccd2dcfa9",
+    "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_mrhisum10_negative_cases_2026-11-10/analyze.py": "480b0e84d09905f1e1cd5ddee5dfea3aa7464162bfd1b17b658f7db758c66a76",
+    "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_mrhisum10_negative_cases_2026-11-10/raw_result_hashes.json": "8161f1c3fdd2168ba37a8412fba1d7647ad0f78ab494d1834ed4daf09d3dde73",
+    "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_mrhisum10_negative_cases_2026-11-10/selection.json": "cf16ba48cc5f1eb25a96c87e72cc2465dca777a4bae2bcb8b0cb2f56e8a7ae38",
+    "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_mrhisum10_negative_cases_2026-11-10/validate.py": "e7891328c93257717847b60d2d8b53becbb6975e6cc8e4b861b702f6de48c643",
+    "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_mrhisum10_negative_cases_2026-11-10/video_23227_page1.jpg": "a69c08bd789192a8d29998a75eed0b7f2fc4c4c2ba27dc80cf27f6e21f3b0ed0",
+    "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_mrhisum10_negative_cases_2026-11-10/video_23234_page1.jpg": "5bb79966f731976c0ad1e313f63a25bc88b5e9aca4e90c440c7fbf59e9472d68",
+    "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_mrhisum10_negative_cases_2026-11-10/video_23234_page2.jpg": "eb431a3118f29f4254433d45a0f54949bbfeff54bd17e204eb82b46c7953a388",
+    "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_mrhisum10_negative_cases_2026-11-10/video_3286_page1.jpg": "d2a831203869bcf61b5c41a5f84d1a266c9b330f717bcb122f2e68c0fa38cb70",
+    "$MERIT_ROOT/docs/revalue_generic_highlight_mrhisum10_negative_cases_2026-11-10.md": "f46155c9a4e664edfea2262bb1d3cbf3dcaaaf29a7450a40256304b04da5f634"
+  }
+}

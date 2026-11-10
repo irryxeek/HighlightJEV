@@ -1,0 +1,30 @@
+{
+  "reviewed_at_utc": "2026-11-09T21:01:29.416849+00:00",
+  "before_scoring": true,
+  "backgrounds_sha256": "a89f769f5ee922c51c65f4785b8bae11b9b3546c0559f1456131d3b1a650b93d",
+  "summaries_reviewed": 10,
+  "review_type": "assistant text/source audit; not independent visual human annotation",
+  "manual_summary_edits": 0,
+  "labels_read_for_review": false,
+  "summary_word_counts": {
+    "J0nA4VgnoCo": 86,
+    "cjibtmSLxQ4": 80,
+    "JgHubY5Vw3Y": 99,
+    "Bhxk-O1Y7Ho": 88,
+    "sTEELN-vY30": 111,
+    "Yi4Ij2NM7U4": 105,
+    "E11zDS9XGzg": 98,
+    "Se3oxnaPsz0": 95,
+    "JKpqYvAdIsw": 93,
+    "fWutDQy1nnY": 76
+  },
+  "caption_count": 120,
+  "captions_over_soft_60_word_request": 0,
+  "notes": [
+    "All10 retain sparse observational context; no ranked moments or highlight scores supplied.",
+    "Several summaries list diverse scenes and explicitly leave narrative links unresolved.",
+    "Summaries can contain model perception/OCR errors; text audit does not establish factual accuracy.",
+    "Visible text read from frames is permitted; external titles/categories were never supplied.",
+    "No summaries were corrected or selected using prior errors or current outcomes."
+  ]
+}

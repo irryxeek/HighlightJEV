@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "completed_at": "2026-11-10T08:27:09.517027+00:00",
+  "cpu_wall_seconds": 6.363929186016321,
+  "new_experimental_consumption": {
+    "model_requests": 0,
+    "model_tokens": 0,
+    "model_workers": 0,
+    "retries": 0,
+    "gpu_allocations": 0,
+    "gpu_seconds": 0
+  },
+  "old_sources_and_ledgers_unchanged": true,
+  "output_sha256": {
+    "$MERIT_ROOT/docs/artifacts/revalue_tvsum_core_map15_map50_2026-11-10/source_manifest.json": "617cc131d7cc028b6695c295537f1de87729cdcb99ab115176844e57636707e7",
+    "$MERIT_ROOT/docs/artifacts/revalue_tvsum_core_map15_map50_2026-11-10/results.json": "4672ff81f1ca0344f9371454e86145d0b8ee231befab1d0683ec06657052fbb8",
+    "$MERIT_ROOT/docs/artifacts/revalue_tvsum_core_map15_map50_2026-11-10/summary.csv": "5b385ab740ae3d7d68b32f6e71137c666fcf6e98373289bcb32dbbd98cea6887",
+    "$MERIT_ROOT/docs/artifacts/revalue_tvsum_core_map15_map50_2026-11-10/per_video.csv": "03a46e8d002b6c5a66b7557d2038a21edc03b15f3925c262615888c6bd6c6a1b",
+    "$MERIT_ROOT/docs/artifacts/revalue_tvsum_core_map15_map50_2026-11-10/validation.json": "fc605a86efa479673366ed3f721c0818e3bcac96dab9d9094f292611cb91d35d",
+    "$MERIT_ROOT/docs/revalue_generic_highlight_tvsum_core_map15_map50_2026-11-10.md": "6c3f79ac0df7e39574d65772be655ffb3c45944aced26ebd64f52f7cf2af1ff9"
+  }
+}

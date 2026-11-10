@@ -1,0 +1,65 @@
+{
+  "source_type": "closed local experiment reports and approved conversation summary",
+  "facts": [
+    {
+      "fact_id": "F001",
+      "claim": "固定40：事实保真及时间绑定改进；D58.4767，F54.4796，F-local57.5828，FV-local56.3439；为组合改进且区间跨0。",
+      "source": "revalue_tvsum_fact_local_40v_results_2026-11-07.md"
+    },
+    {
+      "fact_id": "F002",
+      "claim": "200对核验：C58.4573，旧V15 58.4085，修复V15 57.6496；合法200/144/135，接受替换29/12/4。",
+      "source": "revalue_tvsum_value15_consistency40_results_2026-11-09.md"
+    },
+    {
+      "fact_id": "F003",
+      "claim": "全50：REZE8B54.8919、修订8B55.9560、修订27B56.2622；无27B REZE；配对区间跨0。",
+      "source": "revalue_generic_highlight_tvsum_full50_8b27b_results_v2_2026-11-10.md"
+    },
+    {
+      "fact_id": "F004",
+      "claim": "最新core40：关键贡献目标和品牌/场景门槛联合改变，Top5 55.8007，REZE53.2858；不是单组件消融。",
+      "source": "revalue_generic_highlight_tvsum_new40_core_value_results_2026-11-10.md"
+    },
+    {
+      "fact_id": "F005",
+      "claim": "最新core40补充mAP15 35.1199、mAP50 70.4936；相对REZE配对区间跨0，沿用2秒补充协议。",
+      "source": "revalue_generic_highlight_tvsum_core_map15_map50_2026-11-10.md"
+    },
+    {
+      "fact_id": "F006",
+      "claim": "旧修订版低AP：Obie展示第1名人工1.45，行走96–98秒人工3.80排名59；洗耳文字前4，操作78–80秒人工3.90排名11。机制为支持性诊断，单token不能回溯模型内部理由。",
+      "source": "revalue_generic_highlight_tvsum_8b_improvement_diagnosis_2026-11-10.md"
+    },
+    {
+      "fact_id": "F007",
+      "claim": "Mr.HiSum10：REZE/core mAP50 63.8658/62.1382；F1 36.9985/58.0517，不能混用结论。",
+      "source": "revalue_generic_highlight_mrhisum10_core_results_2026-11-10.md"
+    },
+    {
+      "fact_id": "F008",
+      "claim": "QFVS4视频40query：D/F-read Oracle F1 43.77/43.52，Uniform47.72但完整网格与候选池不同。",
+      "source": "revalue_qfvs_memory_read_results_2026-11-06.md"
+    },
+    {
+      "fact_id": "F009",
+      "claim": "Mr.HiSum40：D/F-read mAP50 59.5961/59.0989；开发子集、非全量。",
+      "source": "revalue_mrhisum_memory_read_results_2026-11-06.md"
+    },
+    {
+      "fact_id": "F010",
+      "claim": "SVHighlights14场27B：B0/F+C HL-mAP15.32/15.45；64全局时刻，REZE8B候选，非全量。",
+      "source": "revalue_svhighlights_expand14_27b_comparison_2026-11-09.md"
+    },
+    {
+      "fact_id": "F011",
+      "claim": "通用评分：3秒2fps局部窗口，单token Yes/No读数，原REZE时间映射到2秒网格；无逐维独立加权。",
+      "source": "revalue_generic_highlight_scoring_v1_2026-11-10.md"
+    },
+    {
+      "fact_id": "F012",
+      "claim": "本轮最新版本未补齐10条，混合版本汇总未完成；定向补证与完整Agent闭环待验证。",
+      "source": "approved_group_update.md"
+    }
+  ]
+}

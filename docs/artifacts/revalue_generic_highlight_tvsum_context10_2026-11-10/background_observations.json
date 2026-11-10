@@ -1,0 +1,1102 @@
+{
+  "J0nA4VgnoCo": [
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/J0nA4VgnoCo/caption_000000.result.json",
+      "sha256": "3206276c7066f195842c6d8a937c8c2e64f817eb00dde508aa871f725ebde1ce",
+      "text": "Inside a moving car, two men are visible. One drives, wearing sunglasses and a white shirt. The other, in a striped shirt, sits beside him. Sunlight streams through windows. Trees and sky are visible outside. The camera angle shifts slightly, capturing their faces and upper bodies.",
+      "prompt_tokens": 776,
+      "output_tokens": 59,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/J0nA4VgnoCo/caption_000018.result.json",
+      "sha256": "3ea082fc92f69d9aa52ffff5bd889fbedc53477b60bdf42c0aa7d9dd1e94a0d3",
+      "text": "A small, orange and black toy car rests on a gray gravel surface. A person's foot, wearing a sandal, is partially visible in the lower left corner. The camera slightly moves, keeping the toy car centered. No other objects or actions are visible.",
+      "prompt_tokens": 776,
+      "output_tokens": 54,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/J0nA4VgnoCo/caption_000035.result.json",
+      "sha256": "ff66075ff92e639bf33be1edbd599eda1174add30eb6fbb2ed11cf9e6c79203a",
+      "text": "A man in a white V-neck shirt holds a camera, facing forward. He looks around, smiling slightly. Behind him, a road, grass, trees, and a utility pole are visible. A red vehicle passes in the distance. The sky is clear, suggesting late afternoon or early evening.",
+      "prompt_tokens": 776,
+      "output_tokens": 60,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/J0nA4VgnoCo/caption_000053.result.json",
+      "sha256": "cec8b7e1c1faa107e236b25b96db85d6b4fc871d3417dea0d9a9717f56f02712",
+      "text": "A street scene at dusk. Cars drive on a multi-lane road. Sidewalks, trees, and utility poles line the road. A red traffic light is visible. A yellow curb is near the sidewalk. The sky is pale blue fading to orange near the horizon.",
+      "prompt_tokens": 776,
+      "output_tokens": 57,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/J0nA4VgnoCo/caption_000071.result.json",
+      "sha256": "0c6724bd136606a08e60727eed9f255eb280ea7ede8f78bc812f24111809cc9a",
+      "text": "A person in a white shirt and blue jeans bends over, working on a car's open hood. The car is parked outdoors, with another vehicle visible in the background. The person’s hands are inside the engine compartment, suggesting maintenance or inspection. The scene is dimly lit, possibly during dusk or evening.",
+      "prompt_tokens": 776,
+      "output_tokens": 63,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/J0nA4VgnoCo/caption_000088.result.json",
+      "sha256": "08da2621b271167e73e7321de62231403aebc32926e96e7dea6cf9aa144dece9",
+      "text": "A hand holds a small white object, possibly a cotton swab, near a dark, textured surface. The hand moves slightly, blurring the object and background. The setting appears to be indoors, with a grayish floor or surface visible. The object's purpose or interaction is unclear.",
+      "prompt_tokens": 776,
+      "output_tokens": 59,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/J0nA4VgnoCo/caption_000106.result.json",
+      "sha256": "44559cd6c45d54ee6a541d2fc38776e6af28631405a0310c3292e1e056c676bf",
+      "text": "A person in a white shirt and jeans walks beside a gray car with a flat tire. Another person in a white shirt and orange shorts bends down near the tire. The car is parked on a paved surface. The tire is missing its rubber, exposing the metal rim.",
+      "prompt_tokens": 776,
+      "output_tokens": 55,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/J0nA4VgnoCo/caption_000123.result.json",
+      "sha256": "eb09cbd8fca7d4454a27d4ee369b47b1de70def797b1f5df1458c533604ff363",
+      "text": "A person in a white shirt bends near a car, possibly working on a tire. Another person in a white shirt walks toward the camera, smiling and giving a thumbs-up. The setting is an outdoor parking lot with trees and a road visible in the background.",
+      "prompt_tokens": 776,
+      "output_tokens": 53,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/J0nA4VgnoCo/caption_000141.result.json",
+      "sha256": "562d28aff76cd22568d7020f0f0cda7f8ee2f94cc7c140204a7f8801645fe1f6",
+      "text": "A person stands beside an open car door, holding a phone to their ear. They gesture with their free hand while speaking. The car is parked outdoors near a house with a balcony. Trees and a fence are visible in the background. The lighting suggests late afternoon or early evening.",
+      "prompt_tokens": 776,
+      "output_tokens": 57,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/J0nA4VgnoCo/caption_000159.result.json",
+      "sha256": "c80a3eaaef0d1999ce4073ceab2b1b07a2b7d68d50e8e827fc519fd4805f887c",
+      "text": "A person in a white shirt and jeans stands near a car with its hood open at dusk. They raise one arm, possibly adjusting their hair or shielding their eyes. The ground is paved, with trees and distant lights visible. A pair of shoes lies nearby.",
+      "prompt_tokens": 776,
+      "output_tokens": 53,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/J0nA4VgnoCo/caption_000176.result.json",
+      "sha256": "a53c1df974228990f86ffdbfd650283402d9e3c918d50d482b41193aaf38f1a8",
+      "text": "A man in a white shirt sits at a restaurant table, eating. The table has glasses, a napkin dispenser, and a basket. String lights illuminate the background. Other tables and chairs are visible. The scene is dimly lit, suggesting evening or night.",
+      "prompt_tokens": 776,
+      "output_tokens": 54,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/J0nA4VgnoCo/caption_000194.result.json",
+      "sha256": "e00b104c4b771eca026b7e3cf8645a34d1bcca4201edd9cf04f177c839e8c5bb",
+      "text": "A man in a white shirt sits at a table in a dimly lit, wooden structure, possibly a restaurant or bar. He gestures with his hands while speaking. Two glasses with ice and drinks are on the table. A woman is partially visible to his right. Background lights and other patrons are faintly visible.",
+      "prompt_tokens": 776,
+      "output_tokens": 64,
+      "finish_reason": "stop",
+      "status": "complete"
+    }
+  ],
+  "cjibtmSLxQ4": [
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/cjibtmSLxQ4/caption_000000.result.json",
+      "sha256": "c889aacb4a9d22a6608783cbeab3c289b30127deab6acbf096c4ac5fdc8b00e6",
+      "text": "Static graphic displays \"Allonnes Parkour 72\" in red text over black-and-white stylized buildings. Three black silhouettes of people are shown mid-air, performing parkour jumps. No real people, motion, or environment is visible beyond the illustrated design.",
+      "prompt_tokens": 611,
+      "output_tokens": 57,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/cjibtmSLxQ4/caption_000020.result.json",
+      "sha256": "be6b1f9936b421cd2ef891275a2e30c4218a05e3ddf451a5c3abc748b293eeb2",
+      "text": "A person in dark top and light pants runs up stairs, then leaps onto a railing. They extend arms outward, balancing briefly. The scene is an outdoor area with yellow walls and metal railings. The person’s landing or next move is unclear.",
+      "prompt_tokens": 611,
+      "output_tokens": 51,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/cjibtmSLxQ4/caption_000039.result.json",
+      "sha256": "484bf99deb8c082af273d53a9c0bfa3c041953a335d391d57c0c0e881de9e201",
+      "text": "A man in a black shirt and light pants is crouched, looking toward the camera. He appears to be speaking or gesturing. The background is plain white. A TV logo and date are visible in the top corners. His expression and exact actions are unclear.",
+      "prompt_tokens": 611,
+      "output_tokens": 55,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/cjibtmSLxQ4/caption_000059.result.json",
+      "sha256": "d91356486c4a8b955f8fd259c860b400509843a7ab01f028b4b99b1bbb2f2b27",
+      "text": "A person climbs a sandy, textured wall with handholds. The wall has geometric patterns and a small opening. The climber moves upward, shifting position. The scene appears to be outdoors under bright light. The video has a TV broadcast watermark and date stamp.",
+      "prompt_tokens": 611,
+      "output_tokens": 53,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/cjibtmSLxQ4/caption_000078.result.json",
+      "sha256": "a935dd93c628b6ec0e0de62fc289e0b8750d50bab26946f34a2bf0c5ee7fc24f",
+      "text": "Three individuals stand outdoors, smiling. Behind them, a building with visible signage and trees. One wears a white head covering and vest, another a blue cap and jacket, the third a dark jacket. A person in red walks past in the background. The scene appears to be a public area.",
+      "prompt_tokens": 611,
+      "output_tokens": 60,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/cjibtmSLxQ4/caption_000098.result.json",
+      "sha256": "9e5be39a9f569fc60d740706ed13557c00630fa0c5f5a56a9823042d621cfab9",
+      "text": "A man in a blue patterned shirt and headband speaks outdoors. Behind him, another man in a grey hoodie stands. Buildings and vehicles are visible in the background. The scene appears to be a street or urban area. The man gestures while talking.",
+      "prompt_tokens": 611,
+      "output_tokens": 52,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/cjibtmSLxQ4/caption_000117.result.json",
+      "sha256": "63049b257aa3352bc77192c6923cc13c1cfa0c96bf3be6b9e4270775272903d3",
+      "text": "A man and woman stand near a door. The woman holds a tablet. The man leans against the door frame. They appear to be conversing. The scene is indoors, with a wall and door visible. The video has a vintage quality.",
+      "prompt_tokens": 611,
+      "output_tokens": 50,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/cjibtmSLxQ4/caption_000137.result.json",
+      "sha256": "b419856b2e8ac97a7c9de1fbee75e51d16174a9e08bf264af9e764a3c9dddefa",
+      "text": "A man in a black sweatshirt walks forward, speaking. Behind him, children stand near a building. One child holds a black object. The scene appears to be outdoors, possibly in a residential area. The video has a dated, grainy quality.",
+      "prompt_tokens": 611,
+      "output_tokens": 52,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/cjibtmSLxQ4/caption_000156.result.json",
+      "sha256": "21600dfdf8731c2a431ab03b63999e425698b9b88b6a976af5573058b3df7ac4",
+      "text": "A sepia-toned photo shows a group of children and adults on a beach. One man stands shirtless in swim trunks, hands on hips. Others wear swimwear or casual clothes. The background features the ocean and sky. The image has a vintage, grainy quality.",
+      "prompt_tokens": 611,
+      "output_tokens": 58,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/cjibtmSLxQ4/caption_000176.result.json",
+      "sha256": "8c02390735d5c80819b852cd4ec6f7ae53a43310fda3cdb4b1f0e07bee8c3a06",
+      "text": "A person runs and jumps over a hedge in a garden. Others watch from behind. The scene shifts to a bright, overexposed shot, then back to the garden. A person in red stands near the hedge. The video quality is low, with visible grain and motion blur.",
+      "prompt_tokens": 611,
+      "output_tokens": 58,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/cjibtmSLxQ4/caption_000195.result.json",
+      "sha256": "082edf6f83790db69bbfbc91e7aff2ae7e78b28b117c702641fab7795d314f90",
+      "text": "A person in red clothing climbs a sloped wall. Another individual in dark clothing is visible near the top. A white spherical object is mounted on the wall. The scene shifts to a rooftop view with a cityscape below. A person stands on the rooftop edge.",
+      "prompt_tokens": 611,
+      "output_tokens": 54,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/cjibtmSLxQ4/caption_000215.result.json",
+      "sha256": "8633180a72a9eb7b2e16991851d140c7ce0b8ad2104d701f46ec95da2a75792c",
+      "text": "Two men walk away from each other on a street. One gestures with his hand. Others stand nearby. A sign and building are visible. The scene appears to be outdoors during the day. The video quality is low. No further actions or outcomes are visible.",
+      "prompt_tokens": 611,
+      "output_tokens": 53,
+      "finish_reason": "stop",
+      "status": "complete"
+    }
+  ],
+  "JgHubY5Vw3Y": [
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/JgHubY5Vw3Y/caption_000000.result.json",
+      "sha256": "7da092b1bd1ff4142bfa2620c53dc95b0a285485eff6195475607b7d83fe9a13",
+      "text": "A man and woman stand in a bike shop, facing the camera. Behind them, colorful bicycle wheels hang on the wall. Shelves with bike parts are visible below. Both wear t-shirts with a logo. The woman gestures with her hands while speaking. The man stands still, occasionally moving his hands.",
+      "prompt_tokens": 776,
+      "output_tokens": 62,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/JgHubY5Vw3Y/caption_000004.result.json",
+      "sha256": "a9f35ce30b1a836c3630699c836b1d426023124075b00e5af78cc715c886aa6b",
+      "text": "A woman and a man are in a bike workshop. The man holds a bicycle handlebar. The woman holds a bicycle wheel. Tools and bottles are visible on shelves behind them. The man appears to be explaining something to the woman.",
+      "prompt_tokens": 776,
+      "output_tokens": 48,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/JgHubY5Vw3Y/caption_000009.result.json",
+      "sha256": "3339d85d68f6bbfd255624a30669861ce1f6af0695658a3ad939359db930dabb",
+      "text": "A man and woman stand in a bike shop, facing the camera. Behind them, colorful bicycle wheels hang on the wall. Shelves with bike parts are visible below. The woman gestures with her hands while speaking. The man stands still, looking at the camera. Text \"Zach\" appears near him.",
+      "prompt_tokens": 776,
+      "output_tokens": 63,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/JgHubY5Vw3Y/caption_000013.result.json",
+      "sha256": "45fae3da23155debd12cf8bf010cc3b995ffe6a9f60c5e7cb728b87759fa55e6",
+      "text": "A man in a gray shirt stands before a wall displaying colorful bicycle wheels. He speaks, his head slightly turned. The video cuts to black with the text \"quick release\" appearing. No further actions or changes are visible.",
+      "prompt_tokens": 776,
+      "output_tokens": 46,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/JgHubY5Vw3Y/caption_000017.result.json",
+      "sha256": "19cf0789f3801cafe41a4615ccf8c031e680c750d2f4f18fe39b5182a576dbc2",
+      "text": "A man in a plaid shirt and shorts stands on a sidewalk next to a bicycle. He bends over, adjusting the front wheel. A red car is parked nearby. The scene is outdoors on a sunny day, with a building and trees in the background.",
+      "prompt_tokens": 776,
+      "output_tokens": 53,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/JgHubY5Vw3Y/caption_000021.result.json",
+      "sha256": "7d536a339b849cc19e3ec8dc256e25ef2f9d21cd79c42e972d248dbf94d16276",
+      "text": "The video opens with a black screen. The words \"bike camo\" appear in white, stylized text. The text remains centered and static. No other objects, participants, or actions are visible. The background stays consistently black throughout the segment.",
+      "prompt_tokens": 776,
+      "output_tokens": 51,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/JgHubY5Vw3Y/caption_000026.result.json",
+      "sha256": "52bd57183a6259845233220a2ebd9f7473cce4aca803525cc940750e01fff10d",
+      "text": "A man in a gray shirt stands before a wall displaying colorful bicycle wheels. Close-up shots show hands applying tape to a bike frame and adjusting a wheel. The focus remains on the hands and bike parts, with no visible facial expressions or dialogue.",
+      "prompt_tokens": 776,
+      "output_tokens": 50,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/JgHubY5Vw3Y/caption_000030.result.json",
+      "sha256": "a009d613106925005274d42d95db92eddec24d97b9cbb1cc17e188af480b6776",
+      "text": "The word \"locks\" appears in white, stylized text on a black background. A man with short dark hair and a gray shirt is visible, looking slightly to his right. Behind him, bicycle wheels in various colors are mounted on a wall.",
+      "prompt_tokens": 776,
+      "output_tokens": 51,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/JgHubY5Vw3Y/caption_000034.result.json",
+      "sha256": "e78e98cb652c29200ec555756eead7ff498abc6fa50d9b24a0e444c8f7e34bc9",
+      "text": "A person's hands use a black tool to adjust a bicycle wheel. The wheel has a red rim and black tire. The bike is mounted on a black stand. The person's hands move the tool along the wheel's spokes. The background is blurred, showing an outdoor setting.",
+      "prompt_tokens": 776,
+      "output_tokens": 57,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/JgHubY5Vw3Y/caption_000038.result.json",
+      "sha256": "55d9254c031d71807dba0f25e6751d1685ed2737d3151223ae9bf9ec57be180d",
+      "text": "A man in a gray shirt stands in front of a wall displaying colorful bicycle wheels. He speaks and gestures slightly with his hand. The wheels are mounted on the wall, showing various colors including orange, blue, yellow, and red. No other actions or objects are visible.",
+      "prompt_tokens": 776,
+      "output_tokens": 56,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/JgHubY5Vw3Y/caption_000043.result.json",
+      "sha256": "9e640ebf46767b5ffdd8ae17c217e6ab18985ef3eb6731a5d0637a68e18ee99c",
+      "text": "A man and woman stand in a bike shop. Behind them, colorful bicycle wheels hang on the wall. Shelves with bike parts are visible below. The woman gestures with her hands while speaking. The man listens, hands clasped. Both wear t-shirts with logos.",
+      "prompt_tokens": 776,
+      "output_tokens": 55,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/JgHubY5Vw3Y/caption_000047.result.json",
+      "sha256": "77ada22c27185c3f43933cb3d87bd67ea43673db58fd9b94184a496ee84df79c",
+      "text": "The video opens with a static screen displaying the \"PURE FIX TV\" logo, social media handles for Twitter and Facebook, and a website URL. The background resembles crumpled paper. The screen then fades to black. No other visual elements or actions occur.",
+      "prompt_tokens": 776,
+      "output_tokens": 53,
+      "finish_reason": "stop",
+      "status": "complete"
+    }
+  ],
+  "Bhxk-O1Y7Ho": [
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Bhxk-O1Y7Ho/caption_000000.result.json",
+      "sha256": "9485fa2aed634310de8539fcfecc8f3e64a44a0d401337b51409061160af4e97",
+      "text": "A fluffy white rabbit is being held and gently stroked. The rabbit appears calm, nestled in a white bathtub with a red towel. A hand pets its fur. The scene is indoors, with a tiled wall and a black object visible in the background.",
+      "prompt_tokens": 776,
+      "output_tokens": 52,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Bhxk-O1Y7Ho/caption_000014.result.json",
+      "sha256": "b56bbe8f8b96392a33c643720adb84e4dabf752dae568399b57bab889aecd299",
+      "text": "A woman with long dark hair and a headband stands in a kitchen, gesturing with her right hand. Behind her, a refrigerator with magnets and a stove with a pink \"Keep Calm and Cupcake\" sign are visible. Various kitchen items, including a coffee maker and a bottle, sit on the counter.",
+      "prompt_tokens": 776,
+      "output_tokens": 65,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Bhxk-O1Y7Ho/caption_000027.result.json",
+      "sha256": "f59df68de6baa6dbe42df817fc5c97395690ecdf6a40ec9b5a696aef6446520c",
+      "text": "A close-up view of two hair care product bottles on a white surface. One labeled \"After Bathe\" and the other \"Thick N' Ticker.\" A hand briefly appears near the bottles. A black object with a blue light is partially visible behind them.",
+      "prompt_tokens": 776,
+      "output_tokens": 55,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Bhxk-O1Y7Ho/caption_000041.result.json",
+      "sha256": "f50580a91d6acf40437d1588d76f4267e1a5be9c921a46207e066ecfeb69aab8",
+      "text": "A white, fluffy dog moves across a cluttered room. It steps over a colorful toy and approaches a sink area. Various items, including bottles, a red tool, and a striped cloth, are visible on surfaces. The dog’s movement is continuous and unobstructed.",
+      "prompt_tokens": 776,
+      "output_tokens": 57,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Bhxk-O1Y7Ho/caption_000055.result.json",
+      "sha256": "b5fc293148551ce09c82acba3d6edd79dff887c9b95afe6f897e782c1d0f0a05",
+      "text": "A white, fluffy dog moves across a cluttered room. A hand reaches toward a blue bottle and a clear container with dog food. A banana, a power strip, and various items are visible on a shelf. The dog’s tail wags slightly as it walks.",
+      "prompt_tokens": 776,
+      "output_tokens": 55,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Bhxk-O1Y7Ho/caption_000068.result.json",
+      "sha256": "dd89b2883a5ead5683d3187eb4079a68784d9972c80db3712e8b5c025f54542c",
+      "text": "A woman in a red and white patterned top walks quickly through a corridor. The camera pans rapidly, capturing a blurred view of a hallway with red walls and a sign reading \"CONCIERGE.\" The motion is fast, making details indistinct.",
+      "prompt_tokens": 776,
+      "output_tokens": 52,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Bhxk-O1Y7Ho/caption_000082.result.json",
+      "sha256": "c2cf019a612e5878ef1186f718420c1a269ecc32894185d5fed1b691a5a4a774",
+      "text": "A woman with dark hair and blue eyeshadow walks outdoors, smiling. Behind her, people move along a brick path lined with greenery. A building with a red awning and windows is visible. The scene is bright, suggesting daytime. Shadows indicate sunlight.",
+      "prompt_tokens": 776,
+      "output_tokens": 54,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Bhxk-O1Y7Ho/caption_000095.result.json",
+      "sha256": "49b3d2597f0f07ed7e032963fb1f2991103c4003c1ab79c6f279b3cdc4f1598b",
+      "text": "A fluffy white dog is being bathed in a white bathtub. A hand holds a brown brush, brushing the dog’s fur. A red and white striped towel lies in the tub. A black hose and a blue bottle are visible nearby. The dog moves slightly during brushing.",
+      "prompt_tokens": 776,
+      "output_tokens": 56,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Bhxk-O1Y7Ho/caption_000109.result.json",
+      "sha256": "7067d85a643aa40e7f51354e40bbd415250535bd3a7cebf8b26e248609f32b48",
+      "text": "A fluffy white dog stands on a striped towel near a sink. A hand reaches toward the dog. Various items, including a soap bottle and scissors, are visible on the counter. The dog moves slightly, adjusting its position. The scene appears to be indoors, likely a kitchen or bathroom.",
+      "prompt_tokens": 776,
+      "output_tokens": 59,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Bhxk-O1Y7Ho/caption_000123.result.json",
+      "sha256": "e4c72d22a9b69381f0662ef0982d1e7a3da4ea97a6d4dbaad6314612f8ef3a6d",
+      "text": "A fluffy white dog with a blue collar walks across a carpeted floor. Its tail wags as it moves. A person's hand briefly enters the frame, touching the dog. Toys are scattered nearby. The dog approaches a wall and door. A person's foot is visible in the background.",
+      "prompt_tokens": 776,
+      "output_tokens": 60,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Bhxk-O1Y7Ho/caption_000136.result.json",
+      "sha256": "47328e68e6b4e15ce70adc655651ab1ba2fcc31b67ef4a9d7c7f614dd0656a3c",
+      "text": "A woman with long dark hair is in a room with a cluttered counter. Various items, including bottles, a basket, and containers, are visible. She appears to be speaking and gesturing slightly. The background includes a wall with framed pictures and a doorway.",
+      "prompt_tokens": 776,
+      "output_tokens": 54,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Bhxk-O1Y7Ho/caption_000150.result.json",
+      "sha256": "3716cc12e6577d5f55a8d1551959a3a65fdc37843945bcaeaa939e00526f14b0",
+      "text": "A small white dog with fluffy fur and dark eyes looks directly at the camera. Its nose is black, and it wears a blue collar. The background is dimly lit, showing a floor and some indistinct objects. The dog remains still, gazing forward.",
+      "prompt_tokens": 320,
+      "output_tokens": 55,
+      "finish_reason": "stop",
+      "status": "complete"
+    }
+  ],
+  "sTEELN-vY30": [
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/sTEELN-vY30/caption_000000.result.json",
+      "sha256": "ebb70f14575be5221a23bef19a81534439b66d17372a53d9cf43ed81409eff12",
+      "text": "An aerial view shows a highway accident involving a large truck and a red car. Emergency vehicles and personnel are present. Traffic flows around the scene. The weather appears clear. A news channel logo and temperature are visible in the corner.",
+      "prompt_tokens": 776,
+      "output_tokens": 47,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/sTEELN-vY30/caption_000004.result.json",
+      "sha256": "7995b16fe92e84afaede2e6a04f89d320b48ae23f30e73e3a0b05aa1bf104c50",
+      "text": "A map graphic displays Atlanta and Douglas areas, highlighting a collision location at E Broad St and McCall St. Interstate highways and rail lines are visible. The text \"TRAIN HITS CAR\" appears at the top. Temperature and CBS Atlanta logo are shown in the corner.",
+      "prompt_tokens": 776,
+      "output_tokens": 55,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/sTEELN-vY30/caption_000009.result.json",
+      "sha256": "2211de163bd9528c501dbd523dc43b4829f9bba42b4d6160685b351abf6869f0",
+      "text": "A male news reporter, Steve Kiggins, stands outdoors at night, holding a microphone. He wears a dark vest over a shirt and tie. The background shows a dimly lit road and distant structures. A \"LIVE\" graphic and temperature display are visible on screen.",
+      "prompt_tokens": 776,
+      "output_tokens": 56,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/sTEELN-vY30/caption_000013.result.json",
+      "sha256": "2051d850f74f987bf0536627de1da264fcab3f7f82a8e0e5a49aff4938b36402",
+      "text": "Nighttime street scene in Douglasville, Douglas County. Road curves right, bordered by gravel. Streetlights illuminate. \"LIVE\" and \"NEW DETAILS\" graphics overlay. Temperature: 48°F. CBS Atlanta logo visible. No people or vehicles in frame.",
+      "prompt_tokens": 776,
+      "output_tokens": 55,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/sTEELN-vY30/caption_000018.result.json",
+      "sha256": "ea8437709d606da3f1c8101a922ca587aa1b62e66531b3d952af23daf16d6a71",
+      "text": "Three men in safety vests walk near train tracks. One inspects a train car. Another walks away. A third follows. Cars and traffic signals are visible in the background. The weather appears overcast. The scene is outdoors near a railway crossing.",
+      "prompt_tokens": 776,
+      "output_tokens": 51,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/sTEELN-vY30/caption_000022.result.json",
+      "sha256": "e1f9e0b0e2918d9d8769ef1b9ccb7a5adaeba7953ad2e6ce94b8af89b6dfa242",
+      "text": "A red car is crushed by a train on railroad tracks near a road. Police cars and other vehicles are nearby. A man in a uniform gestures toward the scene. The setting appears to be an intersection with traffic lights. The weather is overcast.",
+      "prompt_tokens": 776,
+      "output_tokens": 51,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/sTEELN-vY30/caption_000027.result.json",
+      "sha256": "53171617f21eabafda84e7d86278369977a3f2de8c20eded65c767b093ff90a6",
+      "text": "A beige minivan drives across an intersection in Atlanta. Other vehicles pass by. The road has white lane markings. Gravel and dirt are visible beside the road. Traffic lights are present overhead. The weather appears overcast. A CBS Atlanta logo and temperature display are in the corner.",
+      "prompt_tokens": 776,
+      "output_tokens": 58,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/sTEELN-vY30/caption_000031.result.json",
+      "sha256": "10fc8510e38fe7faea57646330793c1269708509b7656a6e3a155df53eecf7d5",
+      "text": "A man in a black hoodie and cap stands outdoors near railroad tracks and traffic lights. Behind him, vehicles pass. A CBS Atlanta logo and temperature display are visible. The scene appears overcast. No other people or specific actions are clearly visible.",
+      "prompt_tokens": 776,
+      "output_tokens": 50,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/sTEELN-vY30/caption_000036.result.json",
+      "sha256": "1639e007ecd5700cce1fb3eb8f5de108f5b7122a395ec67782c4517ebd478cf4",
+      "text": "A yellow school bus crosses railroad tracks at an intersection. Traffic lights and signal poles are visible. The sky is overcast. A CBS Atlanta watermark appears in the corner. The bus moves from left to right across the frame. Other vehicles are in the distance.",
+      "prompt_tokens": 776,
+      "output_tokens": 53,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/sTEELN-vY30/caption_000040.result.json",
+      "sha256": "17bc91f975be751a65cda01ed0a9eb1a2d9686a2016427e2d46eb595ee46284a",
+      "text": "A red car is crushed by a train on tracks. Two people stand near the wreckage. A man in a black hoodie and cap speaks to the camera at a railroad crossing. A white pickup truck passes in the background. The scene appears to be in Atlanta.",
+      "prompt_tokens": 776,
+      "output_tokens": 53,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/sTEELN-vY30/caption_000045.result.json",
+      "sha256": "63ad3a79601a36e4cc50ebf5568ee4400d40aaddbaae09157d0bf9acd271ff2a",
+      "text": "A woman speaks outdoors near a street intersection with traffic lights and vehicles. A man in a jacket holds a microphone, standing at night on a road. Both are likely reporters. The scene includes a CBS Atlanta logo and temperature display.",
+      "prompt_tokens": 776,
+      "output_tokens": 47,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/sTEELN-vY30/caption_000049.result.json",
+      "sha256": "0f4248efba813fd508f6f9d7f6fe5297828be2cba1c88fb5f96616350d8e35be",
+      "text": "A male news reporter stands outdoors at night, holding a microphone. He wears a dark vest over a collared shirt and tie. A \"LIVE\" graphic and his name appear on screen. The background shows a dimly lit road and distant lights. Temperature and station info are displayed.",
+      "prompt_tokens": 548,
+      "output_tokens": 59,
+      "finish_reason": "stop",
+      "status": "complete"
+    }
+  ],
+  "Yi4Ij2NM7U4": [
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Yi4Ij2NM7U4/caption_000000.result.json",
+      "sha256": "1a84491c2acca61979201da9d0d6c1a2171193c7b32c7918514b16208c49b077",
+      "text": "A man with glasses and a beard, wearing a skull-print t-shirt and a cap, stands in a kitchen. Cabinets, a refrigerator, stove, and sink are visible. He appears to be speaking, though no audio is present. The scene is static with no movement or change.",
+      "prompt_tokens": 776,
+      "output_tokens": 58,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Yi4Ij2NM7U4/caption_000012.result.json",
+      "sha256": "b2c16fe16e7199f2b0a7e80fa433200228f48efbf62aa30fbf3681524efa30b8",
+      "text": "A man wearing sunglasses and a graphic t-shirt sits in front of a green screen. He slightly turns his head. To his right, a countertop holds a tissue box and tangled wires. Above, a cabinet is mounted on the wall. The background includes a white wall and part of a kitchen area.",
+      "prompt_tokens": 776,
+      "output_tokens": 62,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Yi4Ij2NM7U4/caption_000025.result.json",
+      "sha256": "4a3fc4762535d3181d0515b7859fa82a960163318924009b502f06ac541a02b4",
+      "text": "A man wearing 3D glasses and a cap sits in front of a green screen. He holds a black object in his gloved hand, extending it toward the camera. Behind him, a countertop holds tissues and glasses. The room has beige walls and a cabinet.",
+      "prompt_tokens": 776,
+      "output_tokens": 56,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Yi4Ij2NM7U4/caption_000037.result.json",
+      "sha256": "5ac2d7b00cf3ab447d4b9b736f3c51c368917b2b036639adb372eac76110dd71",
+      "text": "A man wearing sunglasses and a cap adjusts earbuds while holding a phone. He sits in front of a green screen, with a tissue box visible on a countertop to his right. The background includes a textured wall and a cabinet. His expression and actions suggest he is preparing to record or listen.",
+      "prompt_tokens": 776,
+      "output_tokens": 62,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Yi4Ij2NM7U4/caption_000049.result.json",
+      "sha256": "031ea0ea04b8227c67d1cf340210070288d3e2fedd761c3e81b7fbbb88ed86a3",
+      "text": "A hand holds a green bell pepper, rotating it slightly. A knife rests on a cutting board nearby. A box and bottle are visible in the background. The hand appears to inspect the pepper before placing it down, though the exact action is unclear.",
+      "prompt_tokens": 776,
+      "output_tokens": 51,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Yi4Ij2NM7U4/caption_000061.result.json",
+      "sha256": "e60d11e71c7d89a0a844ae15ee1f8697dce2d6d36355ace546f6266b800d8517",
+      "text": "A man with glasses and a cap holds a plastic-wrapped package of hot dogs. He smiles and looks at the camera. Behind him, kitchen cabinets and a paper towel roll are visible. He lowers the package slightly, then raises it again.",
+      "prompt_tokens": 776,
+      "output_tokens": 50,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Yi4Ij2NM7U4/caption_000074.result.json",
+      "sha256": "d67b37d08ed311518f12942454ffd8ee8a4d7d34f6ef94bc5b9736ce4cc78b85",
+      "text": "A hand holds a ketchup bottle near a black frying pan on a white stovetop. The pan contains dark residue. The hand moves slightly, positioning the bottle above the pan. No pouring or interaction occurs in the visible frames.",
+      "prompt_tokens": 776,
+      "output_tokens": 49,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Yi4Ij2NM7U4/caption_000086.result.json",
+      "sha256": "81401446e3e089007839cdc48340f0ad292d00368952070e6ac3b9118c89706a",
+      "text": "On a stovetop, a pan holds sausages in red sauce. Sliced onions and green peppers are added from a clear container. The pan sits on a burner, with a watch visible on a hand briefly entering the frame. Background shows a countertop with a partially visible bag.",
+      "prompt_tokens": 776,
+      "output_tokens": 61,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Yi4Ij2NM7U4/caption_000098.result.json",
+      "sha256": "e97b75dfa67f7014331527f09f4b228bf23f2c3ef0b719f2ddc6a1f6b76b053d",
+      "text": "A person lifts a lid off a pan on a stove, revealing simmering tomato-based sauce with onions and peppers. The stove has a digital clock showing 2:25. Kitchen counter holds a box, bottle, and utensils. The person wears a graphic t-shirt.",
+      "prompt_tokens": 776,
+      "output_tokens": 57,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Yi4Ij2NM7U4/caption_000110.result.json",
+      "sha256": "da1527cefe096babf12858bc70e47ade82c997b073d6b08708b5b0514575568d",
+      "text": "A man wearing a cap and glasses stands in a kitchen, looking down. He appears to be preparing something on a counter. Behind him, cabinets, a refrigerator, and a microwave are visible. His hands move slightly, suggesting he is handling items.",
+      "prompt_tokens": 776,
+      "output_tokens": 51,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Yi4Ij2NM7U4/caption_000123.result.json",
+      "sha256": "7296f2d1309a84278603ba0a0df1ddd6e23683925cc0a49d683f7dafbd99a99e",
+      "text": "A man with glasses and a cap holds a hot dog with sauce and toppings. He stands in a kitchen, facing the camera. Behind him, cabinets, a refrigerator, and a microwave are visible. He slightly moves the hot dog while looking at the camera.",
+      "prompt_tokens": 776,
+      "output_tokens": 53,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Yi4Ij2NM7U4/caption_000135.result.json",
+      "sha256": "b1fd3ec08e495df7776424a3f801ab6afe992d59c36920c35043b2a008b5b8bc",
+      "text": "A dark background features a circular logo with a red center, containing stylized blue and yellow letters \"IP.\" Below, the text \"Invincible productions\" appears in red and yellow. The logo and text remain static throughout the segment.",
+      "prompt_tokens": 320,
+      "output_tokens": 48,
+      "finish_reason": "stop",
+      "status": "complete"
+    }
+  ],
+  "E11zDS9XGzg": [
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/E11zDS9XGzg/caption_000000.result.json",
+      "sha256": "fb42131794ddd06f376686bd9721eba78fd21c5b96f8be7eade71d2d03c65c05",
+      "text": "Two men stand outdoors on a grassy field, holding helmets. One waves. Background shows people and trees. Text overlay reads \"A DoHangout Production.\" The scene appears to be a casual outdoor gathering or event.",
+      "prompt_tokens": 776,
+      "output_tokens": 45,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/E11zDS9XGzg/caption_000015.result.json",
+      "sha256": "6f1e5bbe650e12053ac51836670e17325d9d56cf90cbba8ddd6cbe3a874b7cc5",
+      "text": "A man in a blue jacket and hat speaks while standing beside a woman. Behind them is a poster for a dog and cat hospital, featuring images of medical equipment and staff. People are visible in the background, suggesting an outdoor public setting.",
+      "prompt_tokens": 776,
+      "output_tokens": 49,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/E11zDS9XGzg/caption_000031.result.json",
+      "sha256": "07e2e8bc75ffe5ab871f4c37c541b999173aafc4529164e16e4838ee9b9a820a",
+      "text": "A hand points at a sign for a pet hospital. The sign displays contact information, silhouettes of a dog and cat, and images of medical equipment and staff. Two people stand near the sign, one wearing a hat. The scene appears to be outdoors during the day.",
+      "prompt_tokens": 776,
+      "output_tokens": 57,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/E11zDS9XGzg/caption_000046.result.json",
+      "sha256": "0196d0bfd14ae8fcd053123a57ee7c79b2737147583a0fb979a100988e2a7836",
+      "text": "A grassy field with people and dogs. Some individuals walk or run with dogs. White tape lines the field. Background has tents and spectators. One person holds an umbrella. The scene appears to be an outdoor event or competition involving dogs and handlers.",
+      "prompt_tokens": 776,
+      "output_tokens": 51,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/E11zDS9XGzg/caption_000061.result.json",
+      "sha256": "254969f2f0a1501cdc450d598657f74611e01bce938ac47b62e04ada0beb6449",
+      "text": "A young man with dark hair, wearing a gray shirt, walks outdoors in a park-like area. Behind him, people, including children, move about. Trees and open grassy space are visible. The camera follows him closely, capturing his face and upper body as he walks forward.",
+      "prompt_tokens": 776,
+      "output_tokens": 58,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/E11zDS9XGzg/caption_000077.result.json",
+      "sha256": "911ba55c8c26c62737340cf68d471a73ca587448292e36667553ffea68732d9b",
+      "text": "People walk across a grassy field with trees in the background. Some carry bags or wear hats. Tables with white cloths are set up. A person in a red hat walks with a suitcase. The camera moves, showing different angles of the scene.",
+      "prompt_tokens": 776,
+      "output_tokens": 52,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/E11zDS9XGzg/caption_000092.result.json",
+      "sha256": "8f4769d7844f7a636f929e6f8e59e7c5a1f2cf1634f4d676f2f9e134933e003c",
+      "text": "A German Shepherd dog walks on a leash in a grassy area. Two people walk together, one wearing a red cap. A woman in a patterned sweater speaks. Background shows trees and other people. Text overlay asks, \"Who they are?\"",
+      "prompt_tokens": 776,
+      "output_tokens": 51,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/E11zDS9XGzg/caption_000108.result.json",
+      "sha256": "5c690bb0c315f6c6cdc8e74673202873d7c22ee259ec644655943ae8d1e079f3",
+      "text": "A person in a blue jacket and hat holds a small dog. Text overlays indicate \"Chapter - 3\" and \"A minor event organised by PetsClubIndia.com.\" The date \"12.24.20\" is visible. Another frame shows a different person with two dogs, one on their shoulder and one in front.",
+      "prompt_tokens": 776,
+      "output_tokens": 69,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/E11zDS9XGzg/caption_000123.result.json",
+      "sha256": "6aee828564da9e85ce4e0f03d440887c39eeb90f157b0ee38f591c1559a89385",
+      "text": "A group of men outdoors, one wearing a red turban and striped shirt, another in a blue jacket and grey hat. Background shows trees and open space. Sunlight creates glare. One man appears to be speaking. Movement suggests conversation or interaction among them.",
+      "prompt_tokens": 776,
+      "output_tokens": 53,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/E11zDS9XGzg/caption_000138.result.json",
+      "sha256": "ebabe044a47fbcb554ee74da1e459f9a1953b344a13107d7da5276a2e88cd7d9",
+      "text": "A crowd gathers outdoors on grassy ground. People stand or walk, some holding dogs. A child walks nearby. Dogs roam freely. Background structures are visible. Sunlight illuminates the scene. No specific actions or interactions are clearly discernible beyond general movement and presence.",
+      "prompt_tokens": 776,
+      "output_tokens": 55,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/E11zDS9XGzg/caption_000154.result.json",
+      "sha256": "3cc095f72e81a9b9933c1a6cbb8490344549eb2faaa3b881520dd280933caf79",
+      "text": "A man wearing a gray beanie and blue jacket stands outdoors in a grassy field. Behind him, other people are visible. A sign with \"Vet Life\" and another with \"CHOCOLATE\" are in the background. The man turns his head slightly, looking around. Sunlight illuminates the scene.",
+      "prompt_tokens": 776,
+      "output_tokens": 66,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/E11zDS9XGzg/caption_000169.result.json",
+      "sha256": "17baf264250dd2a1f4c2ebefa6daf5c0c0d0d7bbe4e26ecbd36faf4d49647682",
+      "text": "Three men in a grassy field. One walks toward camera holding a helmet. Another walks away. Background shows trees, people, and a white tent. Sunlight casts shadows. A watermark is visible. No clear interaction or event is evident.",
+      "prompt_tokens": 776,
+      "output_tokens": 50,
+      "finish_reason": "stop",
+      "status": "complete"
+    }
+  ],
+  "Se3oxnaPsz0": [
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Se3oxnaPsz0/caption_000000.result.json",
+      "sha256": "ea664855bb93880ba241f5c00237bd241664ef01365145eef196fe56ca96e02f",
+      "text": "A blue and orange animated graphic displays \"ONLY ON KOLD NEWS 13\" with glowing light effects. The logo reflects on a surface below. The scene transitions to a news anchor in a studio, partially visible, with a lower third graphic showing her name and email.",
+      "prompt_tokens": 611,
+      "output_tokens": 56,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Se3oxnaPsz0/caption_000004.result.json",
+      "sha256": "66894ca107758ad7a467e6f7d4a9934a1b8f73af6c708db858109022115ff6d3",
+      "text": "A news anchor, Heather Rowe, stands beside a screen displaying footage of a building's roof. She wears a pink blouse. The screen shows a close-up of the roof, then pans to reveal more of the structure. Text at the bottom identifies her name and email.",
+      "prompt_tokens": 611,
+      "output_tokens": 55,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Se3oxnaPsz0/caption_000008.result.json",
+      "sha256": "959020a9e445e586633041e29808349e640fb7c3641d6a52f1bc4ee45b01e18d",
+      "text": "A damaged ceiling with exposed wooden beams and plaster debris. A small, round, blue object rests on the floor below. The scene is dimly lit, suggesting an indoor, possibly abandoned or under-renovation space. No movement or people are visible.",
+      "prompt_tokens": 611,
+      "output_tokens": 51,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Se3oxnaPsz0/caption_000013.result.json",
+      "sha256": "8a36739fcbfb0bb59225ff30743458d63c940cf87b3d474933fc51e0e7018c2a",
+      "text": "A white dog is seen in a dimly lit indoor space, possibly a kitchen. It moves around, sniffing and interacting with objects on the floor. A person's hand briefly appears near the dog. The scene is blurry and poorly lit, making details hard to discern.",
+      "prompt_tokens": 611,
+      "output_tokens": 56,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Se3oxnaPsz0/caption_000017.result.json",
+      "sha256": "2d69cdc80ea320adfad8f3874bc44d2ca05c8b27c6c4ab0a16ed6cc5e0c532a7",
+      "text": "A man with a beard and cap stands before a white van with \"killerbeeguy.com\" and a phone number. The scene shifts to a close-up of a dense cluster of bees inside a wooden structure, illuminated by a light source. The bees are actively moving.",
+      "prompt_tokens": 611,
+      "output_tokens": 56,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Se3oxnaPsz0/caption_000021.result.json",
+      "sha256": "c1bc28e1077e9cf354236ae5f6c2fd3ce37a5ac78acde088275023d5ac07191a",
+      "text": "Jane Hewitt, a farmer, stands outdoors near a building, wearing a pink shirt, purple cap, and glasses. Behind her, trees and stacked materials are visible. She appears to be speaking, with a news graphic overlay identifying her and the channel.",
+      "prompt_tokens": 611,
+      "output_tokens": 52,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Se3oxnaPsz0/caption_000025.result.json",
+      "sha256": "2e9a94875a517e450d565737f8aeebfb01e3de16213378e3bc54b86b2bd3a9cc",
+      "text": "A person in a pink shirt gestures with their hand. The scene shifts to two individuals in beekeeping suits walking outdoors. A website URL appears at the bottom of the screen. The background includes grass, trees, and a clear sky.",
+      "prompt_tokens": 611,
+      "output_tokens": 48,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Se3oxnaPsz0/caption_000029.result.json",
+      "sha256": "5a76947508136d93ac2698d87d53953eabe84aa2769e56eac1a539a258b2f7b4",
+      "text": "The video shows a blurry aerial view of a landscape with scattered structures. The camera moves rapidly, capturing indistinct shapes and colors. A wooden surface with dark spots appears briefly. The footage is shaky and lacks clear focus, making detailed identification difficult.",
+      "prompt_tokens": 611,
+      "output_tokens": 51,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Se3oxnaPsz0/caption_000033.result.json",
+      "sha256": "d0e313b26364ef6fb95ff898720d6bbeae3b04152f1903b0249b3fb0a4ae3260",
+      "text": "A person in a white protective suit and helmet walks through a dimly lit, cluttered room with exposed ceiling beams. Yellow fabric hangs near a window. The camera briefly shifts to a close-up of a textured, possibly moldy wall surface illuminated by a light source.",
+      "prompt_tokens": 611,
+      "output_tokens": 55,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Se3oxnaPsz0/caption_000038.result.json",
+      "sha256": "2b262dd015953131275dfea5401d44c59d5a483db99655c94f59141944ebbb9c",
+      "text": "A pig is seen behind a wire fence, moving slightly. The camera zooms in on the pig's face, showing its snout and eyes. A hand briefly touches the pig's head. The setting appears to be an outdoor enclosure with dirt ground and wooden structures.",
+      "prompt_tokens": 611,
+      "output_tokens": 55,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Se3oxnaPsz0/caption_000042.result.json",
+      "sha256": "71483437edaf3c1e8dd54efe0a82030daee8be1158af94e92ffd842748259320",
+      "text": "A woman with shoulder-length hair, wearing a blue polo shirt, speaks directly to the camera. Behind her, wooden planks and poles are visible against a dimly lit wall. Her expression is neutral, and she remains seated throughout the short clip.",
+      "prompt_tokens": 611,
+      "output_tokens": 51,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/Se3oxnaPsz0/caption_000046.result.json",
+      "sha256": "3743738efa302ba92f8ee6198517cb354cba8ec9048008e60dd78df1122da799",
+      "text": "The screen displays the words \"DEVELOPING STORY\" in bold, white, 3D text against a dark blue background. Bright light streaks radiate from the bottom right, creating a glowing effect. The text casts a reflection on a glossy surface below. No other objects or actions are visible.",
+      "prompt_tokens": 265,
+      "output_tokens": 62,
+      "finish_reason": "stop",
+      "status": "complete"
+    }
+  ],
+  "JKpqYvAdIsw": [
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/JKpqYvAdIsw/caption_000000.result.json",
+      "sha256": "fa26a4c60e83b8a7ce84515808148e9dfc60e4ec6475f9f01b07476da13cd061",
+      "text": "A black hat with white trim lies on a paved surface. In the background, people and vehicles are visible, including a rickshaw. The setting appears to be an outdoor area near a bus terminal. The hat remains stationary throughout the segment.",
+      "prompt_tokens": 611,
+      "output_tokens": 50,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/JKpqYvAdIsw/caption_000005.result.json",
+      "sha256": "7c44cc3b9032ef860202b7022e476ab475b080120ab47daf84b58148221dbcaa",
+      "text": "A tiger's face gradually comes into focus against a white background. Text reading \"WORLD COUNTY20\" and \"2014\" appears beside it. The tiger's stripes and facial features become clearer as the image sharpens. No other objects or actions are visible.",
+      "prompt_tokens": 611,
+      "output_tokens": 57,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/JKpqYvAdIsw/caption_000009.result.json",
+      "sha256": "9c01c959471fd57d863c137fea95082d4b11d10ff04cc4400b334ebc579a630e",
+      "text": "A crowd gathers outdoors on a paved area. Several individuals, including a man in a blue shirt and jeans, are dancing or moving energetically. Onlookers watch from the sides and front. Some hold phones. The setting appears to be a public space with trees and buildings in the background.",
+      "prompt_tokens": 611,
+      "output_tokens": 61,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/JKpqYvAdIsw/caption_000014.result.json",
+      "sha256": "1b2e46c15e85fc9e2aa9eae46ad94ae40d00e885f42c97efb8f5133bc0c677fd",
+      "text": "A group of people dance energetically in an open area, surrounded by a crowd. Some wear casual clothes, others colorful attire. They move rhythmically, arms raised or swinging. Background shows trees and structures. The crowd watches, some recording. Movement is continuous and lively.",
+      "prompt_tokens": 611,
+      "output_tokens": 57,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/JKpqYvAdIsw/caption_000018.result.json",
+      "sha256": "a0fd20dc30ef4602e891f716c1d5be6b854501ef7f0abfe6a1df88ce2bab4772",
+      "text": "A group of people dance in a line on a paved road. They raise their arms and move rhythmically. Some wear colorful clothing and head coverings. Buildings and trees are visible in the background. The camera pans slightly, capturing their synchronized movements.",
+      "prompt_tokens": 611,
+      "output_tokens": 51,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/JKpqYvAdIsw/caption_000023.result.json",
+      "sha256": "65f9c9b73720d10fe42bf96824f36208d622968b8521b0a97336ae98c5024dde",
+      "text": "A woman in a pink outfit dances energetically on a street. Behind her, a group of people, mostly men, clap and sway. A yellow vehicle is visible in the background. The crowd appears engaged, watching and cheering. The setting seems to be outdoors during daytime.",
+      "prompt_tokens": 611,
+      "output_tokens": 57,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/JKpqYvAdIsw/caption_000027.result.json",
+      "sha256": "1837a605b1f7b2d5227e7c54f83dc9b401abfb9b9c278f5d12a948ab04410360",
+      "text": "A group of people dance outdoors on a paved area. A woman in a pink and orange outfit dances prominently in the foreground. Others behind her mimic her movements. A large green and white structure is visible in the background. Trees and open sky surround the scene.",
+      "prompt_tokens": 611,
+      "output_tokens": 53,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/JKpqYvAdIsw/caption_000032.result.json",
+      "sha256": "a4bb4c668d265c5e2a5d53c4817b7fd4aa94a90f956f96e1995bb3da416ca255",
+      "text": "A group of people dance energetically on a paved road. A woman in a red and gold dress leads, moving rhythmically. Others follow, dressed in casual attire. Background shows trees, a billboard, and spectators. The scene is lively, with continuous motion and varied dance styles.",
+      "prompt_tokens": 611,
+      "output_tokens": 59,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/JKpqYvAdIsw/caption_000036.result.json",
+      "sha256": "5bbc36ca10910bf98b8ae892c2b7a5400e014c7c2e3683868efcfd6c455dd122",
+      "text": "A large crowd of people, mostly men, are gathered outdoors. Many raise their hands, some waving. A green flag with a red circle is held by several individuals. In the background, a large statue's arm and wristwatch are visible. The sky is clear.",
+      "prompt_tokens": 611,
+      "output_tokens": 55,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/JKpqYvAdIsw/caption_000041.result.json",
+      "sha256": "01789578e1794da0352f28ea6318c86cbf5789a7b2e43a268278cc871c1ba9e1",
+      "text": "A group of people dance outdoors on a paved area. Some wear white uniforms, others casual clothes. A crowd watches from behind. The camera pans across the dancers, capturing their movements. Background includes trees and distant structures. No specific actions or outcomes are discernible beyond the ongoing dance.",
+      "prompt_tokens": 611,
+      "output_tokens": 58,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/JKpqYvAdIsw/caption_000045.result.json",
+      "sha256": "8be3331830a8ab64aa5c14dfb80a878e996733c38ab11c256fbd83221802ad73",
+      "text": "A crowd gathers outdoors, some waving flags. A man in a blue shirt and cap is carried on shoulders. Another man on a motorcycle falls, sliding on pavement. Onlookers stand nearby, watching the incident unfold. The sky appears overcast.",
+      "prompt_tokens": 611,
+      "output_tokens": 51,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/JKpqYvAdIsw/caption_000050.result.json",
+      "sha256": "ef27848718377a2131196545d3ddeb82fbaba9250646d8b2e2e5d04425d39ccc",
+      "text": "A dense crowd of people, mostly men, gathers outdoors. Some wear white shirts, others colorful attire. One individual in green and red clothing moves through the crowd, holding a drum. People appear to be watching or participating in an event, with varied expressions and gestures.",
+      "prompt_tokens": 438,
+      "output_tokens": 55,
+      "finish_reason": "stop",
+      "status": "complete"
+    }
+  ],
+  "fWutDQy1nnY": [
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/fWutDQy1nnY/caption_000000.result.json",
+      "sha256": "7f26ad05749fca24982d32be6ae2a6d038806f4a6b4a597b9e52af0418b7829f",
+      "text": "A painted poster shows a man in a cap raising a fist while holding a microphone. Above him, five individuals are depicted. The text \"FORESKIN RADIO\" is displayed. The background features a stylized cityscape and rainbow. The image appears static with no motion.",
+      "prompt_tokens": 611,
+      "output_tokens": 57,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/fWutDQy1nnY/caption_000018.result.json",
+      "sha256": "719a2921234d6c698da201283d725fd7c8ea2c12414d2f4501005207abd065e7",
+      "text": "A man in a hat and jacket speaks animatedly, gesturing with his hands. Behind him, people are visible, including a bald man and others in casual attire. Balloons, including yellow and red, float nearby. The setting appears to be indoors, possibly a store or event space with shelves in the background.",
+      "prompt_tokens": 611,
+      "output_tokens": 66,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/fWutDQy1nnY/caption_000035.result.json",
+      "sha256": "9de9b66da26df3ca7fa841756d280a464c136f62e31c6e5c2c7718acd155cbcf",
+      "text": "A person in a colorful costume walks down a street lined with buildings and spectators. Confetti is scattered on the pavement. People stand or sit along the sidewalks, watching the performer. A red sign with Chinese characters is visible on a building. The camera slightly pans to follow the movement.",
+      "prompt_tokens": 611,
+      "output_tokens": 58,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/fWutDQy1nnY/caption_000053.result.json",
+      "sha256": "b1f00077e2b262b80e897c0779cedc21899f8adc38eb740f0c89786c18778a2e",
+      "text": "A large, ornate lion dance costume moves through a street. People in dark clothing walk behind it. Colorful flags line the street. Buildings with signs are visible in the background. The lion costume’s head turns and moves dynamically. The ground appears wet.",
+      "prompt_tokens": 611,
+      "output_tokens": 53,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/fWutDQy1nnY/caption_000071.result.json",
+      "sha256": "3c9d0fef63b0091830b8b8f5e4f4ffeba2c0796a3d4c3d250240701d0e633d0d",
+      "text": "Two costumed performers in large, fluffy white lion costumes dance energetically in a street. A red flag bearer moves nearby. Buildings and spectators are visible in the background. The camera shakes, capturing dynamic motion. The performers’ movements are vigorous and rhythmic.",
+      "prompt_tokens": 611,
+      "output_tokens": 54,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/fWutDQy1nnY/caption_000089.result.json",
+      "sha256": "2b475073e02874f860bec5255593f61f481588e7263fe364f42deb949c4e130a",
+      "text": "Dancers in green tops and white skirts perform on a wet street. Spectators with umbrellas watch from sidewalks. Buildings with signs line the street. Dancers move gracefully, twirling and extending arms. Their movements are synchronized. Rain is visible on the pavement.",
+      "prompt_tokens": 611,
+      "output_tokens": 54,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/fWutDQy1nnY/caption_000106.result.json",
+      "sha256": "af9c62c7371899bb20d77702b06c1ac15d8b7907c5f8850b5911592871be51c8",
+      "text": "A golden dragon dance performance unfolds on a city street. Performers in red costumes manipulate the dragon’s body. Spectators line the sidewalk, watching. A red sign with Chinese characters and English text for a restaurant is visible in the background. The dragon moves fluidly, twisting and turning.",
+      "prompt_tokens": 611,
+      "output_tokens": 59,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/fWutDQy1nnY/caption_000124.result.json",
+      "sha256": "644abb823695926fc37283e5b5aee0480d24dec67e794f3f429212e408d18204",
+      "text": "Dancers in colorful traditional costumes perform on a city street. They wave large, multicolored fans. Buildings with signs line the background. Spectators watch from sidewalks. A person walks past the dancers. The scene is outdoors during daylight.",
+      "prompt_tokens": 611,
+      "output_tokens": 49,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/fWutDQy1nnY/caption_000142.result.json",
+      "sha256": "52ec4067c71d6161193c9c2c1c9e12716f714830b6e4df5f4e88a6c823ce2a80",
+      "text": "A crowded street parade features numerous colorful flags and banners. People march, some holding signs and umbrellas. A large, decorated float moves through the crowd. Buildings line the street. The scene is vibrant and busy, with many participants actively engaged in the procession.",
+      "prompt_tokens": 611,
+      "output_tokens": 53,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/fWutDQy1nnY/caption_000160.result.json",
+      "sha256": "e8e872b2f2e600539dea06f7bdc1e0e65cbe176d8ebe59698e56207481ffea46",
+      "text": "A person with glasses and a scarf is partially visible in a store. Behind them, shelves display numerous jars and containers with various contents. The camera moves slightly, blurring the scene. The person’s face is not fully clear. The setting appears to be a spice or grocery shop.",
+      "prompt_tokens": 611,
+      "output_tokens": 58,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/fWutDQy1nnY/caption_000177.result.json",
+      "sha256": "968f49a862682222223d68b93e71ff9f4bb18f2de9756d059d983da96c9c26f9",
+      "text": "A man with glasses and a red scarf holds an umbrella. He speaks while looking at the camera. Rain is visible in the background. His facial expression changes slightly as he talks. The umbrella remains open throughout the segment.",
+      "prompt_tokens": 611,
+      "output_tokens": 45,
+      "finish_reason": "stop",
+      "status": "complete"
+    },
+    {
+      "path": "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_val10_context_v1_2026-11-10/background/requests/fWutDQy1nnY/caption_000195.result.json",
+      "sha256": "3d3f80dd5f8891fd189868d94c7113dd20eba8ed57e0e00a3474eb0f4a55ac10",
+      "text": "A crowd walks outdoors in rainy weather, many holding umbrellas. Buildings and trees are visible in the background. A child in a pink jacket walks alongside an adult. The website \"foreskinradio.com\" is displayed at the bottom of the screen.",
+      "prompt_tokens": 265,
+      "output_tokens": 52,
+      "finish_reason": "stop",
+      "status": "complete"
+    }
+  ]
+}

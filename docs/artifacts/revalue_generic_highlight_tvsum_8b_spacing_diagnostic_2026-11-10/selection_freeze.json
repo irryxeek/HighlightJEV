@@ -1,0 +1,2112 @@
+{
+  "scope": "all original new40",
+  "videos": [
+    "WxtbjNsCQ8A",
+    "GsAD1KT1xo8",
+    "i3wAGJaaktw",
+    "XkqCExn6_Us",
+    "AwmHb44_ouw",
+    "z_6gVvQb2d0",
+    "iVt07TCkFM0",
+    "gzDbaEs1Rlg",
+    "XzYM3PfTM4w",
+    "kLxoNp-UchI",
+    "VuWGsYPqAX8",
+    "4wU_LUjG5Ic",
+    "WG0MBPpPC6I",
+    "0tmA_C6XwfM",
+    "vdmoEJ5YbrQ",
+    "jcoYJXDG9sw",
+    "xwqBXPGE9pQ",
+    "HT5vyqe0Xaw",
+    "PJrm840pAUI",
+    "xxdtq8mxegs",
+    "oDXZc0tZe04",
+    "LRw_obCPUt0",
+    "b626MiF1ew4",
+    "eQu1rNs0an0",
+    "Hl-__g2gn_A",
+    "3eYKfiOEJNs",
+    "akI8YFjEmUw",
+    "NyBmCxDoHJU",
+    "_xMr-HKMfVA",
+    "91IHQYk1IQM",
+    "byxOvuiIJV0",
+    "RBCABdttQmI",
+    "-esJrBWj2d8",
+    "EE-bNr36nyA",
+    "uGu_10sucQo",
+    "37rzWOQsNIw",
+    "EYqVtI9YWJA",
+    "xmEERLqJ2kU",
+    "98MoyGZKHXc",
+    "qqR6AEXwxoQ"
+  ],
+  "arms": [
+    "REZE_8B",
+    "context_8B",
+    "revised_8B"
+  ],
+  "selection_rule": "greedy original float32 descending order; >=6s between 2s clip starts; stop at five",
+  "reason_for_6s": "two original 3s windows; fixed for this one posthoc diagnostic, no parameter search",
+  "selections": {
+    "REZE_8B": {
+      "WxtbjNsCQ8A": {
+        "original_top5": [
+          60,
+          59,
+          36,
+          35,
+          37
+        ],
+        "spaced_top5": [
+          60,
+          36,
+          97,
+          100,
+          91
+        ],
+        "original_scores_unchanged": true
+      },
+      "GsAD1KT1xo8": {
+        "original_top5": [
+          65,
+          68,
+          59,
+          66,
+          64
+        ],
+        "spaced_top5": [
+          65,
+          68,
+          59,
+          62,
+          55
+        ],
+        "original_scores_unchanged": true
+      },
+      "i3wAGJaaktw": {
+        "original_top5": [
+          35,
+          34,
+          29,
+          33,
+          30
+        ],
+        "spaced_top5": [
+          35,
+          29,
+          38,
+          24,
+          42
+        ],
+        "original_scores_unchanged": true
+      },
+      "XkqCExn6_Us": {
+        "original_top5": [
+          71,
+          40,
+          41,
+          39,
+          68
+        ],
+        "spaced_top5": [
+          71,
+          40,
+          68,
+          44,
+          47
+        ],
+        "original_scores_unchanged": true
+      },
+      "AwmHb44_ouw": {
+        "original_top5": [
+          116,
+          104,
+          103,
+          71,
+          61
+        ],
+        "spaced_top5": [
+          116,
+          104,
+          71,
+          61,
+          98
+        ],
+        "original_scores_unchanged": true
+      },
+      "z_6gVvQb2d0": {
+        "original_top5": [
+          41,
+          113,
+          47,
+          40,
+          42
+        ],
+        "spaced_top5": [
+          41,
+          113,
+          47,
+          50,
+          36
+        ],
+        "original_scores_unchanged": true
+      },
+      "iVt07TCkFM0": {
+        "original_top5": [
+          35,
+          36,
+          28,
+          32,
+          27
+        ],
+        "spaced_top5": [
+          35,
+          28,
+          32,
+          3,
+          11
+        ],
+        "original_scores_unchanged": true
+      },
+      "gzDbaEs1Rlg": {
+        "original_top5": [
+          52,
+          53,
+          80,
+          79,
+          86
+        ],
+        "spaced_top5": [
+          52,
+          80,
+          86,
+          65,
+          73
+        ],
+        "original_scores_unchanged": true
+      },
+      "XzYM3PfTM4w": {
+        "original_top5": [
+          23,
+          11,
+          24,
+          26,
+          10
+        ],
+        "spaced_top5": [
+          23,
+          11,
+          26,
+          0,
+          4
+        ],
+        "original_scores_unchanged": true
+      },
+      "kLxoNp-UchI": {
+        "original_top5": [
+          53,
+          50,
+          19,
+          18,
+          26
+        ],
+        "spaced_top5": [
+          53,
+          50,
+          19,
+          26,
+          35
+        ],
+        "original_scores_unchanged": true
+      },
+      "VuWGsYPqAX8": {
+        "original_top5": [
+          32,
+          96,
+          74,
+          56,
+          97
+        ],
+        "spaced_top5": [
+          32,
+          96,
+          74,
+          56,
+          88
+        ],
+        "original_scores_unchanged": true
+      },
+      "4wU_LUjG5Ic": {
+        "original_top5": [
+          28,
+          5,
+          29,
+          27,
+          59
+        ],
+        "spaced_top5": [
+          28,
+          5,
+          59,
+          56,
+          53
+        ],
+        "original_scores_unchanged": true
+      },
+      "WG0MBPpPC6I": {
+        "original_top5": [
+          171,
+          62,
+          170,
+          61,
+          172
+        ],
+        "spaced_top5": [
+          171,
+          62,
+          59,
+          176,
+          185
+        ],
+        "original_scores_unchanged": true
+      },
+      "0tmA_C6XwfM": {
+        "original_top5": [
+          38,
+          39,
+          31,
+          30,
+          32
+        ],
+        "spaced_top5": [
+          38,
+          31,
+          35,
+          28,
+          41
+        ],
+        "original_scores_unchanged": true
+      },
+      "vdmoEJ5YbrQ": {
+        "original_top5": [
+          67,
+          117,
+          66,
+          118,
+          3
+        ],
+        "spaced_top5": [
+          67,
+          117,
+          3,
+          83,
+          86
+        ],
+        "original_scores_unchanged": true
+      },
+      "jcoYJXDG9sw": {
+        "original_top5": [
+          60,
+          61,
+          59,
+          58,
+          57
+        ],
+        "spaced_top5": [
+          60,
+          57,
+          12,
+          34,
+          54
+        ],
+        "original_scores_unchanged": true
+      },
+      "xwqBXPGE9pQ": {
+        "original_top5": [
+          14,
+          2,
+          113,
+          15,
+          13
+        ],
+        "spaced_top5": [
+          14,
+          2,
+          113,
+          86,
+          82
+        ],
+        "original_scores_unchanged": true
+      },
+      "HT5vyqe0Xaw": {
+        "original_top5": [
+          86,
+          101,
+          85,
+          73,
+          87
+        ],
+        "spaced_top5": [
+          86,
+          101,
+          73,
+          48,
+          68
+        ],
+        "original_scores_unchanged": true
+      },
+      "PJrm840pAUI": {
+        "original_top5": [
+          84,
+          85,
+          116,
+          123,
+          124
+        ],
+        "spaced_top5": [
+          84,
+          116,
+          123,
+          119,
+          29
+        ],
+        "original_scores_unchanged": true
+      },
+      "xxdtq8mxegs": {
+        "original_top5": [
+          38,
+          39,
+          37,
+          36,
+          35
+        ],
+        "spaced_top5": [
+          38,
+          35,
+          42,
+          48,
+          59
+        ],
+        "original_scores_unchanged": true
+      },
+      "oDXZc0tZe04": {
+        "original_top5": [
+          115,
+          85,
+          86,
+          114,
+          117
+        ],
+        "spaced_top5": [
+          115,
+          85,
+          28,
+          82,
+          140
+        ],
+        "original_scores_unchanged": true
+      },
+      "LRw_obCPUt0": {
+        "original_top5": [
+          0,
+          74,
+          59,
+          1,
+          53
+        ],
+        "spaced_top5": [
+          0,
+          74,
+          59,
+          53,
+          68
+        ],
+        "original_scores_unchanged": true
+      },
+      "b626MiF1ew4": {
+        "original_top5": [
+          37,
+          107,
+          63,
+          56,
+          36
+        ],
+        "spaced_top5": [
+          37,
+          107,
+          63,
+          56,
+          96
+        ],
+        "original_scores_unchanged": true
+      },
+      "eQu1rNs0an0": {
+        "original_top5": [
+          55,
+          54,
+          36,
+          35,
+          51
+        ],
+        "spaced_top5": [
+          55,
+          36,
+          51,
+          69,
+          33
+        ],
+        "original_scores_unchanged": true
+      },
+      "Hl-__g2gn_A": {
+        "original_top5": [
+          65,
+          56,
+          89,
+          106,
+          105
+        ],
+        "spaced_top5": [
+          65,
+          56,
+          89,
+          106,
+          77
+        ],
+        "original_scores_unchanged": true
+      },
+      "3eYKfiOEJNs": {
+        "original_top5": [
+          32,
+          49,
+          48,
+          33,
+          26
+        ],
+        "spaced_top5": [
+          32,
+          49,
+          26,
+          86,
+          29
+        ],
+        "original_scores_unchanged": true
+      },
+      "akI8YFjEmUw": {
+        "original_top5": [
+          17,
+          20,
+          35,
+          21,
+          0
+        ],
+        "spaced_top5": [
+          17,
+          20,
+          35,
+          0,
+          23
+        ],
+        "original_scores_unchanged": true
+      },
+      "NyBmCxDoHJU": {
+        "original_top5": [
+          86,
+          70,
+          69,
+          22,
+          21
+        ],
+        "spaced_top5": [
+          86,
+          70,
+          22,
+          63,
+          0
+        ],
+        "original_scores_unchanged": true
+      },
+      "_xMr-HKMfVA": {
+        "original_top5": [
+          27,
+          28,
+          31,
+          30,
+          58
+        ],
+        "spaced_top5": [
+          27,
+          31,
+          58,
+          52,
+          44
+        ],
+        "original_scores_unchanged": true
+      },
+      "91IHQYk1IQM": {
+        "original_top5": [
+          35,
+          34,
+          36,
+          19,
+          18
+        ],
+        "spaced_top5": [
+          35,
+          19,
+          32,
+          41,
+          5
+        ],
+        "original_scores_unchanged": true
+      },
+      "byxOvuiIJV0": {
+        "original_top5": [
+          53,
+          24,
+          25,
+          63,
+          23
+        ],
+        "spaced_top5": [
+          53,
+          24,
+          63,
+          74,
+          41
+        ],
+        "original_scores_unchanged": true
+      },
+      "RBCABdttQmI": {
+        "original_top5": [
+          115,
+          104,
+          114,
+          61,
+          56
+        ],
+        "spaced_top5": [
+          115,
+          104,
+          61,
+          56,
+          46
+        ],
+        "original_scores_unchanged": true
+      },
+      "-esJrBWj2d8": {
+        "original_top5": [
+          53,
+          41,
+          50,
+          98,
+          58
+        ],
+        "spaced_top5": [
+          53,
+          41,
+          50,
+          98,
+          58
+        ],
+        "original_scores_unchanged": true
+      },
+      "EE-bNr36nyA": {
+        "original_top5": [
+          39,
+          40,
+          26,
+          23,
+          22
+        ],
+        "spaced_top5": [
+          39,
+          26,
+          23,
+          17,
+          29
+        ],
+        "original_scores_unchanged": true
+      },
+      "uGu_10sucQo": {
+        "original_top5": [
+          50,
+          56,
+          55,
+          19,
+          18
+        ],
+        "spaced_top5": [
+          50,
+          56,
+          19,
+          41,
+          23
+        ],
+        "original_scores_unchanged": true
+      },
+      "37rzWOQsNIw": {
+        "original_top5": [
+          83,
+          82,
+          74,
+          14,
+          13
+        ],
+        "spaced_top5": [
+          83,
+          74,
+          14,
+          65,
+          17
+        ],
+        "original_scores_unchanged": true
+      },
+      "EYqVtI9YWJA": {
+        "original_top5": [
+          68,
+          56,
+          72,
+          67,
+          69
+        ],
+        "spaced_top5": [
+          68,
+          56,
+          72,
+          83,
+          10
+        ],
+        "original_scores_unchanged": true
+      },
+      "xmEERLqJ2kU": {
+        "original_top5": [
+          204,
+          205,
+          136,
+          74,
+          135
+        ],
+        "spaced_top5": [
+          204,
+          136,
+          74,
+          167,
+          133
+        ],
+        "original_scores_unchanged": true
+      },
+      "98MoyGZKHXc": {
+        "original_top5": [
+          38,
+          37,
+          23,
+          24,
+          33
+        ],
+        "spaced_top5": [
+          38,
+          23,
+          33,
+          43,
+          46
+        ],
+        "original_scores_unchanged": true
+      },
+      "qqR6AEXwxoQ": {
+        "original_top5": [
+          76,
+          29,
+          78,
+          41,
+          79
+        ],
+        "spaced_top5": [
+          76,
+          29,
+          41,
+          79,
+          86
+        ],
+        "original_scores_unchanged": true
+      }
+    },
+    "context_8B": {
+      "WxtbjNsCQ8A": {
+        "original_top5": [
+          118,
+          119,
+          86,
+          60,
+          34
+        ],
+        "spaced_top5": [
+          118,
+          86,
+          60,
+          34,
+          38
+        ],
+        "original_scores_unchanged": true
+      },
+      "GsAD1KT1xo8": {
+        "original_top5": [
+          62,
+          65,
+          50,
+          63,
+          68
+        ],
+        "spaced_top5": [
+          62,
+          65,
+          50,
+          68,
+          59
+        ],
+        "original_scores_unchanged": true
+      },
+      "i3wAGJaaktw": {
+        "original_top5": [
+          34,
+          35,
+          42,
+          41,
+          5
+        ],
+        "spaced_top5": [
+          34,
+          42,
+          5,
+          23,
+          20
+        ],
+        "original_scores_unchanged": true
+      },
+      "XkqCExn6_Us": {
+        "original_top5": [
+          0,
+          83,
+          87,
+          44,
+          47
+        ],
+        "spaced_top5": [
+          0,
+          83,
+          87,
+          44,
+          47
+        ],
+        "original_scores_unchanged": true
+      },
+      "AwmHb44_ouw": {
+        "original_top5": [
+          94,
+          96,
+          71,
+          95,
+          88
+        ],
+        "spaced_top5": [
+          94,
+          71,
+          88,
+          99,
+          54
+        ],
+        "original_scores_unchanged": true
+      },
+      "z_6gVvQb2d0": {
+        "original_top5": [
+          113,
+          77,
+          41,
+          86,
+          120
+        ],
+        "spaced_top5": [
+          113,
+          77,
+          41,
+          86,
+          120
+        ],
+        "original_scores_unchanged": true
+      },
+      "iVt07TCkFM0": {
+        "original_top5": [
+          27,
+          35,
+          26,
+          28,
+          36
+        ],
+        "spaced_top5": [
+          27,
+          35,
+          3,
+          15,
+          32
+        ],
+        "original_scores_unchanged": true
+      },
+      "gzDbaEs1Rlg": {
+        "original_top5": [
+          32,
+          33,
+          79,
+          80,
+          137
+        ],
+        "spaced_top5": [
+          32,
+          79,
+          137,
+          52,
+          102
+        ],
+        "original_scores_unchanged": true
+      },
+      "XzYM3PfTM4w": {
+        "original_top5": [
+          20,
+          17,
+          19,
+          18,
+          26
+        ],
+        "spaced_top5": [
+          20,
+          17,
+          26,
+          11,
+          4
+        ],
+        "original_scores_unchanged": true
+      },
+      "kLxoNp-UchI": {
+        "original_top5": [
+          26,
+          32,
+          50,
+          4,
+          0
+        ],
+        "spaced_top5": [
+          26,
+          32,
+          50,
+          4,
+          0
+        ],
+        "original_scores_unchanged": true
+      },
+      "VuWGsYPqAX8": {
+        "original_top5": [
+          47,
+          59,
+          98,
+          32,
+          107
+        ],
+        "spaced_top5": [
+          47,
+          59,
+          98,
+          32,
+          107
+        ],
+        "original_scores_unchanged": true
+      },
+      "4wU_LUjG5Ic": {
+        "original_top5": [
+          44,
+          6,
+          5,
+          43,
+          47
+        ],
+        "spaced_top5": [
+          44,
+          6,
+          47,
+          39,
+          33
+        ],
+        "original_scores_unchanged": true
+      },
+      "WG0MBPpPC6I": {
+        "original_top5": [
+          164,
+          170,
+          143,
+          177,
+          95
+        ],
+        "spaced_top5": [
+          164,
+          170,
+          143,
+          177,
+          95
+        ],
+        "original_scores_unchanged": true
+      },
+      "0tmA_C6XwfM": {
+        "original_top5": [
+          32,
+          31,
+          37,
+          36,
+          38
+        ],
+        "spaced_top5": [
+          32,
+          37,
+          41,
+          28,
+          46
+        ],
+        "original_scores_unchanged": true
+      },
+      "vdmoEJ5YbrQ": {
+        "original_top5": [
+          67,
+          59,
+          7,
+          113,
+          68
+        ],
+        "spaced_top5": [
+          67,
+          59,
+          7,
+          113,
+          11
+        ],
+        "original_scores_unchanged": true
+      },
+      "jcoYJXDG9sw": {
+        "original_top5": [
+          34,
+          36,
+          35,
+          33,
+          30
+        ],
+        "spaced_top5": [
+          34,
+          30,
+          72,
+          42,
+          67
+        ],
+        "original_scores_unchanged": true
+      },
+      "xwqBXPGE9pQ": {
+        "original_top5": [
+          14,
+          113,
+          61,
+          86,
+          62
+        ],
+        "spaced_top5": [
+          14,
+          113,
+          61,
+          86,
+          40
+        ],
+        "original_scores_unchanged": true
+      },
+      "HT5vyqe0Xaw": {
+        "original_top5": [
+          44,
+          85,
+          101,
+          86,
+          72
+        ],
+        "spaced_top5": [
+          44,
+          85,
+          101,
+          72,
+          55
+        ],
+        "original_scores_unchanged": true
+      },
+      "PJrm840pAUI": {
+        "original_top5": [
+          47,
+          84,
+          20,
+          83,
+          29
+        ],
+        "spaced_top5": [
+          47,
+          84,
+          20,
+          29,
+          2
+        ],
+        "original_scores_unchanged": true
+      },
+      "xxdtq8mxegs": {
+        "original_top5": [
+          35,
+          36,
+          37,
+          38,
+          42
+        ],
+        "spaced_top5": [
+          35,
+          38,
+          42,
+          52,
+          56
+        ],
+        "original_scores_unchanged": true
+      },
+      "oDXZc0tZe04": {
+        "original_top5": [
+          137,
+          56,
+          138,
+          136,
+          146
+        ],
+        "spaced_top5": [
+          137,
+          56,
+          146,
+          130,
+          133
+        ],
+        "original_scores_unchanged": true
+      },
+      "LRw_obCPUt0": {
+        "original_top5": [
+          62,
+          59,
+          73,
+          68,
+          74
+        ],
+        "spaced_top5": [
+          62,
+          59,
+          73,
+          68,
+          53
+        ],
+        "original_scores_unchanged": true
+      },
+      "b626MiF1ew4": {
+        "original_top5": [
+          14,
+          107,
+          108,
+          110,
+          109
+        ],
+        "spaced_top5": [
+          14,
+          107,
+          110,
+          97,
+          5
+        ],
+        "original_scores_unchanged": true
+      },
+      "eQu1rNs0an0": {
+        "original_top5": [
+          50,
+          32,
+          25,
+          77,
+          26
+        ],
+        "spaced_top5": [
+          50,
+          32,
+          25,
+          77,
+          2
+        ],
+        "original_scores_unchanged": true
+      },
+      "Hl-__g2gn_A": {
+        "original_top5": [
+          94,
+          65,
+          5,
+          105,
+          112
+        ],
+        "spaced_top5": [
+          94,
+          65,
+          5,
+          105,
+          112
+        ],
+        "original_scores_unchanged": true
+      },
+      "3eYKfiOEJNs": {
+        "original_top5": [
+          48,
+          47,
+          49,
+          86,
+          50
+        ],
+        "spaced_top5": [
+          48,
+          86,
+          26,
+          29,
+          38
+        ],
+        "original_scores_unchanged": true
+      },
+      "akI8YFjEmUw": {
+        "original_top5": [
+          17,
+          50,
+          49,
+          48,
+          41
+        ],
+        "spaced_top5": [
+          17,
+          50,
+          41,
+          26,
+          20
+        ],
+        "original_scores_unchanged": true
+      },
+      "NyBmCxDoHJU": {
+        "original_top5": [
+          0,
+          62,
+          85,
+          63,
+          1
+        ],
+        "spaced_top5": [
+          0,
+          62,
+          85,
+          21,
+          33
+        ],
+        "original_scores_unchanged": true
+      },
+      "_xMr-HKMfVA": {
+        "original_top5": [
+          44,
+          62,
+          35,
+          40,
+          31
+        ],
+        "spaced_top5": [
+          44,
+          62,
+          35,
+          40,
+          31
+        ],
+        "original_scores_unchanged": true
+      },
+      "91IHQYk1IQM": {
+        "original_top5": [
+          35,
+          36,
+          19,
+          37,
+          20
+        ],
+        "spaced_top5": [
+          35,
+          19,
+          30,
+          5,
+          38
+        ],
+        "original_scores_unchanged": true
+      },
+      "byxOvuiIJV0": {
+        "original_top5": [
+          8,
+          74,
+          23,
+          24,
+          29
+        ],
+        "spaced_top5": [
+          8,
+          74,
+          23,
+          29,
+          35
+        ],
+        "original_scores_unchanged": true
+      },
+      "RBCABdttQmI": {
+        "original_top5": [
+          128,
+          23,
+          44,
+          129,
+          86
+        ],
+        "spaced_top5": [
+          128,
+          23,
+          44,
+          86,
+          114
+        ],
+        "original_scores_unchanged": true
+      },
+      "-esJrBWj2d8": {
+        "original_top5": [
+          50,
+          53,
+          98,
+          51,
+          52
+        ],
+        "spaced_top5": [
+          50,
+          53,
+          98,
+          41,
+          47
+        ],
+        "original_scores_unchanged": true
+      },
+      "EE-bNr36nyA": {
+        "original_top5": [
+          17,
+          26,
+          16,
+          15,
+          22
+        ],
+        "spaced_top5": [
+          17,
+          26,
+          22,
+          5,
+          40
+        ],
+        "original_scores_unchanged": true
+      },
+      "uGu_10sucQo": {
+        "original_top5": [
+          50,
+          41,
+          40,
+          23,
+          53
+        ],
+        "spaced_top5": [
+          50,
+          41,
+          23,
+          53,
+          57
+        ],
+        "original_scores_unchanged": true
+      },
+      "37rzWOQsNIw": {
+        "original_top5": [
+          73,
+          74,
+          75,
+          2,
+          76
+        ],
+        "spaced_top5": [
+          73,
+          2,
+          76,
+          83,
+          70
+        ],
+        "original_scores_unchanged": true
+      },
+      "EYqVtI9YWJA": {
+        "original_top5": [
+          56,
+          68,
+          80,
+          84,
+          89
+        ],
+        "spaced_top5": [
+          56,
+          68,
+          80,
+          84,
+          89
+        ],
+        "original_scores_unchanged": true
+      },
+      "xmEERLqJ2kU": {
+        "original_top5": [
+          135,
+          133,
+          136,
+          134,
+          167
+        ],
+        "spaced_top5": [
+          135,
+          167,
+          201,
+          204,
+          190
+        ],
+        "original_scores_unchanged": true
+      },
+      "98MoyGZKHXc": {
+        "original_top5": [
+          17,
+          16,
+          38,
+          52,
+          37
+        ],
+        "spaced_top5": [
+          17,
+          38,
+          52,
+          32,
+          44
+        ],
+        "original_scores_unchanged": true
+      },
+      "qqR6AEXwxoQ": {
+        "original_top5": [
+          78,
+          77,
+          29,
+          76,
+          41
+        ],
+        "spaced_top5": [
+          78,
+          29,
+          41,
+          81,
+          85
+        ],
+        "original_scores_unchanged": true
+      }
+    },
+    "revised_8B": {
+      "WxtbjNsCQ8A": {
+        "original_top5": [
+          41,
+          61,
+          63,
+          42,
+          60
+        ],
+        "spaced_top5": [
+          41,
+          61,
+          119,
+          34,
+          38
+        ],
+        "original_scores_unchanged": true
+      },
+      "GsAD1KT1xo8": {
+        "original_top5": [
+          65,
+          62,
+          50,
+          64,
+          63
+        ],
+        "spaced_top5": [
+          65,
+          62,
+          50,
+          68,
+          39
+        ],
+        "original_scores_unchanged": true
+      },
+      "i3wAGJaaktw": {
+        "original_top5": [
+          34,
+          77,
+          76,
+          5,
+          35
+        ],
+        "spaced_top5": [
+          34,
+          77,
+          5,
+          23,
+          17
+        ],
+        "original_scores_unchanged": true
+      },
+      "XkqCExn6_Us": {
+        "original_top5": [
+          0,
+          44,
+          40,
+          47,
+          71
+        ],
+        "spaced_top5": [
+          0,
+          44,
+          40,
+          47,
+          71
+        ],
+        "original_scores_unchanged": true
+      },
+      "AwmHb44_ouw": {
+        "original_top5": [
+          116,
+          89,
+          94,
+          96,
+          71
+        ],
+        "spaced_top5": [
+          116,
+          89,
+          94,
+          71,
+          54
+        ],
+        "original_scores_unchanged": true
+      },
+      "z_6gVvQb2d0": {
+        "original_top5": [
+          113,
+          41,
+          120,
+          47,
+          77
+        ],
+        "spaced_top5": [
+          113,
+          41,
+          120,
+          47,
+          77
+        ],
+        "original_scores_unchanged": true
+      },
+      "iVt07TCkFM0": {
+        "original_top5": [
+          27,
+          26,
+          35,
+          28,
+          36
+        ],
+        "spaced_top5": [
+          27,
+          35,
+          32,
+          4,
+          39
+        ],
+        "original_scores_unchanged": true
+      },
+      "gzDbaEs1Rlg": {
+        "original_top5": [
+          32,
+          33,
+          79,
+          34,
+          52
+        ],
+        "spaced_top5": [
+          32,
+          79,
+          52,
+          102,
+          58
+        ],
+        "original_scores_unchanged": true
+      },
+      "XzYM3PfTM4w": {
+        "original_top5": [
+          17,
+          20,
+          18,
+          19,
+          25
+        ],
+        "spaced_top5": [
+          17,
+          20,
+          25,
+          11,
+          0
+        ],
+        "original_scores_unchanged": true
+      },
+      "kLxoNp-UchI": {
+        "original_top5": [
+          26,
+          32,
+          25,
+          0,
+          50
+        ],
+        "spaced_top5": [
+          26,
+          32,
+          0,
+          50,
+          4
+        ],
+        "original_scores_unchanged": true
+      },
+      "VuWGsYPqAX8": {
+        "original_top5": [
+          59,
+          47,
+          98,
+          107,
+          58
+        ],
+        "spaced_top5": [
+          59,
+          47,
+          98,
+          107,
+          32
+        ],
+        "original_scores_unchanged": true
+      },
+      "4wU_LUjG5Ic": {
+        "original_top5": [
+          6,
+          5,
+          15,
+          47,
+          44
+        ],
+        "spaced_top5": [
+          6,
+          15,
+          47,
+          44,
+          74
+        ],
+        "original_scores_unchanged": true
+      },
+      "WG0MBPpPC6I": {
+        "original_top5": [
+          164,
+          143,
+          170,
+          177,
+          173
+        ],
+        "spaced_top5": [
+          164,
+          143,
+          170,
+          177,
+          173
+        ],
+        "original_scores_unchanged": true
+      },
+      "0tmA_C6XwfM": {
+        "original_top5": [
+          32,
+          39,
+          38,
+          37,
+          33
+        ],
+        "spaced_top5": [
+          32,
+          39,
+          36,
+          28,
+          10
+        ],
+        "original_scores_unchanged": true
+      },
+      "vdmoEJ5YbrQ": {
+        "original_top5": [
+          67,
+          84,
+          59,
+          85,
+          83
+        ],
+        "spaced_top5": [
+          67,
+          84,
+          59,
+          7,
+          11
+        ],
+        "original_scores_unchanged": true
+      },
+      "jcoYJXDG9sw": {
+        "original_top5": [
+          34,
+          35,
+          29,
+          33,
+          36
+        ],
+        "spaced_top5": [
+          34,
+          29,
+          20,
+          42,
+          67
+        ],
+        "original_scores_unchanged": true
+      },
+      "xwqBXPGE9pQ": {
+        "original_top5": [
+          14,
+          40,
+          82,
+          61,
+          113
+        ],
+        "spaced_top5": [
+          14,
+          40,
+          82,
+          61,
+          113
+        ],
+        "original_scores_unchanged": true
+      },
+      "HT5vyqe0Xaw": {
+        "original_top5": [
+          44,
+          85,
+          86,
+          101,
+          72
+        ],
+        "spaced_top5": [
+          44,
+          85,
+          101,
+          72,
+          48
+        ],
+        "original_scores_unchanged": true
+      },
+      "PJrm840pAUI": {
+        "original_top5": [
+          47,
+          84,
+          85,
+          83,
+          59
+        ],
+        "spaced_top5": [
+          47,
+          84,
+          59,
+          131,
+          98
+        ],
+        "original_scores_unchanged": true
+      },
+      "xxdtq8mxegs": {
+        "original_top5": [
+          53,
+          52,
+          54,
+          55,
+          35
+        ],
+        "spaced_top5": [
+          53,
+          35,
+          56,
+          38,
+          42
+        ],
+        "original_scores_unchanged": true
+      },
+      "oDXZc0tZe04": {
+        "original_top5": [
+          137,
+          146,
+          136,
+          138,
+          147
+        ],
+        "spaced_top5": [
+          137,
+          146,
+          56,
+          130,
+          149
+        ],
+        "original_scores_unchanged": true
+      },
+      "LRw_obCPUt0": {
+        "original_top5": [
+          59,
+          62,
+          74,
+          68,
+          73
+        ],
+        "spaced_top5": [
+          59,
+          62,
+          74,
+          68,
+          53
+        ],
+        "original_scores_unchanged": true
+      },
+      "b626MiF1ew4": {
+        "original_top5": [
+          14,
+          5,
+          107,
+          6,
+          56
+        ],
+        "spaced_top5": [
+          14,
+          5,
+          107,
+          56,
+          21
+        ],
+        "original_scores_unchanged": true
+      },
+      "eQu1rNs0an0": {
+        "original_top5": [
+          50,
+          68,
+          69,
+          25,
+          36
+        ],
+        "spaced_top5": [
+          50,
+          68,
+          25,
+          36,
+          2
+        ],
+        "original_scores_unchanged": true
+      },
+      "Hl-__g2gn_A": {
+        "original_top5": [
+          65,
+          112,
+          94,
+          114,
+          113
+        ],
+        "spaced_top5": [
+          65,
+          112,
+          94,
+          105,
+          35
+        ],
+        "original_scores_unchanged": true
+      },
+      "3eYKfiOEJNs": {
+        "original_top5": [
+          49,
+          48,
+          50,
+          47,
+          86
+        ],
+        "spaced_top5": [
+          49,
+          86,
+          26,
+          34,
+          38
+        ],
+        "original_scores_unchanged": true
+      },
+      "akI8YFjEmUw": {
+        "original_top5": [
+          17,
+          20,
+          62,
+          21,
+          22
+        ],
+        "spaced_top5": [
+          17,
+          20,
+          62,
+          26,
+          50
+        ],
+        "original_scores_unchanged": true
+      },
+      "NyBmCxDoHJU": {
+        "original_top5": [
+          0,
+          62,
+          63,
+          85,
+          21
+        ],
+        "spaced_top5": [
+          0,
+          62,
+          85,
+          21,
+          11
+        ],
+        "original_scores_unchanged": true
+      },
+      "_xMr-HKMfVA": {
+        "original_top5": [
+          44,
+          62,
+          58,
+          35,
+          40
+        ],
+        "spaced_top5": [
+          44,
+          62,
+          58,
+          35,
+          40
+        ],
+        "original_scores_unchanged": true
+      },
+      "91IHQYk1IQM": {
+        "original_top5": [
+          35,
+          19,
+          36,
+          5,
+          30
+        ],
+        "spaced_top5": [
+          35,
+          19,
+          5,
+          30,
+          41
+        ],
+        "original_scores_unchanged": true
+      },
+      "byxOvuiIJV0": {
+        "original_top5": [
+          23,
+          8,
+          24,
+          53,
+          35
+        ],
+        "spaced_top5": [
+          23,
+          8,
+          53,
+          35,
+          74
+        ],
+        "original_scores_unchanged": true
+      },
+      "RBCABdttQmI": {
+        "original_top5": [
+          86,
+          47,
+          8,
+          23,
+          44
+        ],
+        "spaced_top5": [
+          86,
+          47,
+          8,
+          23,
+          44
+        ],
+        "original_scores_unchanged": true
+      },
+      "-esJrBWj2d8": {
+        "original_top5": [
+          50,
+          53,
+          98,
+          41,
+          51
+        ],
+        "spaced_top5": [
+          50,
+          53,
+          98,
+          41,
+          58
+        ],
+        "original_scores_unchanged": true
+      },
+      "EE-bNr36nyA": {
+        "original_top5": [
+          17,
+          16,
+          44,
+          5,
+          26
+        ],
+        "spaced_top5": [
+          17,
+          44,
+          5,
+          26,
+          40
+        ],
+        "original_scores_unchanged": true
+      },
+      "uGu_10sucQo": {
+        "original_top5": [
+          50,
+          41,
+          23,
+          40,
+          53
+        ],
+        "spaced_top5": [
+          50,
+          41,
+          23,
+          53,
+          57
+        ],
+        "original_scores_unchanged": true
+      },
+      "37rzWOQsNIw": {
+        "original_top5": [
+          73,
+          74,
+          75,
+          72,
+          76
+        ],
+        "spaced_top5": [
+          73,
+          76,
+          83,
+          3,
+          70
+        ],
+        "original_scores_unchanged": true
+      },
+      "EYqVtI9YWJA": {
+        "original_top5": [
+          56,
+          80,
+          68,
+          84,
+          89
+        ],
+        "spaced_top5": [
+          56,
+          80,
+          68,
+          84,
+          89
+        ],
+        "original_scores_unchanged": true
+      },
+      "xmEERLqJ2kU": {
+        "original_top5": [
+          136,
+          135,
+          133,
+          137,
+          134
+        ],
+        "spaced_top5": [
+          136,
+          133,
+          201,
+          191,
+          74
+        ],
+        "original_scores_unchanged": true
+      },
+      "98MoyGZKHXc": {
+        "original_top5": [
+          38,
+          37,
+          16,
+          52,
+          17
+        ],
+        "spaced_top5": [
+          38,
+          16,
+          52,
+          32,
+          41
+        ],
+        "original_scores_unchanged": true
+      },
+      "qqR6AEXwxoQ": {
+        "original_top5": [
+          78,
+          29,
+          76,
+          77,
+          79
+        ],
+        "spaced_top5": [
+          78,
+          29,
+          41,
+          81,
+          85
+        ],
+        "original_scores_unchanged": true
+      }
+    }
+  },
+  "annotation_read_during_selection": false,
+  "posthoc_exploration": true,
+  "prior_results_and_cases_known": true,
+  "models_loaded": false,
+  "new_model_calls": 0,
+  "input_hashes": {
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_full50_8b27b_v1_2026-11-10/comparison_binding.json": "b8b183628937afb9fe194e0326fb1065f98faefc699aacf9a3eb45e4f563d903",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_full50_8b27b_v1_2026-11-10/all_models_report_v2/merged_predictions.json": "6966dc6b2fc1c7c787228eb3a0be227644ca66262870b0693ef9265ec436ba36",
+    "$ZEROSHOT_ARTIFACT_ROOT/revalue_generic_highlight_tvsum_full50_8b27b_v1_2026-11-10/all_models_report_v2/report.json": "d5fdcfeb4e9a05300eb38d6838e083bcfacf635ab05df61266a70a8adcee8ba8",
+    "$MERIT_ROOT/docs/artifacts/revalue_generic_highlight_tvsum_8b_new40_cases_2026-11-10/analysis.json": "d96edea15f0f36a419bcdddf49d153ebf0122e38b462df5b53d99482a7269b28"
+  },
+  "source_sha256": "10453fcc04c6c88dbddcbd54e1163e3be746ebdb540e95a9461cb624b47eb47e"
+}

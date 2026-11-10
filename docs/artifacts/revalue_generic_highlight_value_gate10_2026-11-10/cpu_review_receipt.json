@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "tests_passed": 8,
+  "checks": [
+    {
+      "command": [
+        "$DATA_PARENT/longvt-repro/env/inference/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "experiments/revalue_generic_highlight_value_gate_v1",
+        "-p",
+        "test_*on_cpu.py",
+        "-v"
+      ],
+      "exit_status": 0,
+      "log_sha256": "2eabafee99ce4854a13e788e6078bb35632bd4a542f5bc60fdd55e5bbe15791f"
+    },
+    {
+      "command": [
+        "$DATA_PARENT/longvt-repro/env/inference/bin/ruff",
+        "check",
+        "experiments/revalue_generic_highlight_value_gate_v1/prepare_audit.py",
+        "experiments/revalue_generic_highlight_value_gate_v1/prompts.py",
+        "experiments/revalue_generic_highlight_value_gate_v1/test_value_gate_on_cpu.py"
+      ],
+      "exit_status": 0,
+      "log_sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+    }
+  ],
+  "review": [
+    "Only I2/E2/S2 and explicit policy revised; schema/runtime/media parity asserted.",
+    "Control targets, media references, background, rows, model assets and engine linked.",
+    "No automatic answer override or numerical weights; complete ten-case denominator.",
+    "Supervised single-use worker, idle GPU check, own-process cleanup and absolute caps reused."
+  ],
+  "setup_note": "An exclusive mkdir found the already-created empty artifact directory; no file was written by that failed setup command. Preparation and CPU preflight completed independently.",
+  "experiment_model_calls": 0,
+  "gpu_allocations": 0
+}

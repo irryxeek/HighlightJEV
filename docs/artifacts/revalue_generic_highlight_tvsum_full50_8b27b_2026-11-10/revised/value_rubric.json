@@ -1,0 +1,73 @@
+{
+  "version": "generic_highlight_value_v5_contribution_gate_2026-11-10",
+  "purpose": "Source-grounded viewing-value hypotheses for generic highlights, not query correctness or video generation quality.",
+  "inspiration": "VisionReward's decomposition into concrete visual questions; no borrowed reward weights, trained reward model, or forced binary answers.",
+  "sources": [
+    "https://arxiv.org/html/2412.21059v2#S2",
+    "https://github.com/zai-org/VisionReward/blob/main/VisionReward_Video/VisionReward_video_qa_select.txt"
+  ],
+  "dimensions": [
+    {
+      "id": "outcome",
+      "questions": [
+        "O1: Is a completion, failure, turning point or state transition visibly established for the same event?",
+        "O2: Does this result resolve an observed attempt or materially change the visible situation, giving a concrete reason to watch?",
+        "O3: Which other observed phase or comparable result makes this moment more useful to select?"
+      ],
+      "support": "Cite a visible result or linked before/after facts from the same attempt; explain the resolved uncertainty or meaningful change.",
+      "counterevidence": "A clearly repetitive or routine endpoint with no demonstrated added contribution can lack priority; a failed attempt may itself have value.",
+      "unknown_if": "The result, attempt identity or link between sparse observations cannot be established; missing intermediate frames cannot prove completion.",
+      "do_not_infer": "A shot is not a goal. Temporal adjacency is not event identity or causality. Any completion is not automatically a highlight."
+    },
+    {
+      "id": "information",
+      "questions": [
+        "I1: Is a specific answer, diagnostic detail or crucial step actually visible and identifiable?",
+        "I2: Does this reveal a substantive fact, condition or key step about the observed subject or process, beyond identity, branding or generic context?",
+        "I3: Compared with another observed moment, what new content or explanatory step is added?"
+      ],
+      "support": "Name the visible content or step and its evidenced role in understanding the observed video; cite a comparison for novelty claims.",
+      "counterevidence": "Directly observed repetition, an unchanged title, or content already conveyed may add no information; an opening title can still provide useful context.",
+      "unknown_if": "Text is unreadable, a necessary step is absent, or the conclusion requires unavailable speech/audio or an unknown video theme.",
+      "do_not_infer": "A screen is not a tutorial and a speaking face does not establish important speech. Do not invent knowledge, subtitles or a theme."
+    },
+    {
+      "id": "emotion",
+      "questions": [
+        "E1: Is a discernible expression, posture or reaction attributable to the relevant person or group?",
+        "E2: Is a marked, event-linked reaction or change visibly established that adds viewing value beyond an ordinary smile, politeness or generic positive expression?",
+        "E3: Compared with an observed baseline or another reaction, what grounded difference gives this reaction priority?"
+      ],
+      "support": "Name the participant and visible cue; cite before/after evidence when claiming a change and evidence when linking a reaction to an event.",
+      "counterevidence": "An unchanged expression or repeated ordinary gesture may lack added value when positively established; a smile alone proves no exceptional intensity.",
+      "unknown_if": "Faces or posture are unclear, participant/event attribution is unresolved, or a claimed stronger reaction has no observed comparison.",
+      "do_not_infer": "Crowds do not substitute for a named individual's reaction; scene topic does not establish emotion. No emotion is mandatory."
+    },
+    {
+      "id": "action",
+      "questions": [
+        "A1: Is the relevant action, interaction or diagnostic phase visibly established for the correct participants?",
+        "A2: Does an observable execution detail, coordination, key step or meaningful mistake add viewing value beyond ordinary motion?",
+        "A3: Which observed action or phase supports the claimed difference in execution or significance?"
+      ],
+      "support": "Identify diagnostic contact, configuration or linked phases; name the specific observable execution feature rather than simply saying impressive.",
+      "counterevidence": "Directly observed routine repetition or preparation without a distinctive feature may add no action value; mistakes can be informative or noteworthy.",
+      "unknown_if": "Only a pose, setup or aftermath is visible; crucial interaction, completion, participant binding or claimed comparative skill is unresolved.",
+      "do_not_infer": "Holding a tool is not using it. A static pose proves neither completed difficulty nor expert quality. Do not infer unseen motion."
+    },
+    {
+      "id": "sensory",
+      "questions": [
+        "S1: Is a specific visible change, reveal, transformation or unusual scene clearly observable?",
+        "S2: Does a concrete reveal, transformation or diagnostic view add discovery or distinctive meaning, beyond ordinary appearance, scenery or framing?",
+        "S3: What other observed scene or state supports the claimed visual difference and selection priority?"
+      ],
+      "support": "Describe the concrete visual event and its contribution; cite the earlier state or alternative if claiming a reveal or contrast.",
+      "counterevidence": "An unchanged appearance, ordinary cut or repeated decoration can add no value when directly evidenced; visual beauty alone is not a priority rule.",
+      "unknown_if": "Resolution, viewpoint or sparse sampling prevents identifying the event or its meaning; no observed reference supports the comparison.",
+      "do_not_infer": "Clothing color, camera movement, people count or bright scenery alone is not a highlight. Do not substitute production quality for event value."
+    }
+  ],
+  "revision_basis": "User-requested weaker priority for ordinary cues and one sufficient contribution path; no numeric reward weights.",
+  "decision_policy": "Keep mere visibility separate from substantial viewing contribution. Ordinary smiles, polite speech, names, logos, brand readability, and routine scenery are weak cues: they do not establish contribution alone and cannot be accumulated into a highlight. Mark O2/I2/E2/A2/S2 supported only for a concrete, locally evidenced contribution to the observed subject or event. One such supported contribution is sufficient for Yes; other dimensions and Q3 comparisons are not mandatory. A diagnostic or revealing view may suffice without motion, emotion, or an outcome. Choose No only when no applicable contribution has adequate support, and identify why the strongest plausible path is insufficient. Missing unrelated dimensions cannot veto an established contribution. Unknown is not positive evidence and is not counterevidence. Do not force a Yes, invent evidence, or count supported rules."
+}
