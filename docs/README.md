@@ -2,11 +2,12 @@
 
 ## 最新：VideoJev-4B Agent 框架与设计讨论（2026-11-12）
 
-- [优化版框架图与说明](../projects/videojev_agent_framework_20261112_v2/README.md)：[可编辑 SVG](../projects/videojev_agent_framework_20261112_v2/videojev_agent_framework_v2.svg)、[矢量 PDF](../projects/videojev_agent_framework_20261112_v2/videojev_agent_framework_v2.pdf)、[PNG 预览](../projects/videojev_agent_framework_20261112_v2/videojev_agent_framework_v2.png)及[生成源码](../projects/videojev_agent_framework_20261112_v2/create_diagram.py)。
-- [HighlightJEV：整片上下文、分维度判断与预算选片](highlightjev_design_discussion_2026-11-11.md)：区分 QA 与 grounding 接口，说明缓存、五维问题、未知处理、融合与预算选择。
+- [v4 框架图与说明：官方 Cached＋0–5 六档](../projects/videojev_agent_framework_20261112_v4/README.md)：[可编辑 SVG](../projects/videojev_agent_framework_20261112_v4/videojev_agent_framework_v4.svg)、[矢量 PDF](../projects/videojev_agent_framework_20261112_v4/videojev_agent_framework_v4.pdf)、[PNG 预览](../projects/videojev_agent_framework_20261112_v4/videojev_agent_framework_v4.png)及[生成源码](../projects/videojev_agent_framework_20261112_v4/create_diagram.py)。每个维度采用六个价值等级和独立的未知选项，输出完整概率及连续评分。
+- [HighlightJEV：整片上下文、分维度判断与预算选片](highlightjev_design_discussion_2026-11-11.md)：同步官方 Cached 源码依据、七选项等级定义、0–5 期望公式、未知处理、计算量及待验证事项。
+- [此前 v2 图稿](../projects/videojev_agent_framework_20261112_v2/README.md)保留历史内容；当前设计以上述 v4 为准。
 - [此前的整片输入、记忆与 Jev 验证方案](revalue_fullvideo_memory_jev_next_plan_2026-11-10.md)及[来源核查记录](artifacts/revalue_fullvideo_memory_jev_plan_2026-11-10/source_audit.json)。历史计划保留原日期；后续讨论以 HighlightJEV 方案与框架图为准。
 
-本次为图稿与文档发布，缓存适配、价值评分及回看策略尚待实现和验证，没有新增实验推理或 GPU 任务。按既有报告同步约定，另补齐此前的 [TVSum 最新实验查看器说明](revalue_trace_viewer_tvsum_latest_2026-11-10.md)和[官方重要性标注参考说明](revalue_trace_viewer_tvsum_ground_truth_2026-11-10.md)；其中端口、测试和验证路径是 11 月 10 日的本地运行记录，不代表本次重新运行或已发布完整查看器源码。
+本次为图稿与文档发布。官方已有 Cached 实现，本项目的 4B 接入、七选项价值判断和回看策略尚待运行验证；没有新增实验推理或 GPU 任务。此前同日发布的 [TVSum 最新实验查看器说明](revalue_trace_viewer_tvsum_latest_2026-11-10.md)和[官方重要性标注参考说明](revalue_trace_viewer_tvsum_ground_truth_2026-11-10.md)继续保留；其中端口、测试和验证路径是 11 月 10 日的本地运行记录，不代表本次重新运行或已发布完整查看器源码。
 
 ## 此前：高光评分与本周组会汇报（2026-11-10）
 

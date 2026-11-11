@@ -6,7 +6,7 @@
 
 **资源约定：[后续新运行可使用任意空闲 GPU](docs/gpu_resource_policy_2026-10-25.md)。** 可独立拆分的任务优先多卡并行，已有冻结运行保留原配置。
 
-**VideoJev-4B Agent 框架图（2026-11-12 优化版）：[图稿与说明](projects/videojev_agent_framework_20261112_v2/README.md) · [可编辑 SVG](projects/videojev_agent_framework_20261112_v2/videojev_agent_framework_v2.svg) · [矢量 PDF](projects/videojev_agent_framework_20261112_v2/videojev_agent_framework_v2.pdf) · [PNG 预览](projects/videojev_agent_framework_20261112_v2/videojev_agent_framework_v2.png)。** 展示全片上下文缓存、逐窗五维 QA、候选细化、按需回看与预算选片；这是待实现与验证的设计。配套 [HighlightJEV 讨论稿](docs/highlightjev_design_discussion_2026-11-11.md) 与[此前整片输入、记忆和 Jev 方案](docs/revalue_fullvideo_memory_jev_next_plan_2026-11-10.md)一并归档；没有新增实验结果。
+**VideoJev-4B Agent 框架图（2026-11-12 v4）：[图稿与说明](projects/videojev_agent_framework_20261112_v4/README.md) · [可编辑 SVG](projects/videojev_agent_framework_20261112_v4/videojev_agent_framework_v4.svg) · [矢量 PDF](projects/videojev_agent_framework_20261112_v4/videojev_agent_framework_v4.pdf) · [PNG 预览](projects/videojev_agent_framework_20261112_v4/videojev_agent_framework_v4.png)。** 明确复用官方 Cached 视频前缀；五维 QA 采用 **0–5 六档＋未知，共七个选项**，保存完整概率并计算连续分数。保留候选细化、按需回看和预算选片；本项目接入与高光效果仍待验证。配套 [HighlightJEV 讨论稿](docs/highlightjev_design_discussion_2026-11-11.md) 已同步更新，[此前方案](docs/revalue_fullvideo_memory_jev_next_plan_2026-11-10.md)与[v2 图稿](projects/videojev_agent_framework_20261112_v2/README.md)保留；本次没有新增实验结果。
 
 **最新组会汇报（截至2026-11-10）：[十页可编辑PPT](docs/presentations/ReVALUE_组会汇报_2026-11-10.pptx) · [两段汇报与范围说明](docs/revalue_group_update_2026-11-10.md) · [讲稿及源页面](docs/presentations/revalue_weekly_highlight_20261110/README.md)。** 包含记忆／核验对照、TVSum全50条8B／27B评分、失败案例与最新后40条结果；最新关键贡献版尚未完成同版本全50测试。SVHighlights十四场27B结果已收尾，详见[文档索引](docs/README.md)。
 
