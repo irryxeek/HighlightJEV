@@ -1,6 +1,14 @@
 # 文档索引
 
-## 最新：高光评分与本周组会汇报（2026-11-10）
+## 最新：VideoJev-4B Agent 框架与设计讨论（2026-11-12）
+
+- [优化版框架图与说明](../projects/videojev_agent_framework_20261112_v2/README.md)：[可编辑 SVG](../projects/videojev_agent_framework_20261112_v2/videojev_agent_framework_v2.svg)、[矢量 PDF](../projects/videojev_agent_framework_20261112_v2/videojev_agent_framework_v2.pdf)、[PNG 预览](../projects/videojev_agent_framework_20261112_v2/videojev_agent_framework_v2.png)及[生成源码](../projects/videojev_agent_framework_20261112_v2/create_diagram.py)。
+- [HighlightJEV：整片上下文、分维度判断与预算选片](highlightjev_design_discussion_2026-11-11.md)：区分 QA 与 grounding 接口，说明缓存、五维问题、未知处理、融合与预算选择。
+- [此前的整片输入、记忆与 Jev 验证方案](revalue_fullvideo_memory_jev_next_plan_2026-11-10.md)及[来源核查记录](artifacts/revalue_fullvideo_memory_jev_plan_2026-11-10/source_audit.json)。历史计划保留原日期；后续讨论以 HighlightJEV 方案与框架图为准。
+
+本次为图稿与文档发布，缓存适配、价值评分及回看策略尚待实现和验证，没有新增实验推理或 GPU 任务。按既有报告同步约定，另补齐此前的 [TVSum 最新实验查看器说明](revalue_trace_viewer_tvsum_latest_2026-11-10.md)和[官方重要性标注参考说明](revalue_trace_viewer_tvsum_ground_truth_2026-11-10.md)；其中端口、测试和验证路径是 11 月 10 日的本地运行记录，不代表本次重新运行或已发布完整查看器源码。
+
+## 此前：高光评分与本周组会汇报（2026-11-10）
 
 - [十页可编辑PPT](presentations/ReVALUE_组会汇报_2026-11-10.pptx) · [两段汇报及范围说明](revalue_group_update_2026-11-10.md) · [讲稿、源页面与核验](presentations/revalue_weekly_highlight_20261110/README.md)。
 - [TVSum全50条8B／27B对照](revalue_generic_highlight_tvsum_full50_8b27b_results_v2_2026-11-10.md)：修订8B55.9560、修订27B56.2622、REZE8B54.8919 Top-5 mAP，配对区间跨零；没有27B REZE对照。

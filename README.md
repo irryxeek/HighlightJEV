@@ -6,6 +6,8 @@
 
 **资源约定：[后续新运行可使用任意空闲 GPU](docs/gpu_resource_policy_2026-10-25.md)。** 可独立拆分的任务优先多卡并行，已有冻结运行保留原配置。
 
+**VideoJev-4B Agent 框架图（2026-11-12 优化版）：[图稿与说明](projects/videojev_agent_framework_20261112_v2/README.md) · [可编辑 SVG](projects/videojev_agent_framework_20261112_v2/videojev_agent_framework_v2.svg) · [矢量 PDF](projects/videojev_agent_framework_20261112_v2/videojev_agent_framework_v2.pdf) · [PNG 预览](projects/videojev_agent_framework_20261112_v2/videojev_agent_framework_v2.png)。** 展示全片上下文缓存、逐窗五维 QA、候选细化、按需回看与预算选片；这是待实现与验证的设计。配套 [HighlightJEV 讨论稿](docs/highlightjev_design_discussion_2026-11-11.md) 与[此前整片输入、记忆和 Jev 方案](docs/revalue_fullvideo_memory_jev_next_plan_2026-11-10.md)一并归档；没有新增实验结果。
+
 **最新组会汇报（截至2026-11-10）：[十页可编辑PPT](docs/presentations/ReVALUE_组会汇报_2026-11-10.pptx) · [两段汇报与范围说明](docs/revalue_group_update_2026-11-10.md) · [讲稿及源页面](docs/presentations/revalue_weekly_highlight_20261110/README.md)。** 包含记忆／核验对照、TVSum全50条8B／27B评分、失败案例与最新后40条结果；最新关键贡献版尚未完成同版本全50测试。SVHighlights十四场27B结果已收尾，详见[文档索引](docs/README.md)。
 
 **会议对照修订版（2026-11-10制作，汇报期11月3–9日）：[修订报告](docs/revalue_weekly_progress_2026-11-03_to_2026-11-09_meeting_revision.md) · [16页可编辑PPT](docs/presentations/ReVALUE_实验进度汇报_2026-11-03至11-09_会议对照修订版.pptx) · [讲稿、页面源文件与证据](docs/presentations/revalue_weekly_meeting_revision_20261110/README.md)。** 重新对照11月3日纪要，区分已修复问题、未确认的价值与记忆收益，以及待验证的补证建议；补入SVHighlights七视频结果，十四视频27B扩测保留11月9日23:37的进行中快照。图表和表格原生可编辑，附16页讲稿。

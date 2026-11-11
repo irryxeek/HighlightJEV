@@ -1,0 +1,132 @@
+{
+  "schema": "revalue-plan-source-audit-v1",
+  "date": "2026-11-10",
+  "scope": "planning and source inspection only",
+  "experiment_execution_authorized": false,
+  "experiment_model_calls": 0,
+  "experiment_tokens": 0,
+  "gpu_allocations": 0,
+  "experiment_worker_starts": 0,
+  "primary_web_sources": [
+    {
+      "url": "https://arxiv.org/html/2606.07512",
+      "role": "MemDreamer memory/retrieval ablations and limits"
+    },
+    {
+      "url": "https://aim-uofa.github.io/MemDreamer/",
+      "role": "Official project code link; linked GitHub repository returned 404 during audit"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.18615",
+      "role": "VideoJev paper and task/training scope"
+    },
+    {
+      "url": "https://docs.typesafe.ai/primitives/score",
+      "role": "Jev ordered Score interface; not verified as native video API"
+    },
+    {
+      "url": "https://docs.typesafe.ai/primitives/noul",
+      "role": "Jev yes/no probabilities"
+    },
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_LensWalk_Agentic_Video_Understanding_by_Planning_How_You_See_in_CVPR_2026_paper.html",
+      "role": "LensWalk official paper"
+    }
+  ],
+  "github_files": [
+    {
+      "key": "jev_readme",
+      "url": "https://github.com/MCG-NJU/VideoJev/blob/7f8b38aa7df67721303cdc61f06d8435f3c7db89/README.md",
+      "blob_sha": "d02f2f81693314c45db2e5981b27536eddd9cc86",
+      "available": true,
+      "source_kind": "GitHub read-only fetch",
+      "revision": "7f8b38aa7df67721303cdc61f06d8435f3c7db89"
+    },
+    {
+      "key": "jev_model",
+      "url": "https://github.com/MCG-NJU/VideoJev/blob/main/videojev_hf/modeling_videojev.py",
+      "blob_sha": "eeef7f395976ae627db2712c7ef2b540d0ba25e9",
+      "available": true,
+      "source_kind": "GitHub read-only fetch",
+      "revision": "7f8b38aa7df67721303cdc61f06d8435f3c7db89"
+    },
+    {
+      "key": "jev_processor",
+      "url": "https://github.com/MCG-NJU/VideoJev/blob/main/videojev_hf/processing_videojev.py",
+      "blob_sha": "46cc1989f34bbfad78ea36b3ec52334ffc8c257f",
+      "available": true,
+      "source_kind": "GitHub read-only fetch",
+      "revision": "7f8b38aa7df67721303cdc61f06d8435f3c7db89"
+    },
+    {
+      "key": "jev_video",
+      "url": "https://github.com/MCG-NJU/VideoJev/blob/7f8b38aa7df67721303cdc61f06d8435f3c7db89/videojev_hf/videojev_video.py",
+      "blob_sha": "5d384290da6058185a32e1ab9034abf115f51d29",
+      "available": true,
+      "source_kind": "GitHub read-only fetch",
+      "revision": "7f8b38aa7df67721303cdc61f06d8435f3c7db89"
+    },
+    {
+      "key": "jev_temporal",
+      "url": "https://github.com/MCG-NJU/VideoJev/blob/main/videojev_hf/videojev_temporal.py",
+      "blob_sha": "89f20dab8967dc4296e2d33bf126829614b77334",
+      "available": true,
+      "source_kind": "GitHub read-only fetch",
+      "revision": "7f8b38aa7df67721303cdc61f06d8435f3c7db89"
+    },
+    {
+      "key": "jev_eval",
+      "url": "https://github.com/MCG-NJU/VideoJev/blob/main/docs/EVALUATION.md",
+      "blob_sha": "b066673e2195c7912ba64ca841f3602ba4fcd112",
+      "available": true,
+      "source_kind": "GitHub read-only fetch",
+      "revision": "7f8b38aa7df67721303cdc61f06d8435f3c7db89"
+    },
+    {
+      "key": "jev_checkpoints",
+      "url": "https://github.com/MCG-NJU/VideoJev/blob/main/docs/CHECKPOINTS.md",
+      "blob_sha": "7e2d489fedfd6f277dbbf8ff7ab027a6c03370bd",
+      "available": true,
+      "source_kind": "GitHub read-only fetch",
+      "revision": "7f8b38aa7df67721303cdc61f06d8435f3c7db89"
+    },
+    {
+      "key": "jev_data",
+      "url": "https://github.com/MCG-NJU/VideoJev/blob/main/docs/DATA.md",
+      "blob_sha": "7191331d773dcb59a034ece566080aed757ec1c2",
+      "available": true,
+      "source_kind": "GitHub read-only fetch",
+      "revision": "7f8b38aa7df67721303cdc61f06d8435f3c7db89"
+    },
+    {
+      "key": "jev_readout",
+      "url": "https://github.com/MCG-NJU/VideoJev/blob/main/timejev/readout.py",
+      "blob_sha": "44383c1a619a99a6fe4d54096bda5fd50757cf38",
+      "available": true,
+      "source_kind": "GitHub read-only fetch",
+      "revision": "7f8b38aa7df67721303cdc61f06d8435f3c7db89"
+    },
+    {
+      "key": "jev_train_model",
+      "url": "https://github.com/MCG-NJU/VideoJev/blob/main/timejev/model.py",
+      "blob_sha": "63e5d29be1ba4d889369aca16fcf965a515e9458",
+      "available": true,
+      "source_kind": "GitHub read-only fetch",
+      "revision": "7f8b38aa7df67721303cdc61f06d8435f3c7db89"
+    },
+    {
+      "key": "lenswalk_readme",
+      "url": "https://github.com/likanchuan09171/LensWalk/blob/release/README.md",
+      "blob_sha": "f4bc835265b2e832ef107a4137ba838c00cc088f",
+      "available": true,
+      "source_kind": "GitHub read-only fetch",
+      "revision": "c3cdf13a6ffc6b1ce21af3a0c7813178d17fac77"
+    }
+  ],
+  "notes": [
+    "No model runtime or external experiment inference API was called; assistant planning/tool execution is not counted as an experiment model request.",
+    "No weights, full repository, environment dependencies, or private data were downloaded/uploaded.",
+    "Runtime, checkpoints, sampling manifests, prompts, and GPU capacity have not been validated for this proposed experiment.",
+    "GitHub file blob hashes are provided by the connector; code revisions are commit SHAs, not tree SHAs."
+  ]
+}

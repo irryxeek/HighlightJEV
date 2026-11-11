@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T17:44:07+08:00",
+  "updated_at": "2026-11-12T04:24:12+08:00",
   "scope": "All active MERIT docs/*.md except the curated index, plus related QVHighlights-ZeroShot docs/*.md. Historical frozen plan publications retained. Raw experiment artifacts are not implicitly published.",
   "standing_user_instruction": "Whenever pushing project updates, include newly created or updated reports, analyses, research plans, and document indexes.",
   "path_aliases": {
@@ -7390,6 +7390,86 @@
       "publication_sha256": "899076b9b6e008c948721cb5ccee48e4d79fe9d6cc3ff9a213fb8d634a31dd55",
       "basis": "approved_group_update_with_current_delivery_links",
       "local_only_references": []
+    },
+    {
+      "source": "MERIT:projects/videojev_agent_framework_20261112_v2/README.md",
+      "destination": "projects/videojev_agent_framework_20261112_v2/README.md",
+      "source_sha256": "16230bcaee1a747445827707041ae1dcda10a8f98d18c35bd787e7fe070ae3e9",
+      "publication_sha256": "16230bcaee1a747445827707041ae1dcda10a8f98d18c35bd787e7fe070ae3e9",
+      "basis": "identical_diagram_or_related_document_publication",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:projects/videojev_agent_framework_20261112_v2/create_diagram.py",
+      "destination": "projects/videojev_agent_framework_20261112_v2/create_diagram.py",
+      "source_sha256": "295bf4bd58cc978fa75d429167e8663d257a576f8b8350be1b881d8c59962bb3",
+      "publication_sha256": "295bf4bd58cc978fa75d429167e8663d257a576f8b8350be1b881d8c59962bb3",
+      "basis": "identical_diagram_or_related_document_publication",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:projects/videojev_agent_framework_20261112_v2/videojev_agent_framework_v2.pdf",
+      "destination": "projects/videojev_agent_framework_20261112_v2/videojev_agent_framework_v2.pdf",
+      "source_sha256": "c8fb7bd487d5aa31069c1569916a21326d13bbcb21d436870f764164323e830c",
+      "publication_sha256": "c8fb7bd487d5aa31069c1569916a21326d13bbcb21d436870f764164323e830c",
+      "basis": "identical_diagram_or_related_document_publication",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:projects/videojev_agent_framework_20261112_v2/videojev_agent_framework_v2.png",
+      "destination": "projects/videojev_agent_framework_20261112_v2/videojev_agent_framework_v2.png",
+      "source_sha256": "38a935650f4c5962304e7b65b1ce71ade748db646cf1a24b580760a64b1be3b9",
+      "publication_sha256": "38a935650f4c5962304e7b65b1ce71ade748db646cf1a24b580760a64b1be3b9",
+      "basis": "identical_diagram_or_related_document_publication",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:projects/videojev_agent_framework_20261112_v2/videojev_agent_framework_v2.svg",
+      "destination": "projects/videojev_agent_framework_20261112_v2/videojev_agent_framework_v2.svg",
+      "source_sha256": "4c863d861d510b8fb787d42eac3fefe2ccc31d888df058fea724126ae4919cb8",
+      "publication_sha256": "4c863d861d510b8fb787d42eac3fefe2ccc31d888df058fea724126ae4919cb8",
+      "basis": "identical_diagram_or_related_document_publication",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/highlightjev_design_discussion_2026-11-11.md",
+      "destination": "docs/highlightjev_design_discussion_2026-11-11.md",
+      "source_sha256": "512b2dd01b2b011b5a1da879d3bdad8dfde573f0f82eb02ac03c86bb6924b077",
+      "publication_sha256": "512b2dd01b2b011b5a1da879d3bdad8dfde573f0f82eb02ac03c86bb6924b077",
+      "basis": "identical_diagram_or_related_document_publication",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_fullvideo_memory_jev_next_plan_2026-11-10.md",
+      "destination": "docs/revalue_fullvideo_memory_jev_next_plan_2026-11-10.md",
+      "source_sha256": "9b9314ad69e46e2e11b8dc459d7defe88d8564e8fe457af8f7e4a9e35ca1188a",
+      "publication_sha256": "9b9314ad69e46e2e11b8dc459d7defe88d8564e8fe457af8f7e4a9e35ca1188a",
+      "basis": "identical_diagram_or_related_document_publication",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/artifacts/revalue_fullvideo_memory_jev_plan_2026-11-10/source_audit.json",
+      "destination": "docs/artifacts/revalue_fullvideo_memory_jev_plan_2026-11-10/source_audit.json",
+      "source_sha256": "3a0c7088327ebd2d6fde40fd2bb71091610950cb7ff5c1d481c4f4453841c823",
+      "publication_sha256": "3a0c7088327ebd2d6fde40fd2bb71091610950cb7ff5c1d481c4f4453841c823",
+      "basis": "identical_diagram_or_related_document_publication",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_trace_viewer_tvsum_ground_truth_2026-11-10.md",
+      "destination": "docs/revalue_trace_viewer_tvsum_ground_truth_2026-11-10.md",
+      "source_sha256": "c88c37a10800b89aca2f27919d92fa7e95469312bada3b4b17896283d6918c9b",
+      "publication_sha256": "c88c37a10800b89aca2f27919d92fa7e95469312bada3b4b17896283d6918c9b",
+      "basis": "identical_diagram_or_related_document_publication",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/revalue_trace_viewer_tvsum_latest_2026-11-10.md",
+      "destination": "docs/revalue_trace_viewer_tvsum_latest_2026-11-10.md",
+      "source_sha256": "c4ee2755d97ed510c737ea33b046a79630d60255c31bb0b1833ef0b090084bf5",
+      "publication_sha256": "c4ee2755d97ed510c737ea33b046a79630d60255c31bb0b1833ef0b090084bf5",
+      "basis": "identical_diagram_or_related_document_publication",
+      "local_only_references": []
     }
   ],
   "indexes": [
@@ -7397,14 +7477,14 @@
       "source": "MERIT:README.md",
       "destination": "README.md",
       "source_sha256": "37d1182a5db97c330a702f9a5cce462aaf029c67f7b28b3c7b2a2a6498e6b199",
-      "publication_sha256": "1e749e628bd234cf8c13adebe590b83c39c8f806c26b9b17ff6bde4478d7cb5c",
+      "publication_sha256": "6f15a30a023c6acd9d42f11c60a411c980db4d726243b60a7a3a4f99002043ba",
       "basis": "curated_publication_index_with_all_report_links_and_standing_user_instruction"
     },
     {
       "source": "MERIT:docs/README.md",
       "destination": "docs/README.md",
       "source_sha256": "13083ef274278f612d4b01b245f359dad930021819a2de041acf268f62170ae6",
-      "publication_sha256": "53213b6a375b44b7edc64016b0066cc19a2120f9cf22fc0165486acf05c54cb8",
+      "publication_sha256": "da4f370c4ac1e4fd8a931863abaa51ce83a8d41a8be42fe990b8c88c87beda48",
       "basis": "curated_publication_index_with_all_report_links_and_standing_user_instruction"
     }
   ],
@@ -8607,6 +8687,70 @@
       "native_tables": 2,
       "verified_at": "2026-11-10T17:45:57+08:00",
       "diff_check": "passed after whitespace-only publication cleanup"
+    }
+  },
+  "videojev_framework_publication_2026_11_12": {
+    "at": "2026-11-12T04:24:12+08:00",
+    "authorization": "User requested pushing the optimized diagram and explanation together; standing instruction includes new reports and indexes.",
+    "scope": "Editable optimized diagram, renders, generator, explanation, related planning documents, source audit, and two previously unpublished TVSum viewer reports. Pre-existing experiment/viewer source work is not included.",
+    "new_root_reports": 4,
+    "figure_directory": "projects/videojev_agent_framework_20261112_v2",
+    "source_identical_files": [
+      "projects/videojev_agent_framework_20261112_v2/README.md",
+      "projects/videojev_agent_framework_20261112_v2/create_diagram.py",
+      "projects/videojev_agent_framework_20261112_v2/videojev_agent_framework_v2.pdf",
+      "projects/videojev_agent_framework_20261112_v2/videojev_agent_framework_v2.png",
+      "projects/videojev_agent_framework_20261112_v2/videojev_agent_framework_v2.svg",
+      "docs/highlightjev_design_discussion_2026-11-11.md",
+      "docs/revalue_fullvideo_memory_jev_next_plan_2026-11-10.md",
+      "docs/artifacts/revalue_fullvideo_memory_jev_plan_2026-11-10/source_audit.json",
+      "docs/revalue_trace_viewer_tvsum_ground_truth_2026-11-10.md",
+      "docs/revalue_trace_viewer_tvsum_latest_2026-11-10.md"
+    ],
+    "previous_indexes": [
+      {
+        "source": "MERIT:README.md",
+        "destination": "README.md",
+        "source_sha256": "37d1182a5db97c330a702f9a5cce462aaf029c67f7b28b3c7b2a2a6498e6b199",
+        "publication_sha256": "1e749e628bd234cf8c13adebe590b83c39c8f806c26b9b17ff6bde4478d7cb5c",
+        "basis": "curated_publication_index_with_all_report_links_and_standing_user_instruction"
+      },
+      {
+        "source": "MERIT:docs/README.md",
+        "destination": "docs/README.md",
+        "source_sha256": "13083ef274278f612d4b01b245f359dad930021819a2de041acf268f62170ae6",
+        "publication_sha256": "53213b6a375b44b7edc64016b0066cc19a2120f9cf22fc0165486acf05c54cb8",
+        "basis": "curated_publication_index_with_all_report_links_and_standing_user_instruction"
+      }
+    ],
+    "experiment_calls_added": 0,
+    "gpu_tasks_added": 0,
+    "source_predictions_modified": false,
+    "AGENTS_modified": false,
+    "selected_files": 13,
+    "publication_verification": {
+      "passed": true,
+      "published_files_checked": 1073,
+      "source_files_checked": 0,
+      "local_links_checked": 1335,
+      "errors": []
+    },
+    "full_workspace_source_audit": {
+      "passed": false,
+      "source_files_checked": 1061,
+      "unpublished_reports": 0,
+      "pre_existing_unpublished_implementation_files": 977,
+      "unpublished_implementation_files": 977,
+      "new_unpublished_implementation_files": [],
+      "other_errors": [],
+      "scope_note": "All active root Markdown reports are covered. Existing unpublished experiment/viewer implementation files are unchanged and outside this diagram/documentation push."
+    },
+    "focused_checks": {
+      "source_and_publication_bytes_identical": 10,
+      "selected_files_checked_for_machine_paths_and_credentials": 13,
+      "large_files_over_10_mib": 0,
+      "generator_syntax": "passed",
+      "figure_exports": "Existing visually reviewed SVG, PDF and PNG published byte-for-byte; no new rendering or experiment."
     }
   }
 }
