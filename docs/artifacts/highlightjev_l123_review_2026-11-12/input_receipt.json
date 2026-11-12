@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-11-12",
+  "source_attachment": "$WORKSPACE_PARENT/.codex/attachments/0660ef36-e89d-4821-857b-9fd4372a5156/已粘贴的文本.txt",
+  "source_snapshot": "docs/artifacts/highlightjev_l123_review_2026-11-12/source_report_v1_2026-11-12.txt",
+  "source_sha256": "8d6454a07536f3b4fc8d0c59669ea8c2525d36fe2882763d1a7c6680a118f06e",
+  "source_bytes": 57921,
+  "pre_revision_hashes": {
+    "AGENTS.md": "db0f1604cfb81d376d42faaa91693e515ec457563dede66e862d4e5f71e059ee",
+    "README.md": "1ff08ce73cd49189daaed8cfc12815011fed2425e2d5df1b0d64fd0e30dddbd2",
+    "docs/README.md": "90b2283fb5c7bab0fb2cc54e0d00163c6417743363315618cb5e76d492102671",
+    "docs/highlightjev_l1_l2_l3_mvp_2026-11-12.md": "618830eb019544197d87ff7a97a59677944013e8e115c8d9c98f944ba3f08511",
+    "docs/highlightjev_agent_framework_plan_2026-11-12.md": "9212cbf47c1d3384c6ed1a574a159f7f6e744d4d1f48bc9fe0d6a39decaaee92",
+    "docs/revalue_generic_highlight_tvsum_val10_protocol_2026-11-10.md": "d6ac0e9bc97a4b0ef8a73c7b3ab3ef8cfe1b84548a0c4357d793e2088e189fdf",
+    "docs/revalue_generic_highlight_tvsum_full50_8b27b_protocol_2026-11-10.md": "ec1a4f521bf690071f9339ef94d639fd60738e34cff85ae93da86c77201bdc23",
+    "projects/videojev_agent_framework_20261112_v5/highlightjev_agent_framework_v5.svg": "75f3cbe05059feeedd8a5b1a3c7b7b83891d5b80b61cf7193a9add22ce401503"
+  }
+}

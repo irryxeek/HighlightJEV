@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T15:55:32+08:00",
+  "updated_at": "2026-11-12T17:00:48.593707+08:00",
   "scope": "All active MERIT docs/*.md except the curated index, plus related QVHighlights-ZeroShot docs/*.md. Historical frozen plan publications retained. Raw experiment artifacts are not implicitly published.",
   "standing_user_instruction": "Whenever pushing project updates, include newly created or updated reports, analyses, research plans, and document indexes.",
   "path_aliases": {
@@ -7562,9 +7562,105 @@
     {
       "source": "MERIT:docs/highlightjev_agent_framework_plan_2026-11-12.md",
       "destination": "docs/highlightjev_agent_framework_plan_2026-11-12.md",
-      "source_sha256": "bacccb03e9def8d6fbf634940df91ff6fc90378758cd66cbd858b09f2000a7d3",
-      "publication_sha256": "bacccb03e9def8d6fbf634940df91ff6fc90378758cd66cbd858b09f2000a7d3",
-      "basis": "identical_diagram_or_related_document_publication",
+      "source_sha256": "9212cbf47c1d3384c6ed1a574a159f7f6e744d4d1f48bc9fe0d6a39decaaee92",
+      "publication_sha256": "9212cbf47c1d3384c6ed1a574a159f7f6e744d4d1f48bc9fe0d6a39decaaee92",
+      "basis": "L123_v6_diagram_and_revised_report_publication_with_portable_paths",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/highlightjev_l1_l2_l3_mvp_2026-11-12.md",
+      "destination": "docs/highlightjev_l1_l2_l3_mvp_2026-11-12.md",
+      "source_sha256": "f49fe332d583237bf419758e8d145f35919ad4385ea5793f7fe94e26cafe7911",
+      "publication_sha256": "f49fe332d583237bf419758e8d145f35919ad4385ea5793f7fe94e26cafe7911",
+      "basis": "L123_v6_diagram_and_revised_report_publication_with_portable_paths",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/highlightjev_l1_l2_l3_revised_report_2026-11-12.md",
+      "destination": "docs/highlightjev_l1_l2_l3_revised_report_2026-11-12.md",
+      "source_sha256": "cf5c5e05adb6b52c89423aea50ced1578979c0b3f2d5756d34f51af5b924f82f",
+      "publication_sha256": "cf5c5e05adb6b52c89423aea50ced1578979c0b3f2d5756d34f51af5b924f82f",
+      "basis": "L123_v6_diagram_and_revised_report_publication_with_portable_paths",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:projects/videojev_l123_framework_20261112_v6/create_diagram.py",
+      "destination": "projects/videojev_l123_framework_20261112_v6/create_diagram.py",
+      "source_sha256": "0a600dc84d16e5c09ec023c6fbdd3c6cd1f1ad3cc96c13fd6f89045fc17076a3",
+      "publication_sha256": "0a600dc84d16e5c09ec023c6fbdd3c6cd1f1ad3cc96c13fd6f89045fc17076a3",
+      "basis": "L123_v6_diagram_and_revised_report_publication_with_portable_paths",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:projects/videojev_l123_framework_20261112_v6/README.md",
+      "destination": "projects/videojev_l123_framework_20261112_v6/README.md",
+      "source_sha256": "469b34083eed258f05cde17dccb64eb3b49f38801ce14d07613efa9ea4612909",
+      "publication_sha256": "469b34083eed258f05cde17dccb64eb3b49f38801ce14d07613efa9ea4612909",
+      "basis": "L123_v6_diagram_and_revised_report_publication_with_portable_paths",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:projects/videojev_l123_framework_20261112_v6/highlightjev_l123_framework_v6.svg",
+      "destination": "projects/videojev_l123_framework_20261112_v6/highlightjev_l123_framework_v6.svg",
+      "source_sha256": "4afc802c7471bf2557146b54b85c9ff42e6c2386c0a7e2dbd010720c6a7a3772",
+      "publication_sha256": "4afc802c7471bf2557146b54b85c9ff42e6c2386c0a7e2dbd010720c6a7a3772",
+      "basis": "L123_v6_diagram_and_revised_report_publication_with_portable_paths",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:projects/videojev_l123_framework_20261112_v6/highlightjev_l123_framework_v6.pdf",
+      "destination": "projects/videojev_l123_framework_20261112_v6/highlightjev_l123_framework_v6.pdf",
+      "source_sha256": "8a9b060d09d7bc58c8d1d2af8010dd8e72bc05fd3cde09cfcb0a02cc42769223",
+      "publication_sha256": "8a9b060d09d7bc58c8d1d2af8010dd8e72bc05fd3cde09cfcb0a02cc42769223",
+      "basis": "L123_v6_diagram_and_revised_report_publication_with_portable_paths",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:projects/videojev_l123_framework_20261112_v6/highlightjev_l123_framework_v6.png",
+      "destination": "projects/videojev_l123_framework_20261112_v6/highlightjev_l123_framework_v6.png",
+      "source_sha256": "9655172cedc5d66878b024cace250595442c212280c053fccc28964281c28c7f",
+      "publication_sha256": "9655172cedc5d66878b024cace250595442c212280c053fccc28964281c28c7f",
+      "basis": "L123_v6_diagram_and_revised_report_publication_with_portable_paths",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:projects/videojev_l123_framework_20261112_v6/validation.json",
+      "destination": "projects/videojev_l123_framework_20261112_v6/validation.json",
+      "source_sha256": "59e19118fe345d6ac7267b3390e2f69d247c8ac081a65baddfc672167857c8b9",
+      "publication_sha256": "59e19118fe345d6ac7267b3390e2f69d247c8ac081a65baddfc672167857c8b9",
+      "basis": "L123_v6_diagram_and_revised_report_publication_with_portable_paths",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/artifacts/highlightjev_l123_review_2026-11-12/README.md",
+      "destination": "docs/artifacts/highlightjev_l123_review_2026-11-12/README.md",
+      "source_sha256": "2eae58ea10ecd2710766756fa29191fb63bc42d813faee5f025cc5844a92651d",
+      "publication_sha256": "bedd1d0bec429fe0203bda7d1713a6a024f75579d01a7c72ce4b683641a83e22",
+      "basis": "L123_v6_diagram_and_revised_report_publication_with_portable_paths",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/artifacts/highlightjev_l123_review_2026-11-12/input_receipt.json",
+      "destination": "docs/artifacts/highlightjev_l123_review_2026-11-12/input_receipt.json",
+      "source_sha256": "7ac1fc6f976fd30f6cd357622fb9c7256fa0da2c5f876ddaf0cb5f111c2c0fca",
+      "publication_sha256": "52eeabbdd264e9bd3412f1039d73ef9d3e6cad1290905cf45eb99d25df2bd708",
+      "basis": "L123_v6_diagram_and_revised_report_publication_with_portable_paths",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/artifacts/highlightjev_l123_review_2026-11-12/review_receipt.json",
+      "destination": "docs/artifacts/highlightjev_l123_review_2026-11-12/review_receipt.json",
+      "source_sha256": "7e9fff3752a7f5d9758227896bb42ee291ee88167edf7f585946f3d0e5820340",
+      "publication_sha256": "7e9fff3752a7f5d9758227896bb42ee291ee88167edf7f585946f3d0e5820340",
+      "basis": "L123_v6_diagram_and_revised_report_publication_with_portable_paths",
+      "local_only_references": []
+    },
+    {
+      "source": "MERIT:docs/artifacts/highlightjev_l123_review_2026-11-12/source_report_v1_2026-11-12.txt",
+      "destination": "docs/artifacts/highlightjev_l123_review_2026-11-12/source_report_v1_2026-11-12.txt",
+      "source_sha256": "8d6454a07536f3b4fc8d0c59669ea8c2525d36fe2882763d1a7c6680a118f06e",
+      "publication_sha256": "8d6454a07536f3b4fc8d0c59669ea8c2525d36fe2882763d1a7c6680a118f06e",
+      "basis": "L123_v6_diagram_and_revised_report_publication_with_portable_paths",
       "local_only_references": []
     }
   ],
@@ -7572,15 +7668,15 @@
     {
       "source": "MERIT:README.md",
       "destination": "README.md",
-      "source_sha256": "d1a0d02a882e2d2bb142895336a52ee76c0c8425bbbf57856b8b2e6757120b73",
-      "publication_sha256": "f2744f52c0aef8f5c94d3457399d0a017f38f0e1c5687c19193a749538fca7c4",
+      "source_sha256": "986988a7d9e4e4779a83d1dea9e3c124e5cfc1ac0fb14764555b5ec03a79b870",
+      "publication_sha256": "1a4d6468ce9f1560c67f935361dfc1a4c426a0491fb86e6ce4352c29659628dd",
       "basis": "curated_publication_index_with_all_report_links_and_standing_user_instruction"
     },
     {
       "source": "MERIT:docs/README.md",
       "destination": "docs/README.md",
-      "source_sha256": "7b2657b28f2311edf7ae40a921bab25fdc1374bac56c1a01ae5512e7c3895460",
-      "publication_sha256": "7e0a30631ce8c045926cf540393f8a7f40cc7ddc9185f9a1e3230c638c054a3d",
+      "source_sha256": "5103f309df54f322f4d72ba1322e77c5960f46e586675563eb7a803c80590830",
+      "publication_sha256": "32c69d339c24da7f7c36aba6ad02282dd8f9999c22c67ad98f6dab44909e8b17",
       "basis": "curated_publication_index_with_all_report_links_and_standing_user_instruction"
     }
   ],
@@ -7993,6 +8089,39 @@
         }
       },
       "publication_validation_at": "2026-10-26T11:46:46.127854+00:00"
+    },
+    {
+      "at": "2026-11-12T17:00:48.593707+08:00",
+      "scope": "HighlightJEV L1/L2/L3 v6 diagram, revised plan, original draft review artifacts, and curated indexes",
+      "selected_source_files": 13,
+      "pending_root_reports_included": [
+        "docs/highlightjev_agent_framework_plan_2026-11-12.md",
+        "docs/highlightjev_l1_l2_l3_mvp_2026-11-12.md",
+        "docs/highlightjev_l1_l2_l3_revised_report_2026-11-12.md"
+      ],
+      "new_model_calls": 0,
+      "new_gpu_runs": 0,
+      "experimental_code_changed": false,
+      "AGENTS_modified": false,
+      "previous_v5_assets_preserved": true,
+      "status": "passed_before_commit",
+      "validated_at": "2026-11-12T17:02:17.223677+08:00",
+      "published_files_checked": 1097,
+      "source_files_checked": 1085,
+      "local_links_checked": 1409,
+      "publication_errors": [],
+      "pending_root_reports_after_sync": 0,
+      "preexisting_unpublished_source_files": 977,
+      "unrelated_source_backlog_excluded": true,
+      "original_multi_destination_manifest_entries_preserved": true,
+      "staged_diff_review": {
+        "selected_paths": 16,
+        "authored_files_whitespace_check": "passed",
+        "full_diff_check": "16 original trailing-whitespace lines in the preserved verbatim user draft only",
+        "verbatim_source_exception": "docs/artifacts/highlightjev_l123_review_2026-11-12/source_report_v1_2026-11-12.txt",
+        "original_bytes_preserved": true,
+        "unrelated_files_staged": false
+      }
     }
   ],
   "publication_sync": {

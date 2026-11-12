@@ -1,0 +1,1592 @@
+HighlightJEV：面向多模态证据、价值判断与动态高光选择的 Agentic Framework
+合作研究与系统实现报告｜设计版本 V1.0｜2026 年 11 月 12 日
+一、总体设计结论
+我建议将我们之前的 REZE、LensWalk、ReVALUE/BCD、Memory Topology，以及最新 JEV 研究成果整合成一个统一框架，暂定名称：
+
+HighlightJEV: Evidence-Grounded, Value-Aware and Budget-Constrained Agentic Video Highlight Detection
+
+中文名称：基于类型化决策与动态证据记忆的智能视频高光检测框架。
+
+这不是把原来的 Agent 加上一个 JEV 模型，也不是把 REZE 的 Yes/No 换成五个问题。我们需要改变整个高光检测系统的决策组织方式。
+
+我建议确立以下核心设计：
+1. 价值驱动（Value-aware）：高光不是一个单一的显著性分数，而是由 Outcome、Information、Affect、Kinetic、Sensory 五个价值维度共同构成的多属性决策。
+2. 证据驱动（Evidence-grounded）：每个判断都必须能够回溯到真实的视频帧、音频、ASR、OCR 等证据，并区分证据充分、证据不足和证据冲突。
+3. 层级决策（Hierarchical Decision）：先进行等长片段粗筛，再进行事件级合并、同类候选比较、细粒度价值判断，最后进行边界修正。
+4. 多模态按需取证（Adaptive Multimodal Acquisition）：优先利用视觉发现候选，再根据尚未解决的判断问题决定是否调用音频、ASR、OCR 和更高分辨率的视觉观察。
+5. 动态记忆（Dynamic Highlight Memory）：保存事件、证据、价值、事件依赖关系和判断历史，不只保存片段分数。
+6. 证据回溯与判断修订（Evidence Backtracking and Revaluation）：当新证据出现时，可以找到受到影响的历史事件，重新检查原有判断，而不是简单覆盖历史分数。
+7. 预算约束输出（Budget-Constrained Editing）：根据用户 5 秒、10 秒、60 秒等播放预算，选择完整、互补、低冗余的高光事件及其播放版本。
+最重要的一点是：
+
+JEV 是整个系统的 Decision Kernel，Agent 负责组织观察和执行，Memory 负责保存决策所依赖的信息，Evidence Graph 负责连接事实与判断，Optimizer 负责最终选择。
+
+这几个模块不是平行堆叠的 Agent，而是围绕同一份高光状态协同工作。
+HighlightJEV 总体架构
+Input Layer
+
+Video + Audio + User Query + Viewing Purpose + Playback Budget
+
+
+Stage 0 · Global Context & Temporal Indexing
+
+全片稀疏概览、时间网格、场景索引、音视频时间轴、候选片段初始化
+
+
+Stage 1 · Multi-dimensional JEV Screening
+
+等长 Clip → Relevance / Value Presence / Coarse Intensity / Evidence Sufficiency
+
+
+Stage 2 · Event Construction & Multi-granularity Aggregation
+
+Clip 合并 → SuperClip / Event → 事件身份、前因、高潮、结果
+
+
+Stage 3 · Evidence Acquisition & Backtracking
+
+Visual / Audio / ASR / OCR → Evidence Verification → VOI 决策 → 必要时补看
+
+
+Stage 4 · Fine-grained JEV Ranking
+
+Ordinal Scoring → Pairwise / Listwise Comparison → Purpose-conditioned Value
+
+
+Stage 5 · Boundary Refinement & Playable Core
+
+起止时间修正、前因与结果保留、短/中/长播放版本
+
+
+Stage 6 · Budget-Constrained Highlight Selection
+
+用户目的、5s / 10s / 60s 预算、冗余抑制、事件互补性
+
+
+Final Highlight Reel
+
+可播放片段、时间戳、价值说明、证据来源
+
+
+贯穿所有阶段的共享系统
+JEV Decision Kernel
+
+
+Evidence & Event Graph
+
+
+Highlight Memory
+
+
+
+共享证据、版本化判断、时间权限、预算和执行轨迹
+
+
+这里我特别强调：Stage 3、Stage 4、Stage 5 不应该是完全独立的一次性流水线。它们需要形成一个有限的反馈闭环。例如，第二轮发现两个情绪片段无法区分，可能需要回看其中一个片段的音频；音频证据进入 Memory 后，再重新执行比较。
+
+这正是我们之前 Agentic Framework 应当保留的价值，但需要让每次行动有明确的高光决策目的。
+
+二、设计依据：结合既有实验，先明确哪些经验必须继承
+这部分非常重要。我们不能因为现在采用 JEV，就把之前几个月的实验重新归零。
+
+我交叉检查了：
+- JEV_research_register_2026-11-12.md：146 项 JEV 研究登记及 HighlightJEV 创新边界。
+- 调研JEV技术路线.pdf：56 页 JEV 调研、技术演进和前一版 HighlightJEV 设计。
+- 《Agentic高光研究暂停交接手册》：LensWalk、QVHighlights、TVSum、Observer、TimeLens2 的真实实验记录。
+- 《ReVALUE_BCD_Proposal_CN_20261016.pdf》：BCD 统一状态、主动观察、记忆与回溯重估。
+- VHD Research Radar.pdf：主动观察、记忆、证据压缩、事件完整性和研究创新边界。
+- VHD_Review_Refinement_Report_ZH_20261019.html：已有 VHD 综述中的相关机制、实验边界与失败诊断。
+- VHD_Future_6Slides_Presenter_Guide_20261109.md：五维 Value 的理论动机和定义边界。
+以下设计会区分三类内容：
+- 已有经验：我们实际做过或已有文件记录的实验。
+- 文献机制：其他工作已经提出，可以复用或作为基线。
+- 新框架设计：我建议在 HighlightJEV 中实现，但尚未验证有效。
+2.1 既有实验告诉我们什么？
+已有实验	真实结果或观察	对新框架的直接约束
+QVHighlights 全 Val Agent	1,550 题全部尝试，1,173 条合法完整评分，合法率 75.68%	必须优先解决合法输出、UNKNOWN、失败处理
+QVHighlights 同分诊断	1,173 条合法预测中，752 条全片同分，占 64.11%	必须具备足够的片段区分能力，不能只追求格式正确
+TVSum 全 50 Agent 比较	原 Agent 与修改历史上下文的候选均为 11/50 合法排名；固定分母交付效用从 7.6688% 降至 7.3279%	不要再把简单修改上下文展示方式称为 Memory 创新
+局部事实问法对照	20 个视频、80 个观察包；事实支持的信息明显增多，但共同合法子集 Top-5 mAP 从 40.2488% 变为 39.1661%	事实描述质量与高光排序质量必须分开评价
+Observer 截断	旧实验中大量失败来自输出截断；后续有一批运行虽完成，但采样目标准入因浮点表达差异失败	所有模块必须有严格的输入、时间戳、输出和准入协议
+TimeLens2 联合训练	Good mAP 从 64.3952% 提升至 65.7561%，Good Hit@1 从 76.9032% 提升至 78.9032%	保留既有训练成果，但不能把增益归因于未隔离的 Value 或 Evidence 字段
+
+来源：《Agentic高光研究暂停交接手册》中的真实实验记录。不同任务、模型和输出协议之间不能直接横向比较。Agentic高光研究暂停交接手册_20261021_v2(1).docx
+
+
+这些结果让我认为，当前新框架首先要解决的不是让 Agent 变得更复杂，而是以下四个问题：
+1. 模型能否对不同片段产生有区分度的高光判断？
+2. 模型是否真正理解了各个价值维度？
+3. 观察到的事实是否能够解释为什么一个候选比另一个候选更值得保留？
+4. 这些判断能否最终转化为更好的高光集合？
+2.2 之前的五维价值与三类 Condition 必须保留
+根据既有交接资料，我们已经形成了两个重要基础。
+
+五类 Value：
+- Outcome：结果价值。
+- Information：信息价值。
+- Affective：情绪价值。
+- Kinetic：动作价值。
+- Sensory：感官价值。
+三类 Condition：
+- 无具体目的：General Highlight。
+- 广义观看目的：Purpose-oriented Highlight。
+- 具体事件请求：Query-conditioned Highlight。
+三类 Condition 是已有任务组织经验，目前还不是三个独立学习的 Agent 模块。五类 Value 是我们既有的操作化设计，也不能预先假定五个维度统计独立或同等重要。Agentic高光研究暂停交接手册_20261021_v2(1).docx
+
+
+我建议保留原始定义，不重新发明一套五维分类。
+
+其中 TRINITY 已经研究 Event、Emotion、Nature 三种高光视角。因此，我们不能再将“首次多维高光预测”作为贡献。我们的差异应当落在五维价值的可追溯证据、分级判断、同类比较、跨事件组合以及动态修订上。VHD Research Radar.pdf
+
+三、统一问题定义：我们究竟在优化什么？
+在进入具体模块之前，必须把不同的判断量在数学上分开。
+
+我建议定义视频为：
+\[
+V=(F_{1:T},A_{1:T},O_{1:T})
+\]
+
+其中：
+- \(F\)：视觉帧序列。
+- \(A\)：原始音频。
+- \(O\)：ASR、OCR 及其他结构化观察结果。
+用户请求定义为：
+\[
+c=(q,z,u,B)
+\]
+
+- \(q\)：具体内容 Query，可以为空。
+- \(z\)：观看目的。
+- \(u\)：用户偏好（可选）。
+- \(B\)：最终播放预算。
+候选事件定义为：
+\[
+e_i=(id_i,t_i^s,t_i^e,Core_i,Context_i)
+\]
+
+其中 Core 是事件本身成立所需的最小内容，Context 是帮助观众理解事件的前因、结果和反应。
+
+对于每一个候选事件，我们需要维护五种不同的信息：
+变量	数学含义	解决的问题
+\(r_i\)	Relevance	是否满足当前 Query？
+\(p_{i,d}\)	Presence	第 d 个价值维度是否存在？
+\(v_{i,d}\)	Intensity	该维度表现有多强？
+\(s_{i,d}\)	Evidence Sufficiency	是否有充分证据支持该判断？
+\(u_i(z,u)\)	Viewing Utility	当前目的下是否值得保留？
+
+核心关系：
+\[
+\boxed{
+Relevance\neq Presence\neq Intensity\neq Utility
+}
+\]
+
+Evidence Sufficiency 则是判断这些结果能否被可靠使用的独立条件。
+
+例如：
+- 片段中出现了欢呼，情绪存在概率可能很高。
+- 欢呼的强度可能只有中等。
+- 如果这是比赛决胜分，结合比赛背景后，它的观看价值可能非常高。
+- 如果只有视觉画面而没有声音，我们可能无法确认现场反应的真实强度。
+因此，不能直接把 JEV 返回的 Yes 概率作为最终高光分数。
+
+四、核心模块一：多维高光价值建模（Multi-dimensional Highlight Value）
+这是 HighlightJEV 的核心判断模块。
+4.1 五维 Value 的具体设计
+我建议第一版严格沿用我们已有的五维定义，并建立一套统一的 0—4 级 Ordinal Rubric。
+
+
+
+
+
+
+
+
+
+
+1. Outcome Value（结果价值）
+
+关注：事件是否带来重要结果或状态改变。
+- 0：没有明确结果或状态改变
+- 1：轻微结果，没有明显影响
+- 2：产生可观察的局部结果
+- 3：重要结果，显著改变当前进程
+- 4：决定性结果，例如绝杀、逆转、最终成功
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. Information Value（信息价值）
+
+关注：是否出现新信息、知识、解释或关键揭示。
+- 0：没有新的有效信息
+- 1：重复性或低价值信息
+- 2：具有一定参考价值的补充
+- 3：重要知识、策略或关键解释
+- 4：决定性信息揭示，显著改变理解
+
+
+
+
+
+
+
+
+
+
+
+
+
+3. Affective Value（情绪价值）
+
+关注：可观察到的情绪表达及其强度。
+- 0：没有明显可观察的情绪表达
+- 1：轻微、短暂的情绪反应
+- 2：明确的情绪表达
+- 3：强烈或持续的情绪反应
+- 4：极强烈的个人或群体情绪高潮
+
+
+
+
+
+
+
+
+
+
+
+
+
+4. Kinetic Value（动作价值）
+
+关注：动作本身的动态、技术、难度与执行质量。
+- 0：没有值得关注的动作
+- 1：简单、普通的动作
+- 2：具有一定技术或动态特征
+- 3：高难度、高技巧或高强度动作
+- 4：极具代表性的精彩动作或卓越执行
+
+
+
+
+
+
+
+
+
+
+
+
+
+5. Sensory Value（感官价值）
+
+关注：视觉与听觉体验的感官冲击。
+- 0：普通感官表现
+- 1：轻微的感官特点
+- 2：比较明显的视听特征
+- 3：强烈的视听冲击或审美表现
+- 4：极具代表性的视觉或听觉体验
+
+
+
+上述等级是建议的初始标注规范，需要通过跨领域标注一致性和人类偏好预测实验校正。五个维度允许重叠，不假定它们正交、完备或等距。
+
+这里特别强调两个容易混淆的维度：
+- Outcome 是结果的重要性，不是动作的精彩程度。
+- Information 是信息增量，不是情绪冲击。
+- Affective 是情绪表达，不是单纯的音量大小。
+- Kinetic 是动作本身的质量，不是动作最终是否成功。
+- Sensory 是视听体验，不应与情绪价值重复计算。
+例如，一个教学视频中，失败的操作可能没有 Outcome Value，却有很高的 Information Value；一次没有得分的羽毛球回合，也可能具有很高的 Kinetic Value。
+
+这正是多维价值建模存在的意义。
+4.2 每个维度采用两种决策，而不是一个分数
+这是我建议的关键实现细节。
+
+每个维度需要两个不同的 JEV 问题：
+
+第一类：Presence Decision（存在性判断）
+
+使用 Noul：
+\[
+p_{i,d}=P(Presence_d=1\mid V,e_i)
+\]
+
+例如：
+在 42–44 秒这个片段中，是否存在明显的情绪表达？
+
+输出 Yes / No 的概率。
+
+第二类：Intensity Decision（强度判断）
+
+使用 Score：
+\[
+P(v_{i,d}=k\mid V,e_i),\quad k\in\{0,1,2,3,4\}
+\]
+
+例如：
+在 42–44 秒这个片段中，情绪表达的强度属于哪个等级？
+
+输出五个等级的概率分布。
+
+建议初版采用如下执行逻辑：
+每个 Clip
+   │
+   ├── Query Relevance
+   │
+   ├── Outcome Presence
+   ├── Information Presence
+   ├── Affect Presence
+   ├── Kinetic Presence
+   └── Sensory Presence
+          │
+          ▼
+    对存在或不确定的维度
+          │
+          ▼
+    Ordinal Intensity Scoring
+          │
+          ▼
+    Evidence Sufficiency Check
+
+
+这样做的原因是：不是每个片段都需要对五个维度进行完整的精细评分。
+
+例如，一个安静的教学视频可能没有明显情绪，但其信息价值和动作价值非常高。
+
+通过存在性筛选，可以减少后续决策的计算量。
+4.3 价值分数如何进入统一排序？
+不能直接对五个概率求平均。
+
+我建议保留三个独立结果：
+\[
+\mathbf p_i=(p_{i,1},...,p_{i,5})
+\]
+
+\[
+\mathbf v_i=(v_{i,1},...,v_{i,5})
+\]
+
+\[
+\mathbf s_i=(s_{i,1},...,s_{i,5})
+\]
+
+其中：
+- \(\mathbf p_i\)：属性存在概率。
+- \(\mathbf v_i\)：各维度强度分布。
+- \(\mathbf s_i\)：证据充分程度。
+最终的观看效用才是：
+\[
+U_i=f_\theta(\mathbf p_i,\mathbf v_i,r_i,z,u_i,H_i)
+\]
+
+这里的 \(H_i\) 是事件历史上下文。
+
+V1 可以使用透明的规则化效用模型：
+\[
+U_i(z)=\sum_{d=1}^{5}w_d(z)\tilde v_{i,d}
++\alpha r_i+\beta c_i
+-\gamma q_i^{redundancy}
+\]
+
+其中：
+- \(w_d(z)\)：不同观看目的下的维度权重。
+- \(\tilde v_{i,d}\)：经过标尺验证后的维度强度。
+- \(r_i\)：相关性。
+- \(c_i\)：事件完整性。
+- \(q_i^{redundancy}\)：重复程度。
+证据不足不应简单通过减分解决，而应触发 UNKNOWN 或补充观察。
+
+第一版的权重可以人工显式配置，后续再利用用户偏好数据学习。不能提前声称这些维度已经建立了统一的基数尺度。
+
+五、核心模块二：多层级高光决策（Hierarchical Highlight Decision）
+这是我建议真正继承 REZE 现有实验体系的部分。
+
+我们需要避免从第一轮直接跳到最终 Top-K。
+
+整个过程分成四个层级：
+层级	输入	输出	主要目的
+L0：Clip	等长片段	多维初始分数	尽可能找全
+L1：Event	合并后的事件	事件级分数与结构	消除片段碎片化
+L2：Comparison	同类事件候选	强度及相对排序	精细取舍
+L3：Playable Highlight	候选及边界版本	最终播放区间	可观看性与预算优化
+
+5.1 第一层：等长 Clip 的粗粒度评分
+建议第一版沿用现有实验中的 2 秒时间网格。
+\[
+C_i=[2i,2(i+1)]
+\]
+
+实际实现中应以视频的真实 PTS 和边界为准，不假定所有视频都能被 2 秒整除。
+
+每个 Clip 产生：
+{
+  "clip_id": "clip_0042",
+  "start": 42.0,
+  "end": 44.0,
+  "relevance": 0.91,
+  "values": {
+    "outcome": {
+      "presence": 0.82,
+      "intensity": [0.02, 0.05, 0.13, 0.42, 0.38]
+    },
+    "information": {
+      "presence": 0.15,
+      "intensity": [0.70, 0.15, 0.08, 0.05, 0.02]
+    },
+    "affect": {
+      "presence": 0.96,
+      "intensity": [0.01, 0.03, 0.10, 0.36, 0.50]
+    }
+  },
+  "evidence_status": "partial"
+}
+
+
+示意数据。实际存储应保存完整五维输出、模型版本、原始证据引用和 UNKNOWN 状态。
+
+这里不建议第一轮直接只保留全局 Top-K。
+
+应该构建：
+\[
+\mathcal C^{(1)}
+=
+\bigcup_{d=1}^{5}\operatorname{TopK}(\mathcal C,d)
+\]
+
+即每个价值维度独立保留一批候选，最终取并集。
+
+同时设置少量探索候选，避免模型初始评分偏低的事件永远没有机会进入第二轮。
+5.2 第二层：Clip Merge → Event Construction
+这是现有 REZE 流程需要补充的重要模块。
+
+例如：
+第一轮时间网格
+40–42s
+0.3
+
+42–44s
+0.9
+
+44–46s
+0.95
+
+46–48s
+0.8
+
+48–50s
+0.2
+
+
+
+合并后事件候选
+Event 01
+40–48 秒：完整事件候选
+
+包含前序准备、核心动作和结果
+
+
+合并不应只依据相邻片段的分数。
+
+还需要考虑：
+- 时间连续性。
+- 语义是否属于同一个事件。
+- 是否存在镜头切换或事件间隔。
+- 前后片段是否构成完整动作。
+- 是否属于同一事件的回放，而不是另一次真实发生。
+我建议参考：
+- SCVTG：SuperClip、可变时长聚合及多粒度时序建模。
+- VideoJev：时间单元归属概率。
+- TimeLens2：候选时间区间生成和多区间定位。
+但我们需要新增一个明确的 Event ID，防止把不同发生但语义相似的事件误合并。
+5.3 第三层：同类候选细粒度比较
+这是你最初提出的第二轮，我建议保留为核心模块。
+
+例如第一轮发现 5 个情绪价值较高的事件：
+Event	情绪存在概率	初始强度
+E1	0.96	3.2
+E2	0.93	3.5
+E3	0.89	3.1
+E4	0.97	3.4
+E5	0.85	3.6
+
+这些数字仅为示例。
+
+第二轮不再询问是否有情绪，而是：
+在完整视频上下文中，比较 E1、E2、E3、E4、E5 的情绪表达强度。只依据指定事件的实际表现和支持证据判断，不考虑它们的初始分数。允许平局和证据不足。
+
+我建议测试三种方案：
+方法	实现	参考工作
+Ordinal Ranking	每个候选独立给 0–4 等级	ASOM、NumericJev
+Pairwise Ranking	A vs B，判断谁更强	SubJudge、PACT
+Listwise Ranking	A/B/C/D 多候选选择	Multimodal Reranking
+
+我的首选是 Ordinal + Pairwise。
+
+原因是单纯 Choice 的概率只反映当前候选集合内部的相对选择，不能直接把不同组的 Softmax 概率当成全局分数。
+
+对于 Pairwise，可以定义：
+\[
+P(e_i\succ e_j\mid d,z,E)
+=
+\sigma\left(
+\frac{u_{i,d}-u_{j,d}}{\tau}
+\right)
+\]
+
+之后利用 Bradley–Terry 或相应带平局的排序模型，整合成全局排序。
+
+当不同比较产生循环关系，例如 A 胜 B、B 胜 C、C 胜 A 时，不要强行输出一个确定排名，而应将其标记为排序不稳定，检查决定性证据或比较标准。
+
+第二轮的关键控制：不让模型直接看到第一轮的数值分数和排名。 它可以看到第一轮积累的真实证据、事件身份和上下文，但不应被第一轮排名锚定。旧分数仍保留在系统状态中，用于审计。
+
+六、核心模块三：Evidence-aware Multimodal Acquisition
+这是我认为最值得继承之前 Agentic Framework 的部分。
+
+此前的 Agent 已经具备 Planner、Observer 和 LensWalk 原生工具循环，但没有形成完整的高光证据判别和价值驱动的观察机制。
+
+现在我们需要明确：
+
+观察不是为了获得更多信息，而是为了获得能够改变高光判断的信息。
+6.1 证据体系
+我建议将证据分成四种主要模态。
+证据	来源	主要解决的问题
+Visual Evidence	原始帧、局部高分辨率、运动变化	动作、人物、场景、结果、事件身份
+Audio Evidence	原始音频、音频事件、音量、声学特征	欢呼、掌声、碰撞、音乐高潮、情绪表达
+ASR Evidence	语音转写及时间戳	解说、人物表达、事件解释、知识传递
+OCR Evidence	字幕、比分、屏幕文字、文字区域	比赛状态、数值结果、关键信息和屏幕事件
+
+证据必须记录来源，而不是只保存 Observer 的自然语言描述。
+
+例如：
+{
+  "evidence_id": "EV_0018",
+  "candidate_id": "event_0042",
+  "modality": "audio",
+  "source_interval": [42.0, 46.0],
+  "evidence_type": "crowd_reaction",
+  "observation": "明显的集体欢呼",
+  "source_ref": "audio_segment_0042",
+  "extraction_model": "audio_model_v1",
+  "status": "verified"
+}
+
+
+每条证据至少包含：
+- 原始来源。
+- 时间位置。
+- 模态。
+- 观察事实。
+- 支持或反驳哪个判断。
+- 提取模型及版本。
+- 证据是否真实、完整、存在冲突。
+这里要继承我们之前实验中的教训：蜂箱盖板被误认成蜂脾框、原画面没有的停车告示被生成出来、人物和树木重叠被错误解释为碰撞。这些案例说明长文本描述不等于可靠证据。必须能回到真实 JPEG、音频时间段或 OCR 原始区域。Agentic高光研究暂停交接手册_20261021_v2(1).docx
+
+6.2 先视觉，再按需音频
+我建议不要将所有模态都设置成每个片段必经步骤。
+Visual JEV First Pass
+
+先识别候选事件和初始价值
+
+
+Evidence Sufficiency Gate
+
+当前证据是否足以支持属性判断、强度和候选排序？
+Sufficient
+进入下一阶段，保留当前证据
+
+
+Insufficient
+触发进一步取证
+
+
+
+
+
+Audio
+
+欢呼、掌声、语气、解说
+
+
+ASR
+
+语义、人物表达、解释
+
+
+OCR
+
+比分、字幕、屏幕信息
+
+
+Fine Visual
+
+密集帧、高清裁剪、前后文
+
+
+
+
+Evidence Fusion → JEV Re-evaluation
+
+
+但需要设置例外：如果任务明确涉及解说、对话、音乐或群体反应，或者领域本身高度依赖音频，就不能因为视觉分数较高而跳过音频验证。
+
+对于 FineVideo 以及你之前的人工标注经验，音频对部分事件的语义和边界判断具有重要作用。视觉优先是成本策略，不是视觉信息足够的假设。
+
+建议设置三种实验：
+1. Visual-only。
+2. Visual + ASR。
+3. Visual + Audio Events / Native Audio-Visual。
+其中原生音视频模型可以加入 Clef-omni、Gemini Decision 1 作为黑盒对照；开放模型方案则使用 VideoJev 视觉判断与独立音频模型共同完成决策。ASOM、AudioJev、Qwen-Audio-Jev 可作为音频 JEV 方向的候选实现，但要先核实可用权重和实际推理接口，不能仅凭论文名称认定已经能直接部署。
+6.3 Evidence Sufficiency：证据充分性如何判断？
+我建议不要只使用一个总体 confidence。
+
+应该定义：
+\[
+S_{i,d,m}
+=
+P(\text{Evidence sufficient}
+\mid e_i,d,m)
+\]
+
+这里 \(m\) 是模态。
+
+但初版不需要假设这个值已经校准，可以直接用离散状态：
+状态	含义	后续操作
+Sufficient	当前证据足够支持判断	可以进入排序
+Partial	只有部分关键证据	视决策影响决定是否补看
+Insufficient	关键证据缺失	获取新证据
+Conflict	不同证据之间存在冲突	回溯原始证据并重新判断
+Unknown	当前无法确定	保留未知，不强制负例
+
+需要特别区分：
+- 未观察到。
+- 观察后确认不存在。
+- 观察到了但无法判断。
+- 观察到相互矛盾的证据。
+这四种情况不能统一设为 0。
+6.4 主动观察：如何决定下一步看哪里？
+借鉴 LAVOIR 的 Value of Information、Jev-Mem 的检索控制和 LensWalk 的真实观察工具。
+
+定义：
+\[
+VOI(a)=
+\mathbb E[\Delta L_{\mathrm{selection}}\mid a]
+-\lambda C(a)
+\]
+
+其中：
+- \(a\)：一次观察动作。
+- \(\Delta L_{\mathrm{selection}}\)：观察后最终高光选择损失的预期减少。
+- \(C(a)\)：观察成本。
+实际的 JEV 模型不应直接把自报 confidence 当成真实 VOI。
+
+V1 可以先使用 ReVALUE Proposal 中的离散启发式：
+\[
+Priority(a)=
+\frac{Reach(a)\times Gap(a)\times Novelty(a)}
+{Cost(a)+\epsilon}
+\]
+
+其中：
+- Reach：该证据可能影响多少个候选或比较。
+- Gap：当前证据缺口严重程度。
+- Novelty：新观察相对已有证据的增量。
+- Cost：实际调用、帧数、Tokens 和耗时。
+这是一个工程策略，不是已经证明的概率模型。
+
+建议初始配置：
+- 每轮最多提议 3 个观察动作。
+- 保留约 25% 的额外观察预算用于探索低分或未充分观察区域。
+- 允许前向观察、局部加密、跨事件比较、历史回看。
+- 对高价值但证据冲突的事件优先取证。
+- 不因纯粹的主观偏好分歧而无限增加观察。
+ReVALUE Proposal 已经提出了这个 BCD 设计和对应的成本约束，建议直接继承其可执行版本。ReVALUE_BCD_Proposal_CN_20261016.pdf
+
+
+七、核心模块四：高光边界与 Playable Core
+这一模块不能仅仅做普通的时间定位。
+
+我们要解决的是：
+
+一段高光从哪里开始，在哪里结束，保留多少前因和结果才能让观众真正看懂？
+7.1 区分 Event Boundary 与 Highlight Boundary
+这两个概念必须分开。
+- Event Boundary：事件实际发生的时间范围。
+- Highlight Boundary：为了观看和理解，需要输出的播放时间范围。
+例如，一个羽毛球扣杀事件：
+- 事件发生：12.0–13.2 秒。
+- 可播放 Core：11.5–14.0 秒。
+- 完整版本：9.0–16.0 秒，保留起跳准备、扣杀、落地和对手反应。
+因此，我们不能只让模型预测一个事件区间，然后直接把它当作最终高光。
+7.2 边界修正采用离散偏移决策
+假设初始边界：
+\[
+I_i=[s_i,e_i]
+\]
+
+对于开始位置，候选偏移为：
+\[
+\Delta_s\in\{-6,-4,-2,0,+2,+4,+6\}
+\]
+
+对于结束位置：
+\[
+\Delta_e\in\{-6,-4,-2,0,+2,+4,+6\}
+\]
+
+实际含义：
+- \(-2\)：开始位置向前扩展 2 秒，或结束位置向内收缩 2 秒。
+- \(+2\)：开始位置向后收缩 2 秒，或结束位置向后扩展 2 秒。
+同样适用于 4 秒和 6 秒。
+
+边界决策不建议直接枚举 49 种组合。先独立判断开始位置，再在新的开始位置条件下判断结束位置；必要时再做联合检查。
+
+可以设计两个 JEV Query：
+
+Start Boundary Query
+为了完整理解该事件，当前片段的开始位置是否需要向前或向后调整？在给定偏移选项中选择最合适的方案。
+
+End Boundary Query
+当前片段是否需要保留事件结束后的结果或反应？选择最合适的结束偏移。
+
+7.3 三种播放版本
+每个事件保留多个候选版本：
+版本	结构	用途
+Short	Core	5 秒以内的快速精彩集锦
+Medium	必要前因 + Core	一般精彩回顾
+Long	前因 + Core + 结果/反应	教学、叙事、完整事件回顾
+
+最终需要让 JEV 比较的是不同播放版本的效用，而不是只判断哪个时间区间更准确。
+
+这部分可以参考 TimeLens2、SCVTG 的时序建模，也应将 FinishStrong 作为边界修正对照。边界细化本身已经有先例，不能单独作为我们的主要创新。VHD Research Radar.pdf
+
+
+八、核心模块五：Highlight Memory Topology
+这是我建议保留之前 MemDreamer 和 ReVALUE 方向的地方，而且要比普通 Video QA Memory 更加高光专用。
+
+我们之前讨论的 Memory 目标是：
+- 多时间粒度。
+- 五种价值维度。
+- 高光事件链。
+- 领域高光。
+- 群体高光。
+- Query 相关高光。
+- 用户偏好相关高光。
+我建议将它们组织成一个多层级、带证据依赖的高光记忆图。
+8.1 Memory 的整体层次
+L0 · Global Memory
+
+领域规则、群体偏好、用户明确偏好、全局观看目的
+
+
+L1 · Video / Scene Memory
+
+视频概览、场景、时间轴、事件分布、人物与对象索引
+
+
+L2 · Event Memory
+
+事件身份、前因、动作、结果、情绪、事件依赖链
+
+
+L3 · Evidence Memory
+
+原始帧、音频、ASR、OCR、局部观察包、支持和反驳关系
+
+
+L4 · Decision Memory
+
+五维价值分布、Pairwise 结果、Boundary 版本、用户偏好与判断历史
+
+
+需要注意，这里的 L0—L4 是逻辑层级，不是必须分别运行五个 Agent。
+8.2 记忆节点的类型
+我建议至少建立以下节点：
+节点类型	具体内容
+Video	视频身份、时长、来源
+Scene	场景和上下文
+Event	真实发生的事件
+Clip	等长候选片段
+Evidence	支撑或反驳判断的证据
+Value	五维价值及其分布
+Judgment	某一观看目的下的判断
+Boundary	事件边界和播放版本
+Preference	用户或群体偏好
+Dependency	尚未解决的事件依赖
+Decision	一次选择、排序或更新记录
+
+8.3 事件关系边
+不能只用简单的时间先后关系。
+
+我建议设计：
+关系	含义
+contains	场景包含事件
+before / after	时间先后
+prerequisite_for	前序条件
+leads_to	有证据支持的结果关系
+reveals	后续事件揭示前序信息
+supports	证据支持某项判断
+contradicts	证据反驳某项判断
+same_event	同一事件的不同片段
+replay_of	回放与原始事件的关系
+complements	两个事件具有互补观看价值
+overlaps	两个候选在时间上重叠
+
+特别需要强调：
+
+时间上先发生，不等于因果上导致。
+
+只有当观察证据支持时，才能将两个事件之间的关系写成因果或解释关系。否则保留为 temporally_precedes 或 unresolved_dependency。
+8.4 Event Chain：高光事件链
+例如教学视频：
+初始尝试
+    ↓
+操作失败
+    ↓
+发现问题
+    ↓
+调整策略
+    ↓
+再次尝试
+    ↓
+成功结果
+    ↓
+解释关键差异
+
+
+这里每一个节点可以有不同价值：
+- 初始失败：Information Value。
+- 关键操作：Kinetic Value。
+- 成功结果：Outcome Value。
+- 成功后的反应：Affective Value。
+但这并不意味着所有节点都需要进入最终高光。
+
+系统需要记住它们之间的关系，以便判断某个片段是否需要保留前因或结果。
+8.5 四类高光 Memory
+在 L0 中，我建议再划分四个语义空间：
+
+Domain Memory：领域高光
+
+例如羽毛球、篮球、游戏、教学。
+
+存储领域内哪些事件类型具有特殊意义，以及这些意义依赖什么证据。
+
+Population Memory：群体高光
+
+例如普遍观众对进球、逆转、精彩动作的关注。
+
+需要基于实际群体标注或数据，不要将模型的常识推断当成群体偏好真值。
+
+Query Memory：请求相关高光
+
+用户提出具体请求时，记录 Query 的目标、相关事件类型和相应证据。
+
+User Preference Memory：用户偏好
+
+记录用户明确选择、修改、保留或删除的高光偏好。没有可靠反馈时使用中性偏好，不主动臆测。
+
+这些记忆应当分开存储，最终由当前观看目的选择性检索。
+8.6 Memory 的写入与淘汰策略
+我不建议第一版重新设计一个大型视频记忆模型。
+
+借鉴 MemDreamer、VideoEvolve、ReMem、PReM 和 DeltaStreamer，直接构建一个有界 Memory Adapter。
+
+每个 Event 最少保留：
+{
+  "event_id": "EV_0042",
+  "video_id": "VID_001",
+  "time": [40.0, 48.0],
+  "core": [42.0, 46.0],
+  "value": {
+    "outcome": 3,
+    "information": 1,
+    "affect": 4,
+    "kinetic": 3,
+    "sensory": 2
+  },
+  "evidence_ids": [
+    "VIS_001",
+    "AUD_003",
+    "OCR_002"
+  ],
+  "dependencies": [
+    "EV_0041",
+    "EV_0043"
+  ],
+  "judgment_version": 2,
+  "evidence_version": 4,
+  "status": "verified"
+}
+
+
+实际系统中要保留概率分布、UNKNOWN 状态和判断版本，上述整数仅为结构示例。
+
+我建议记忆采用三类内容：
+1. 共享粗粒度事实记录：保存所有重要事件的基本信息。
+2. 判别性证据包：保存能够区分相似候选的真实证据。
+3. 未决依赖索引：保存后续可能改变当前判断的条件。
+一个特别重要的策略是：
+
+低分候选不意味着可以立即删除。
+
+例如，前半段的普通操作可能因为后半段的新解释而变得重要。即使当前分数低，只要它存在未决依赖，就应该考虑保留轻量记录或原始证据指针。
+Memory 压缩
+建议在以下容量下做初步对照：
+- 4 MiB。
+- 16 MiB。
+- 64 MiB。
+这是 ReVALUE Proposal 中的初始实验配置，不代表已经确定的最佳容量。
+
+记忆成本需要计算真实持久化字节数，包括：
+- 文本。
+- 图像。
+- 音频。
+- 向量。
+- 索引。
+- 元数据。
+- 分数缓存。
+- 依赖关系。
+不能只限制 Prompt Token 数量，就称为完成了 Memory Compression。原始视频归档、设备 KV 和临时缓存也应单独统计。
+
+九、核心模块六：逐阶段上下文累积（Progressive Context Accumulation）
+这是你本次补充的第八点，我认为应该提升为整个系统的基础机制。
+
+你希望同一个视频在不同决策阶段的上下文不断扩充，而不是每一轮都重新从零开始。
+
+我建议将其设计成：
+
+Progressive Evidence Context + Versioned Decision Context。
+
+也就是说：
+- 证据上下文不断积累。
+- 决策可以被修改。
+- 历史判断不能被覆盖。
+- 新的上下文必须能够回溯到原始来源。
+9.1 上下文演进过程
+阶段	上下文内容	后续阶段获得什么
+C0	视频全局概览、时间网格、用户请求	初始候选
+C1	C0 + 第一轮视觉观察 + 五维初始判断	多维候选分布
+C2	C1 + 合并事件 + Event Chain + Core	事件级上下文
+C3	C2 + 音频、ASR、OCR、高清观察	多模态证据
+C4	C3 + 第二轮比较 + 边界修正	精细判断与播放版本
+C5	C4 + Memory 更新 + 预算选择历史	最终高光集合
+
+这里的关键不是把前面所有文字不断复制到 Prompt。
+
+而是每一轮通过 Memory 检索出与当前决策相关的上下文，形成新的 Decision Context。
+9.2 为什么要把证据和判断分开？
+我建议：
+\[
+E_{k+1}=E_k\cup\Delta E_k
+\]
+
+证据采用追加式记录，不覆盖旧证据。
+
+而判断采用版本化：
+\[
+J_{k+1}=F_\theta(E_{k+1},c)
+\]
+
+例如：
+- 第一轮判断：情绪强度 2。
+- 第二轮获取音频：发现现场有明显欢呼。
+- 第三轮结合比分和前序事件：情绪价值修订为 4。
+我们需要保存：
+Judgment v1: Affect = 2
+    Evidence = [VIS_001]
+
+Judgment v2: Affect = 3
+    Evidence = [VIS_001, AUD_003]
+
+Judgment v3: Affect = 4
+    Evidence = [VIS_001, AUD_003, CONTEXT_002]
+
+
+这样不仅能看到最终分数，还能知道为什么修改、依据是什么。
+9.3 如何防止上下文污染？
+这里需要结合 Verdict、Visual Jev 和 Flide 的研究经验。
+
+我建议维护两个视图：
+
+Evidence View：
+
+包含全局视频信息、原始证据、事实、时间和事件关系。
+
+所有后续阶段都可以检索。
+
+Decision View：
+
+包含当前任务的具体问题、候选集合和需要比较的对象。
+
+每个问题分支应独立读取同一份证据，而不是默认把前一个问题的答案当成下一个问题的证据。
+
+尤其是第二轮细排，建议不暴露第一轮的数值排名，避免模型锚定初始结论。
+
+这并不妨碍 Memory 保存第一轮判断。它仍然可以供控制器审计、比较和后续更新使用。
+
+十、核心模块七：回溯与动态高光重估（Retrospective Highlight Revaluation）
+这个模块是之前 BCD 方向最值得保留的部分。
+
+但要注意：普通的补看和纠错不等于真正的回溯价值重估。
+
+我建议保留 ReVALUE 中的 D 模块思想：
+New Evidence
+    ↓
+Identify Affected Historical Events
+    ↓
+Check Existing Dependencies
+    ↓
+Mark Old Judgments as Stale
+    ↓
+Retrieve Historical Evidence
+    ↓
+Re-evaluate with Current Context
+    ↓
+Update Memory and Final Highlight Set
+
+
+例如：
+
+视频早期出现一次普通的操作调整。
+
+第一轮判断：
+- Outcome：1
+- Information：2
+- Kinetic：2
+- 当前不进入高光集合。
+后面出现了一段演示，明确解释这个操作调整解决了此前的问题。
+
+此时系统可以通过事件链找到此前的操作，重新检查：
+- 它是否变得更有信息价值？
+- 是否需要保留更长的前因？
+- 是否应该从普通事件升级为教学高光？
+这里要区分两种研究协议：
+
+Offline Full-video Protocol： 完整视频从一开始就可访问，后续观察主要修正模型对已有事实的认识。
+
+Prefix / Reveal Protocol： 模型只能逐步看到视频前缀，后续内容真正改变了历史事件的观看意义。
+
+只有第二种协议配合独立的人类前缀标注，才适合支撑更强的 Retrospective Revaluation 主张。
+
+ReVALUE Proposal 已经明确要求将升值、降值、保持和不确定四种情况都纳入回溯评价，不能把所有后续信息都当成旧片段升值的理由。ReVALUE_BCD_Proposal_CN_20261016.pdf
+
+
+十一、核心模块八：最终预算约束的高光集合优化
+这是把前面的价值判断真正转化为成片的模块。
+
+不能直接对所有片段取 Top-K。
+11.1 事件与播放版本联合选择
+定义每个事件的不同播放版本：
+\[
+h_{i,k}=(s_{i,k},e_{i,k},u_{i,k})
+\]
+
+其中 k 表示短、中、长版本。
+
+最终选择：
+\[
+S^*=
+\arg\max_{S}
+\left[
+\sum_{(i,k)\in S}u_{i,k}(z,u)
+-\lambda R(S)
++\eta D(S)
+\right]
+\]
+
+约束：
+\[
+\operatorname{duration}
+\left(
+\bigcup_{(i,k)\in S}[s_{i,k},e_{i,k}]
+\right)
+\leq B
+\]
+
+并要求：
+- 同一个事件最多选择一个播放版本。
+- 不允许重复片段占用大量预算。
+- 不能截断必须完整理解的 Core。
+- 事件之间允许互补，不要求内容完全不同。
+- 播放顺序可以按照时间顺序或事件叙事关系单独确定。
+11.2 三种典型预算
+用户预算	选择策略	主要考虑
+5 秒	只保留极少量最关键事件或可独立理解的 Core	不能为了凑满预算而切断动作
+10 秒	选择一个完整短事件或两个互补事件	兼顾价值与事件完整性
+60 秒	多事件集合，兼顾五维覆盖、互补性与叙事顺序	避免同类高分事件挤占所有时长
+
+5 秒的结果不必是 10 秒结果的子集，10 秒也不必是 60 秒结果的子集。
+
+因为不同预算可能对应不同的事件组合和播放版本。
+
+最终输出建议包括：
+- 视频时间戳。
+- Event ID。
+- 播放版本。
+- 五维价值。
+- 用户目的匹配。
+- 支撑证据。
+- 边界修正记录。
+- 实际输出时长。
+
+十二、模型基础框架：明确选择方案 1
+你的两个方案中，我支持优先采用方案 1：
+
+直接基于开源 JEV 模型，先冻结运行，再决定是否需要适配训练。
+
+不建议一开始就把 Qwen3-VL 或其他普通 MLLM 改成新的 JEV 架构。
+12.1 推荐模型组合
+模型	在框架中的角色	建议
+VideoJev-4B	主要视觉视频决策器	主干优先
+Valen-Decision 1.5 4B	开源多模态视频决策对照	第二主干对照
+AutoTrust JEV-27B-VL	更大规模视觉决策对照	后续测试
+ASOM / Qwen-Audio-Jev	音频情绪与音频判断	可用权重核验后接入
+Gemini Decision 1	黑盒多模态决策对照	API 对照
+Clef-omni	原生音视频决策对照	API 对照
+REZE / 普通 Qwen logits	冻结直接读出基线	必须保留
+
+VideoJev 的优势是已经专门研究视频时间单元与候选评分，并且具备共享视频上下文的推理机制。
+
+Valen-Decision 1.5 则是更新的开源多模态决策候选，但其不同运行时对视频能力的支持范围需要单独核验。
+
+音频方面不能假设 VideoJev 原生包含音频判断。初版采用视觉 JEV＋独立音频判断器的模块化方案即可；等真正具备可用的开放原生音视频 JEV 后再做统一骨干对照。
+12.2 为什么不立刻训练？
+我们目前还没有回答：
+- VideoJev 是否比 REZE 更适合 HD？
+- 五维 Query 是否真正改善高光发现？
+- 第二轮排序是否优于独立 Score？
+- 音频是否改善价值判断，而不仅仅改善事实描述？
+- Memory 是否真正保留了人类观看偏好？
+如果这些问题都没有答案，直接开始训练只会增加实验变量。
+
+建议：
+
+V1：冻结 JEV，完成完整流水线。
+
+V2：在有效的五维标注和 Pairwise 数据上做 LoRA。
+
+V3：如果确有需要，再比较 LM Head、JEV Head 和自回归生成式输出。
+
+训练阶段必须匹配数据、训练步数和模型骨干，避免将适配收益误认为 JEV 架构收益。
+
+十三、具体软件实现架构
+建议在当前 LensWalk-HD 代码体系上建立独立适配层，不重新实现一个庞大的 Agent Framework。
+13.1 模块目录
+highlightjev/
+│
+├── configs/
+│   ├── models.yaml
+│   ├── budgets.yaml
+│   ├── value_rubrics.yaml
+│   └── modalities.yaml
+│
+├── data/
+│   ├── video_manifest.py
+│   ├── temporal_index.py
+│   ├── dataset_adapter.py
+│   └── annotation_schema.py
+│
+├── models/
+│   ├── videojev_adapter.py
+│   ├── valen_adapter.py
+│   ├── audio_jev_adapter.py
+│   ├── decision_reader.py
+│   └── calibration.py
+│
+├── queries/
+│   ├── relevance.py
+│   ├── value_presence.py
+│   ├── ordinal_scoring.py
+│   ├── pairwise_ranking.py
+│   ├── evidence_sufficiency.py
+│   └── boundary_queries.py
+│
+├── pipeline/
+│   ├── global_context.py
+│   ├── clip_screening.py
+│   ├── event_assembly.py
+│   ├── evidence_acquisition.py
+│   ├── multimodal_fusion.py
+│   ├── fine_ranking.py
+│   ├── boundary_refinement.py
+│   ├── utility_estimator.py
+│   ├── budget_optimizer.py
+│   └── renderer.py
+│
+├── memory/
+│   ├── state.py
+│   ├── schema.py
+│   ├── evidence_store.py
+│   ├── event_graph.py
+│   ├── retrieval.py
+│   ├── compression.py
+│   └── revaluation.py
+│
+├── agent/
+│   ├── orchestrator.py
+│   ├── action_planner.py
+│   ├── observer_tools.py
+│   ├── time_guard.py
+│   ├── budget_guard.py
+│   └── execution_log.py
+│
+├── evaluation/
+│   ├── hd_metrics.py
+│   ├── ranking_metrics.py
+│   ├── evidence_metrics.py
+│   ├── boundary_metrics.py
+│   ├── memory_metrics.py
+│   ├── budget_metrics.py
+│   └── reliability.py
+│
+└── tests/
+    ├── test_timestamps.py
+    ├── test_evidence_trace.py
+    ├── test_query_isolation.py
+    ├── test_memory_capacity.py
+    ├── test_unknown_handling.py
+    └── test_budget_selection.py
+
+
+13.2 统一执行器
+不建议将每个模块都做成一个独立 LLM Agent。
+
+建议采用：
+- 一个 Orchestrator。
+- 一个共享 JEV Decision Reader。
+- 一组确定性的 Python 控制模块。
+- 一个共享 Evidence/Memory State。
+- 一套原生 LensWalk 视频观察工具。
+Python 负责真实时间戳、权限、预算、缓存、合并和选择。JEV 负责类型化判断。Observer 负责提供真实观察结果。
+
+这样的系统既能保持 Agentic 能力，也能避免之前实验中因为多层生成、重复规划和输出截断导致的失败。
+13.3 必须建立统一的数据协议
+我建议至少冻结以下六种对象：
+对象	必须包含的内容
+VideoManifest	视频身份、时长、FPS、PTS、音频轨道、预处理版本
+ClipCandidate	Clip ID、起止时间、帧引用、所属 Scene
+EvidencePacket	模态、时间、原始来源、事实、支持/反驳关系
+ValueJudgment	维度、Presence、Ordinal 分布、证据状态、模型版本
+EventMemory	Event ID、Event Chain、证据关联、判断版本
+PlaybackVariant	Core、前后扩展、起止时间、时长、完整性
+
+此外，所有决策需要统一保存：
+- 当前 Query。
+- 当前观看目的。
+- 输入上下文版本。
+- JEV 模型版本。
+- 选项顺序。
+- 缓存命中情况。
+- 原始概率分布。
+- 最终判断。
+- 实际进入最终决策的证据。
+尤其需要保存真实 PTS，而不是仅保存名义采样 FPS。之前的 1 ULP 浮点差异已经证明，时间采样的精确表达式必须纳入协议测试。
+
+十四、实验设计：如何证明整个框架有效？
+我不建议一开始做完整 BCD，也不建议同时训练五个价值维度和多个 Agent。
+
+建议沿用你此前强调的实验原则：先完成强基线，再根据真实错误证据决定是否引入下一个机制。
+14.1 第一组：模型基线
+Baseline	目的
+REZE	原有直接识别概率
+普通 Qwen logits	证明普通 MLLM 的选项读出能力
+VideoJev-4B	共享视频上下文的直接决策
+Valen-Decision 1.5	新开源多模态决策对照
+Gemini Decision 1	工业黑盒决策对照
+现有 TimeLens2 / HD Baseline	原生时序定位与高光性能
+
+统一控制视频、帧采样、Query、输出时间网格和评价器。原生音视频与视觉-only 的结果分开报告。
+14.2 第二组：五维价值是否真的有用？
+实验	比较
+E1	单一 Relevance vs 五维 Presence
+E2	Presence vs Ordinal Intensity
+E3	五维独立排序 vs 统一观看效用
+E4	TRINITY 三视角基线 vs 我们的五维标注体系
+E5	单维度 Top-K vs 多维候选并集
+
+关键指标：
+- 维度标注一致性。
+- 每个维度的 Pairwise Accuracy。
+- Kendall / Spearman。
+- nDCG。
+- 维度间相关性。
+- Held-out 人类偏好预测增益。
+这里必须固定标注和模型容量，避免因为多维方案使用更多标签和更多模型调用，就自然获得更高分。
+14.3 第三组：第二轮细粒度排序是否必要？
+对同一批候选、同一证据做：
+1. 只使用第一轮评分。
+2. 第二轮 Ordinal Scoring。
+3. 第二轮 Pairwise Ranking。
+4. 第二轮 Listwise Choice。
+比较：
+- 排序准确率。
+- 同分率。
+- 高分候选的细粒度区分能力。
+- 排序一致性。
+- 额外计算成本。
+特别要检查候选顺序、问题顺序和联合提问干扰。
+14.4 第四组：多模态证据
+比较：
+- Visual-only。
+- Visual + ASR。
+- Visual + Audio Events。
+- Visual + ASR + OCR。
+- Native Audio-Visual。
+不仅看最终 mAP，还要检查：
+- 哪些候选因音频发生改变？
+- 哪些错误是视觉感知错误？
+- 哪些错误是情绪判断错误？
+- 哪些是排序错误？
+- 哪些音频信息没有真正参与最终选择？
+要保留音频缺失时的 UNKNOWN，而不是将其当成没有情绪。
+14.5 第五组：主动取证和 Memory
+主动取证比较：
+- Uniform Sampling。
+- 固定观察。
+- 普通不确定性驱动观察。
+- 高光价值差异驱动观察。
+- 随机同成本补看。
+Memory 比较：
+- FIFO。
+- 普通语义摘要。
+- Top-K 高分证据保留。
+- Preference-discriminative Memory。
+- 保留当前偏好和未来未决依赖的 Memory。
+在同一批真实观察轨迹下，先进行不允许回放的记忆测试，再进行同预算回放测试。
+14.6 第六组：边界和预算
+比较：
+- 固定 2 秒边界。
+- TimeLens2 边界候选。
+- JEV 边界偏移。
+- Event Core。
+- Core + Context 版本选择。
+然后比较：
+- 排名 Top-K。
+- 独立预算截断。
+- 预算约束事件集合优化。
+最终必须用人工观看偏好评价成片，而不能只看单个片段的 mAP。
+14.7 第七组：BCD 联合消融
+只有 B、C、D 各自都通过独立实验之后，才进入完整八组消融：
+组别	B：主动观察	C：高光记忆	D：回溯重估
+Baseline	0	0	0
+B	1	0	0
+C	0	1	0
+D	0	0	1
+BC	1	1	0
+BD	1	0	1
+CD	0	1	1
+BCD	1	1	1
+
+这能够回答 B、C、D 是否具有真正的互补作用，而不是三个模块同时增加后指标变好，就将增益归给整个框架。
+
+十五、数据规模：必须同时覆盖 Small / Middle / All
+结合之前你对实验规模的要求，我建议将每个关键实验都设计成三个阶段，而不是只抽几个视频测试。
+数据集	Small	Middle	All
+QVHighlights	50 个来源视频	150 个来源视频	全部可用来源及对应 1,550 个 Query
+TVSum	10 个视频	25 个视频	50 个视频
+SVHighlights	20 个视频	100 个视频	全部合法可访问的视频
+FineVideo	分层抽样子集	扩展子集	全部可用人工标注样本
+
+这里的 Small / Middle / All 是实验设计建议。实际执行前需要冻结数据清单、父来源身份和 Train/Dev/Test 暴露状态。
+
+所有核心实验必须报告三个量级。
+
+小规模用于发现问题；中规模用于判断稳定性；全量用于最终评价。
+
+QVHighlights 要按父来源视频进行配对统计，不能把同一视频的多个 Query 当成完全独立样本。
+
+此外：
+- QVHighlights：保留原生 HD-mAP、Hit@1。
+- TVSum：保留原生重要性排序指标。
+- SVHighlights：保留原生长视频 HD 指标。
+- TRINITY：用于多视角比较，不能把三个视角直接改称我们的五维真值。
+- FineVideo：重点支持音频、情绪、边界及多模态证据标注。
+
+十六、真正需要形成的创新点
+我不建议将整套架构的每一个模块都包装成独立创新。
+
+结合 JEV 研究登记表，下面这些已经有相近先例：
+机制	重要先例	我们不能宣称的宽泛创新
+共享视频上下文	VideoJev、Verdict	一次编码多个 Query
+多维高光	TRINITY	首次多维高光价值
+情绪强度	ASOM	首次对情绪分级
+Pairwise 比较	SubJudge、PACT	首次同类片段比较
+多模态重排	Multimodal Reranking	首次使用 Choice 重排序
+主动观察	LAVOIR、LensWalk	首次动态选择观察
+多层级记忆	MemDreamer、VideoEvolve、ReMem	首次构建视频记忆
+边界细化	TimeLens2、FinishStrong	首次修正视频边界
+预算剪辑	现有高光编辑和社区 JEV 工具	首次按预算组合高光
+
+真正值得验证的贡献应该围绕以下三个相互联系的问题。
+创新方向 A：Evidence-grounded Multi-dimensional Value Judgment
+不仅判断片段是否具有某个高光属性，而且判断：
+- 属性是否存在。
+- 属性强度是多少。
+- 哪些证据支持该强度。
+- 同类事件之间是否具有稳定的相对价值。
+- 不同观看目的是否会改变正确的选择。
+创新方向 B：Value-discriminative Evidence Acquisition and Memory
+不是为了提升通用视频问答而获取信息，而是为了减少最终高光选择错误。
+
+重点验证：
+- 哪些证据能够改变两个候选之间的正确排序？
+- 哪些证据在压缩后不能丢失？
+- 哪些低分事件仍具有未来价值？
+- 在有限记忆和观察预算下，系统能否保留必要的判断依据？
+创新方向 C：Evidence-conditioned Retrospective Highlight Revaluation
+当后续事件出现时，系统能够识别哪些历史高光判断的前提发生了变化，并通过证据回溯重新评价。
+
+它不只是再次运行模型，而是根据事件链、未决依赖和新证据，选择性地修订旧判断。
+
+三个方向可以统一到同一套状态管理中，但每个方向都需要独立的有效性实验。
+
+十七、实施阶段与合作者分工
+我建议不要同时让 ROOT、导师和其他 Agent 启动所有模块。
+
+先建立共同系统，再按实验门槛逐步增加能力。
+17.1 实施路线
+1. Phase 0：工程与协议验收
+   
+   建立 VideoJev Adapter、时间索引、Evidence Schema、统一 JEV 输出协议。完成单视频端到端真实取帧、决策和结果回溯。
+   
+   验收：没有伪时间戳、无证据输出、输出截断和 UNKNOWN 混淆。
+2. Phase 1：冻结模型的第一轮五维评分
+   
+   先接入等长 Clip、多维 Presence、Ordinal Scoring，保留 REZE 和普通 Qwen logits 基线。
+   
+   验收：五维标注与排序确实提供超过单一相关性分数的信息。
+3. Phase 2：事件合并与第二轮排序
+   
+   建立 Event ID、SuperClip、Event Chain，完成 Ordinal、Pairwise、Listwise 三种方案对比。
+   
+   验收：第二轮在固定证据和固定预算下产生稳定的排序改善。
+4. Phase 3：多模态证据和边界
+   
+   接入音频、ASR、OCR 按需取证；加入前后 2/4/6 秒边界修正和 Core。
+   
+   验收：证据增量和边界质量分别产生可测量收益。
+5. Phase 4：高光 Memory 与预算优化
+   
+   建立多粒度事件图、记忆压缩、预算优化和不同播放版本。
+   
+   验收：同等真实字节和回放成本下，记忆能保留人类偏好判断。
+6. Phase 5：BCD 回溯重估
+   
+   建立独立 Prefix / Reveal 标注面板，验证历史片段的升值、降值、稳定和 UNKNOWN。
+   
+   验收：新事实能够触发正确的历史判断更新，而不是简单地让模型改变分数。
+7. Phase 6：轻量训练与完整 Benchmark
+   
+   只有在冻结模型实验明确暴露能力缺口后，才开展 LoRA、Decision Head 或排序监督训练。
+   
+   验收：同底座、同数据、同预算下，训练带来独立可复现的增益。
+17.2 合作者分工
+角色	核心职责	交付物
+研究负责人	统一研究假设、创新边界、实验准入	Research Spec、决策记录
+JEV 模型负责人	VideoJev/Valen Adapter、问题接口、校准	模型适配与对照报告
+Value 标注负责人	五维 Rubric、等级和 Pairwise 标注	Annotation Guideline、数据
+Evidence / Multimodal 负责人	Visual、Audio、ASR、OCR 与回溯	Evidence Pipeline
+Memory / Agent 负责人	事件图、记忆写入检索、状态更新	Memory Graph、Revaluation
+Benchmark 负责人	原生评价器、来源隔离、统计与错误分析	Benchmark Report
+系统负责人	LensWalk 工具复用、Runner、预算、渲染	可复现执行系统
+
+ROOT 负责系统整合和工程验收，导师负责研究假设、实验设计和结果解释。每个阶段只能在上一阶段真实验收后进入下一阶段。
+
+十八、最终研究协议：必须提前冻结的失败控制
+这部分必须继承之前的 Evidence-first 经验。
+控制	目的
+交换 Choice 选项顺序	检查候选位置偏差
+单独问题 vs 联合问题	检查多维 Query 相互干扰
+无视频输入	检查模型是否依赖语言先验
+打乱时间顺序	检查事件上下文依赖
+删除关键 Evidence	检查模型是否真正使用证据
+删除非关键 Evidence	检查模型是否对无关信息敏感
+视觉-only vs 音视频	检查音频的增量价值
+旧分数可见 vs 隐藏	检查第二轮是否受到第一轮锚定
+None / Unknown	检查是否能拒绝不充分判断
+ECE / Brier	检查概率校准
+时间戳和 PTS 精确核验	防止时间错位
+全同分率与有效输出率	检查退化和协议问题
+全流水线计时	避免只报告模型前向加速
+
+尤其需要区分三个失败来源：
+1. 没有观察到关键证据。
+2. 已经观察到，但证据在 Memory 压缩或检索时丢失。
+3. 证据已经进入模型，但模型没有正确利用。
+这三个问题需要不同的解决方案，不能全部归因于 Agent 推理能力不足。
+
+十九、最终建议：V1 应该实现到什么程度？
+我建议把 V1 的范围控制在以下内容。
+HighlightJEV V1
+建议立即实现
+
+冻结模型、最小闭环、完整可评价
+- [x] 全视频稀疏上下文
+- [x] 2 秒等长 Clip
+- [x] Relevance + 五维 Presence
+- [x] 五维 Ordinal Score（0–4）
+- [x] Event Merge
+- [x] 同维度 Pairwise Ranking
+- [x] Evidence Sufficiency
+- [x] Evidence ID 与时间回溯
+- [x] 起止边界 ±2/4/6 秒
+- [x] 5s / 10s / 60s 预算输出
+- [x] 版本化上下文和判断记录
+  
+  
+  V2 / V3 再实现
+- 完整多模态按需观察策略学习
+- 有界拓扑 Memory 的智能压缩
+- 事件依赖驱动的历史回溯
+- 用户偏好长期适配
+- 高光专用 LoRA / Preference Optimization
+- 更复杂的 BCD 联合优化
+
+我认为 V1 必须能够完成：
+
+输入一段视频 → 自动划分等长片段 → 五维 JEV 判断 → 合并事件 → 第二轮细排 → 必要证据补充 → 边界修正 → 按预算输出高光。
+
+同时，每个判断都能够找到其原始证据。
+
+这条闭环是最重要的。没有它，后续再复杂的 Memory、VOI 和 Revaluation 都缺少可以验证的基础。
+
+二十、我认为最终应该形成的论文论证
+这套框架的核心研究问题，可以收敛成一句话：
+如何利用共享视频上下文下的类型化决策，将多维高光价值、可验证的多模态证据和事件依赖记忆统一起来，使系统能够逐层发现、比较、修订和选择最终高光？
+
+建议论文围绕三个核心假设：
+假设	可证伪的问题
+H1：Value Decomposition	五维存在性与强度能否比单一相关性分数更好地预测人类高光偏好？
+H2：Evidence-conditioned Decision	证据充分性驱动的补看与 Memory 能否在相同成本下减少最终选集错误？
+H3：Contextual Revaluation	事件依赖和逐步积累的上下文能否让系统正确修订受后续证据影响的历史高光？
+
+这里需要强调：H1、H2、H3 都是研究假设，不是目前已经得到实验支持的结论。
+
+最终创新不能仅仅是把 REZE 换成 VideoJev，也不能仅仅是多了五个 Query。
+
+我们需要证明的是：
+1. 五维价值判断能够解释为什么两个同样相关的片段具有不同观看价值。
+2. 证据获取能够解决真正影响高光选择的歧义。
+3. 记忆能够保留当前和未来决策所需要的判别性证据。
+4. 多层级比较与边界修正能够将判断转化为完整可播放的事件。
+5. 这一切最终能够在相同预算下改善人类认可的高光集合。
+最终决策
+我建议正式将 HighlightJEV 作为下一阶段的主研发框架，暂时不再平行扩展新的通用 Agent 结构。
+
+第一优先级不是做复杂 Memory，也不是立刻训练模型，而是：
+
+先以 VideoJev-4B 为主要开放视频 JEV 候选，保留 REZE 和普通 Qwen logits，完成第一轮五维评分与第二轮细粒度比较的真实端到端闭环。
+
+随后再按实验结果加入多模态证据、事件边界、Memory 和 BCD。
+
+这样既继承了你之前的实验积累，也不会重复之前“模块越来越多、调用越来越多，但最终质量没有稳定改善”的问题。

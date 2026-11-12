@@ -1,0 +1,61 @@
+{
+  "version": "highlightjev_l123_diagram_v6",
+  "validated_at": "2026-11-12T16:58:55.855760+08:00",
+  "status": "diagram_export_and_visual_review_passed",
+  "design_only": true,
+  "new_model_calls": 0,
+  "new_gpu_runs": 0,
+  "editable_svg": {
+    "text_objects": 68,
+    "semantic_groups": 13,
+    "embedded_images": 0,
+    "text_bounds_within_page": true
+  },
+  "png_pixels": [
+    3400,
+    1831
+  ],
+  "pdf_page_mm": [
+    280,
+    150.76923076923077
+  ],
+  "pdf_pages": 1,
+  "pdf_embedded_raster_images": 0,
+  "fonts_embedded": true,
+  "python_syntax": "passed",
+  "visual_review": {
+    "performed_by": "assistant",
+    "inspected": [
+      "initial PNG",
+      "final PNG",
+      "final PDF raster at 2000px"
+    ],
+    "checks": [
+      "correct shared-context branches",
+      "merge arrows retain the unmerged window",
+      "two independent A/B orders",
+      "five comparator outcomes",
+      "winner agreement and unchanged-order fallback",
+      "budget output connector",
+      "text legibility and margins"
+    ],
+    "refinements": [
+      "Added the retained singleton to the merge schematic",
+      "Specified the same winner in both directions and explicit tie fallback"
+    ],
+    "remaining_obvious_layout_issues": []
+  },
+  "reference": {
+    "name": "MambaVision Figure 2; existing HighlightJEV v5 typography and colors",
+    "borrowed": "horizontal phase grouping and spacing only",
+    "third_party_images_redistributed": false
+  },
+  "hashes": {
+    "create_diagram.py": "0a600dc84d16e5c09ec023c6fbdd3c6cd1f1ad3cc96c13fd6f89045fc17076a3",
+    "README.md": "469b34083eed258f05cde17dccb64eb3b49f38801ce14d07613efa9ea4612909",
+    "highlightjev_l123_framework_v6.svg": "4afc802c7471bf2557146b54b85c9ff42e6c2386c0a7e2dbd010720c6a7a3772",
+    "highlightjev_l123_framework_v6.pdf": "8a9b060d09d7bc58c8d1d2af8010dd8e72bc05fd3cde09cfcb0a02cc42769223",
+    "highlightjev_l123_framework_v6.png": "9655172cedc5d66878b024cace250595442c212280c053fccc28964281c28c7f"
+  },
+  "scope_limit": "Static diagram/export checks only, not model or pipeline validation."
+}

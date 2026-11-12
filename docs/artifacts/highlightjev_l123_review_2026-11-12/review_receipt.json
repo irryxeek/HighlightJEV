@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "review_version": "highlightjev_l123_review_v1",
+  "date": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "user_scope": "按 L1–L2–L3 精简主线审查并修订",
+  "source_sha256": "8d6454a07536f3b4fc8d0c59669ea8c2525d36fe2882763d1a7c6680a118f06e",
+  "source_preserved_byte_for_byte": true,
+  "execution_authorized": false,
+  "activity": "document review and revision only",
+  "new_experiment_usage": {
+    "model_api_calls": 0,
+    "experiment_tokens": 0,
+    "gpu_allocations": 0,
+    "gpu_seconds": 0,
+    "experiment_worker_starts": 0
+  },
+  "usage_evidence": "This revision used file reads, document writes, arithmetic/link/hash checks, and read-only public documentation lookups. No experiment command, model loader or GPU worker was invoked. This is an action-scope record, not server-wide GPU telemetry.",
+  "remote_push_performed": false,
+  "dependencies_or_security_modified": false,
+  "protected_hash_checks": {
+    "AGENTS.md": true,
+    "docs/highlightjev_agent_framework_plan_2026-11-12.md": true,
+    "docs/revalue_generic_highlight_tvsum_val10_protocol_2026-11-10.md": true,
+    "docs/revalue_generic_highlight_tvsum_full50_8b27b_protocol_2026-11-10.md": true,
+    "projects/videojev_agent_framework_20261112_v5/highlightjev_agent_framework_v5.svg": true
+  },
+  "validation": {
+    "source_hash_match": true,
+    "protected_files_unchanged": true,
+    "local_markdown_links_passed": 25,
+    "local_markdown_links": [
+      {
+        "file": "docs/highlightjev_l1_l2_l3_revised_report_2026-11-12.md",
+        "target": "artifacts/highlightjev_l123_review_2026-11-12/source_report_v1_2026-11-12.txt",
+        "resolved": true
+      },
+      {
+        "file": "docs/highlightjev_l1_l2_l3_revised_report_2026-11-12.md",
+        "target": "artifacts/highlightjev_l123_review_2026-11-12/input_receipt.json",
+        "resolved": true
+      },
+      {
+        "file": "docs/highlightjev_l1_l2_l3_revised_report_2026-11-12.md",
+        "target": "highlightjev_l1_l2_l3_mvp_2026-11-12.md",
+        "resolved": true
+      },
+      {
+        "file": "docs/highlightjev_l1_l2_l3_revised_report_2026-11-12.md",
+        "target": "highlightjev_agent_framework_plan_2026-11-12.md",
+        "resolved": true
+      },
+      {
+        "file": "docs/highlightjev_l1_l2_l3_revised_report_2026-11-12.md",
+        "target": "../projects/videojev_agent_framework_20261112_v5/README.md",
+        "resolved": true
+      },
+      {
+        "file": "docs/highlightjev_l1_l2_l3_revised_report_2026-11-12.md",
+        "target": "revalue_generic_highlight_tvsum_val10_protocol_2026-11-10.md",
+        "resolved": true
+      },
+      {
+        "file": "docs/highlightjev_l1_l2_l3_revised_report_2026-11-12.md",
+        "target": "revalue_generic_highlight_tvsum_full50_8b27b_protocol_2026-11-10.md",
+        "resolved": true
+      },
+      {
+        "file": "docs/highlightjev_l1_l2_l3_revised_report_2026-11-12.md",
+        "target": "revalue_generic_highlight_tvsum_8b_improvement_diagnosis_2026-11-10.md",
+        "resolved": true
+      },
+      {
+        "file": "docs/highlightjev_l1_l2_l3_revised_report_2026-11-12.md",
+        "target": "artifacts/highlightjev_l123_review_2026-11-12/review_receipt.json",
+        "resolved": true
+      },
+      {
+        "file": "docs/highlightjev_l1_l2_l3_mvp_2026-11-12.md",
+        "target": "highlightjev_agent_framework_plan_2026-11-12.md",
+        "resolved": true
+      },
+      {
+        "file": "docs/highlightjev_l1_l2_l3_mvp_2026-11-12.md",
+        "target": "../projects/videojev_agent_framework_20261112_v5/README.md",
+        "resolved": true
+      },
+      {
+        "file": "docs/highlightjev_l1_l2_l3_mvp_2026-11-12.md",
+        "target": "highlightjev_l1_l2_l3_revised_report_2026-11-12.md",
+        "resolved": true
+      },
+      {
+        "file": "docs/highlightjev_l1_l2_l3_mvp_2026-11-12.md",
+        "target": "../projects/videojev_agent_framework_20261112_v4/README.md",
+        "resolved": true
+      },
+      {
+        "file": "docs/artifacts/highlightjev_l123_review_2026-11-12/README.md",
+        "target": "../../highlightjev_l1_l2_l3_revised_report_2026-11-12.md",
+        "resolved": true
+      },
+      {
+        "file": "docs/artifacts/highlightjev_l123_review_2026-11-12/README.md",
+        "target": "source_report_v1_2026-11-12.txt",
+        "resolved": true
+      },
+      {
+        "file": "docs/artifacts/highlightjev_l123_review_2026-11-12/README.md",
+        "target": "input_receipt.json",
+        "resolved": true
+      },
+      {
+        "file": "docs/artifacts/highlightjev_l123_review_2026-11-12/README.md",
+        "target": "review_receipt.json",
+        "resolved": true
+      },
+      {
+        "file": "README.md",
+        "target": "docs/highlightjev_l1_l2_l3_mvp_2026-11-12.md",
+        "resolved": true
+      },
+      {
+        "file": "README.md",
+        "target": "docs/highlightjev_l1_l2_l3_revised_report_2026-11-12.md",
+        "resolved": true
+      },
+      {
+        "file": "README.md",
+        "target": "docs/highlightjev_agent_framework_plan_2026-11-12.md",
+        "resolved": true
+      },
+      {
+        "file": "README.md",
+        "target": "projects/videojev_agent_framework_20261112_v5/README.md",
+        "resolved": true
+      },
+      {
+        "file": "docs/README.md",
+        "target": "highlightjev_l1_l2_l3_revised_report_2026-11-12.md",
+        "resolved": true
+      },
+      {
+        "file": "docs/README.md",
+        "target": "highlightjev_l1_l2_l3_mvp_2026-11-12.md",
+        "resolved": true
+      },
+      {
+        "file": "docs/README.md",
+        "target": "highlightjev_agent_framework_plan_2026-11-12.md",
+        "resolved": true
+      },
+      {
+        "file": "docs/README.md",
+        "target": "../projects/videojev_agent_framework_20261112_v5/README.md",
+        "resolved": true
+      }
+    ],
+    "arithmetical_checks": {
+      "known_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "unknown_option": "U",
+      "total_options": 7,
+      "old_val10_windows": 1260,
+      "old_new40_windows": 2953,
+      "old_full50_windows": 4213,
+      "proposed_val10_L1_questions": 6300,
+      "proposed_full50_L1_questions": 21065
+    },
+    "scope_marker_present": true
+  },
+  "validated_scope": "Document consistency only; no model inference, cache correctness, output quality, or full pipeline validation.",
+  "official_interface_reference_commit": "7f8b38aa7df67721303cdc61f06d8435f3c7db89",
+  "design_decisions": [
+    "L1 uniform-window five-dimensional 0–5 plus unknown choice scoring",
+    "L2 bounded candidate merging and independent rescoring",
+    "L3 limited comparable-pair reranking",
+    "Official Cached visual prefix reused across independent questions",
+    "No generated explanations, agent controller, new observations, or additional modalities in this version"
+  ],
+  "not_frozen": [
+    "checkpoint and runtime source checksums",
+    "complete video/frame/PTS manifests and input capacity",
+    "full prompts and options",
+    "unknown/failure export policy",
+    "candidate quotas and merge bounds",
+    "comparison pairing",
+    "dense score projection and metric adapters",
+    "independent run limits for attempts, failures, tokens, GPU lifecycles, and workers"
+  ],
+  "outputs_sha256": {
+    "docs/highlightjev_l1_l2_l3_revised_report_2026-11-12.md": "d908ba359bfceb496e14dc2cc549e90b69423439d09e159d102e425ab579faab",
+    "docs/highlightjev_l1_l2_l3_mvp_2026-11-12.md": "de5c29811376966fa2ca53b0661d12cbb7471a0def4e5a753728a63649ee7383",
+    "docs/artifacts/highlightjev_l123_review_2026-11-12/README.md": "2eae58ea10ecd2710766756fa29191fb63bc42d813faee5f025cc5844a92651d",
+    "README.md": "eea5dcb54026a477549c6970ad953d85a97b203fc0943b83ad4f2d3eb120d9a3",
+    "docs/README.md": "59c694ebe339258d7754d211db4eee79276a4cc8969330206cffc0fda9a0d7d9",
+    "docs/artifacts/highlightjev_l123_review_2026-11-12/source_report_v1_2026-11-12.txt": "8d6454a07536f3b4fc8d0c59669ea8c2525d36fe2882763d1a7c6680a118f06e",
+    "docs/artifacts/highlightjev_l123_review_2026-11-12/input_receipt.json": "7ac1fc6f976fd30f6cd357622fb9c7256fa0da2c5f876ddaf0cb5f111c2c0fca"
+  }
+}

@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="280mm" height="150.769231mm" viewBox="0 0 2600 1400" version="1.1">
+  <title>HighlightJEV：L1–L2–L3 分层高光流水线</title>
+  <desc>Proposed visual-only pipeline: official VideoJev-4B Cached prefix feeds independent window scoring, bounded event merging/rescoring, and limited comparable-pair reranking. A deterministic program selects intervals under a playback budget. All shapes are schematic, not experiment results.</desc>
+  <defs>
+    <marker id="arrow-line" markerWidth="10" markerHeight="8" refX="8.5" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 0 0 L 9 4 L 0 8 Z" fill="#526D7B" />
+    </marker>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="8" refX="8.5" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 0 0 L 9 4 L 0 8 Z" fill="#3D7693" />
+    </marker>
+    <marker id="arrow-teal" markerWidth="10" markerHeight="8" refX="8.5" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 0 0 L 9 4 L 0 8 Z" fill="#237D7F" />
+    </marker>
+    <marker id="arrow-purple" markerWidth="10" markerHeight="8" refX="8.5" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 0 0 L 9 4 L 0 8 Z" fill="#71678F" />
+    </marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="8" refX="8.5" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 0 0 L 9 4 L 0 8 Z" fill="#477D64" />
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="2600" height="1400" rx="0" fill="#FFFFFF" stroke="none" stroke-width="2" />
+  <g id="title-and-scope">
+    <text x="50" y="83" font-family="Noto Sans CJK SC, sans-serif" font-size="49" font-weight="700" fill="#203A4C" text-anchor="start" id="label-001">HighlightJEV：L1–L2–L3 分层高光流水线</text>
+    <text x="50" y="138" font-family="Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#586F7C" text-anchor="start" id="label-002">窗口五维评分 → 事件合并复评 → 同类候选比较 → 预算选片</text>
+    <text x="2550" y="85" font-family="Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#586F7C" text-anchor="end" id="label-003">v6 · 精简首版 / 设计待验证</text>
+    <path d="M 50 165 H 2550" stroke="#D6E1E5" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  <g id="shared-video-context">
+    <rect x="50" y="195" width="2500" height="165" rx="18" fill="#EAF3F8" stroke="#B0CDDC" stroke-width="2" />
+    <text x="80" y="242" font-family="Noto Sans CJK SC, sans-serif" font-size="31" font-weight="700" fill="#203A4C" text-anchor="start" id="label-004">全片采样帧＋真实时间 PTS</text>
+    <g id="schematic-frame-sequence">
+      <rect x="82" y="264" width="82" height="61" rx="6" fill="#FFFFFF" stroke="#B0CDDC" stroke-width="2" />
+      <path d="M 91 314 L 111 284 L 128 303 L 141 292 L 156 314 Z" fill="#9BBBC9" />
+      <rect x="180" y="264" width="82" height="61" rx="6" fill="#FFFFFF" stroke="#B0CDDC" stroke-width="2" />
+      <path d="M 189 314 L 209 284 L 226 303 L 239 292 L 254 314 Z" fill="#9BBBC9" />
+      <rect x="278" y="264" width="82" height="61" rx="6" fill="#FFFFFF" stroke="#B0CDDC" stroke-width="2" />
+      <path d="M 287 314 L 307 284 L 324 303 L 337 292 L 352 314 Z" fill="#9BBBC9" />
+      <rect x="376" y="264" width="82" height="61" rx="6" fill="#FFFFFF" stroke="#B0CDDC" stroke-width="2" />
+      <path d="M 385 314 L 405 284 L 422 303 L 435 292 L 450 314 Z" fill="#9BBBC9" />
+    </g>
+    <path d="M 515 290 H 607" stroke="#3D7693" fill="none" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)" />
+    <text x="644" y="245" font-family="Noto Sans CJK SC, sans-serif" font-size="37" font-weight="700" fill="#3D7693" text-anchor="start" id="label-005">VideoJev-4B · 官方 Cached</text>
+    <text x="644" y="291" font-family="Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" fill="#203A4C" text-anchor="start" id="label-006">视觉编码 → 视频前缀预填充</text>
+    <text x="644" y="334" font-family="Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#586F7C" text-anchor="start" id="label-007">复用注意力 KV 与卷积 / 循环状态</text>
+    <path d="M 1448 218 V 337" stroke="#B0CDDC" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="1490" y="245" font-family="Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#203A4C" text-anchor="start" id="label-008">同一全片视觉输入 · 每题绑定目标时间段</text>
+    <text x="1490" y="292" font-family="Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" fill="#203A4C" text-anchor="start" id="label-009">各题独立使用前缀，不继承前题答案</text>
+    <text x="1490" y="334" font-family="Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#586F7C" text-anchor="start" id="label-010">缓存复用后，每个新问题仍需计算</text>
+  </g>
+  <g id="shared-prefix-to-three-layers">
+    <path d="M 1300 360 V 414" stroke="#3D7693" fill="none" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 440 414 H 2160" stroke="#3D7693" fill="none" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 440 414 V 463" stroke="#3D7693" fill="none" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)" />
+    <circle cx="440" cy="414" r="4.3" fill="#3D7693" />
+    <path d="M 1300 414 V 463" stroke="#3D7693" fill="none" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)" />
+    <circle cx="1300" cy="414" r="4.3" fill="#3D7693" />
+    <path d="M 2160 414 V 463" stroke="#3D7693" fill="none" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)" />
+    <circle cx="2160" cy="414" r="4.3" fill="#3D7693" />
+    <text x="60" y="409" font-family="Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#3D7693" text-anchor="start" id="label-011">共享视觉上下文</text>
+  </g>
+  <g id="l1-uniform-window-scoring">
+    <rect x="50" y="465" width="780" height="560" rx="18" fill="#EAF5F3" stroke="#B0D4CD" stroke-width="2" />
+    <text x="82" y="522" font-family="Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#237D7F" text-anchor="start" id="label-012">L1 等长窗口评分</text>
+    <text x="82" y="570" font-family="Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" fill="#203A4C" text-anchor="start" id="label-013">覆盖全时间轴 · 每窗五道选择题</text>
+    <g id="five-value-probability-matrix">
+      <text x="230" y="632" font-family="Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" fill="#203A4C" text-anchor="middle" id="label-014">结果</text>
+      <rect x="180" y="654" width="100" height="35" rx="5" fill="#B6DBD2" stroke="none" stroke-width="2" />
+      <rect x="180" y="710" width="100" height="35" rx="5" fill="#B6DBD2" stroke="none" stroke-width="2" />
+      <rect x="180" y="798" width="100" height="35" rx="5" fill="#B6DBD2" stroke="none" stroke-width="2" />
+      <text x="230" y="781" font-family="Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#586F7C" text-anchor="middle" id="label-015">⋮</text>
+      <text x="352" y="632" font-family="Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" fill="#203A4C" text-anchor="middle" id="label-016">信息</text>
+      <rect x="302" y="654" width="100" height="35" rx="5" fill="#BFD9E6" stroke="none" stroke-width="2" />
+      <rect x="302" y="710" width="100" height="35" rx="5" fill="#BFD9E6" stroke="none" stroke-width="2" />
+      <rect x="302" y="798" width="100" height="35" rx="5" fill="#BFD9E6" stroke="none" stroke-width="2" />
+      <text x="352" y="781" font-family="Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#586F7C" text-anchor="middle" id="label-017">⋮</text>
+      <text x="474" y="632" font-family="Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" fill="#203A4C" text-anchor="middle" id="label-018">情绪</text>
+      <rect x="424" y="654" width="100" height="35" rx="5" fill="#EED2BC" stroke="none" stroke-width="2" />
+      <rect x="424" y="710" width="100" height="35" rx="5" fill="#EED2BC" stroke="none" stroke-width="2" />
+      <rect x="424" y="798" width="100" height="35" rx="5" fill="#EED2BC" stroke="none" stroke-width="2" />
+      <text x="474" y="781" font-family="Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#586F7C" text-anchor="middle" id="label-019">⋮</text>
+      <text x="596" y="632" font-family="Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" fill="#203A4C" text-anchor="middle" id="label-020">动作</text>
+      <rect x="546" y="654" width="100" height="35" rx="5" fill="#E8DBAC" stroke="none" stroke-width="2" />
+      <rect x="546" y="710" width="100" height="35" rx="5" fill="#E8DBAC" stroke="none" stroke-width="2" />
+      <rect x="546" y="798" width="100" height="35" rx="5" fill="#E8DBAC" stroke="none" stroke-width="2" />
+      <text x="596" y="781" font-family="Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#586F7C" text-anchor="middle" id="label-021">⋮</text>
+      <text x="718" y="632" font-family="Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" fill="#203A4C" text-anchor="middle" id="label-022">感官</text>
+      <rect x="668" y="654" width="100" height="35" rx="5" fill="#D4CCE5" stroke="none" stroke-width="2" />
+      <rect x="668" y="710" width="100" height="35" rx="5" fill="#D4CCE5" stroke="none" stroke-width="2" />
+      <rect x="668" y="798" width="100" height="35" rx="5" fill="#D4CCE5" stroke="none" stroke-width="2" />
+      <text x="718" y="781" font-family="Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#586F7C" text-anchor="middle" id="label-023">⋮</text>
+      <text x="98" y="682" font-family="Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" fill="#586F7C" text-anchor="start" id="label-024">W₁</text>
+      <text x="98" y="738" font-family="Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" fill="#586F7C" text-anchor="start" id="label-025">W₂</text>
+      <text x="98" y="781" font-family="Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" fill="#586F7C" text-anchor="start" id="label-026">⋮</text>
+      <text x="98" y="826" font-family="Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" fill="#586F7C" text-anchor="start" id="label-027">Wₙ</text>
+    </g>
+    <text x="82" y="886" font-family="Noto Sans CJK SC, sans-serif" font-size="36" font-weight="700" fill="#237D7F" text-anchor="start" id="label-028">0–5 六档＋未知 U</text>
+    <text x="82" y="933" font-family="Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#203A4C" text-anchor="start" id="label-029">每维 Top-K 并集＋固定时间覆盖</text>
+    <text x="82" y="982" font-family="Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#586F7C" text-anchor="start" id="label-030">保留概率；未知候选按固定规则保留</text>
+  </g>
+  <g id="l2-event-merging-and-rescoring">
+    <rect x="910" y="465" width="780" height="560" rx="18" fill="#EAF5F3" stroke="#B0D4CD" stroke-width="2" />
+    <text x="942" y="522" font-family="Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#237D7F" text-anchor="start" id="label-031">L2 事件合并与复评</text>
+    <text x="942" y="570" font-family="Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" fill="#203A4C" text-anchor="start" id="label-032">邻接候选 → 合并判断 → 重新评分</text>
+    <g id="bounded-merge-example">
+      <rect x="960" y="620" width="90" height="40" rx="5" fill="#A6CEC5" stroke="none" stroke-width="2" />
+      <rect x="1068" y="620" width="90" height="40" rx="5" fill="#A6CEC5" stroke="none" stroke-width="2" />
+      <rect x="1176" y="620" width="90" height="40" rx="5" fill="#A6CEC5" stroke="none" stroke-width="2" />
+      <rect x="1284" y="620" width="90" height="40" rx="5" fill="#D6E1E5" stroke="none" stroke-width="2" />
+      <rect x="1392" y="620" width="90" height="40" rx="5" fill="#C2B4D5" stroke="none" stroke-width="2" />
+      <rect x="1500" y="620" width="90" height="40" rx="5" fill="#C2B4D5" stroke="none" stroke-width="2" />
+      <path d="M 960 674 V 686 H 1266 V 674" stroke="#237D7F" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 1113 686 V 727" stroke="#237D7F" fill="none" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)" />
+      <path d="M 1329 674 V 727" stroke="#526D7B" fill="none" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-line)" />
+      <path d="M 1392 674 V 686 H 1590 V 674" stroke="#71678F" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 1491 686 V 727" stroke="#71678F" fill="none" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-purple)" />
+      <rect x="960" y="734" width="306" height="61" rx="7" fill="#A6CEC5" stroke="none" stroke-width="2" />
+      <rect x="1284" y="734" width="90" height="61" rx="7" fill="#D6E1E5" stroke="none" stroke-width="2" />
+      <rect x="1392" y="734" width="198" height="61" rx="7" fill="#C2B4D5" stroke="none" stroke-width="2" />
+      <text x="1113" y="775" font-family="Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" fill="#203A4C" text-anchor="middle" id="label-033">事件候选 A</text>
+      <text x="1329" y="774" font-family="Noto Sans CJK SC, sans-serif" font-size="25" font-weight="400" fill="#586F7C" text-anchor="middle" id="label-034">原窗</text>
+      <text x="1491" y="775" font-family="Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" fill="#203A4C" text-anchor="middle" id="label-035">候选 B</text>
+    </g>
+    <text x="942" y="850" font-family="Noto Sans CJK SC, sans-serif" font-size="30" font-weight="500" fill="#203A4C" text-anchor="start" id="label-036">同一连续事件才合并；未知不合并</text>
+    <text x="942" y="894" font-family="Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#237D7F" text-anchor="start" id="label-037">合并区间再做五维 0–5＋U</text>
+    <text x="942" y="938" font-family="Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#203A4C" text-anchor="start" id="label-038">保留子窗，不累加旧分数</text>
+    <text x="942" y="982" font-family="Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#586F7C" text-anchor="start" id="label-039">复评提示隐藏 L1 分数与排名</text>
+  </g>
+  <g id="l3-limited-comparable-pair-reranking">
+    <rect x="1770" y="465" width="780" height="560" rx="18" fill="#F1EFF7" stroke="#CBC5DD" stroke-width="2" />
+    <text x="1802" y="522" font-family="Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#71678F" text-anchor="start" id="label-040">L3 同类候选比较</text>
+    <text x="1802" y="570" font-family="Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" fill="#203A4C" text-anchor="start" id="label-041">共同标准 · 固定候选对 · 双向复核</text>
+    <rect x="1810" y="612" width="270" height="101" rx="10" fill="#FFFFFF" stroke="#CBC5DD" stroke-width="2" />
+    <rect x="2240" y="612" width="270" height="101" rx="10" fill="#FFFFFF" stroke="#CBC5DD" stroke-width="2" />
+    <text x="1945" y="654" font-family="Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#203A4C" text-anchor="middle" id="label-042">候选 A</text>
+    <text x="1945" y="693" font-family="Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#586F7C" text-anchor="middle" id="label-043">目标区间</text>
+    <text x="2375" y="654" font-family="Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#203A4C" text-anchor="middle" id="label-044">候选 B</text>
+    <text x="2375" y="693" font-family="Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#586F7C" text-anchor="middle" id="label-045">目标区间</text>
+    <text x="2160" y="650" font-family="Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#71678F" text-anchor="middle" id="label-046">A/B</text>
+    <path d="M 2110 665 H 2210" stroke="#71678F" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-purple)" />
+    <path d="M 2210 687 H 2110" stroke="#71678F" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-purple)" />
+    <text x="2160" y="727" font-family="Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#71678F" text-anchor="middle" id="label-047">B/A</text>
+    <rect x="1810" y="754" width="335" height="51" rx="8" fill="#FFFFFF" stroke="#CBC5DD" stroke-width="2" />
+    <text x="1977.5" y="789.36" font-family="Noto Sans CJK SC, sans-serif" font-size="29" font-weight="500" fill="#71678F" text-anchor="middle" id="label-048">A 更值得保留</text>
+    <rect x="2175" y="754" width="335" height="51" rx="8" fill="#FFFFFF" stroke="#CBC5DD" stroke-width="2" />
+    <text x="2342.5" y="789.36" font-family="Noto Sans CJK SC, sans-serif" font-size="29" font-weight="500" fill="#71678F" text-anchor="middle" id="label-049">B 更值得保留</text>
+    <rect x="1810" y="825" width="220" height="51" rx="8" fill="#FFFFFF" stroke="#CBC5DD" stroke-width="2" />
+    <text x="1920.0" y="860.36" font-family="Noto Sans CJK SC, sans-serif" font-size="29" font-weight="500" fill="#71678F" text-anchor="middle" id="label-050">相当</text>
+    <rect x="2050" y="825" width="220" height="51" rx="8" fill="#FFFFFF" stroke="#CBC5DD" stroke-width="2" />
+    <text x="2160.0" y="860.36" font-family="Noto Sans CJK SC, sans-serif" font-size="29" font-weight="500" fill="#71678F" text-anchor="middle" id="label-051">不可比</text>
+    <rect x="2290" y="825" width="220" height="51" rx="8" fill="#FFFFFF" stroke="#CBC5DD" stroke-width="2" />
+    <text x="2400.0" y="860.36" font-family="Noto Sans CJK SC, sans-serif" font-size="29" font-weight="500" fill="#71678F" text-anchor="middle" id="label-052">未知</text>
+    <text x="1802" y="936" font-family="Noto Sans CJK SC, sans-serif" font-size="34" font-weight="700" fill="#71678F" text-anchor="start" id="label-053">两向确认同一赢家才改序</text>
+    <text x="1802" y="982" font-family="Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#586F7C" text-anchor="start" id="label-054">相当、弃判或冲突：保留 L2 顺序</text>
+  </g>
+  <g id="forward-candidate-flow">
+    <path d="M 830 710 H 908" stroke="#526D7B" fill="none" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-line)" />
+    <path d="M 1690 710 H 1768" stroke="#526D7B" fill="none" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-line)" />
+    <path d="M 2160 1025 V 1118" stroke="#477D64" fill="none" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-green)" />
+    <text x="2200" y="1080" font-family="Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#477D64" text-anchor="start" id="label-055">区间与顺序</text>
+    <text x="50" y="1082" font-family="Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#586F7C" text-anchor="start" id="label-056">三层使用同一帧池；后续判断不读取此前分数或理由</text>
+  </g>
+  <g id="deterministic-budget-selection">
+    <rect x="50" y="1120" width="2500" height="175" rx="18" fill="#EEF5EE" stroke="#BCD4BF" stroke-width="2" />
+    <text x="82" y="1175" font-family="Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#477D64" text-anchor="start" id="label-057">预算选片与输出</text>
+    <text x="82" y="1223" font-family="Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#203A4C" text-anchor="start" id="label-058">固定程序：去重 → 选片 → 时间顺序</text>
+    <text x="82" y="1267" font-family="Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#586F7C" text-anchor="start" id="label-059">保留原区间与子窗；不做细边界搜索</text>
+    <g id="schematic-output-timeline">
+      <text x="910" y="1172" font-family="Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#477D64" text-anchor="start" id="label-060">选中片段按原视频时间输出</text>
+      <path d="M 910 1222 H 1710" stroke="#BCD4BF" fill="none" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+      <rect x="952" y="1202" width="161" height="40" rx="5" fill="#8CB59B" stroke="none" stroke-width="2" />
+      <rect x="1260" y="1202" width="125" height="40" rx="5" fill="#8CB59B" stroke="none" stroke-width="2" />
+      <rect x="1517" y="1202" width="144" height="40" rx="5" fill="#8CB59B" stroke="none" stroke-width="2" />
+      <text x="910" y="1270" font-family="Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#586F7C" text-anchor="start" id="label-061">时间区间＋价值向量＋未知状态</text>
+    </g>
+    <path d="M 1844 1146 V 1268" stroke="#BCD4BF" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="1910" y="1185" font-family="Noto Sans CJK SC, sans-serif" font-size="41" font-weight="700" fill="#477D64" text-anchor="start" id="label-062">总播放时长 ≤ B</text>
+    <text x="1910" y="1234" font-family="Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#203A4C" text-anchor="start" id="label-063">B：5 秒 / 10 秒 / 1 分钟等</text>
+    <text x="1910" y="1270" font-family="Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#586F7C" text-anchor="start" id="label-064">不要求凑满预算</text>
+  </g>
+  <g id="scope-and-legend">
+    <path d="M 50 1330 H 2550" stroke="#D6E1E5" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 50 1364 H 104" stroke="#3D7693" fill="none" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)" />
+    <text x="122" y="1374" font-family="Noto Sans CJK SC, sans-serif" font-size="25" font-weight="400" fill="#586F7C" text-anchor="start" id="label-065">共享缓存</text>
+    <path d="M 292 1364 H 346" stroke="#526D7B" fill="none" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-line)" />
+    <text x="364" y="1374" font-family="Noto Sans CJK SC, sans-serif" font-size="25" font-weight="400" fill="#586F7C" text-anchor="start" id="label-066">候选流转</text>
+    <text x="630" y="1374" font-family="Noto Sans CJK SC, sans-serif" font-size="25" font-weight="400" fill="#586F7C" text-anchor="start" id="label-067">选择题概率输出；无需生成中间证据或理由</text>
+    <text x="2550" y="1374" font-family="Noto Sans CJK SC, sans-serif" font-size="25" font-weight="400" fill="#586F7C" text-anchor="end" id="label-068">色块为结构示意 · 精简设计 / 尚未实测</text>
+  </g>
+</svg>

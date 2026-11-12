@@ -1,5 +1,7 @@
 # HighlightJEV：分层价值判断、证据回溯与高光边界设计
 
+**后续范围调整（2026-11-12）：首版先采用 [L1–L2–L3 最小流水线](highlightjev_l1_l2_l3_mvp_2026-11-12.md)，暂缓 Agent、证据/理由生成和工具回看。下文保留完整扩展设计；它和 v5 图稿不再表示首版须一次实现的全部模块。**
+
 ## Material Passport
 
 - Origin Skill / Mode：academic-research-suite / experiment-agent，plan，当前会话内规划。

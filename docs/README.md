@@ -2,14 +2,22 @@
 
 当前仓库：[irryxeek/HighlightJEV](https://github.com/irryxeek/HighlightJEV)（2026-11-12 更名，原名 `MERIT-based-method`）。历史报告中的旧仓库名与本地路径保留原记录。
 
-## 最新：HighlightJEV 分层框架与 v5 图稿（2026-11-12）
+## 最新：HighlightJEV L1–L2–L3 精简方案与 v6 图稿（2026-11-12）
+
+- [原稿审查与详细修订报告](highlightjev_l1_l2_l3_revised_report_2026-11-12.md)：五维 0–5＋未知、候选覆盖、合并复评、有限同类比较与预算输出；原稿和未核实材料分别保留。
+- [三层方案概览](highlightjev_l1_l2_l3_mvp_2026-11-12.md)：当前实现优先范围和逐层验证顺序。
+- [v6 图稿与说明](../projects/videojev_l123_framework_20261112_v6/README.md)：[可编辑 SVG](../projects/videojev_l123_framework_20261112_v6/highlightjev_l123_framework_v6.svg)、[矢量 PDF](../projects/videojev_l123_framework_20261112_v6/highlightjev_l123_framework_v6.pdf)、[PNG](../projects/videojev_l123_framework_20261112_v6/highlightjev_l123_framework_v6.png)、[生成源码](../projects/videojev_l123_framework_20261112_v6/create_diagram.py)与[检查记录](../projects/videojev_l123_framework_20261112_v6/validation.json)。共享官方 Cached，后续问题不读取此前分数，双向确认同一赢家才允许改序。
+
+本次为图文发布，没有新增实验推理或 GPU 任务。首版暂缓 Agent、证据/理由生成、回看、多模态适配和边界搜索；新模型与三层流程尚待联调验证。
+
+## 后续扩展：完整 Agent 方案与 v5 图稿（2026-11-12）
 
 - [完整方案：分层价值、证据回溯与边界设计](highlightjev_agent_framework_plan_2026-11-12.md)：五维等级锚点、证据契约、按需多模态、起止边界动作、模块接口与逐项验证顺序。
 - [v5 框架图与说明](../projects/videojev_agent_framework_20261112_v5/README.md)：[可编辑 SVG](../projects/videojev_agent_framework_20261112_v5/highlightjev_agent_framework_v5.svg)、[矢量 PDF](../projects/videojev_agent_framework_20261112_v5/highlightjev_agent_framework_v5.pdf)、[PNG 预览](../projects/videojev_agent_framework_20261112_v5/highlightjev_agent_framework_v5.png)、[生成源码](../projects/videojev_agent_framework_20261112_v5/create_diagram.py)与[检查记录](../projects/videojev_agent_framework_20261112_v5/validation.json)。展开 L1 等长初评分、L2 事件复评、L3 同类比较，以及共享取证与边界修正；复用官方 Cached、0–5 六档＋未知。
-- [早期讨论稿](highlightjev_design_discussion_2026-11-11.md)、[v4 图稿](../projects/videojev_agent_framework_20261112_v4/README.md)与[v2 图稿](../projects/videojev_agent_framework_20261112_v2/README.md)保留；当前分层机制以上述方案和 v5 为准。
+- [早期讨论稿](highlightjev_design_discussion_2026-11-11.md)、[v4 图稿](../projects/videojev_agent_framework_20261112_v4/README.md)与[v2 图稿](../projects/videojev_agent_framework_20261112_v2/README.md)保留；首版范围以上方精简方案和 v6 为准。
 - [此前的整片输入、记忆与 Jev 验证方案](revalue_fullvideo_memory_jev_next_plan_2026-11-10.md)及[来源核查记录](artifacts/revalue_fullvideo_memory_jev_plan_2026-11-10/source_audit.json)。历史计划保留原日期。
 
-本次为图稿与文档发布。官方已有 Cached 实现；已选 4B 的音频／ASR／OCR 通过外部工具按需适配，七选项价值判断、边界动作与完整 Agent 闭环尚待验证；没有新增实验推理或 GPU 任务。此前同日发布的 [TVSum 最新实验查看器说明](revalue_trace_viewer_tvsum_latest_2026-11-10.md)和[官方重要性标注参考说明](revalue_trace_viewer_tvsum_ground_truth_2026-11-10.md)继续保留；其中端口、测试和验证路径是 11 月 10 日的本地运行记录，不代表本次重新运行或已发布完整查看器源码。
+v5 中的音频／ASR／OCR 为拟通过外部工具接入的扩展，不是已选 4B 的原生音频能力；这些模块及完整 Agent 闭环尚待验证。此前同日发布的 [TVSum 最新实验查看器说明](revalue_trace_viewer_tvsum_latest_2026-11-10.md)和[官方重要性标注参考说明](revalue_trace_viewer_tvsum_ground_truth_2026-11-10.md)继续保留；其中端口、测试和验证路径是 11 月 10 日的本地运行记录，不代表本次重新运行或已发布完整查看器源码。
 
 ## 此前：高光评分与本周组会汇报（2026-11-10）
 
