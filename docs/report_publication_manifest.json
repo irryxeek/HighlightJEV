@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T05:10:37+08:00",
+  "updated_at": "2026-11-12T15:15:28+08:00",
   "scope": "All active MERIT docs/*.md except the curated index, plus related QVHighlights-ZeroShot docs/*.md. Historical frozen plan publications retained. Raw experiment artifacts are not implicitly published.",
   "standing_user_instruction": "Whenever pushing project updates, include newly created or updated reports, analyses, research plans, and document indexes.",
   "path_aliases": {
@@ -214,8 +214,8 @@
     {
       "source": "MERIT:docs/report_publication_workflow.md",
       "destination": "docs/report_publication_workflow.md",
-      "source_sha256": "59159885cf08c2377e7b774abad3967732d35cabb946e67a5acb1d8e326e1fc1",
-      "publication_sha256": "59159885cf08c2377e7b774abad3967732d35cabb946e67a5acb1d8e326e1fc1",
+      "source_sha256": "8e6d14ca8448b7bbd928ace6cff55630dc20958ecccb804568e7c4c099aeaec2",
+      "publication_sha256": "8e6d14ca8448b7bbd928ace6cff55630dc20958ecccb804568e7c4c099aeaec2",
       "basis": "research_workspace_markdown_with_publication_links_and_path_aliases",
       "local_only_references": []
     },
@@ -7516,15 +7516,15 @@
     {
       "source": "MERIT:README.md",
       "destination": "README.md",
-      "source_sha256": "37d1182a5db97c330a702f9a5cce462aaf029c67f7b28b3c7b2a2a6498e6b199",
-      "publication_sha256": "b056a24a308a577a9d23089e3e099480f6568092accfb62c9ed27b308c7a150b",
+      "source_sha256": "ac6bc3c8febbe9ef908cf8b6cffdfe4a17e8a103a904b7951b42fa816e27ba6d",
+      "publication_sha256": "f2b48675d2750e7abc790444f32f6b6e55939b3c057de7058527f4b39cbb44b0",
       "basis": "curated_publication_index_with_all_report_links_and_standing_user_instruction"
     },
     {
       "source": "MERIT:docs/README.md",
       "destination": "docs/README.md",
       "source_sha256": "13083ef274278f612d4b01b245f359dad930021819a2de041acf268f62170ae6",
-      "publication_sha256": "acddffed4b89e380443bff619764534eb70c4b81c01860985b76db8b2a6e552b",
+      "publication_sha256": "78fbe199bcad0835522b1193a327415e6fb77d5e07615d8aaa2022dae45a48f7",
       "basis": "curated_publication_index_with_all_report_links_and_standing_user_instruction"
     }
   ],
@@ -8892,5 +8892,51 @@
       "other_errors": [],
       "scope_note": "All active root reports are covered. The same 977 pre-existing unpublished implementation files remain outside this diagram/documentation update."
     }
+  },
+  "repository_rename_2026_11_12": {
+    "at": "2026-11-12T15:15:28+08:00",
+    "authorization": "User requested renaming the repository and selected HighlightJEV.",
+    "repository_id": 1420445917,
+    "old_full_name": "irryxeek/MERIT-based-method",
+    "new_full_name": "irryxeek/HighlightJEV",
+    "html_url": "https://github.com/irryxeek/HighlightJEV",
+    "ssh_url": "git@github.com:irryxeek/HighlightJEV.git",
+    "default_branch": "main",
+    "head_after_rename_before_document_update": "31643485e0fbb15a72644d067d97adaeea39ed11",
+    "local_origin_updated": true,
+    "updated_documents": [
+      "README.md",
+      "docs/README.md",
+      "docs/report_publication_workflow.md"
+    ],
+    "previous_entries": [
+      {
+        "source": "MERIT:docs/report_publication_workflow.md",
+        "destination": "docs/report_publication_workflow.md",
+        "source_sha256": "59159885cf08c2377e7b774abad3967732d35cabb946e67a5acb1d8e326e1fc1",
+        "publication_sha256": "59159885cf08c2377e7b774abad3967732d35cabb946e67a5acb1d8e326e1fc1",
+        "basis": "research_workspace_markdown_with_publication_links_and_path_aliases",
+        "local_only_references": []
+      },
+      {
+        "source": "MERIT:README.md",
+        "destination": "README.md",
+        "source_sha256": "37d1182a5db97c330a702f9a5cce462aaf029c67f7b28b3c7b2a2a6498e6b199",
+        "publication_sha256": "b056a24a308a577a9d23089e3e099480f6568092accfb62c9ed27b308c7a150b",
+        "basis": "curated_publication_index_with_all_report_links_and_standing_user_instruction"
+      },
+      {
+        "source": "MERIT:docs/README.md",
+        "destination": "docs/README.md",
+        "source_sha256": "13083ef274278f612d4b01b245f359dad930021819a2de041acf268f62170ae6",
+        "publication_sha256": "acddffed4b89e380443bff619764534eb70c4b81c01860985b76db8b2a6e552b",
+        "basis": "curated_publication_index_with_all_report_links_and_standing_user_instruction"
+      }
+    ],
+    "figure_directory": "projects/videojev_agent_framework_20261112_v4",
+    "figure_files_changed": false,
+    "experiment_calls_added": 0,
+    "gpu_tasks_added": 0,
+    "AGENTS_modified": false
   }
 }

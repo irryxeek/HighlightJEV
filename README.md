@@ -1,4 +1,6 @@
-# MERIT / REZE 视频高光检测实验
+# HighlightJEV：视频高光检测与预算选片
+
+当前设计基于 VideoJev 官方 Cached 模式，采用 0–5 六档＋未知的五维 QA 评分、候选细化与预算选片，高光任务接入及效果仍待验证。仓库于 2026-11-12 从 `MERIT-based-method` 更名为 [HighlightJEV](https://github.com/irryxeek/HighlightJEV)，同时保留下述 MERIT / REZE 历史实验。
 
 本项目从 MERIT 的三键记忆检索、时序邻域过滤和完整时间轴高光评分出发，保存 QVHighlights 适配实验及后续零样本对照。原论文评估视频问答，**MERIT 原适配并非复现论文已有的 QVHighlights 分数**。下方运行命令对应原 MERIT 主实验；REZE 最新结果单独归档。
 
@@ -99,8 +101,8 @@ REZE B0、P_abs、P_pair 已完成全部 1,550 条 validation 查询，VeryGood 
 ## 克隆与数据准备
 
 ```bash
-git clone --recurse-submodules git@github.com:irryxeek/MERIT-based-method.git
-cd MERIT-based-method
+git clone --recurse-submodules git@github.com:irryxeek/HighlightJEV.git
+cd HighlightJEV
 # 已克隆但未获取依赖时：
 git submodule update --init --recursive
 ```

@@ -6,7 +6,7 @@
 
 ## 发布位置与检查范围
 
-- 远程：`git@github.com:irryxeek/MERIT-based-method.git`，默认分支 `main`。
+- 远程：`git@github.com:irryxeek/HighlightJEV.git`，默认分支 `main`；2026-11-12 按用户要求由 `MERIT-based-method` 更名。
 - 研究工作区与发布仓库是两个目录；先检查发布仓库的远程、分支和未提交修改，再同步文件。
 - 检查研究工作区 `docs/` 下的新增和变更 Markdown，及本轮涉及的相邻零样本项目报告。不能只检查代码目录或沿用上次的短文件清单。
 - 更新项目 README、文档索引和报告之间的引用。新报告应提供远程可点击入口。

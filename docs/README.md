@@ -1,5 +1,7 @@
 # 文档索引
 
+当前仓库：[irryxeek/HighlightJEV](https://github.com/irryxeek/HighlightJEV)（2026-11-12 更名，原名 `MERIT-based-method`）。历史报告中的旧仓库名与本地路径保留原记录。
+
 ## 最新：VideoJev-4B Agent 框架与设计讨论（2026-11-12）
 
 - [v4 框架图与说明：官方 Cached＋0–5 六档](../projects/videojev_agent_framework_20261112_v4/README.md)：[可编辑 SVG](../projects/videojev_agent_framework_20261112_v4/videojev_agent_framework_v4.svg)、[矢量 PDF](../projects/videojev_agent_framework_20261112_v4/videojev_agent_framework_v4.pdf)、[PNG 预览](../projects/videojev_agent_framework_20261112_v4/videojev_agent_framework_v4.png)及[生成源码](../projects/videojev_agent_framework_20261112_v4/create_diagram.py)。每个维度采用六个价值等级和独立的未知选项，输出完整概率及连续评分。
