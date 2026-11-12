@@ -1,6 +1,6 @@
 # HighlightJEV：视频高光检测与预算选片
 
-当前设计基于 VideoJev 官方 Cached 模式，采用 0–5 六档＋未知的五维 QA 评分、候选细化与预算选片，高光任务接入及效果仍待验证。仓库于 2026-11-12 从 `MERIT-based-method` 更名为 [HighlightJEV](https://github.com/irryxeek/HighlightJEV)，同时保留下述 MERIT / REZE 历史实验。
+当前设计基于 VideoJev 官方 Cached 模式，采用 0–5 六档＋未知的五维 QA、窗口与事件分层评分、证据回溯、按需多模态和边界修正，在用户时长预算内选片；高光任务接入及效果仍待验证。仓库于 2026-11-12 从 `MERIT-based-method` 更名为 [HighlightJEV](https://github.com/irryxeek/HighlightJEV)，同时保留下述 MERIT / REZE 历史实验。
 
 本项目从 MERIT 的三键记忆检索、时序邻域过滤和完整时间轴高光评分出发，保存 QVHighlights 适配实验及后续零样本对照。原论文评估视频问答，**MERIT 原适配并非复现论文已有的 QVHighlights 分数**。下方运行命令对应原 MERIT 主实验；REZE 最新结果单独归档。
 
@@ -8,7 +8,7 @@
 
 **资源约定：[后续新运行可使用任意空闲 GPU](docs/gpu_resource_policy_2026-10-25.md)。** 可独立拆分的任务优先多卡并行，已有冻结运行保留原配置。
 
-**VideoJev-4B Agent 框架图（2026-11-12 v4）：[图稿与说明](projects/videojev_agent_framework_20261112_v4/README.md) · [可编辑 SVG](projects/videojev_agent_framework_20261112_v4/videojev_agent_framework_v4.svg) · [矢量 PDF](projects/videojev_agent_framework_20261112_v4/videojev_agent_framework_v4.pdf) · [PNG 预览](projects/videojev_agent_framework_20261112_v4/videojev_agent_framework_v4.png)。** 明确复用官方 Cached 视频前缀；五维 QA 采用 **0–5 六档＋未知，共七个选项**，保存完整概率并计算连续分数。保留候选细化、按需回看和预算选片；本项目接入与高光效果仍待验证。配套 [HighlightJEV 讨论稿](docs/highlightjev_design_discussion_2026-11-11.md) 已同步更新，[此前方案](docs/revalue_fullvideo_memory_jev_next_plan_2026-11-10.md)与[v2 图稿](projects/videojev_agent_framework_20261112_v2/README.md)保留；本次没有新增实验结果。
+**HighlightJEV 分层框架（2026-11-12 v5）：[完整方案](docs/highlightjev_agent_framework_plan_2026-11-12.md) · [图稿与说明](projects/videojev_agent_framework_20261112_v5/README.md) · [可编辑 SVG](projects/videojev_agent_framework_20261112_v5/highlightjev_agent_framework_v5.svg) · [矢量 PDF](projects/videojev_agent_framework_20261112_v5/highlightjev_agent_framework_v5.pdf) · [PNG 预览](projects/videojev_agent_framework_20261112_v5/highlightjev_agent_framework_v5.png)。** 明确等长窗口、事件合并复评和同类比较三个层级；先查已有证据，再按需补帧、音频、ASR 或 OCR；起止端点可保持、前后修正或未知，取证范围与输出范围分开。复用官方 Cached 和 **0–5 六档＋未知**；已选 VideoJev-4B 的音频由外部工具适配。配套[早期讨论稿](docs/highlightjev_design_discussion_2026-11-11.md)、[v4 图稿](projects/videojev_agent_framework_20261112_v4/README.md)和[v2 图稿](projects/videojev_agent_framework_20261112_v2/README.md)保留；本次为设计图文更新，没有新增实验结果。
 
 **最新组会汇报（截至2026-11-10）：[十页可编辑PPT](docs/presentations/ReVALUE_组会汇报_2026-11-10.pptx) · [两段汇报与范围说明](docs/revalue_group_update_2026-11-10.md) · [讲稿及源页面](docs/presentations/revalue_weekly_highlight_20261110/README.md)。** 包含记忆／核验对照、TVSum全50条8B／27B评分、失败案例与最新后40条结果；最新关键贡献版尚未完成同版本全50测试。SVHighlights十四场27B结果已收尾，详见[文档索引](docs/README.md)。
 

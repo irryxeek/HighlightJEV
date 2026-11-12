@@ -1,0 +1,74 @@
+{
+  "at": "2026-11-12T15:54:30+08:00",
+  "scope": "Diagram and documentation only; visual/layout checks are not model validation.",
+  "diagram_version": "v5",
+  "plan": "docs/highlightjev_agent_framework_plan_2026-11-12.md",
+  "plan_sha256": "bacccb03e9def8d6fbf634940df91ff6fc90378758cd66cbd858b09f2000a7d3",
+  "svg": {
+    "text_objects": 100,
+    "semantic_groups": 20,
+    "embedded_images": 0,
+    "out_of_canvas_objects": []
+  },
+  "pdf": {
+    "pages": 1,
+    "width_mm": 280,
+    "height_mm": 189.53846,
+    "embedded_fonts": true,
+    "font_subsets": 3,
+    "embedded_images": 0
+  },
+  "png_pixels": [
+    3400,
+    2302
+  ],
+  "generator_syntax": "passed",
+  "runtime": {
+    "python": "3.10.12",
+    "renderer": "Inkscape 1.1.2 (0a00cf5339, 2022-02-04)"
+  },
+  "visual_review": {
+    "reviewer": "assistant",
+    "status": "completed",
+    "inspected": [
+      "PNG render",
+      "final PDF render at 1600 px width",
+      "SAM 2 Fig. 3 reference"
+    ],
+    "corrections": [
+      "Give the four evidence tools a shared input/output boundary instead of pointing only to audio/OCR.",
+      "Draw bidirectional adjustments at both endpoints.",
+      "Separate the tool-container border from its explanatory caption."
+    ],
+    "findings": "No visible text overlap, cropping, ambiguous tool-specific routing or incorrect endpoint direction in the final render. Return-to-trigger semantics are documented explicitly."
+  },
+  "method_scope": {
+    "status": "proposed_unvalidated",
+    "experiment_calls_added": 0,
+    "gpu_tasks_added": 0,
+    "old_predictions_modified": false,
+    "old_diagrams_overwritten": false
+  },
+  "files": [
+    {
+      "path": "create_diagram.py",
+      "bytes": 15150,
+      "sha256": "d094965faa82b6c3c0a3ba2c7e4f38e87819d70bc34e073775087c0593ab9012"
+    },
+    {
+      "path": "highlightjev_agent_framework_v5.svg",
+      "bytes": 29340,
+      "sha256": "75f3cbe05059feeedd8a5b1a3c7b7b83891d5b80b61cf7193a9add22ce401503"
+    },
+    {
+      "path": "highlightjev_agent_framework_v5.pdf",
+      "bytes": 1037766,
+      "sha256": "a5b69a3482fed0b8e3767ab677c6f61ca8ec5f03cccb785bdbb2e6a05855ece2"
+    },
+    {
+      "path": "highlightjev_agent_framework_v5.png",
+      "bytes": 980174,
+      "sha256": "63cd658e64c3b7478a35e75227a07c694b72e0bc6e47dda2a887c9ef6e9c21ca"
+    }
+  ]
+}
